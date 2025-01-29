@@ -1,10 +1,16 @@
-package com.bach.familyfresh.features.screens
+package com.bach.familyfresh.features.actualmenu.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Notifications
+import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -14,14 +20,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
+import com.bach.familyfresh.features.actualmenu.views.TabBarItem
+import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -37,6 +42,13 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
                     Text("Wähle ein Gericht aus oder wechsel dein Gerichte", fontSize = 12.sp)
                 }
             })
+        },
+        bottomBar = {
+            BottomAppBar {
+                val homeTab = TabBarItem(title = "Home", selectedIcon = Icons.Filled.Home, unselectedIcon = Icons.Outlined.Home)
+                val alertsTab = TabBarItem(title = "Alerts", selectedIcon = Icons.Filled.Notifications, unselectedIcon = Icons.Outlined.Notifications, badgeAmount = 7)
+                TabView(listOf(homeTab,alertsTab))
+            }
         }
     ) { innerPadding ->
         Column(
