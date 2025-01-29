@@ -1,0 +1,83 @@
+package com.bach.familyfresh.features.screens
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
+import androidx.compose.material3.Card
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import coil3.compose.AsyncImage
+import com.bach.familyfresh.ui.theme.FamilyFreshTheme
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ActualMenuScreen(modifier: Modifier = Modifier) {
+    Scaffold(
+        modifier = modifier,
+        topBar = {
+            CenterAlignedTopAppBar(title =
+            {
+                Column(modifier = modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text("Aktuelles Menu", fontSize = 22.sp)
+                    Text("Wähle ein Gericht aus oder wechsel dein Gerichte", fontSize = 12.sp)
+                }
+            })
+        }
+    ) { innerPadding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Card(modifier = Modifier
+                .weight(1f)
+                .padding(horizontal = 10.dp, vertical = 5.dp)) {
+                AsyncImage(
+                    modifier = Modifier.fillMaxHeight(),
+                    model = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg",
+                    contentScale = ContentScale.Crop,
+                    contentDescription = null,
+                )
+            }
+
+            Card(modifier = Modifier
+                .weight(1f)
+                .padding(horizontal = 10.dp, vertical = 5.dp)) {
+                AsyncImage(
+                    modifier = Modifier.fillMaxHeight(),
+                    model = "https://static.bremer-gewuerzhandel.de/media/0a/83/48/1725976897/nudeln-mit-hackfleisch-00779-00789-00072-01304.webp",
+                    contentScale = ContentScale.Crop,
+                    contentDescription = null,
+                )
+            }
+
+            Button(onClick = {}) {
+                Text("Gerichte auswählen")
+            }
+        }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ActualMenuScreenPreview() {
+    FamilyFreshTheme {
+        ActualMenuScreen()
+    }
+}

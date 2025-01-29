@@ -56,4 +56,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // coil for async image
+    implementation(libs.coil3.coil.compose)
+    implementation(libs.coil.network.okhttp)
 }
