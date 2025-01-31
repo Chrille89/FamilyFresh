@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Notifications
@@ -30,6 +31,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
+import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.features.actualmenu.views.TabBarItem
 import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
@@ -47,7 +49,7 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text("Aktuelles Menu", fontSize = 22.sp)
-                    Text("Wähle ein Gericht aus oder wechsel dein Gerichte", fontSize = 12.sp)
+                    Text("Wähle ein Gericht aus oder ändere deine Gerichte", fontSize = 12.sp)
                 }
             })
         },
@@ -68,73 +70,45 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
             }
         }
     ) { innerPadding ->
-        Column(
+        LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Card(
-                modifier = Modifier
-                    .weight(1f)
-                    .padding(horizontal = 10.dp, vertical = 10.dp)
-            ) {
-                Column(Modifier.padding(5.dp)) {
-                    Row {
-                        Card(
-                            Modifier.padding(1.dp),
-                            border = BorderStroke(1.dp, MaterialTheme.colorScheme.surface)
-                        ) {
-                            Text(
-                                "Schwein",
-                                Modifier.padding(5.dp),
-                                style = MaterialTheme.typography.bodySmall
-                            )
-                        }
-                        Card(
-                            Modifier.padding(horizontal = 1.dp, vertical = 1.dp),
-                            border = BorderStroke(1.dp, MaterialTheme.colorScheme.surface)
-                        ) {
-                            Text(
-                                "Express",
-                                Modifier.padding(5.dp),
-                                style = MaterialTheme.typography.bodySmall
-                            )
-                        }
-                    }
-
-                    Text("Gefüllte Paprikaschote", style = MaterialTheme.typography.titleLarge)
-                    Text("mit Kartoffeln und Soße", style = MaterialTheme.typography.titleSmall)
+            item {
+                Card(
+                    modifier = Modifier
+                        .padding(horizontal = 10.dp, vertical = 10.dp)
+                ) {
+                    MenuView(
+                        "Gefüllte Paprikaschote",
+                        "mit Kartoffeln und Soße",
+                        listOf("Schwein", "Express"),
+                        "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg"
+                    );
                 }
-
-
-
-
-
-                AsyncImage(
-                    modifier = Modifier.fillMaxHeight(),
-                    model = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg",
-                    contentScale = ContentScale.Crop,
-                    contentDescription = null,
-                )
+            }
+            item {
+                Card(
+                    modifier = Modifier
+                        .padding(horizontal = 10.dp, vertical = 10.dp)
+                ) {
+                    MenuView(
+                        "Nudeln",
+                        "mit Tomatensauce",
+                        listOf("Vegetarisch"),
+                        "https://static.bremer-gewuerzhandel.de/media/0a/83/48/1725976897/nudeln-mit-hackfleisch-00779-00789-00072-01304.webp"
+                    );
+                }
             }
 
-            Card(
-                modifier = Modifier
-                    .weight(1f)
-                    .padding(horizontal = 10.dp, vertical = 5.dp)
-            ) {
-                AsyncImage(
-                    modifier = Modifier.fillMaxHeight(),
-                    model = "https://static.bremer-gewuerzhandel.de/media/0a/83/48/1725976897/nudeln-mit-hackfleisch-00779-00789-00072-01304.webp",
-                    contentScale = ContentScale.Crop,
-                    contentDescription = null,
-                )
+            item {
+                Button(onClick = {}, Modifier.padding(bottom = 10.dp)) {
+                    Text("Gerichte ändern")
+                }
             }
 
-            Button(onClick = {}) {
-                Text("Gerichte auswählen")
-            }
         }
     }
 }
