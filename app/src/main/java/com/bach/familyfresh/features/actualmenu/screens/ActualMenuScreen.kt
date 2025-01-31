@@ -13,14 +13,20 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.bach.familyfresh.features.actualmenu.bars.BottomAppBar
 import com.bach.familyfresh.features.actualmenu.bars.TopAppBar
+import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenViewModel
 import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ActualMenuScreen(modifier: Modifier = Modifier) {
+fun ActualMenuScreen(
+    actualMenuScreenViewModel: ActualMenuScreenViewModel = viewModel(),
+    modifier: Modifier = Modifier
+) {
     Scaffold(
         modifier = modifier,
         topBar = { TopAppBar() },
