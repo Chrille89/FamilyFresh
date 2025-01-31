@@ -1,6 +1,9 @@
 package com.bach.familyfresh.features.actualmenu.screens
 
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,12 +18,14 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -37,7 +42,10 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
         topBar = {
             CenterAlignedTopAppBar(title =
             {
-                Column(modifier = modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+                Column(
+                    modifier = modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
                     Text("Aktuelles Menu", fontSize = 22.sp)
                     Text("Wähle ein Gericht aus oder wechsel dein Gerichte", fontSize = 12.sp)
                 }
@@ -45,9 +53,18 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
         },
         bottomBar = {
             BottomAppBar {
-                val homeTab = TabBarItem(title = "Home", selectedIcon = Icons.Filled.Home, unselectedIcon = Icons.Outlined.Home)
-                val alertsTab = TabBarItem(title = "Alerts", selectedIcon = Icons.Filled.Notifications, unselectedIcon = Icons.Outlined.Notifications, badgeAmount = 7)
-                TabView(listOf(homeTab,alertsTab))
+                val homeTab = TabBarItem(
+                    title = "Menüs",
+                    selectedIcon = Icons.Filled.Home,
+                    unselectedIcon = Icons.Outlined.Home
+                )
+                val alertsTab = TabBarItem(
+                    title = "Einkaufsliste",
+                    selectedIcon = Icons.Filled.Notifications,
+                    unselectedIcon = Icons.Outlined.Notifications,
+                    badgeAmount = 7
+                )
+                TabView(listOf(homeTab, alertsTab))
             }
         }
     ) { innerPadding ->
@@ -57,9 +74,43 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
                 .padding(innerPadding),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Card(modifier = Modifier
-                .weight(1f)
-                .padding(horizontal = 10.dp, vertical = 5.dp)) {
+            Card(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 10.dp, vertical = 10.dp)
+            ) {
+                Column(Modifier.padding(5.dp)) {
+                    Row {
+                        Card(
+                            Modifier.padding(1.dp),
+                            border = BorderStroke(1.dp, MaterialTheme.colorScheme.surface)
+                        ) {
+                            Text(
+                                "Schwein",
+                                Modifier.padding(5.dp),
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                        }
+                        Card(
+                            Modifier.padding(horizontal = 1.dp, vertical = 1.dp),
+                            border = BorderStroke(1.dp, MaterialTheme.colorScheme.surface)
+                        ) {
+                            Text(
+                                "Express",
+                                Modifier.padding(5.dp),
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                        }
+                    }
+
+                    Text("Gefüllte Paprikaschote", style = MaterialTheme.typography.titleLarge)
+                    Text("mit Kartoffeln und Soße", style = MaterialTheme.typography.titleSmall)
+                }
+
+
+
+
+
                 AsyncImage(
                     modifier = Modifier.fillMaxHeight(),
                     model = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg",
@@ -68,9 +119,11 @@ fun ActualMenuScreen(modifier: Modifier = Modifier) {
                 )
             }
 
-            Card(modifier = Modifier
-                .weight(1f)
-                .padding(horizontal = 10.dp, vertical = 5.dp)) {
+            Card(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 10.dp, vertical = 5.dp)
+            ) {
                 AsyncImage(
                     modifier = Modifier.fillMaxHeight(),
                     model = "https://static.bremer-gewuerzhandel.de/media/0a/83/48/1725976897/nudeln-mit-hackfleisch-00779-00789-00072-01304.webp",
