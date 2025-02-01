@@ -1,5 +1,6 @@
 package com.bach.familyfresh.features.actualmenu.bars
 
+import android.media.MediaPlayer
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons
@@ -14,11 +15,15 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.sp
+import com.bach.familyfresh.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TopAppBar(modifier: Modifier = Modifier) {
+    val mMediaPlayer = MediaPlayer.create(LocalContext.current, R.raw.dice_sound);
     CenterAlignedTopAppBar(title =
     {
         Column(
@@ -27,7 +32,10 @@ fun TopAppBar(modifier: Modifier = Modifier) {
             Text("Aktuelles Menu", style = MaterialTheme.typography.titleLarge)
             Text("Wähle ein Gericht aus oder ändere deine Gerichte.", style = MaterialTheme.typography.titleSmall)
         }
-    }, navigationIcon =  { IconButton(onClick = {}) {
-        Icon(imageVector = Icons.Filled.Refresh, contentDescription = null)
+    }, navigationIcon =  { IconButton(onClick = { mMediaPlayer.start(); }) {
+        Icon(
+            painter = painterResource(R.drawable.casino_24px),
+            contentDescription = null
+        )
     } })
 }

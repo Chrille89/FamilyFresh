@@ -26,7 +26,6 @@ import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenViewMo
 import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ActualMenuScreen(
     actualMenuScreenViewModel: ActualMenuScreenViewModel = viewModel(),
