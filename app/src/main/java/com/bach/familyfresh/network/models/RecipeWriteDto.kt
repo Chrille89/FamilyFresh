@@ -19,6 +19,8 @@ import org.openapitools.client.models.AmountDto
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
+import kotlinx.serialization.Contextual
+import kotlinx.serialization.Serializable
 
 /**
  * 
@@ -32,7 +34,7 @@ import com.squareup.moshi.JsonClass
  * @param preparation 
  */
 
-
+@Serializable
 data class RecipeWriteDto (
 
     @Json(name = "title")
@@ -42,7 +44,7 @@ data class RecipeWriteDto (
     val labels: kotlin.collections.List<RecipeWriteDto.Labels>? = null,
 
     @Json(name = "image")
-    val image: java.net.URI? = null,
+    val image: String? = null,
 
     /* Duration in minutes */
     @Json(name = "duration")

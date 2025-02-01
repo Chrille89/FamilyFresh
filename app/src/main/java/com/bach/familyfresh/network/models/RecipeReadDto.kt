@@ -19,6 +19,8 @@ import org.openapitools.client.models.AmountDto
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
+import kotlinx.serialization.Contextual
+import kotlinx.serialization.Serializable
 
 /**
  * 
@@ -33,7 +35,7 @@ import com.squareup.moshi.JsonClass
  * @param preparation 
  */
 
-
+@Serializable
 data class RecipeReadDto (
 
     @Json(name = "id")
@@ -46,7 +48,7 @@ data class RecipeReadDto (
     val labels: kotlin.collections.List<RecipeReadDto.Labels>? = null,
 
     @Json(name = "image")
-    val image: java.net.URI? = null,
+    val image: String? = null,
 
     /* Duration in minutes */
     @Json(name = "duration")

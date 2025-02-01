@@ -18,6 +18,7 @@ package org.openapitools.client.models
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
+import kotlinx.serialization.Serializable
 
 /**
  * 
@@ -27,7 +28,7 @@ import com.squareup.moshi.JsonClass
  * @param unit 
  */
 
-
+@Serializable
 data class AmountDto (
 
     @Json(name = "name")

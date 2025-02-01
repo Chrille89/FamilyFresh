@@ -4,6 +4,7 @@ package org.openapitools.client.infrastructure
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine
+import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.request.forms.FormDataContent
 import io.ktor.client.request.forms.MultiPartFormDataContent
 import io.ktor.client.request.header
@@ -21,7 +22,7 @@ import io.ktor.http.content.PartData
 import io.ktor.http.encodeURLQueryComponent
 import io.ktor.http.encodedPath
 import io.ktor.http.takeFrom
-import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.serialization.kotlinx.json.json
 import org.openapitools.client.auth.*
 
 open class ApiClient(
@@ -32,7 +33,9 @@ open class ApiClient(
 
     private val clientConfig: (HttpClientConfig<*>) -> Unit by lazy {
         {
-            it.install(ContentNegotiation.toString()) {
+
+            it.install(ContentNegotiation) {
+                json()
             }
             httpClientConfig?.invoke(it)
         }
