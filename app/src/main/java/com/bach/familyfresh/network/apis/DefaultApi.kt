@@ -52,7 +52,7 @@ import io.ktor.http.ParametersBuilder
 
             val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.POST,
-            "/recipes/random",
+            "/recipes",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
@@ -97,12 +97,13 @@ import io.ktor.http.ParametersBuilder
             }
 
         /**
-        * Return the actual recipes
-        * Return the actual recipes
+        * Return the actual menu
+        * Return the actual menu
+         * @param random Get a random menu or the actual menu (optional, default to false)
          * @return kotlin.collections.List<RecipeReadDto>
         */
             @Suppress("UNCHECKED_CAST")
-        open suspend fun getActualRecipes(): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
+        open suspend fun getActualMenu(random: kotlin.Boolean?): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
             val localVariableAuthNames = listOf<String>()
 
@@ -110,12 +111,13 @@ import io.ktor.http.ParametersBuilder
                     io.ktor.client.utils.EmptyContent
 
             val localVariableQuery = mutableMapOf<String, List<String>>()
+            random?.apply { localVariableQuery["random"] = listOf("$random") }
 
             val localVariableHeaders = mutableMapOf<String, String>()
 
             val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.GET,
-            "/recipes/actual",
+            "/recipes/menu",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
@@ -148,38 +150,6 @@ import io.ktor.http.ParametersBuilder
             val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.GET,
             "/recipes",
-            query = localVariableQuery,
-            headers = localVariableHeaders,
-            requiresAuthentication = false,
-            )
-
-            return request(
-            localVariableConfig,
-            localVariableBody,
-            localVariableAuthNames
-            ).wrap()
-            }
-
-        /**
-        * Return two random recipes
-        * Return two random recipes
-         * @return kotlin.collections.List<RecipeReadDto>
-        */
-            @Suppress("UNCHECKED_CAST")
-        open suspend fun getRandomRecipes(): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
-
-            val localVariableAuthNames = listOf<String>()
-
-            val localVariableBody = 
-                    io.ktor.client.utils.EmptyContent
-
-            val localVariableQuery = mutableMapOf<String, List<String>>()
-
-            val localVariableHeaders = mutableMapOf<String, String>()
-
-            val localVariableConfig = RequestConfig<kotlin.Any?>(
-            RequestMethod.GET,
-            "/recipes/random",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,

@@ -1,5 +1,8 @@
 package com.bach.familyfresh.features.actualmenu.screens
 
+import android.hardware.Sensor
+import android.os.Build
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,6 +16,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -25,6 +29,9 @@ import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenViewModel
 import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
+import dev.ricknout.composesensors.getSensorManager
+import dev.ricknout.composesensors.isSensorAvailable
+import dev.ricknout.composesensors.rememberSensorValueAsState
 
 @Composable
 fun ActualMenuScreen(
@@ -38,6 +45,18 @@ fun ActualMenuScreen(
             BottomAppBar()
         }
     ) { innerPadding ->
+        /*
+        // Get the SensorManager
+        val sensorManager = getSensorManager()
+// Check if a certain type of sensor is available
+        val available = isSensorAvailable(type = Sensor.TYPE_ACCELEROMETER)
+// Remember a sensor value as State that updates as SensorEvents arrive
+        val sensorValue by rememberSensorValueAsState(type = Sensor.TYPE_ACCELEROMETER) { event ->
+           event?.values?.forEach { value ->
+               Log.d("ActualMenuScreen",value.toString())
+           }
+        }*/
+
         when (val uiState = actualMenuScreenViewModel.menus.value) {
             is ActualMenuScreenStatus.loading ->
                 Column(

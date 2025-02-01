@@ -65,12 +65,14 @@ dependencies {
     implementation(libs.ktor.client.logging)
     implementation(libs.ktor.server.content.negotiation)
     implementation(libs.squareup.moshi.kotlin)
-
     implementation(libs.ktor.client.content.negotiation)
     implementation(libs.ktor.serialization.kotlinx.json)
-
 
     // coil for async image
     implementation(libs.coil3.coil.compose)
     implementation(libs.coil.network.okhttp)
+
+    // sensors
+    implementation("dev.ricknout.composesensors:composesensors:0.2.0")
+
 }

@@ -17,16 +17,17 @@ package org.openapitools.client.models
 
 import org.openapitools.client.models.AmountDto
 
-import com.squareup.moshi.Json
-import com.squareup.moshi.JsonClass
+import kotlinx.serialization.Serializable as KSerializable
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Contextual
-import kotlinx.serialization.Serializable
+import java.io.Serializable
 
 /**
  * 
  *
  * @param id 
  * @param title 
+ * @param subtitle 
  * @param labels 
  * @param image 
  * @param duration Duration in minutes
@@ -34,54 +35,60 @@ import kotlinx.serialization.Serializable
  * @param nutrients 
  * @param preparation 
  */
+@KSerializable
 
-@Serializable
 data class RecipeReadDto (
 
-    @Json(name = "id")
-    val id: kotlin.String? = null,
+    @SerialName(value = "id")
+    val id: kotlin.String,
 
-    @Json(name = "title")
-    val title: kotlin.String? = null,
+    @SerialName(value = "title")
+    val title: kotlin.String,
 
-    @Json(name = "labels")
+    @SerialName(value = "subtitle")
+    val subtitle: kotlin.String? = null,
+
+    @SerialName(value = "labels")
     val labels: kotlin.collections.List<RecipeReadDto.Labels>? = null,
 
-    @Json(name = "image")
-    val image: String? = null,
+    @SerialName(value = "image")
+    val image: kotlin.String? = null,
 
     /* Duration in minutes */
-    @Json(name = "duration")
+    @SerialName(value = "duration")
     val duration: kotlin.Int? = null,
 
-    @Json(name = "ingredients")
+    @SerialName(value = "ingredients")
     val ingredients: kotlin.collections.List<AmountDto>? = null,
 
-    @Json(name = "nutrients")
+    @SerialName(value = "nutrients")
     val nutrients: kotlin.collections.List<AmountDto>? = null,
 
-    @Json(name = "preparation")
+    @SerialName(value = "preparation")
     val preparation: kotlin.collections.List<kotlin.String>? = null
 
-) {
+) : Serializable {
+    companion object {
+        private const val serialVersionUID: Long = 123
+    }
 
     /**
      * 
      *
      * Values: lowcarb,lowfat,highprotein,vegetarian,pig,beef,fish,thermomix,airfryer,express
      */
-    @JsonClass(generateAdapter = false)
+    @KSerializable
     enum class Labels(val value: kotlin.String) {
-        @Json(name = "lowcarb") lowcarb("lowcarb"),
-        @Json(name = "lowfat") lowfat("lowfat"),
-        @Json(name = "highprotein") highprotein("highprotein"),
-        @Json(name = "vegetarian") vegetarian("vegetarian"),
-        @Json(name = "pig") pig("pig"),
-        @Json(name = "beef") beef("beef"),
-        @Json(name = "fish") fish("fish"),
-        @Json(name = "thermomix") thermomix("thermomix"),
-        @Json(name = "airfryer") airfryer("airfryer"),
-        @Json(name = "express") express("express");
+        @SerialName(value = "lowcarb") lowcarb("lowcarb"),
+        @SerialName(value = "lowfat") lowfat("lowfat"),
+        @SerialName(value = "highprotein") highprotein("highprotein"),
+        @SerialName(value = "vegetarian") vegetarian("vegetarian"),
+        @SerialName(value = "pig") pig("pig"),
+        @SerialName(value = "beef") beef("beef"),
+        @SerialName(value = "fish") fish("fish"),
+        @SerialName(value = "thermomix") thermomix("thermomix"),
+        @SerialName(value = "airfryer") airfryer("airfryer"),
+        @SerialName(value = "express") express("express");
     }
 }
 

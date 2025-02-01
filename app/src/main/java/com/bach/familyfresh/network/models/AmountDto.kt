@@ -16,9 +16,10 @@
 package org.openapitools.client.models
 
 
-import com.squareup.moshi.Json
-import com.squareup.moshi.JsonClass
-import kotlinx.serialization.Serializable
+import kotlinx.serialization.Serializable as KSerializable
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Contextual
+import java.io.Serializable
 
 /**
  * 
@@ -27,33 +28,36 @@ import kotlinx.serialization.Serializable
  * @param amount 
  * @param unit 
  */
+@KSerializable
 
-@Serializable
 data class AmountDto (
 
-    @Json(name = "name")
+    @SerialName(value = "name")
     val name: kotlin.String? = null,
 
-    @Json(name = "amount")
+    @SerialName(value = "amount")
     val amount: kotlin.Int? = null,
 
-    @Json(name = "unit")
+    @SerialName(value = "unit")
     val unit: AmountDto.Unit? = null
 
-) {
+) : Serializable {
+    companion object {
+        private const val serialVersionUID: Long = 123
+    }
 
     /**
      * 
      *
      * Values: gramm,kilogramm,stueck,milliliter,liter
      */
-    @JsonClass(generateAdapter = false)
+    @KSerializable
     enum class Unit(val value: kotlin.String) {
-        @Json(name = "gramm") gramm("gramm"),
-        @Json(name = "kilogramm") kilogramm("kilogramm"),
-        @Json(name = "stueck") stueck("stueck"),
-        @Json(name = "milliliter") milliliter("milliliter"),
-        @Json(name = "liter") liter("liter");
+        @SerialName(value = "gramm") gramm("gramm"),
+        @SerialName(value = "kilogramm") kilogramm("kilogramm"),
+        @SerialName(value = "stueck") stueck("stueck"),
+        @SerialName(value = "milliliter") milliliter("milliliter"),
+        @SerialName(value = "liter") liter("liter");
     }
 }
 
