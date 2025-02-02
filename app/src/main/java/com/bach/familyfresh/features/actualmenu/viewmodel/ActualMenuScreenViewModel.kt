@@ -46,7 +46,4 @@ class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = Men
         }
     }
 
-    private fun getSensor() {
-
-    }
 }

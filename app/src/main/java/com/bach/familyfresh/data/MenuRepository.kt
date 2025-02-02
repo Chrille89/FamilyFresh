@@ -8,7 +8,12 @@ import org.openapitools.client.models.RecipeReadDto
 class MenuRepository(private val client : DefaultApi = DefaultApi()) {
 
     suspend fun getActualMenu(random: Boolean) : HttpResponse<List<RecipeReadDto>> {
-        var resp : HttpResponse<List<RecipeReadDto>> = client.getActualMenu(random);
-        return resp;
+        val resp : HttpResponse<List<RecipeReadDto>> = client.getActualMenu(random)
+        return resp
+    }
+
+    suspend fun getAllRecipes() : HttpResponse<List<RecipeReadDto>> {
+        val resp : HttpResponse<List<RecipeReadDto>> = client.getAllRecipes()
+        return resp
     }
 }
