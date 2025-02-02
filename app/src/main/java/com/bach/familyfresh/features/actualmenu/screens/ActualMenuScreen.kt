@@ -32,6 +32,10 @@ import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenViewModel
 import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
+import dev.ricknout.composesensors.accelerometer.getAccelerometerSensor
+import dev.ricknout.composesensors.accelerometer.isAccelerometerSensorAvailable
+import dev.ricknout.composesensors.accelerometer.rememberAccelerometerSensorValueAsState
+import dev.ricknout.composesensors.getSensor
 import dev.ricknout.composesensors.getSensorManager
 import dev.ricknout.composesensors.isSensorAvailable
 import dev.ricknout.composesensors.rememberSensorValueAsState
@@ -52,17 +56,15 @@ fun ActualMenuScreen(
             BottomAppBar()
         }
     ) { innerPadding ->
-        /*
-        // Get the SensorManager
-        val sensorManager = getSensorManager()
-// Check if a certain type of sensor is available
-        val available = isSensorAvailable(type = Sensor.TYPE_ACCELEROMETER)
-// Remember a sensor value as State that updates as SensorEvents arrive
-        val sensorValue by rememberSensorValueAsState(type = Sensor.TYPE_ACCELEROMETER) { event ->
-           event?.values?.forEach { value ->
-               Log.d("ActualMenuScreen",value.toString())
-           }
-        }*/
+        // Remember accelerometer sensor value as State that updates as SensorEvents arrive
+        val sensorValue by rememberAccelerometerSensorValueAsState()
+        // Accelerometer sensor values. Also available: sensorValue.timestamp, sensorValue.accuracy
+        val (x,y,z) = sensorValue.value
+
+        if(x > 20 || y > 20 || z > 20) {
+            mMediaPlayer.start()
+            actualMenuScreenViewModel.getActualMenu(true)
+        };
 
         when (val uiState = actualMenuScreenViewModel.menus.value) {
             is ActualMenuScreenStatus.loading ->
