@@ -28,13 +28,13 @@ class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = Men
     val menus : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
 
     init {
-        getActualMenu()
+        getActualMenu(false)
     }
 
-    private fun getActualMenu() {
+    fun getActualMenu(random: Boolean) {
         viewModelScope.launch {
             try {
-                val response = menuRepository.getActualMenu();
+                val response = menuRepository.getActualMenu(random);
                 if(response.success) {
                     val responseData = response.body();
                     menus.value = ActualMenuScreenStatus.success(listOf( responseData[0],responseData[1]))

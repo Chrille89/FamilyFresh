@@ -22,17 +22,16 @@ import com.bach.familyfresh.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TopAppBar(modifier: Modifier = Modifier) {
-    val mMediaPlayer = MediaPlayer.create(LocalContext.current, R.raw.dice_sound);
+fun TopAppBar(modifier: Modifier = Modifier, onClickNewRandomMenu: () -> Unit) {
     CenterAlignedTopAppBar(title =
     {
         Column(
             modifier = modifier.fillMaxWidth()
         ) {
             Text("Aktuelles Menu", style = MaterialTheme.typography.titleLarge)
-            Text("Wähle ein Gericht aus oder ändere deine Gerichte.", style = MaterialTheme.typography.titleSmall)
+            Text("Würfel links ein neues Menü oder wähle die Gerichte einzeln aus.", style = MaterialTheme.typography.titleSmall)
         }
-    }, navigationIcon =  { IconButton(onClick = { mMediaPlayer.start(); }) {
+    }, navigationIcon =  { IconButton(onClick = { onClickNewRandomMenu() }) {
         Icon(
             painter = painterResource(R.drawable.casino_24px),
             contentDescription = null

@@ -22,6 +22,7 @@ import io.ktor.http.content.PartData
 import io.ktor.http.encodeURLQueryComponent
 import io.ktor.http.encodedPath
 import io.ktor.http.takeFrom
+import io.ktor.serialization.kotlinx.json.json
 import org.openapitools.client.auth.*
 
 open class ApiClient(
@@ -33,6 +34,7 @@ open class ApiClient(
     private val clientConfig: (HttpClientConfig<*>) -> Unit by lazy {
         {
             it.install(ContentNegotiation) {
+                json()
             }
             httpClientConfig?.invoke(it)
         }
@@ -45,7 +47,7 @@ open class ApiClient(
     private val authentications: kotlin.collections.Map<String, Authentication>? = null
 
     companion object {
-          const val BASE_URL = "http://localhost:8080"
+          const val BASE_URL = "http://192.168.178.22:8080"
           protected val UNSAFE_HEADERS = listOf(HttpHeaders.ContentType)
     }
 
