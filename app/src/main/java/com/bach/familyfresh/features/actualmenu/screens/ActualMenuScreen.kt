@@ -20,11 +20,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
+import coil3.compose.AsyncImage
 import com.bach.familyfresh.R
 import com.bach.familyfresh.features.actualmenu.bars.BottomAppBar
 import com.bach.familyfresh.features.actualmenu.bars.TopAppBar
@@ -93,7 +95,12 @@ fun ActualMenuScreen(
                                 menu.title,
                                 subTitle = menu.subtitle ?: "",
                                 labels = menu.labels?.map { label -> label.name } ?: emptyList(),
-                                imageUrl = menu.image ?: ""
+                            )
+                            AsyncImage(
+                                modifier = Modifier.fillMaxSize(),
+                                model = menu.image,
+                                contentScale = ContentScale.FillBounds,
+                                contentDescription = null,
                             )
                         }
                     }

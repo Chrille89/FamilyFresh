@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 
 @Composable
-fun MenuView(title: String, subTitle: String, labels: List<String>, imageUrl: String) {
+fun MenuView(title: String, subTitle: String, labels: List<String>) {
             Column(Modifier.padding(5.dp)) {
                 Row {
                     labels.forEach {
@@ -36,10 +36,5 @@ fun MenuView(title: String, subTitle: String, labels: List<String>, imageUrl: St
                 Text(title, style = MaterialTheme.typography.titleLarge)
                 Text(subTitle, style = MaterialTheme.typography.titleSmall)
             }
-            AsyncImage(
-                modifier = Modifier.fillMaxSize(),
-                model = imageUrl,
-                contentScale = ContentScale.FillBounds,
-                contentDescription = null,
-            )
+
 }
