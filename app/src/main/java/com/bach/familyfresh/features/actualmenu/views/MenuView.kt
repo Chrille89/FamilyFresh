@@ -33,7 +33,7 @@ fun MenuView(title: String, subTitle: String, labels: List<String>) {
                         }
                     }
                 }
-                Text(title, style = MaterialTheme.typography.titleLarge)
+                Text(title, style = MaterialTheme.typography.titleMedium)
                 Text(subTitle, style = MaterialTheme.typography.titleSmall)
             }
 

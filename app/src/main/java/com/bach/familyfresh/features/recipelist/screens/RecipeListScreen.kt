@@ -48,7 +48,7 @@ fun RecipeListScreen(
     Scaffold(
         topBar = {
             androidx.compose.material3.TopAppBar(
-                title = { Text("Aktuelle Auswahl ändern")},
+                title = { Text("Wähle 2 Gerichte aus")},
                 navigationIcon = {
                     IconButton(onClick = {}) {
                         Icon(
@@ -73,8 +73,8 @@ fun RecipeListScreen(
             is ActualMenuScreenStatus.error -> Text("Error")
             is ActualMenuScreenStatus.success -> {
                 LazyColumn(modifier.padding(innerPadding)) {
-                    items(recipes.menus) {
-                        Card(modifier.height(120.dp).padding(horizontal = 10.dp, vertical = 10.dp)) {
+                    items(recipes.menus) { recipe ->
+                        Card(modifier.height(120.dp).padding(horizontal = 10.dp, vertical = 5.dp)) {
                             Column {
                                 Row(
                                     modifier.fillMaxWidth(),
@@ -85,10 +85,10 @@ fun RecipeListScreen(
                                         onCheckedChange = {  }
                                     )
                                     AsyncImage(
-                                        model = "https://www.malteskitchen.de/wp-content/uploads/2025/01/senfeier-5-500x500.webp",
+                                        model = recipe.image,
                                         contentDescription = null
                                     )
-                                    MenuView("Senfeier","mit Kartoffeln", listOf("Vegetarian"))
+                                    MenuView(recipe.title,recipe.subtitle ?: "", recipe.labels?.map { label -> label.name } ?: emptyList())
                                 }
                             }
                         }

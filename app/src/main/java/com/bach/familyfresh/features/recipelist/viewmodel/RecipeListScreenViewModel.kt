@@ -9,7 +9,7 @@ import com.bach.familyfresh.data.MenuRepository
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import kotlinx.coroutines.launch
 
-class RecipeListScreenViewModel(private val menuRepository: MenuRepository) : ViewModel() {
+class RecipeListScreenViewModel(private val menuRepository: MenuRepository = MenuRepository()) : ViewModel() {
 
     val recipes : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
 
