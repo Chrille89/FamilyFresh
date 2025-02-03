@@ -10,6 +10,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material3.BottomAppBar
+import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.Checkbox
@@ -19,15 +23,22 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
+import com.bach.familyfresh.R
 import com.bach.familyfresh.features.actualmenu.views.MenuView
+import com.bach.familyfresh.features.actualmenu.views.TabBarItem
+import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.features.recipelist.screens.RecipeListScreen
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 
@@ -35,8 +46,9 @@ import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 @Composable
 fun ShoppingListScreen(modifier: Modifier = Modifier) {
 
-    Scaffold(topBar = {
-        CenterAlignedTopAppBar(
+    Scaffold(
+        topBar = {
+        TopAppBar(
             title = { Text("Einkaufsliste")},
             navigationIcon = {
                 IconButton(onClick = {}) {
@@ -44,7 +56,26 @@ fun ShoppingListScreen(modifier: Modifier = Modifier) {
                 }
             }
         )
-    }) { innerPadding ->
+    },
+        bottomBar = {
+            BottomAppBar {
+                val homeTab = TabBarItem(
+                    title = "Gefüllte Paprikaschote",
+                    selectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
+                    unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
+                )
+                val changeMenuTab =  TabBarItem(
+                    title = "Senfeier",
+                    selectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
+                    unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px)
+                )
+                TabView(listOf(homeTab, changeMenuTab))
+
+
+            }
+        }
+
+        ) { innerPadding ->
         Column(modifier.padding(innerPadding).fillMaxSize()) {
             Card(
                 modifier = Modifier
