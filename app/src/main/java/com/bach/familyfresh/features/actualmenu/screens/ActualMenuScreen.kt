@@ -95,6 +95,7 @@ fun ActualMenuScreen(
                                 menu.title,
                                 subTitle = menu.subtitle ?: "",
                                 labels = menu.labels?.map { label -> label.name } ?: emptyList(),
+                                menu.duration.toString()
                             )
                             AsyncImage(
                                 modifier = Modifier.fillMaxSize(),

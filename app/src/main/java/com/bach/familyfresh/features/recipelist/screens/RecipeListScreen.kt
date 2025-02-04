@@ -88,7 +88,7 @@ fun RecipeListScreen(
                                         model = recipe.image,
                                         contentDescription = null
                                     )
-                                    MenuView(recipe.title,recipe.subtitle ?: "", recipe.labels?.map { label -> label.name } ?: emptyList())
+                                    MenuView(recipe.title,recipe.subtitle ?: "", recipe.labels?.map { label -> label.name } ?: emptyList(),recipe.duration.toString())
                                 }
                             }
                         }

@@ -82,6 +82,7 @@ fun ShoppingListScreen(modifier: Modifier = Modifier) {
                     "Gefüllte Paprikaschote",
                     subTitle = "mit Kartoffeln",
                     labels = listOf("Schwein"),
+                    "30 min"
                 )
                 AsyncImage(
                     model = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg",
