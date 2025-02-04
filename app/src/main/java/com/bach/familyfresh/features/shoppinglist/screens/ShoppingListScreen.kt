@@ -45,7 +45,6 @@ import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ShoppingListScreen(modifier: Modifier = Modifier) {
-
     Scaffold(
         topBar = {
         TopAppBar(
@@ -70,8 +69,6 @@ fun ShoppingListScreen(modifier: Modifier = Modifier) {
                     unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px)
                 )
                 TabView(listOf(homeTab, changeMenuTab))
-
-
             }
         }
 
