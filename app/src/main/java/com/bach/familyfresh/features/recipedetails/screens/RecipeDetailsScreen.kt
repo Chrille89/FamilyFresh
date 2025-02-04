@@ -38,97 +38,164 @@ fun RecipeDetailsScreen() {
         topBar = {
             TopAppBar(
                 title = {
-                Text("Zubereitung")
-            },
+                    Text("Zubereitung")
+                },
                 navigationIcon = {
                     IconButton(onClick = {}) {
                         Icon(
                             Icons.AutoMirrored.Default.ArrowBack,
-                            null)
+                            null
+                        )
                     }
                 }
             )
         }
-    ) {
-        innerPadding ->
-         Column (Modifier.fillMaxSize().padding(innerPadding),
-             horizontalAlignment = Alignment.CenterHorizontally,
-             verticalArrangement = Arrangement.spacedBy(10.dp)) {
+    ) { innerPadding ->
+        LazyColumn(
+            Modifier
+                .fillMaxSize()
+                .padding(innerPadding),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+
+            item {
+                Card(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(10.dp)
+                ) {
+                    MenuView(
+                        "Gefüllte Paprikaschoten",
+                        subTitle = "mit Kartoffeln",
+                        labels = listOf("Schwein", "Thermomix"),
+                        "30 min"
+                    )
+                    AsyncImage(
+                        model = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg",
+                        contentDescription = null,
+                        Modifier.fillMaxWidth()
+                    )
+
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(10.dp)
+                        ) {
+                            Column(Modifier.weight(1f)) {
+                                Text(
+                                    "Brennwert",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleMedium,
+                                    textAlign = TextAlign.Center
+                                )
+                                Text(
+                                    "1000 kCal",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleSmall,
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+
+                            Column(Modifier.weight(1f)) {
+                                Text(
+                                    "Gesättige Fettsäuren",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleMedium,
+                                    textAlign = TextAlign.Center
+                                )
+                                Text(
+                                    "10g",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleSmall,
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+
+                        }
+
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(10.dp)
+                        ) {
+                            Column(Modifier.weight(1f)) {
+                                Text(
+                                    "Eiweiß",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleMedium,
+                                    textAlign = TextAlign.Center
+                                )
+                                Text(
+                                    "20 g",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleSmall,
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+
+                            Column(Modifier.weight(1f)) {
+                                Text(
+                                    "Zucker",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleMedium,
+                                    textAlign = TextAlign.Center
+                                )
+                                Text(
+                                    "10g",
+                                    Modifier.fillMaxWidth(),
+                                    style = MaterialTheme.typography.titleSmall,
+                                    textAlign = TextAlign.Center
+                                )
+                            }
+                        }
+                    }
+                }
+            }
 
 
-                 Card(
-                     modifier = Modifier.fillMaxSize()
-                         .padding(10.dp)
-                 ) {
-                     MenuView(
-                         "Gefüllte Paprikaschoten",
-                         subTitle = "mit Kartoffeln",
-                         labels = listOf("Schwein","Thermomix"),
-                         "30 min"
-                     )
-                     AsyncImage(
-                         contentScale = ContentScale.FillBounds,
-                         model = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/E829412C-6272-4361-ADC1-DD016CBB03C1/Derivates/B0FA5272-D8BB-4E16-B56A-B9717A651432.jpg",
-                         contentDescription = null,
-                     )
+            item {
+                Card(Modifier.padding(10.dp)) {
+                    Column(
+                        Modifier.padding(5.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Text(
+                            "Paprikaschote zubereiten",
+                            style = MaterialTheme.typography.headlineSmall
+                        )
+                        Text("Zwiebeln in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern.")
+                        Text("Hackfleisch, Ei, Semmelbrösel, Senf, Salz und Pfeffer zugeben und 10 sek. Stufe 4 mischen")
+                        Text("Paprikaschote mit Hackfleisch füllen und rundherum anbraten.")
+                        Text("Paprikaschoten in den Airfryer geben und 20 min 200 Grad frittieren. In dieser Zeit Kartoffeln kochen.")
+                    }
 
-                     Column {
+                }
 
-                     }
-                     Row(
-                         Modifier.fillMaxWidth().padding(10.dp)) {
-                         Column(Modifier.weight(1f)) {
-                             Text("Brennwert", Modifier.fillMaxWidth(),fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
-                             Text("1000 kCal",Modifier.fillMaxWidth(),textAlign = TextAlign.Center)
-                         }
+            }
 
-                         Column(Modifier.weight(1f)) {
-                             Text("Gesättige Fettsäuren",Modifier.fillMaxWidth(),fontWeight = FontWeight.Bold,textAlign = TextAlign.Center)
-                             Text("10g",Modifier.fillMaxWidth(),textAlign = TextAlign.Center)
-                         }
+            item {
+                Card(Modifier.padding(10.dp)) {
+                    Column(
+                        Modifier.padding(5.dp),
+                        verticalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        Text(
+                            "Kartoffeln zubereiten",
+                            style = MaterialTheme.typography.headlineSmall
+                        )
+                        Text("Kartoffeln schälen, kleinschneiden und ins Garkörbchen legen")
+                        Text("1l Wasser und Salz in den Mixtopf geben und 25 min. Varoma Stufe 1 dampfgaren.")
+                    }
 
-                     }
+                }
 
-                     Row(
-                         Modifier.fillMaxWidth().padding(10.dp)) {
-                         Column(Modifier.weight(1f)) {
-                             Text("Eiweiß",Modifier.fillMaxWidth(),fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
-                             Text("20 g",Modifier.fillMaxWidth(),textAlign = TextAlign.Center)
-                         }
-
-                         Column(Modifier.weight(1f)) {
-                             Text("Zucker",Modifier.fillMaxWidth(),fontWeight = FontWeight.Bold,textAlign = TextAlign.Center)
-                             Text("10g",Modifier.fillMaxWidth(),textAlign = TextAlign.Center)
-                         }
-                     }
-                 }
-             }
-
-             /*
-             item {
-                 Text("Paprikaschote zubereiten",style= MaterialTheme.typography.headlineSmall)
-                 Text("Zwiebeln in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern.")
-                 Text("Hackfleisch, Ei, Semmelbrösel, Senf, Salz und Pfeffer zugeben und 10 sek. Stufe 4 mischen")
-                 Text("Paprikaschote mit Hackfleisch füllen und rundherum anbraten.")
-                 Text("Paprikaschoten in den Airfryer geben und 20 min 200 Grad frittieren. In dieser Zeit Kartoffeln kochen.")
-             }
-
-             item {
-
-
-
-
-                 Text("Kartoffeln zubereiten",style= MaterialTheme.typography.headlineSmall)
-                 Text("Kartoffeln schälen, kleinschneiden und ins Garkörbchen legen",)
-                 Text("1l Wasser und Salz in den Mixtopf geben und 25 min. Varoma Stufe 1 dampfgaren.")
-             }*/
-
-
-
-
-
-
-
+            }
+        }
 
     }
 }
