@@ -1,5 +1,6 @@
 package com.bach.familyfresh.features.shoppinglist.screen
 
+import android.util.Log
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,12 +23,18 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil3.compose.AsyncImage
 import com.bach.familyfresh.R
@@ -44,6 +51,9 @@ fun ShoppingListScreen(
     modifier: Modifier = Modifier,
     shoppingListScreenViewModel: ShoppingListScreenViewModel = viewModel(),
     onClickBack: () -> Unit) {
+    var selectedTabIndex by rememberSaveable { mutableIntStateOf(0) }
+    var recipe = shoppingListScreenViewModel.getRecipeByIndex(selectedTabIndex)
+
     Scaffold(
         topBar = {
         TopAppBar(
@@ -58,19 +68,30 @@ fun ShoppingListScreen(
         bottomBar = {
             BottomAppBar {
                 var tabBarItemShoppingListFirstRecipe = TabBarItem(
-                    shoppingListScreenViewModel.menus.value[0].title,
+                    shoppingListScreenViewModel.menuState.value[0].title,
                     selectedIcon = Icons.Filled.ShoppingCart,
                     unselectedIcon = Icons.Outlined.ShoppingCart)
                 var tabBarItemShoppingListSecondRecipe = TabBarItem(
-                    shoppingListScreenViewModel.menus.value[1].title,
+                    shoppingListScreenViewModel.menuState.value[1].title,
                     selectedIcon = Icons.Filled.ShoppingCart,
                     unselectedIcon = Icons.Outlined.ShoppingCart)
-                TabView(listOf(tabBarItemShoppingListFirstRecipe,tabBarItemShoppingListSecondRecipe), selectedTabIndex = 0) { }
+                TabView(
+                    listOf(tabBarItemShoppingListFirstRecipe,tabBarItemShoppingListSecondRecipe),
+                    selectedTabIndex = selectedTabIndex) { title->
+                    if(selectedTabIndex == 0 && recipe.title != title) {
+                        selectedTabIndex = 1;
+                    } else if(selectedTabIndex == 1 && recipe.title != title){
+                        selectedTabIndex = 0;
+                    }
+                    recipe = shoppingListScreenViewModel.menuState.value[selectedTabIndex];
+
+
+
+                }
             }
         }
 
         ) { innerPadding ->
-        val menu = shoppingListScreenViewModel.menus.value;
         LazyColumn(modifier.padding(innerPadding).fillMaxSize()) {
 
             item {
@@ -79,13 +100,13 @@ fun ShoppingListScreen(
                         .padding(horizontal = 10.dp, vertical = 10.dp)
                 ) {
                     MenuView(
-                        menu[0].title,
-                        subTitle = menu[0].subtitle ?: "",
-                        labels = menu[0].labels?.map { label -> label.value } ?: emptyList(),
-                        menu[0].duration.toString() +" min"
+                        recipe.title,
+                        subTitle = recipe.subtitle ?: "",
+                        labels = recipe.labels?.map { label -> label.value } ?: emptyList(),
+                        recipe.duration.toString() +" min"
                     )
                     AsyncImage(
-                        model = menu[0].image,
+                        model = recipe.image,
                         contentDescription = null,
                     )
                 }
@@ -97,7 +118,7 @@ fun ShoppingListScreen(
                 }
             }
 
-            items(menu[0].ingredients ?: emptyList()) {
+            items(recipe.ingredients ?: emptyList()) {
                 item ->
                 Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(false, onCheckedChange = {})
