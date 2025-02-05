@@ -67,6 +67,7 @@ dependencies {
     implementation(libs.squareup.moshi.kotlin)
     implementation(libs.ktor.client.content.negotiation)
     implementation(libs.ktor.serialization.kotlinx.json)
+    implementation(libs.androidx.navigation.compose)
 
     // coil for async image
     implementation(libs.coil3.coil.compose)
