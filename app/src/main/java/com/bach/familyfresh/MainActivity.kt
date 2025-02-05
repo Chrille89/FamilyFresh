@@ -16,10 +16,12 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import com.bach.familyfresh.features.actualmenu.screen.ActualMenuScreen
+import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.recipedetails.screen.RecipeDetailsScreen
 import com.bach.familyfresh.features.recipedetails.viewmodel.RecipeDetailsScreenViewModel
 import com.bach.familyfresh.features.recipelist.screen.RecipeListScreen
 import com.bach.familyfresh.features.shoppinglist.screen.ShoppingListScreen
+import com.bach.familyfresh.features.shoppinglist.viewmodel.ShoppingListScreenViewModel
 import com.bach.familyfresh.navigation.CustomNavType
 import com.bach.familyfresh.navigation.Routes
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
@@ -52,10 +54,10 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
             ActualMenuScreen(
                 onRecipeClick = { recipe ->
                 navController.navigate(Routes.RecipeDetailRoute(recipe))
-            }, onClickTab = { title ->
+            }, onClickTab = { title, menu ->
                 when(title) {
                      "Gerichte ändern" ->  navController.navigate(Routes.RecipeListRoute)
-                     "Einkaufsliste" ->  navController.navigate(Routes.ShoppingListRoute)
+                     "Einkaufsliste" ->  navController.navigate(Routes.ShoppingListRoute(menu))
                 }
                 }, selectedTabIndex = selectedTabIndex)
         }
@@ -76,10 +78,14 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
                 selectedTabIndex = 0
             }
         }
-        composable<Routes.ShoppingListRoute> {
-            ShoppingListScreen() {
+        composable<Routes.ShoppingListRoute> (
+            typeMap = mapOf(
+                typeOf<List<RecipeReadDto>>() to CustomNavType.recipeReadDtosNavType
+            )
+        ){
+            val data = it.toRoute<Routes.ShoppingListRoute>()
+            ShoppingListScreen(shoppingListScreenViewModel = ShoppingListScreenViewModel(data.recipes)) {
                 navController.popBackStack()
-                selectedTabIndex = 0
             }
         }
     }

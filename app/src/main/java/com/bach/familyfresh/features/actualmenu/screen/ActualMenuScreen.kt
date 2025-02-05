@@ -48,7 +48,7 @@ import org.openapitools.client.models.RecipeReadDto
 fun ActualMenuScreen(
     actualMenuScreenViewModel: ActualMenuScreenViewModel = viewModel(),
     onRecipeClick: (recipe: RecipeReadDto) -> Unit,
-    onClickTab: (title: String) -> Unit,
+    onClickTab: (title: String, menu: List<RecipeReadDto>) -> Unit,
     selectedTabIndex: Int,
     modifier: Modifier = Modifier
 ) {
@@ -92,7 +92,7 @@ fun ActualMenuScreen(
                 badgeAmount = 7
             )
             TabView(listOf(homeTab, changeMenuTab, alertsTab),selectedTabIndex) { tabTitle ->
-                onClickTab(tabTitle)
+                onClickTab(tabTitle,(actualMenuScreenViewModel.menus.value as ActualMenuScreenStatus.success).menus)
             }
         }
     ) { innerPadding ->
