@@ -10,4 +10,10 @@ class Routes {
 
     @Serializable
     data class RecipeDetailRoute(var recipe: RecipeReadDto)
+
+    @Serializable
+    data object RecipeListRoute
+
+    @Serializable
+    data object ShoppingListRoute
 }

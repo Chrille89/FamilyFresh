@@ -9,6 +9,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.navigation.NavHostController
+import com.bach.familyfresh.navigation.Routes
 
 
 data class TabBarItem(
@@ -19,7 +21,7 @@ data class TabBarItem(
 )
 
 @Composable
-fun TabView(tabBarItems: List<TabBarItem>) {
+fun TabView(tabBarItems: List<TabBarItem>,onClickTab: (title: String) -> Unit) {
     var selectedTabIndex by rememberSaveable {
         mutableStateOf(0)
     }
@@ -31,7 +33,7 @@ fun TabView(tabBarItems: List<TabBarItem>) {
                 selected = selectedTabIndex == index,
                 onClick = {
                     selectedTabIndex = index
-                 //   navController.navigate(tabBarItem.title)
+                    onClickTab(tabBarItem.title)
                 },
                 icon = {
                     TabBarIconView(

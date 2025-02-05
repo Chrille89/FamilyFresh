@@ -13,6 +13,8 @@ import androidx.navigation.toRoute
 import com.bach.familyfresh.features.actualmenu.screen.ActualMenuScreen
 import com.bach.familyfresh.features.recipedetails.screen.RecipeDetailsScreen
 import com.bach.familyfresh.features.recipedetails.viewmodel.RecipeDetailsScreenViewModel
+import com.bach.familyfresh.features.recipelist.screen.RecipeListScreen
+import com.bach.familyfresh.features.shoppinglist.screen.ShoppingListScreen
 import com.bach.familyfresh.navigation.CustomNavType
 import com.bach.familyfresh.navigation.Routes
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
@@ -39,9 +41,15 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
         startDestination = Routes.ActualMenuRoute
         ) {
         composable<Routes.ActualMenuRoute> {
-            ActualMenuScreen(onRecipeClick = { recipe ->
+            ActualMenuScreen(
+                onRecipeClick = { recipe ->
                 navController.navigate(Routes.RecipeDetailRoute(recipe))
-            })
+            }, onClickTab = { title ->
+                when(title) {
+                     "Gerichte ändern" ->  navController.navigate(Routes.RecipeListRoute)
+                     "Einkaufsliste" ->  navController.navigate(Routes.ShoppingListRoute)
+                }
+                })
         }
         composable<Routes.RecipeDetailRoute>(
             typeMap = mapOf(
@@ -49,7 +57,15 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
         )
         ) {
             val data = it.toRoute<Routes.RecipeDetailRoute>();
-            RecipeDetailsScreen(recipeDetailsScreenViewModel = RecipeDetailsScreenViewModel(data.recipe))
+            RecipeDetailsScreen(RecipeDetailsScreenViewModel(data.recipe)) {
+                navController.popBackStack()
+            }
+        }
+        composable<Routes.RecipeListRoute> {
+            RecipeListScreen()
+        }
+        composable<Routes.ShoppingListRoute> {
+            ShoppingListScreen()
         }
     }
 

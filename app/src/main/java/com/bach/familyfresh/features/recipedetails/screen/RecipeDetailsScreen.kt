@@ -32,7 +32,8 @@ import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun RecipeDetailsScreen(
-    recipeDetailsScreenViewModel : RecipeDetailsScreenViewModel = viewModel()
+    recipeDetailsScreenViewModel : RecipeDetailsScreenViewModel = viewModel(),
+    onClickBack: () -> Unit
 ) {
     var recipe = recipeDetailsScreenViewModel.recipeState.value;
     Scaffold(
@@ -42,7 +43,7 @@ fun RecipeDetailsScreen(
                     Text("Zubereitung")
                 },
                 navigationIcon = {
-                    IconButton(onClick = {}) {
+                    IconButton(onClick = {onClickBack()}) {
                         Icon(
                             Icons.AutoMirrored.Default.ArrowBack,
                             null
@@ -122,13 +123,5 @@ fun RecipeDetailsScreen(
                 }
             }
         }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun RecipeDetailsScreenPreview() {
-    FamilyFreshTheme {
-        RecipeDetailsScreen()
     }
 }

@@ -57,7 +57,9 @@ fun ShoppingListScreen(modifier: Modifier = Modifier) {
                     selectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
                     unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px)
                 )
-                TabView(listOf(homeTab, changeMenuTab))
+                TabView(listOf(homeTab, changeMenuTab)) {
+                    
+                }
             }
         }
 
