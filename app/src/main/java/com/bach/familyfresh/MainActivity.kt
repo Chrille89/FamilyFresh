@@ -5,6 +5,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -36,6 +41,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun FamilyFreshApp(navController : NavHostController = rememberNavController()) {
+    var selectedTabIndex by rememberSaveable {
+        mutableIntStateOf(0)
+    }
     NavHost(
         navController,
         startDestination = Routes.ActualMenuRoute
@@ -49,7 +57,7 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
                      "Gerichte ändern" ->  navController.navigate(Routes.RecipeListRoute)
                      "Einkaufsliste" ->  navController.navigate(Routes.ShoppingListRoute)
                 }
-                })
+                }, selectedTabIndex = selectedTabIndex)
         }
         composable<Routes.RecipeDetailRoute>(
             typeMap = mapOf(
@@ -59,13 +67,20 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
             val data = it.toRoute<Routes.RecipeDetailRoute>();
             RecipeDetailsScreen(RecipeDetailsScreenViewModel(data.recipe)) {
                 navController.popBackStack()
+                selectedTabIndex = 0
             }
         }
         composable<Routes.RecipeListRoute> {
-            RecipeListScreen()
+            RecipeListScreen() {
+                navController.popBackStack()
+                selectedTabIndex = 0
+            }
         }
         composable<Routes.ShoppingListRoute> {
-            ShoppingListScreen()
+            ShoppingListScreen() {
+                navController.popBackStack()
+                selectedTabIndex = 0
+            }
         }
     }
 

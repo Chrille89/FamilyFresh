@@ -33,13 +33,13 @@ import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ShoppingListScreen(modifier: Modifier = Modifier) {
+fun ShoppingListScreen(modifier: Modifier = Modifier,onClickBack: () -> Unit) {
     Scaffold(
         topBar = {
         TopAppBar(
             title = { Text("Einkaufsliste")},
             navigationIcon = {
-                IconButton(onClick = {}) {
+                IconButton(onClick = { onClickBack() }) {
                     Icon(Icons.AutoMirrored.Default.ArrowBack,null)
                 }
             }
@@ -47,19 +47,7 @@ fun ShoppingListScreen(modifier: Modifier = Modifier) {
     },
         bottomBar = {
             BottomAppBar {
-                val homeTab = TabBarItem(
-                    title = "Gefüllte Paprikaschote",
-                    selectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
-                    unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
-                )
-                val changeMenuTab =  TabBarItem(
-                    title = "Senfeier",
-                    selectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
-                    unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px)
-                )
-                TabView(listOf(homeTab, changeMenuTab)) {
-                    
-                }
+                // Todo
             }
         }
 
@@ -116,13 +104,5 @@ fun ShoppingListScreen(modifier: Modifier = Modifier) {
                 Text("1 Esslöfel Senf")
             }
         }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ShoppingListScreenPreview() {
-    FamilyFreshTheme {
-        ShoppingListScreen()
     }
 }

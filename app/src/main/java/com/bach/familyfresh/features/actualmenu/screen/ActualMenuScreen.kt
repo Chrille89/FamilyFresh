@@ -49,6 +49,7 @@ fun ActualMenuScreen(
     actualMenuScreenViewModel: ActualMenuScreenViewModel = viewModel(),
     onRecipeClick: (recipe: RecipeReadDto) -> Unit,
     onClickTab: (title: String) -> Unit,
+    selectedTabIndex: Int,
     modifier: Modifier = Modifier
 ) {
     val mMediaPlayer = MediaPlayer.create(LocalContext.current, R.raw.dice_sound);
@@ -90,7 +91,7 @@ fun ActualMenuScreen(
                 unselectedIcon = Icons.Outlined.Notifications,
                 badgeAmount = 7
             )
-            TabView(listOf(homeTab, changeMenuTab, alertsTab)) { tabTitle ->
+            TabView(listOf(homeTab, changeMenuTab, alertsTab),selectedTabIndex) { tabTitle ->
                 onClickTab(tabTitle)
             }
         }

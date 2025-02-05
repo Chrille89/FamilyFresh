@@ -35,13 +35,14 @@ import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 @Composable
 fun RecipeListScreen(
     recipesListScreenViewModel: RecipeListScreenViewModel = viewModel(),
-    modifier: Modifier = Modifier) {
+    modifier: Modifier = Modifier,
+    onClickBack: () -> Unit) {
     Scaffold(
         topBar = {
             androidx.compose.material3.TopAppBar(
                 title = { Text("Wähle 2 Gerichte aus")},
                 navigationIcon = {
-                    IconButton(onClick = {}) {
+                    IconButton(onClick = { onClickBack() }) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Default.ArrowBack,
                             contentDescription = null)
@@ -88,12 +89,4 @@ fun RecipeListScreen(
             }
             }
         }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun RecipeListScreenPreview() {
-    FamilyFreshTheme {
-        RecipeListScreen()
-    }
 }

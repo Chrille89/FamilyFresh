@@ -14,25 +14,20 @@ import com.bach.familyfresh.navigation.Routes
 
 
 data class TabBarItem(
-    val title: String,
-    val selectedIcon: ImageVector,
-    val unselectedIcon: ImageVector,
-    val badgeAmount: Int? = null
+    var title: String,
+    var selectedIcon: ImageVector,
+    var unselectedIcon: ImageVector,
+    var badgeAmount: Int? = null
 )
 
 @Composable
-fun TabView(tabBarItems: List<TabBarItem>,onClickTab: (title: String) -> Unit) {
-    var selectedTabIndex by rememberSaveable {
-        mutableStateOf(0)
-    }
-
+fun TabView(tabBarItems: List<TabBarItem>, selectedTabIndex: Int, onClickTab: (title: String) -> Unit) {
     NavigationBar {
         // looping over each tab to generate the views and navigation for each item
         tabBarItems.forEachIndexed { index, tabBarItem ->
             NavigationBarItem(
                 selected = selectedTabIndex == index,
                 onClick = {
-                    selectedTabIndex = index
                     onClickTab(tabBarItem.title)
                 },
                 icon = {
