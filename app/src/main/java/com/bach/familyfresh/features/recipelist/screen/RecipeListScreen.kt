@@ -21,6 +21,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -79,7 +80,13 @@ fun RecipeListScreen(
                                     var checked by remember {   mutableStateOf(false) }
                                     Checkbox(
                                         checked = checked,
-                                        onCheckedChange = { checked = !checked }
+                                        onCheckedChange = {
+                                            checked = !checked
+                                            val newRecipes = recipesListScreenViewModel.setNewRecipeForMenu(recipe)
+                                            if(newRecipes.isEmpty()) {
+                                                onClickBack()
+                                            }
+                                        }
                                     )
                                     AsyncImage(
                                         model = recipe.image,

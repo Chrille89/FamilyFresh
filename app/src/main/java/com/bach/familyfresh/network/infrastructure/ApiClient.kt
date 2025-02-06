@@ -47,7 +47,7 @@ open class ApiClient(
     private val authentications: kotlin.collections.Map<String, Authentication>? = null
 
     companion object {
-          const val BASE_URL = "http://10.0.2.2:8080"
+          const val BASE_URL = "http://192.168.178.22:8080"
           protected val UNSAFE_HEADERS = listOf(HttpHeaders.ContentType)
     }
 

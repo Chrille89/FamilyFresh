@@ -8,10 +8,13 @@ import androidx.lifecycle.viewModelScope
 import com.bach.familyfresh.data.MenuRepository
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import kotlinx.coroutines.launch
+import org.openapitools.client.models.RecipeReadDto
 
 class RecipeListScreenViewModel(private val menuRepository: MenuRepository = MenuRepository()) : ViewModel() {
 
     val recipes : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
+
+    val menuUpdates : ArrayList<RecipeReadDto> = ArrayList()
 
     init {
         getAllRecipes()
@@ -29,5 +32,14 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
                 ActualMenuScreenStatus.error(error,"Error fetching data");
             }
         }
+    }
+
+    fun setNewRecipeForMenu(recipe: RecipeReadDto) : ArrayList<RecipeReadDto> {
+        menuUpdates.add(recipe);
+        if(menuUpdates.size == 2) {
+            // PUT call
+            menuUpdates.clear()
+        }
+        return menuUpdates;
     }
 }

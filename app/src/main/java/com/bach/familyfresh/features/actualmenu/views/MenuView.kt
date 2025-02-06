@@ -36,7 +36,7 @@ fun MenuView(title: String, subTitle: String, labels: List<String>, duration: St
                     }
                 }
             }
-            Text("Gesamtdauer: $duration", style = MaterialTheme.typography.titleSmall)
+            Text("Gesamtdauer: $duration min", style = MaterialTheme.typography.titleSmall)
         }
         Text(title, style = MaterialTheme.typography.titleMedium)
         Text(subTitle, style = MaterialTheme.typography.titleSmall)
