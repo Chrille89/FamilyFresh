@@ -17,9 +17,9 @@ package org.openapitools.client.models
 
 import org.openapitools.client.models.AmountDto
 
-import kotlinx.serialization.Serializable as KSerializable
-import kotlinx.serialization.SerialName
-import kotlinx.serialization.Contextual
+import kotlinx.serialization.*
+import kotlinx.serialization.descriptors.*
+import kotlinx.serialization.encoding.*
 import java.io.Serializable
 
 /**
@@ -34,34 +34,26 @@ import java.io.Serializable
  * @param nutrients 
  * @param preparation 
  */
-@KSerializable
+@Serializable
 
 data class RecipeWriteDto (
 
-    @SerialName(value = "title")
-    val title: kotlin.String,
+    @SerialName(value = "title") @Required val title: kotlin.String,
 
-    @SerialName(value = "subtitle")
-    val subtitle: kotlin.String? = null,
+    @SerialName(value = "subtitle") val subtitle: kotlin.String? = null,
 
-    @SerialName(value = "labels")
-    val labels: kotlin.collections.List<RecipeWriteDto.Labels>? = null,
+    @SerialName(value = "labels") val labels: kotlin.collections.List<RecipeWriteDto.Labels>? = null,
 
-    @SerialName(value = "image")
-    val image: kotlin.String? = null,
+    @SerialName(value = "image") val image: kotlin.String? = null,
 
     /* Duration in minutes */
-    @SerialName(value = "duration")
-    val duration: kotlin.Int? = null,
+    @SerialName(value = "duration") val duration: kotlin.Int? = null,
 
-    @SerialName(value = "ingredients")
-    val ingredients: kotlin.collections.List<AmountDto>? = null,
+    @SerialName(value = "ingredients") val ingredients: kotlin.collections.List<AmountDto>? = null,
 
-    @SerialName(value = "nutrients")
-    val nutrients: kotlin.collections.List<AmountDto>? = null,
+    @SerialName(value = "nutrients") val nutrients: kotlin.collections.List<AmountDto>? = null,
 
-    @SerialName(value = "preparation")
-    val preparation: kotlin.collections.List<kotlin.String>? = null
+    @SerialName(value = "preparation") val preparation: kotlin.collections.List<kotlin.String>? = null
 
 ) : Serializable {
     companion object {
@@ -73,7 +65,7 @@ data class RecipeWriteDto (
      *
      * Values: lowcarb,lowfat,vegetarian,pig,beef,fish
      */
-    @KSerializable
+    @Serializable
     enum class Labels(val value: kotlin.String) {
         @SerialName(value = "lowcarb") lowcarb("lowcarb"),
         @SerialName(value = "lowfat") lowfat("lowfat"),

@@ -1,54 +1,64 @@
 package org.openapitools.client.infrastructure
 
-
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.client.request.*
 import io.ktor.client.request.forms.FormDataContent
 import io.ktor.client.request.forms.MultiPartFormDataContent
 import io.ktor.client.request.header
 import io.ktor.client.request.parameter
-import io.ktor.client.request.request
-import io.ktor.client.request.setBody
 import io.ktor.client.statement.HttpResponse
-import io.ktor.http.contentType
 import io.ktor.http.ContentType
-import io.ktor.http.HttpHeaders
-import io.ktor.http.HttpMethod
-import io.ktor.http.Parameters
-import io.ktor.http.URLBuilder
-import io.ktor.http.content.PartData
-import io.ktor.http.encodeURLQueryComponent
-import io.ktor.http.encodedPath
-import io.ktor.http.takeFrom
 import io.ktor.serialization.kotlinx.json.json
+import io.ktor.http.*
+import io.ktor.http.content.PartData
+import io.ktor.http.contentType
+import kotlin.Unit
+import kotlinx.serialization.json.Json
+
 import org.openapitools.client.auth.*
 
 open class ApiClient(
-        private val baseUrl: String,
-        httpClientEngine: HttpClientEngine?,
-        httpClientConfig: ((HttpClientConfig<*>) -> Unit)? = null,
+        private val baseUrl: String
 ) {
 
-    private val clientConfig: (HttpClientConfig<*>) -> Unit by lazy {
-        {
-            it.install(ContentNegotiation) {
-                json()
+    private lateinit var client: HttpClient
+
+    constructor(
+        baseUrl: String,
+        httpClientEngine: HttpClientEngine?,
+        httpClientConfig: ((HttpClientConfig<*>) -> Unit)? = null,
+        jsonBlock: Json,
+    ) : this(baseUrl = baseUrl) {
+        val clientConfig: (HttpClientConfig<*>) -> Unit by lazy {
+            {
+                it.install(ContentNegotiation) { json(jsonBlock) }
+                httpClientConfig?.invoke(it)
             }
-            httpClientConfig?.invoke(it)
         }
+
+        client = httpClientEngine?.let { HttpClient(it, clientConfig) } ?: HttpClient(clientConfig)
     }
 
-    private val client: HttpClient by lazy {
-        httpClientEngine?.let { HttpClient(it, clientConfig) } ?: HttpClient(clientConfig)
+    constructor(
+        baseUrl: String,
+        httpClient: HttpClient
+    ): this(baseUrl = baseUrl) {
+        this.client = httpClient
     }
 
     private val authentications: kotlin.collections.Map<String, Authentication>? = null
 
     companion object {
-          const val BASE_URL = "http://192.168.178.22:8080"
-          protected val UNSAFE_HEADERS = listOf(HttpHeaders.ContentType)
+        const val BASE_URL = "http://192.168.178.22:8080"
+        val JSON_DEFAULT = Json {
+          ignoreUnknownKeys = true
+          prettyPrint = true
+          isLenient = true
+        }
+        protected val UNSAFE_HEADERS = listOf(HttpHeaders.ContentType)
     }
 
     /**
@@ -149,7 +159,7 @@ open class ApiClient(
                 val contentType = (requestConfig.headers[HttpHeaders.ContentType]?.let { ContentType.parse(it) }
                     ?: ContentType.Application.Json)
                 this.contentType(contentType)
-                setBody(body)
+                this.setBody(body)
             }
         }
     }

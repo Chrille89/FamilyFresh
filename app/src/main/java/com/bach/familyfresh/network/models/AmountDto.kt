@@ -16,9 +16,9 @@
 package org.openapitools.client.models
 
 
-import kotlinx.serialization.Serializable as KSerializable
-import kotlinx.serialization.SerialName
-import kotlinx.serialization.Contextual
+import kotlinx.serialization.*
+import kotlinx.serialization.descriptors.*
+import kotlinx.serialization.encoding.*
 import java.io.Serializable
 
 /**
@@ -28,18 +28,15 @@ import java.io.Serializable
  * @param amount 
  * @param unit 
  */
-@KSerializable
+@Serializable
 
 data class AmountDto (
 
-    @SerialName(value = "name")
-    val name: kotlin.String? = null,
+    @SerialName(value = "name") val name: kotlin.String? = null,
 
-    @SerialName(value = "amount")
-    val amount: kotlin.Int? = null,
+    @SerialName(value = "amount") val amount: kotlin.Int? = null,
 
-    @SerialName(value = "unit")
-    val unit: AmountDto.Unit? = null
+    @SerialName(value = "unit") val unit: AmountDto.Unit? = null
 
 ) : Serializable {
     companion object {
@@ -49,15 +46,17 @@ data class AmountDto (
     /**
      * 
      *
-     * Values: gramm,kilogramm,stueck,milliliter,liter
+     * Values: g,kg,st,ml,l,esslöfel,teelöfel
      */
-    @KSerializable
+    @Serializable
     enum class Unit(val value: kotlin.String) {
-        @SerialName(value = "gramm") gramm("gramm"),
-        @SerialName(value = "kilogramm") kilogramm("kilogramm"),
-        @SerialName(value = "stueck") stueck("stueck"),
-        @SerialName(value = "milliliter") milliliter("milliliter"),
-        @SerialName(value = "liter") liter("liter");
+        @SerialName(value = "g") g("g"),
+        @SerialName(value = "kg") kg("kg"),
+        @SerialName(value = "St") st("St"),
+        @SerialName(value = "ml") ml("ml"),
+        @SerialName(value = "l") l("l"),
+        @SerialName(value = "Esslöfel") esslöfel("Esslöfel"),
+        @SerialName(value = "Teelöfel") teelöfel("Teelöfel");
     }
 }
 

@@ -19,147 +19,230 @@ import org.openapitools.client.models.RecipeReadDto
 import org.openapitools.client.models.RecipeWriteDto
 
 import org.openapitools.client.infrastructure.*
+import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.request.forms.formData
 import io.ktor.client.engine.HttpClientEngine
+import kotlinx.serialization.json.Json
 import io.ktor.http.ParametersBuilder
+import kotlinx.serialization.*
+import kotlinx.serialization.descriptors.*
+import kotlinx.serialization.encoding.*
 
-    open class DefaultApi(
-    baseUrl: String = ApiClient.BASE_URL,
-    httpClientEngine: HttpClientEngine? = null,
-    httpClientConfig: ((HttpClientConfig<*>) -> Unit)? = null,
-    ) : ApiClient(
-        baseUrl,
-        httpClientEngine,
-        httpClientConfig,
-    ) {
+open class DefaultApi : ApiClient {
 
-        /**
-        * Create a recipe.
-        * Create a recipe.
-         * @param recipeWriteDto Recipe in JSON format. (optional)
-         * @return void
-        */
-        open suspend fun createRecipe(recipeWriteDto: RecipeWriteDto?): HttpResponse<Unit> {
+    constructor(
+        baseUrl: String = ApiClient.BASE_URL,
+        httpClientEngine: HttpClientEngine? = null,
+        httpClientConfig: ((HttpClientConfig<*>) -> Unit)? = null,
+        jsonSerializer: Json = ApiClient.JSON_DEFAULT
+    ) : super(baseUrl = baseUrl, httpClientEngine = httpClientEngine, httpClientConfig = httpClientConfig, jsonBlock = jsonSerializer)
 
-            val localVariableAuthNames = listOf<String>()
+    constructor(
+        baseUrl: String,
+        httpClient: HttpClient
+    ): super(baseUrl = baseUrl, httpClient = httpClient)
 
-            val localVariableBody = recipeWriteDto
+    /**
+     * Create a recipe.
+     * Create a recipe.
+     * @param recipeWriteDto Recipe in JSON format. (optional)
+     * @return RecipeReadDto
+     */
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun createRecipe(recipeWriteDto: RecipeWriteDto? = null): HttpResponse<RecipeReadDto> {
 
-            val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableAuthNames = listOf<String>()
 
-            val localVariableHeaders = mutableMapOf<String, String>()
+        val localVariableBody = recipeWriteDto
 
-            val localVariableConfig = RequestConfig<kotlin.Any?>(
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
+
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.POST,
             "/recipes",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
-            )
+        )
 
-            return jsonRequest(
+        return jsonRequest(
             localVariableConfig,
             localVariableBody,
             localVariableAuthNames
-            ).wrap()
-            }
+        ).wrap()
+    }
 
-        /**
-        * Delete all recipes.
-        * Delete all recipes.
-         * @return void
-        */
-        open suspend fun deleteAllRecipes(): HttpResponse<Unit> {
 
-            val localVariableAuthNames = listOf<String>()
 
-            val localVariableBody = 
-                    io.ktor.client.utils.EmptyContent
+    /**
+     * Delete all recipes.
+     * Delete all recipes.
+     * @return void
+     */
+    open suspend fun deleteAllRecipes(): HttpResponse<Unit> {
 
-            val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableAuthNames = listOf<String>()
 
-            val localVariableHeaders = mutableMapOf<String, String>()
+        val localVariableBody = 
+            io.ktor.client.utils.EmptyContent
 
-            val localVariableConfig = RequestConfig<kotlin.Any?>(
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
+
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.DELETE,
             "/recipes",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
-            )
+        )
 
-            return request(
+        return request(
             localVariableConfig,
             localVariableBody,
             localVariableAuthNames
-            ).wrap()
-            }
+        ).wrap()
+    }
 
-        /**
-        * Return the actual menu
-        * Return the actual menu
-         * @param random Get a random menu or the actual menu (optional, default to false)
-         * @return kotlin.collections.List<RecipeReadDto>
-        */
-            @Suppress("UNCHECKED_CAST")
-        open suspend fun getActualMenu(random: kotlin.Boolean?): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
-            val localVariableAuthNames = listOf<String>()
+    /**
+     * Return the actual menu
+     * Return the actual menu
+     * @param random Get a random menu or the actual menu (optional, default to false)
+     * @return kotlin.collections.List<RecipeReadDto>
+     */
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun getActualMenu(random: kotlin.Boolean? = false): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
-            val localVariableBody = 
-                    io.ktor.client.utils.EmptyContent
+        val localVariableAuthNames = listOf<String>()
 
-            val localVariableQuery = mutableMapOf<String, List<String>>()
-            random?.apply { localVariableQuery["random"] = listOf("$random") }
+        val localVariableBody = 
+            io.ktor.client.utils.EmptyContent
 
-            val localVariableHeaders = mutableMapOf<String, String>()
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        random?.apply { localVariableQuery["random"] = listOf("$random") }
+        val localVariableHeaders = mutableMapOf<String, String>()
 
-            val localVariableConfig = RequestConfig<kotlin.Any?>(
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.GET,
             "/recipes/menu",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
-            )
+        )
 
-            return request(
+        return request(
             localVariableConfig,
             localVariableBody,
             localVariableAuthNames
-            ).wrap()
-            }
+        ).wrap<GetActualMenuResponse>().map { value }
+    }
 
-        /**
-        * Return all recipes.
-        * Return all recipes.
-         * @return kotlin.collections.List<RecipeReadDto>
-        */
-            @Suppress("UNCHECKED_CAST")
-        open suspend fun getAllRecipes(): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
+    @Serializable
+    private class GetActualMenuResponse(val value: List<RecipeReadDto>) {
+        @Serializer(GetActualMenuResponse::class)
+        companion object : KSerializer<GetActualMenuResponse> {
+            private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
+            override val descriptor = serializer.descriptor
+            override fun serialize(encoder: Encoder, obj: GetActualMenuResponse) = serializer.serialize(encoder, obj.value)
+            override fun deserialize(decoder: Decoder) = GetActualMenuResponse(serializer.deserialize(decoder))
+        }
+    }
 
-            val localVariableAuthNames = listOf<String>()
+    /**
+     * Return all recipes.
+     * Return all recipes.
+     * @return kotlin.collections.List<RecipeReadDto>
+     */
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun getAllRecipes(): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
-            val localVariableBody = 
-                    io.ktor.client.utils.EmptyContent
+        val localVariableAuthNames = listOf<String>()
 
-            val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableBody = 
+            io.ktor.client.utils.EmptyContent
 
-            val localVariableHeaders = mutableMapOf<String, String>()
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
 
-            val localVariableConfig = RequestConfig<kotlin.Any?>(
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.GET,
             "/recipes",
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
-            )
+        )
 
-            return request(
+        return request(
             localVariableConfig,
             localVariableBody,
             localVariableAuthNames
-            ).wrap()
-            }
+        ).wrap<GetAllRecipesResponse>().map { value }
+    }
 
+    @Serializable
+    private class GetAllRecipesResponse(val value: List<RecipeReadDto>) {
+        @Serializer(GetAllRecipesResponse::class)
+        companion object : KSerializer<GetAllRecipesResponse> {
+            private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
+            override val descriptor = serializer.descriptor
+            override fun serialize(encoder: Encoder, obj: GetAllRecipesResponse) = serializer.serialize(encoder, obj.value)
+            override fun deserialize(decoder: Decoder) = GetAllRecipesResponse(serializer.deserialize(decoder))
         }
+    }
+
+    /**
+     * Update the actual menu
+     * Update the actual menu
+     * @param recipeReadDto Recipes for the new menu (optional)
+     * @return kotlin.collections.List<RecipeReadDto>
+     */
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun updateMenu(recipeReadDto: kotlin.collections.List<RecipeReadDto>? = null): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
+
+        val localVariableAuthNames = listOf<String>()
+
+        val localVariableBody = UpdateMenuRequest(recipeReadDto)
+
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
+
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
+            RequestMethod.PUT,
+            "/recipes/menu",
+            query = localVariableQuery,
+            headers = localVariableHeaders,
+            requiresAuthentication = false,
+        )
+
+        return jsonRequest(
+            localVariableConfig,
+            localVariableBody,
+            localVariableAuthNames
+        ).wrap<UpdateMenuResponse>().map { value }
+    }
+
+    @Serializable
+    private class UpdateMenuRequest(val value: List<RecipeReadDto>) {
+        @Serializer(UpdateMenuRequest::class)
+        companion object : KSerializer<UpdateMenuRequest> {
+            private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
+            override val descriptor = serializer.descriptor
+            override fun serialize(encoder: Encoder, obj: UpdateMenuRequest) = serializer.serialize(encoder, obj.value)
+            override fun deserialize(decoder: Decoder) = UpdateMenuRequest(serializer.deserialize(decoder))
+        }
+    }
+    @Serializable
+    private class UpdateMenuResponse(val value: List<RecipeReadDto>) {
+        @Serializer(UpdateMenuResponse::class)
+        companion object : KSerializer<UpdateMenuResponse> {
+            private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
+            override val descriptor = serializer.descriptor
+            override fun serialize(encoder: Encoder, obj: UpdateMenuResponse) = serializer.serialize(encoder, obj.value)
+            override fun deserialize(decoder: Decoder) = UpdateMenuResponse(serializer.deserialize(decoder))
+        }
+    }
+
+}

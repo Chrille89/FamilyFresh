@@ -17,9 +17,9 @@ package org.openapitools.client.models
 
 import org.openapitools.client.models.AmountDto
 
-import kotlinx.serialization.Serializable as KSerializable
-import kotlinx.serialization.SerialName
-import kotlinx.serialization.Contextual
+import kotlinx.serialization.*
+import kotlinx.serialization.descriptors.*
+import kotlinx.serialization.encoding.*
 import java.io.Serializable
 
 /**
@@ -35,37 +35,28 @@ import java.io.Serializable
  * @param nutrients 
  * @param preparation 
  */
-@KSerializable
+@Serializable
 
 data class RecipeReadDto (
 
-    @SerialName(value = "id")
-    val id: kotlin.String,
+    @SerialName(value = "id") @Required val id: kotlin.String,
 
-    @SerialName(value = "title")
-    val title: kotlin.String,
+    @SerialName(value = "title") @Required val title: kotlin.String,
 
-    @SerialName(value = "subtitle")
-    val subtitle: kotlin.String? = null,
+    @SerialName(value = "subtitle") val subtitle: kotlin.String? = null,
 
-    @SerialName(value = "labels")
-    val labels: kotlin.collections.List<RecipeReadDto.Labels>? = null,
+    @SerialName(value = "labels") val labels: kotlin.collections.List<RecipeReadDto.Labels>? = null,
 
-    @SerialName(value = "image")
-    val image: kotlin.String? = null,
+    @SerialName(value = "image") val image: kotlin.String? = null,
 
     /* Duration in minutes */
-    @SerialName(value = "duration")
-    val duration: kotlin.Int? = null,
+    @SerialName(value = "duration") val duration: kotlin.Int? = null,
 
-    @SerialName(value = "ingredients")
-    val ingredients: kotlin.collections.List<AmountDto>? = null,
+    @SerialName(value = "ingredients") val ingredients: kotlin.collections.List<AmountDto>? = null,
 
-    @SerialName(value = "nutrients")
-    val nutrients: kotlin.collections.List<AmountDto>? = null,
+    @SerialName(value = "nutrients") val nutrients: kotlin.collections.List<AmountDto>? = null,
 
-    @SerialName(value = "preparation")
-    val preparation: kotlin.collections.List<kotlin.String>? = null
+    @SerialName(value = "preparation") val preparation: kotlin.collections.List<kotlin.String>? = null
 
 ) : Serializable {
     companion object {
@@ -75,20 +66,21 @@ data class RecipeReadDto (
     /**
      * 
      *
-     * Values: lowcarb,lowfat,highprotein,vegetarian,pig,beef,fish,thermomix,airfryer,express
+     * Values: kalorienarm,fettarm,eiweiß,vegetarisch,vegan,schwein,rind,fisch,thermomix,airfryer,express
      */
-    @KSerializable
+    @Serializable
     enum class Labels(val value: kotlin.String) {
-        @SerialName(value = "lowcarb") lowcarb("lowcarb"),
-        @SerialName(value = "lowfat") lowfat("lowfat"),
-        @SerialName(value = "highprotein") highprotein("highprotein"),
-        @SerialName(value = "vegetarian") vegetarian("vegetarian"),
-        @SerialName(value = "pig") pig("pig"),
-        @SerialName(value = "beef") beef("beef"),
-        @SerialName(value = "fish") fish("fish"),
-        @SerialName(value = "thermomix") thermomix("thermomix"),
-        @SerialName(value = "airfryer") airfryer("airfryer"),
-        @SerialName(value = "express") express("express");
+        @SerialName(value = "Kalorienarm") kalorienarm("Kalorienarm"),
+        @SerialName(value = "Fettarm") fettarm("Fettarm"),
+        @SerialName(value = "Eiweiß") eiweiß("Eiweiß"),
+        @SerialName(value = "Vegetarisch") vegetarisch("Vegetarisch"),
+        @SerialName(value = "Vegan") vegan("Vegan"),
+        @SerialName(value = "Schwein") schwein("Schwein"),
+        @SerialName(value = "Rind") rind("Rind"),
+        @SerialName(value = "Fisch") fisch("Fisch"),
+        @SerialName(value = "Thermomix") thermomix("Thermomix"),
+        @SerialName(value = "Airfryer") airfryer("Airfryer"),
+        @SerialName(value = "Express") express("Express");
     }
 }
 
