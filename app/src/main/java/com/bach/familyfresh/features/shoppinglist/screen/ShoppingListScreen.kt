@@ -25,6 +25,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -84,9 +85,6 @@ fun ShoppingListScreen(
                         selectedTabIndex = 0;
                     }
                     recipe = shoppingListScreenViewModel.menuState.value[selectedTabIndex];
-
-
-
                 }
             }
         }
@@ -120,8 +118,9 @@ fun ShoppingListScreen(
 
             items(recipe.ingredients ?: emptyList()) {
                 item ->
+                var checked by remember {   mutableStateOf(false)}
                 Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Checkbox(false, onCheckedChange = {})
+                    Checkbox(checked, onCheckedChange = {checked = !checked})
                     Text(item.amount.toString()+" "+item.unit?.value+" "+item.name)
                 }
             }
