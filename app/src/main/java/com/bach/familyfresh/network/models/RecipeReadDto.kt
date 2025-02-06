@@ -20,7 +20,6 @@ import org.openapitools.client.models.AmountDto
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
 import kotlinx.serialization.encoding.*
-import java.io.Serializable
 
 /**
  * 
@@ -58,29 +57,27 @@ data class RecipeReadDto (
 
     @SerialName(value = "preparation") val preparation: kotlin.collections.List<kotlin.String>? = null
 
-) : Serializable {
-    companion object {
-        private const val serialVersionUID: Long = 123
-    }
+) {
 
     /**
      * 
      *
-     * Values: kalorienarm,fettarm,eiweiß,vegetarisch,vegan,schwein,rind,fisch,thermomix,airfryer,express
+     * Values: Kalorienarm,Fettarm,Eiweiß,Vegetarisch,Vegan,Schwein,Rind,Fisch,Thermomix,Airfryer,Express
      */
     @Serializable
     enum class Labels(val value: kotlin.String) {
-        @SerialName(value = "Kalorienarm") kalorienarm("Kalorienarm"),
-        @SerialName(value = "Fettarm") fettarm("Fettarm"),
-        @SerialName(value = "Eiweiß") eiweiß("Eiweiß"),
-        @SerialName(value = "Vegetarisch") vegetarisch("Vegetarisch"),
-        @SerialName(value = "Vegan") vegan("Vegan"),
-        @SerialName(value = "Schwein") schwein("Schwein"),
-        @SerialName(value = "Rind") rind("Rind"),
-        @SerialName(value = "Fisch") fisch("Fisch"),
-        @SerialName(value = "Thermomix") thermomix("Thermomix"),
-        @SerialName(value = "Airfryer") airfryer("Airfryer"),
-        @SerialName(value = "Express") express("Express");
+        @SerialName(value = "Kalorienarm") Kalorienarm("Kalorienarm"),
+        @SerialName(value = "Fettarm") Fettarm("Fettarm"),
+        @SerialName(value = "Eiweiß") Eiweiß("Eiweiß"),
+        @SerialName(value = "Vegetarisch") Vegetarisch("Vegetarisch"),
+        @SerialName(value = "Vegan") Vegan("Vegan"),
+        @SerialName(value = "Schwein") Schwein("Schwein"),
+        @SerialName(value = "Rind") Rind("Rind"),
+        @SerialName(value = "Fisch") Fisch("Fisch"),
+        @SerialName(value = "Thermomix") Thermomix("Thermomix"),
+        @SerialName(value = "Airfryer") Airfryer("Airfryer"),
+        @SerialName(value = "Express") Express("Express");
     }
+
 }
 

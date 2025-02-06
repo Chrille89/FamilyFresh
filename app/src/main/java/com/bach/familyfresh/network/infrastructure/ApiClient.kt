@@ -52,13 +52,13 @@ open class ApiClient(
     private val authentications: kotlin.collections.Map<String, Authentication>? = null
 
     companion object {
-        const val BASE_URL = "http://192.168.178.22:8080"
-        val JSON_DEFAULT = Json {
+        const val BASE_URL: String = "http://192.168.178.22:8080"
+        val JSON_DEFAULT: Json = Json {
           ignoreUnknownKeys = true
           prettyPrint = true
           isLenient = true
         }
-        protected val UNSAFE_HEADERS = listOf(HttpHeaders.ContentType)
+        protected val UNSAFE_HEADERS: List<String> = listOf(HttpHeaders.ContentType)
     }
 
     /**

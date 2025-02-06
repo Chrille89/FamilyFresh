@@ -20,7 +20,6 @@ import org.openapitools.client.models.AmountDto
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
 import kotlinx.serialization.encoding.*
-import java.io.Serializable
 
 /**
  * 
@@ -55,24 +54,27 @@ data class RecipeWriteDto (
 
     @SerialName(value = "preparation") val preparation: kotlin.collections.List<kotlin.String>? = null
 
-) : Serializable {
-    companion object {
-        private const val serialVersionUID: Long = 123
-    }
+) {
 
     /**
      * 
      *
-     * Values: lowcarb,lowfat,vegetarian,pig,beef,fish
+     * Values: Kalorienarm,Fettarm,Eiweiß,Vegetarisch,Vegan,Schwein,Rind,Fisch,Thermomix,Airfryer,Express
      */
     @Serializable
     enum class Labels(val value: kotlin.String) {
-        @SerialName(value = "lowcarb") lowcarb("lowcarb"),
-        @SerialName(value = "lowfat") lowfat("lowfat"),
-        @SerialName(value = "vegetarian") vegetarian("vegetarian"),
-        @SerialName(value = "pig") pig("pig"),
-        @SerialName(value = "beef") beef("beef"),
-        @SerialName(value = "fish") fish("fish");
+        @SerialName(value = "Kalorienarm") Kalorienarm("Kalorienarm"),
+        @SerialName(value = "Fettarm") Fettarm("Fettarm"),
+        @SerialName(value = "Eiweiß") Eiweiß("Eiweiß"),
+        @SerialName(value = "Vegetarisch") Vegetarisch("Vegetarisch"),
+        @SerialName(value = "Vegan") Vegan("Vegan"),
+        @SerialName(value = "Schwein") Schwein("Schwein"),
+        @SerialName(value = "Rind") Rind("Rind"),
+        @SerialName(value = "Fisch") Fisch("Fisch"),
+        @SerialName(value = "Thermomix") Thermomix("Thermomix"),
+        @SerialName(value = "Airfryer") Airfryer("Airfryer"),
+        @SerialName(value = "Express") Express("Express");
     }
+
 }
 

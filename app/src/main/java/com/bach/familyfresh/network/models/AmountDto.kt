@@ -19,7 +19,6 @@ package org.openapitools.client.models
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
 import kotlinx.serialization.encoding.*
-import java.io.Serializable
 
 /**
  * 
@@ -38,25 +37,23 @@ data class AmountDto (
 
     @SerialName(value = "unit") val unit: AmountDto.Unit? = null
 
-) : Serializable {
-    companion object {
-        private const val serialVersionUID: Long = 123
-    }
+) {
 
     /**
      * 
      *
-     * Values: g,kg,st,ml,l,esslöfel,teelöfel
+     * Values: g,kg,St,ml,l,Esslöfel,Teelöfel
      */
     @Serializable
     enum class Unit(val value: kotlin.String) {
         @SerialName(value = "g") g("g"),
         @SerialName(value = "kg") kg("kg"),
-        @SerialName(value = "St") st("St"),
+        @SerialName(value = "St") St("St"),
         @SerialName(value = "ml") ml("ml"),
         @SerialName(value = "l") l("l"),
-        @SerialName(value = "Esslöfel") esslöfel("Esslöfel"),
-        @SerialName(value = "Teelöfel") teelöfel("Teelöfel");
+        @SerialName(value = "Esslöfel") Esslöfel("Esslöfel"),
+        @SerialName(value = "Teelöfel") Teelöfel("Teelöfel");
     }
+
 }
 

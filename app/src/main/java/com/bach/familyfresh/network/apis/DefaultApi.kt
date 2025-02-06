@@ -46,11 +46,11 @@ open class DefaultApi : ApiClient {
     /**
      * Create a recipe.
      * Create a recipe.
-     * @param recipeWriteDto Recipe in JSON format. (optional)
+     * @param recipeWriteDto Recipe in JSON format.
      * @return RecipeReadDto
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun createRecipe(recipeWriteDto: RecipeWriteDto? = null): HttpResponse<RecipeReadDto> {
+    open suspend fun createRecipe(recipeWriteDto: RecipeWriteDto): HttpResponse<RecipeReadDto> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -140,13 +140,12 @@ open class DefaultApi : ApiClient {
         ).wrap<GetActualMenuResponse>().map { value }
     }
 
-    @Serializable
+    @Serializable(GetActualMenuResponse.Companion::class)
     private class GetActualMenuResponse(val value: List<RecipeReadDto>) {
-        @Serializer(GetActualMenuResponse::class)
         companion object : KSerializer<GetActualMenuResponse> {
             private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
             override val descriptor = serializer.descriptor
-            override fun serialize(encoder: Encoder, obj: GetActualMenuResponse) = serializer.serialize(encoder, obj.value)
+            override fun serialize(encoder: Encoder, value: GetActualMenuResponse) = serializer.serialize(encoder, value.value)
             override fun deserialize(decoder: Decoder) = GetActualMenuResponse(serializer.deserialize(decoder))
         }
     }
@@ -182,13 +181,12 @@ open class DefaultApi : ApiClient {
         ).wrap<GetAllRecipesResponse>().map { value }
     }
 
-    @Serializable
+    @Serializable(GetAllRecipesResponse.Companion::class)
     private class GetAllRecipesResponse(val value: List<RecipeReadDto>) {
-        @Serializer(GetAllRecipesResponse::class)
         companion object : KSerializer<GetAllRecipesResponse> {
             private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
             override val descriptor = serializer.descriptor
-            override fun serialize(encoder: Encoder, obj: GetAllRecipesResponse) = serializer.serialize(encoder, obj.value)
+            override fun serialize(encoder: Encoder, value: GetAllRecipesResponse) = serializer.serialize(encoder, value.value)
             override fun deserialize(decoder: Decoder) = GetAllRecipesResponse(serializer.deserialize(decoder))
         }
     }
@@ -196,11 +194,11 @@ open class DefaultApi : ApiClient {
     /**
      * Update the actual menu
      * Update the actual menu
-     * @param recipeReadDto Recipes for the new menu (optional)
+     * @param recipeReadDto Recipes for the new menu
      * @return kotlin.collections.List<RecipeReadDto>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun updateMenu(recipeReadDto: kotlin.collections.List<RecipeReadDto>? = null): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
+    open suspend fun updateMenu(recipeReadDto: kotlin.collections.List<RecipeReadDto>): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -224,23 +222,21 @@ open class DefaultApi : ApiClient {
         ).wrap<UpdateMenuResponse>().map { value }
     }
 
-    @Serializable
+    @Serializable(UpdateMenuRequest.Companion::class)
     private class UpdateMenuRequest(val value: List<RecipeReadDto>) {
-        @Serializer(UpdateMenuRequest::class)
         companion object : KSerializer<UpdateMenuRequest> {
             private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
             override val descriptor = serializer.descriptor
-            override fun serialize(encoder: Encoder, obj: UpdateMenuRequest) = serializer.serialize(encoder, obj.value)
+            override fun serialize(encoder: Encoder, value: UpdateMenuRequest) = serializer.serialize(encoder, value.value)
             override fun deserialize(decoder: Decoder) = UpdateMenuRequest(serializer.deserialize(decoder))
         }
     }
-    @Serializable
+    @Serializable(UpdateMenuResponse.Companion::class)
     private class UpdateMenuResponse(val value: List<RecipeReadDto>) {
-        @Serializer(UpdateMenuResponse::class)
         companion object : KSerializer<UpdateMenuResponse> {
             private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
             override val descriptor = serializer.descriptor
-            override fun serialize(encoder: Encoder, obj: UpdateMenuResponse) = serializer.serialize(encoder, obj.value)
+            override fun serialize(encoder: Encoder, value: UpdateMenuResponse) = serializer.serialize(encoder, value.value)
             override fun deserialize(decoder: Decoder) = UpdateMenuResponse(serializer.deserialize(decoder))
         }
     }
