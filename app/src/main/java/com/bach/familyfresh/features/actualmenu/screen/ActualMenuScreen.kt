@@ -75,7 +75,7 @@ fun ActualMenuScreen(
             } })
         },
         bottomBar = {
-            val homeTab = TabBarItem(
+            val menuTab = TabBarItem(
                 title = "Menüs",
                 selectedIcon = Icons.Filled.Home,
                 unselectedIcon = Icons.Outlined.Home
@@ -85,13 +85,13 @@ fun ActualMenuScreen(
                 selectedIcon = Icons.Filled.Home,
                 unselectedIcon = Icons.Outlined.Home
             )
-            val alertsTab = TabBarItem(
+            val shoppingListTab = TabBarItem(
                 title = "Einkaufsliste",
                 selectedIcon = Icons.Filled.Notifications,
                 unselectedIcon = Icons.Outlined.Notifications,
                 badgeAmount = 7
             )
-            TabView(listOf(homeTab, changeMenuTab, alertsTab),selectedTabIndex) { tabTitle ->
+            TabView(listOf(menuTab, changeMenuTab, shoppingListTab),selectedTabIndex) { tabTitle ->
                 onClickTab(tabTitle,(actualMenuScreenViewModel.menus.value as ActualMenuScreenStatus.success).menus)
             }
         }

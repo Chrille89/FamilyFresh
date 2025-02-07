@@ -75,7 +75,7 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
         }
         composable<Routes.RecipeListRoute> {
             RecipeListScreen() {
-                navController.popBackStack()
+                navController.navigate(Routes.ActualMenuRoute)
                 selectedTabIndex = 0
             }
         }

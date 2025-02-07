@@ -16,4 +16,11 @@ class MenuRepository(private val client : DefaultApi = DefaultApi()) {
         val resp : HttpResponse<List<RecipeReadDto>> = client.getAllRecipes()
         return resp
     }
+
+    suspend fun updateMenu(menu: List<RecipeReadDto>) : HttpResponse<List<RecipeReadDto>> {
+        val resp : HttpResponse<List<RecipeReadDto>> = client.updateMenu(menu);
+        return resp
+    }
+
+
 }

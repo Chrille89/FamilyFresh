@@ -10,11 +10,23 @@ import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import kotlinx.coroutines.launch
 import org.openapitools.client.models.RecipeReadDto
 
-class RecipeListScreenViewModel(private val menuRepository: MenuRepository = MenuRepository()) : ViewModel() {
+sealed interface RecipeUpdateStatus {
+    data object loading : RecipeUpdateStatus
+    data class success(var menus: List<RecipeReadDto>) : RecipeUpdateStatus
+    data class error(var error: Throwable, var errorMsg: String) : RecipeUpdateStatus
 
-    val recipes : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
+}
 
-    val menuUpdates : ArrayList<RecipeReadDto> = ArrayList()
+class RecipeListScreenViewModel(private val menuRepository: MenuRepository = MenuRepository()) :
+    ViewModel() {
+
+    val recipes: MutableState<ActualMenuScreenStatus> =
+        mutableStateOf(ActualMenuScreenStatus.loading)
+
+    var menuUpdatesState: MutableState<RecipeUpdateStatus> =
+        mutableStateOf(RecipeUpdateStatus.loading)
+
+    val menuUpdates: ArrayList<RecipeReadDto> = ArrayList()
 
     init {
         getAllRecipes()
@@ -24,22 +36,31 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
         viewModelScope.launch {
             try {
                 val response = menuRepository.getAllRecipes();
-                if(response.success) {
+                if (response.success) {
                     val responseData = response.body();
                     recipes.value = ActualMenuScreenStatus.success(responseData)
                 }
-            } catch(error: Throwable) {
-                ActualMenuScreenStatus.error(error,"Error fetching data");
+            } catch (error: Throwable) {
+                ActualMenuScreenStatus.error(error, "Error fetching data");
             }
         }
     }
 
-    fun setNewRecipeForMenu(recipe: RecipeReadDto) : ArrayList<RecipeReadDto> {
+    fun setNewRecipeForMenu(recipe: RecipeReadDto) {
         menuUpdates.add(recipe);
-        if(menuUpdates.size == 2) {
+        if (menuUpdates.size == 2) {
             // PUT call
-            menuUpdates.clear()
+            viewModelScope.launch {
+                try {
+                    val response = menuRepository.updateMenu(menuUpdates)
+                    if (response.success) {
+                        menuUpdatesState.value = RecipeUpdateStatus.success(response.body())
+                        menuUpdates.clear();
+                    }
+                } catch (error: Throwable) {
+                    menuUpdatesState.value = RecipeUpdateStatus.error(error, "Error fetching data");
+                }
+            }
         }
-        return menuUpdates;
     }
 }
