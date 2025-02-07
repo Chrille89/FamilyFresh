@@ -59,7 +59,7 @@ data class RecipeWriteDto (
     /**
      * 
      *
-     * Values: Kalorienarm,Fettarm,Eiweiß,Vegetarisch,Vegan,Schwein,Rind,Fisch,Thermomix,Airfryer,Express
+     * Values: Kalorienarm,Fettarm,Eiweiß,Vegetarisch,Vegan,Schwein,Rind,Geflügel,Fisch,Thermomix,Airfryer,Express
      */
     @Serializable
     enum class Labels(val value: kotlin.String) {
@@ -70,6 +70,7 @@ data class RecipeWriteDto (
         @SerialName(value = "Vegan") Vegan("Vegan"),
         @SerialName(value = "Schwein") Schwein("Schwein"),
         @SerialName(value = "Rind") Rind("Rind"),
+        @SerialName(value = "Geflügel") Geflügel("Geflügel"),
         @SerialName(value = "Fisch") Fisch("Fisch"),
         @SerialName(value = "Thermomix") Thermomix("Thermomix"),
         @SerialName(value = "Airfryer") Airfryer("Airfryer"),

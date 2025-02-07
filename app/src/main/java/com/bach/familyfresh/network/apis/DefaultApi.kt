@@ -77,11 +77,13 @@ open class DefaultApi : ApiClient {
 
 
     /**
-     * Delete all recipes.
-     * Delete all recipes.
-     * @return void
+     * Delete a specific recipe by id.
+     * Delete a specific recipe by id.
+     * @param id The Id of the recipe
+     * @return RecipeReadDto
      */
-    open suspend fun deleteAllRecipes(): HttpResponse<Unit> {
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun deleteRecipeById(id: kotlin.String): HttpResponse<RecipeReadDto> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -93,7 +95,7 @@ open class DefaultApi : ApiClient {
 
         val localVariableConfig = RequestConfig<kotlin.Any?>(
             RequestMethod.DELETE,
-            "/recipes",
+            "/recipes/{id}".replace("{" + "id" + "}", "$id"),
             query = localVariableQuery,
             headers = localVariableHeaders,
             requiresAuthentication = false,
@@ -190,6 +192,39 @@ open class DefaultApi : ApiClient {
             override fun deserialize(decoder: Decoder) = GetAllRecipesResponse(serializer.deserialize(decoder))
         }
     }
+
+    /**
+     * Return a specific recipe by id.
+     * Return a specific recipe by id.
+     * @param id The Id of the recipe
+     * @return RecipeReadDto
+     */
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun getRecipeById(id: kotlin.String): HttpResponse<RecipeReadDto> {
+
+        val localVariableAuthNames = listOf<String>()
+
+        val localVariableBody = 
+            io.ktor.client.utils.EmptyContent
+
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
+
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
+            RequestMethod.GET,
+            "/recipes/{id}".replace("{" + "id" + "}", "$id"),
+            query = localVariableQuery,
+            headers = localVariableHeaders,
+            requiresAuthentication = false,
+        )
+
+        return request(
+            localVariableConfig,
+            localVariableBody,
+            localVariableAuthNames
+        ).wrap()
+    }
+
 
     /**
      * Update the actual menu
