@@ -1,0 +1,103 @@
+{
+  "title":"Hähnchennfilets in Kräuterpanade",
+  "subtitle": "mit Fettuccine und selbstgemachten Pesto",
+  "labels":["Geflügel","Eiweiß","Thermomix","Airfryer"],
+  "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
+  "duration": 30,
+  "ingredients": [
+    {
+      "name": "Hähnchenbrustfilet",
+      "amount": 375,
+      "unit": "g"
+    },
+    {
+      "name": "Fettuccine",
+      "amount": 360,
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauchzehe",
+      "amount": 2,
+      "unit": "St"
+    },
+    {
+      "name": "Basilikum",
+      "amount": 5,
+      "unit": "g"
+    },
+    {
+      "name": "Oregano",
+      "amount": 5,
+      "unit": "g"
+    },
+    {
+      "name": "Basilikumpaste",
+      "amount": 39,
+      "unit": "ml"
+    },
+    {
+      "name": "Sonnenblumenkerne",
+      "amount": 20,
+      "unit": "g"
+    },
+    {
+      "name": "Geriebenen Hartkäse",
+      "amount": 60,
+      "unit": "g"
+    },
+    {
+      "name": "Mayonnaise",
+      "amount": 25,
+      "unit": "g"
+    },
+    {
+      "name": "Semmelbrösel",
+      "amount": 37.5,
+      "unit": "g"
+    },
+    {
+      "name": "Senf",
+      "amount": 15,
+      "unit": "ml"
+    },
+    {
+      "name": "Hühnerbrühe",
+      "amount": 6,
+      "unit": "g"
+    }
+  ],
+  "nutrients": [
+    {
+      "name": "Zucker",
+      "amount": 1.6 ,
+      "unit": "g"
+    },
+    {
+      "name": "Salz",
+      "amount": 1.02 ,
+      "unit": "g"
+    },
+    {
+      "name": "Eiweiß",
+      "amount": 15.8 ,
+      "unit": "g"
+    },
+    {
+      "name": "Gesättigte Fettsäuren",
+      "amount": 3,
+      "unit": "g"
+    }
+  ],
+  "preparation": [
+    "Oregano und Semmelbrösel in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
+    "Hähnchen in Streifen schneiden und mit Senf, Mayonnaise,Salz und Pfeffer vermengen",
+    "Semmelbrösel dazugeben, mischen und Hähnchen in Zone 1 des Airfryers geben",
+    "Hähnchen etwas ölen und im Airfryer 10 min. bei 200 °C frittieren",
+    "Sonnenblumenkerne rösten",
+    "Fettuccine in Salzwasser garen",
+    "Basilikum, Basilikumpaste, Knoblauch, Sonnenblumenkerne, geriebenen Hartkäse und Hühnerbrühe in den Mixtopf geben und 5 sek. Stufe 8 zerkleinern",
+    "45 g Ölivenöl, 1,5 TL Weißweinessig, 70 g kaltes Wasser, Salz und Pfeffer zugeben und 10 sek. Stufe 6 zu einem Pesto verrühren",
+    "Fettucine abgießen und mit Hähnchen und Pesto servieren",
+    "Airfryer und Thermomix reinigen"
+  ]
+}

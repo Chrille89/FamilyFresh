@@ -124,11 +124,11 @@ fun RecipeListScreen(
                                             Column(modifier.padding(horizontal = 5.dp)) {
                                                 Text(
                                                     recipe.title,
-                                                    style = MaterialTheme.typography.titleMedium
+                                                    style = MaterialTheme.typography.bodyMedium
                                                 )
                                                 Text(
                                                     recipe.subtitle ?: "",
-                                                    style = MaterialTheme.typography.titleSmall
+                                                    style = MaterialTheme.typography.bodySmall
                                                 )
                                             }
                                         }
