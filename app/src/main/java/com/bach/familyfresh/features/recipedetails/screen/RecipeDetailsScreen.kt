@@ -96,7 +96,7 @@ fun RecipeDetailsScreen(
                                         textAlign = TextAlign.Center
                                     )
                                     Text(
-                                        nutrient.amount.toString(),
+                                        nutrient.amount.toString()+nutrient.unit?.value,
                                         Modifier.fillMaxWidth(),
                                         style = MaterialTheme.typography.titleSmall,
                                         textAlign = TextAlign.Center
@@ -116,8 +116,8 @@ fun RecipeDetailsScreen(
                         verticalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
 
-                        recipe.preparation?.forEach { preparation ->
-                            Text(preparation)
+                        recipe.preparation?.forEachIndexed { index, preparation  ->
+                            Text((index+1).toString() +". "+ preparation)
                         }
                     }
                 }
