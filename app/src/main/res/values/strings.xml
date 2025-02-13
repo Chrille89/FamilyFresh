@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FamilyFresh</string>
+    <string name="title_actual_menu">Aktuelles Menü</string>
+    <string name="title_change_meals">Wähle 2 Gerichte aus</string>
+    <string name="description_actual_menu">Würfel links ein neues Menü oder wähle die Gerichte einzeln aus.</string>
+    <string name="tab_menus">Menüs</string>
+    <string name="tab_change_meals">Gerichte ändern</string>
+    <string name="tab_shopping_list">Einkaufsliste</string>
+    <string name="title_preparation">Zubereitung</string>
+    <string name="title_ingredients">Zutaten</string>
 </resources>

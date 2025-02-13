@@ -29,9 +29,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil3.compose.AsyncImage
+import com.bach.familyfresh.R
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.recipelist.viewmodel.RecipeListScreenViewModel
 import com.bach.familyfresh.features.recipelist.viewmodel.RecipeUpdateStatus
@@ -47,7 +49,7 @@ fun RecipeListScreen(
     Scaffold(
         topBar = {
             androidx.compose.material3.TopAppBar(
-                title = { Text("Wähle 2 Gerichte aus") },
+                title = { Text(stringResource(R.string.title_change_meals)) },
                 navigationIcon = {
                     IconButton(onClick = {
                         onClickBack()

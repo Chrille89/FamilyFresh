@@ -1,7 +1,5 @@
 package com.bach.familyfresh.features.shoppinglist.screen
 
-import android.util.Log
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -31,11 +29,8 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil3.compose.AsyncImage
 import com.bach.familyfresh.R
@@ -43,8 +38,6 @@ import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.features.actualmenu.views.TabBarItem
 import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.features.shoppinglist.viewmodel.ShoppingListScreenViewModel
-import com.bach.familyfresh.ui.theme.FamilyFreshTheme
-import org.openapitools.client.models.RecipeReadDto
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -58,7 +51,7 @@ fun ShoppingListScreen(
     Scaffold(
         topBar = {
         TopAppBar(
-            title = { Text("Einkaufsliste")},
+            title = { Text(stringResource(R.string.tab_shopping_list))},
             navigationIcon = {
                 IconButton(onClick = { onClickBack() }) {
                     Icon(Icons.AutoMirrored.Default.ArrowBack,null)
@@ -112,7 +105,7 @@ fun ShoppingListScreen(
 
             item {
                 Row(modifier.padding(horizontal = 10.dp).fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text("Zutaten", style = MaterialTheme.typography.headlineMedium )
+                    Text(stringResource(R.string.title_ingredients), style = MaterialTheme.typography.headlineMedium )
                 }
             }
 

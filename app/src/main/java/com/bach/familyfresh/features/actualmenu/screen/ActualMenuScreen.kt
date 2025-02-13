@@ -29,6 +29,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -61,8 +62,8 @@ fun ActualMenuScreen(
                 Column(
                     modifier = modifier.fillMaxWidth()
                 ) {
-                    Text("Aktuelles Menu", style = MaterialTheme.typography.titleLarge)
-                    Text("Würfel links ein neues Menü oder wähle die Gerichte einzeln aus.", style = MaterialTheme.typography.titleSmall)
+                    Text(stringResource(R.string.title_actual_menu), style = MaterialTheme.typography.titleLarge)
+                    Text(stringResource(R.string.description_actual_menu), style = MaterialTheme.typography.titleSmall)
                 }
             }, navigationIcon =  { IconButton(onClick = {
                 mMediaPlayer.start()
@@ -76,17 +77,17 @@ fun ActualMenuScreen(
         },
         bottomBar = {
             val menuTab = TabBarItem(
-                title = "Menüs",
+                title = stringResource(R.string.tab_menus),
                 selectedIcon = Icons.Filled.Home,
                 unselectedIcon = Icons.Outlined.Home
             )
             val changeMenuTab =  TabBarItem(
-                title = "Gerichte ändern",
+                title = stringResource(R.string.tab_change_meals),
                 selectedIcon = Icons.Filled.Home,
                 unselectedIcon = Icons.Outlined.Home
             )
             val shoppingListTab = TabBarItem(
-                title = "Einkaufsliste",
+                title = stringResource(R.string.tab_shopping_list),
                 selectedIcon = Icons.Filled.Notifications,
                 unselectedIcon = Icons.Outlined.Notifications,
                 badgeAmount = 7
