@@ -5,6 +5,7 @@
     <string name="description_actual_menu">Würfel links ein neues Menü oder wähle die Gerichte einzeln aus.</string>
     <string name="tab_menus">Menüs</string>
     <string name="tab_change_meals">Gerichte ändern</string>
+    <string name="tab_preparation">Zubereitung</string>
     <string name="tab_shopping_list">Einkaufsliste</string>
     <string name="title_preparation">Zubereitung</string>
     <string name="title_ingredients">Zutaten</string>

@@ -15,5 +15,5 @@ class Routes {
     data object RecipeListRoute
 
     @Serializable
-    data class ShoppingListRoute(var recipes: List<RecipeReadDto>)
+    data class ShoppingListRoute(var recipe: RecipeReadDto)
 }

@@ -44,46 +44,26 @@ import com.bach.familyfresh.features.shoppinglist.viewmodel.ShoppingListScreenVi
 fun ShoppingListScreen(
     modifier: Modifier = Modifier,
     shoppingListScreenViewModel: ShoppingListScreenViewModel = viewModel(),
-    onClickBack: () -> Unit) {
+    onClickBack: () -> Unit
+) {
     var selectedTabIndex by rememberSaveable { mutableIntStateOf(0) }
-    var recipe = shoppingListScreenViewModel.getRecipeByIndex(selectedTabIndex)
+    var recipe = shoppingListScreenViewModel.recipeState.value
 
     Scaffold(
         topBar = {
-        TopAppBar(
-            title = { Text(stringResource(R.string.tab_shopping_list))},
-            navigationIcon = {
-                IconButton(onClick = { onClickBack() }) {
-                    Icon(Icons.AutoMirrored.Default.ArrowBack,null)
-                }
-            }
-        )
-    },
-        bottomBar = {
-            BottomAppBar {
-                var tabBarItemShoppingListFirstRecipe = TabBarItem(
-                    shoppingListScreenViewModel.menuState.value[0].title,
-                    selectedIcon = Icons.Filled.ShoppingCart,
-                    unselectedIcon = Icons.Outlined.ShoppingCart)
-                var tabBarItemShoppingListSecondRecipe = TabBarItem(
-                    shoppingListScreenViewModel.menuState.value[1].title,
-                    selectedIcon = Icons.Filled.ShoppingCart,
-                    unselectedIcon = Icons.Outlined.ShoppingCart)
-                TabView(
-                    listOf(tabBarItemShoppingListFirstRecipe,tabBarItemShoppingListSecondRecipe),
-                    selectedTabIndex = selectedTabIndex) { title->
-                    if(selectedTabIndex == 0 && recipe.title != title) {
-                        selectedTabIndex = 1;
-                    } else if(selectedTabIndex == 1 && recipe.title != title){
-                        selectedTabIndex = 0;
+            TopAppBar(
+                title = { Text(stringResource(R.string.tab_shopping_list)) },
+                navigationIcon = {
+                    IconButton(onClick = { onClickBack() }) {
+                        Icon(Icons.AutoMirrored.Default.ArrowBack, null)
                     }
-                    recipe = shoppingListScreenViewModel.menuState.value[selectedTabIndex];
                 }
-            }
+            )
         }
-
-        ) { innerPadding ->
-        LazyColumn(modifier.padding(innerPadding).fillMaxSize()) {
+    ) { innerPadding ->
+        LazyColumn(modifier
+            .padding(innerPadding)
+            .fillMaxSize()) {
 
             item {
                 Card(
@@ -94,7 +74,7 @@ fun ShoppingListScreen(
                         recipe.title,
                         subTitle = recipe.subtitle ?: "",
                         labels = recipe.labels?.map { label -> label.value } ?: emptyList(),
-                        recipe.duration.toString() +" min"
+                        recipe.duration.toString() + " min"
                     )
                     AsyncImage(
                         model = recipe.image,
@@ -104,17 +84,24 @@ fun ShoppingListScreen(
             }
 
             item {
-                Row(modifier.padding(horizontal = 10.dp).fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text(stringResource(R.string.title_ingredients), style = MaterialTheme.typography.headlineMedium )
+                Row(
+                    modifier
+                        .padding(horizontal = 10.dp)
+                        .fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        stringResource(R.string.title_ingredients),
+                        style = MaterialTheme.typography.headlineMedium
+                    )
                 }
             }
 
-            items(recipe.ingredients ?: emptyList()) {
-                item ->
-                var checked by remember {   mutableStateOf(false)}
+            items(recipe.ingredients ?: emptyList()) { item ->
+                var checked by remember { mutableStateOf(false) }
                 Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Checkbox(checked, onCheckedChange = {checked = !checked})
-                    Text(item.amount.toString()+" "+item.unit?.value+" "+item.name)
+                    Checkbox(checked, onCheckedChange = { checked = !checked })
+                    Text(item.amount.toString() + " " + item.unit?.value + " " + item.name)
                 }
             }
         }

@@ -4,16 +4,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import org.openapitools.client.models.RecipeReadDto
 
-class ShoppingListScreenViewModel(private var menu: List<RecipeReadDto>) : ViewModel() {
+class ShoppingListScreenViewModel(private var recipe: RecipeReadDto) : ViewModel() {
 
-    var menuState = mutableStateOf(menu);
+    var recipeState = mutableStateOf(recipe);
 
-    fun getRecipeByIndex(index: Int): RecipeReadDto {
-        if (index < menu.size) {
-            return menuState.value[index]
-        } else {
-            // Exception
-        }
-        return menuState.value[0]
-    }
 }

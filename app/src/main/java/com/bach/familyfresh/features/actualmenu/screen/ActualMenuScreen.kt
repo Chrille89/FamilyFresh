@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Notifications
 import androidx.compose.material3.Card
@@ -26,10 +27,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -78,21 +81,22 @@ fun ActualMenuScreen(
         bottomBar = {
             val menuTab = TabBarItem(
                 title = stringResource(R.string.tab_menus),
-                selectedIcon = Icons.Filled.Home,
-                unselectedIcon = Icons.Outlined.Home
+                selectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px),
+                unselectedIcon = ImageVector.vectorResource(R.drawable.restaurant_24px)
             )
             val changeMenuTab =  TabBarItem(
                 title = stringResource(R.string.tab_change_meals),
-                selectedIcon = Icons.Filled.Home,
-                unselectedIcon = Icons.Outlined.Home
+                selectedIcon = ImageVector.vectorResource(R.drawable.change_circle_24px),
+                unselectedIcon = ImageVector.vectorResource(R.drawable.change_circle_24px)
             )
+            /*
             val shoppingListTab = TabBarItem(
                 title = stringResource(R.string.tab_shopping_list),
                 selectedIcon = Icons.Filled.Notifications,
                 unselectedIcon = Icons.Outlined.Notifications,
                 badgeAmount = 7
-            )
-            TabView(listOf(menuTab, changeMenuTab, shoppingListTab),selectedTabIndex) { tabTitle ->
+            )*/
+            TabView(listOf(menuTab, changeMenuTab),selectedTabIndex) { tabTitle ->
                 onClickTab(tabTitle,(actualMenuScreenViewModel.menus.value as ActualMenuScreenStatus.success).menus)
             }
         }

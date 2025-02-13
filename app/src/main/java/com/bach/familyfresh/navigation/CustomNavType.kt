@@ -27,24 +27,4 @@ object CustomNavType {
             bundle.putString(key,Json.encodeToString(value))
         }
     }
-
-    var recipeReadDtosNavType = object : NavType<List<RecipeReadDto>>(isNullableAllowed = false){
-        override fun get(bundle: Bundle, key: String): List<RecipeReadDto>? {
-            return Json.decodeFromString(bundle.getString(key) ?: "")
-        }
-
-        override fun parseValue(value: String): List<RecipeReadDto> {
-            return Json.decodeFromString(Uri.decode(value))
-        }
-
-        override fun serializeAsValue(value: List<RecipeReadDto>): String {
-            return Uri.encode(Json.encodeToString(value));
-        }
-
-        override fun put(bundle: Bundle, key: String, value: List<RecipeReadDto>) {
-            bundle.putString(key,Json.encodeToString(value))
-        }
-
-    }
-
 }

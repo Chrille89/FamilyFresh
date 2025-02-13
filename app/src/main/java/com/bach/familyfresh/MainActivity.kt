@@ -58,7 +58,6 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
             }, onClickTab = { title, menu ->
                 when(title) {
                      "Gerichte ändern" ->  navController.navigate(Routes.RecipeListRoute)
-                     "Einkaufsliste" ->  navController.navigate(Routes.ShoppingListRoute(menu))
                 }
                 }, selectedTabIndex = selectedTabIndex)
         }
@@ -68,7 +67,13 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
         )
         ) {
             val data = it.toRoute<Routes.RecipeDetailRoute>();
-            RecipeDetailsScreen(RecipeDetailsScreenViewModel(data.recipe)) {
+            RecipeDetailsScreen(
+                RecipeDetailsScreenViewModel(data.recipe),
+                onClickTab = { title, recipe ->
+                    if(title == "Einkaufsliste") {
+                        navController.navigate(Routes.ShoppingListRoute(recipe))
+                    }
+                }) {
                 navController.popBackStack()
                 selectedTabIndex = 0
             }
@@ -81,11 +86,11 @@ fun FamilyFreshApp(navController : NavHostController = rememberNavController()) 
         }
         composable<Routes.ShoppingListRoute> (
             typeMap = mapOf(
-                typeOf<List<RecipeReadDto>>() to CustomNavType.recipeReadDtosNavType
+                typeOf<RecipeReadDto>() to CustomNavType.recipeReadDtoNavType
             )
         ){
             val data = it.toRoute<Routes.ShoppingListRoute>()
-            ShoppingListScreen(shoppingListScreenViewModel = ShoppingListScreenViewModel(data.recipes)) {
+            ShoppingListScreen(shoppingListScreenViewModel = ShoppingListScreenViewModel(data.recipe)) {
                 navController.popBackStack()
             }
         }
