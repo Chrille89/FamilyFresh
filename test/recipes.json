@@ -1,0 +1,741 @@
+[
+  {
+    "id": "67a69ad56d570e5e9ed45921",
+    "title": "Hähnchennfilets in Kräuterpanade",
+    "subtitle": "mit Fettuccine und selbstgemachten Pesto",
+    "labels": [
+      "Geflügel",
+      "Eiweiß",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Fettuccine",
+        "amount": 360,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Basilikum",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Oregano",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Basilikumpaste",
+        "amount": 39,
+        "unit": "ml"
+      },
+      {
+        "name": "Sonnenblumenkerne",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Geriebenen Hartkäse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Semmelbrösel",
+        "amount": 37,
+        "unit": "g"
+      },
+      {
+        "name": "Senf",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 6,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 3,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Oregano und Semmelbrösel in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
+      "Hähnchen in Streifen schneiden und mit Senf, Mayonnaise,Salz und Pfeffer vermengen",
+      "Semmelbrösel dazugeben, mischen und Hähnchen in Zone 1 des Airfryers geben",
+      "Hähnchen etwas ölen und im Airfryer 10 min. bei 200 °C frittieren",
+      "Sonnenblumenkerne rösten",
+      "Fettuccine in Salzwasser garen",
+      "Basilikum, Basilikumpaste, Knoblauch, Sonnenblumenkerne, geriebenen Hartkäse und Hühnerbrühe in den Mixtopf geben und 5 sek. Stufe 8 zerkleinern",
+      "45 g Ölivenöl, 1,5 TL Weißweinessig, 70 g kaltes Wasser, Salz und Pfeffer zugeben und 10 sek. Stufe 6 zu einem Pesto verrühren",
+      "Fettucine abgießen und mit Hähnchen und Pesto servieren",
+      "Airfryer und Thermomix reinigen"
+    ]
+  },
+  {
+    "id": "67a69d436d570e5e9ed45922",
+    "title": "Schnitzel mit Ofenkartoffeln",
+    "subtitle": "dazu Dill-Gurkensalat und Tomatenmayonaise",
+    "labels": [
+      "Schwein",
+      "Eiweiß",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF210824_R05_W42_DE_FAM1800-18_KB_Main_low-a115d22f.jpg",
+    "duration": 40,
+    "ingredients": [
+      {
+        "name": "Schweineschnitzel",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Kartoffeln",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Tomate",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Gurke",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Dill",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Saure Sahne",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Weizenmehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Panko-Mehl",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Kartoffeln in Spalten schneiden, etwas ölen, würzen und in Zone 1 des Airfryers geben",
+      "Schnitzel plätten, würzen, zuerst in Mehl, dann in 2 verquirlten Eiern wälzen und anschließend mit Panko-Mehl panieren",
+      "Schnitzel in Zone 2 des Airfryers geben, etwas mit Öl bestreichen",
+      "Zone 1 auf 'Airfry' stellen und 20 min. wählen",
+      "Zone 2 auf 'Airfry' stellen und 12 min. wählen",
+      "Sync-Funktion aktivieren und Airfryer starten",
+      "Dill in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
+      "Gurke in Stücken, 1,5 EL Essig, 15 g Öl, Salz, Prise Zucker und Pfeffer dazugeben",
+      "Gurke 3 sek. Stufe 4,5 zerkleinern und umfüllen",
+      "Tomatenviertel, Mayonnaise, etwas saure Sahne, Salz und Pfeffer in den Mixtopf geben ud 5 sek. Stufe 7 zu einem Dip verrühren",
+      "Airfryer und Thermomix reinigen"
+    ]
+  },
+  {
+    "id": "67ae69026d570e5e9ed45923",
+    "title": "Frische Eierspätzle mit Bacon",
+    "subtitle": "in cremiger Tomaten-Porree-Soße",
+    "labels": [
+      "Schwein",
+      "Express",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/frische-eierspatzle-mit-bacon-1d3a5465-09d8d5d1.jpg",
+    "duration": 25,
+    "ingredients": [
+      {
+        "name": "Frische Eierspätzle",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Bacon",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "name": "Porree",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Zwiebeln",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Creme Fraiche",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatenpesto",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Hartkäse",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 4,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebeln und Knoblauchzehe 5 Sek. Stufe 5 zerkleinern und nach unten schieben.",
+      "Bacon in Streifen und 15g Öl dazugeben und 5 Min. 120°C Reverse Stufe 1 dünsten.",
+      "Porree in kleinen Scheiben zugeben und weitere 10 Min. 100°C Reverse Stufe 1 dünsten.",
+      "Creme Fraiche, 0,75 TL Hühnerbrühe, Tomatenpesto oder etwas Ketchup, 30g Wasser, Salz und Pfeffer zugeben und 5 Min. 95°C Reverse Stufe 1 garen.",
+      "Spätzle in etwas Öl in der Pfanne goldbraun anbraten, mit Soße ablöschen, abschmecken, mit Hartkäse garnieren und dann servieren."
+    ]
+  },
+  {
+    "id": "67b2521d6d570e5e9ed45924",
+    "title": "Feines gebratenes Lachsfilet auf Porreegemüse",
+    "subtitle": "mit käsigen Kartoffeln und Schnittlauch-Senf-Dip",
+    "labels": [
+      "Fisch",
+      "Airfryer"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R20_W30_DE_VP4558-1_Main_low-c7a5f54d.jpg",
+    "duration": 35,
+    "ingredients": [
+      {
+        "name": "Lachsfilet",
+        "amount": 450,
+        "unit": "g"
+      },
+      {
+        "name": "Kartoffeln",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Porree",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Petersilie/Schnittlauch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Saure Sahne",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Süßer Senf",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Hartkäse",
+        "amount": 40,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Kartoffeln und Zwiebeln schälen, in Scheiben schneiden, würzen und in Zone 1 des Airfryers geben.",
+      "Porree waschen, in Scheiben schneiden, etwas würzen und ölen und in Zone 2 des Airfryers geben.",
+      "Fisch waschen, würzen, in der Pfanne kurz anbraten und auf den Porree geben.",
+      "Zone 1 auf 200°C und 20 Minuten, Zone 2 auf 200°C und 10 Minuten stellen, Sync-Funktion aktivieren und Airfryer starten",
+      "Schnittlauch in Röllchen schneiden und mit saurer Sahne, süßen Senf, Salz und Pfeffer vermengen und als Dip servieren.",
+      "Kartoffeln mit Zwiebeln und Porree mit Fisch servieren und alles mit Petersilie bestreuen.",
+      "Airfryer reinigen und Küche aufräumen."
+    ]
+  },
+  {
+    "id": "67b3b82e6d570e5e9ed45925",
+    "title": "Chicken Bites mit Süßkartoffel-Bohnen-Salat",
+    "subtitle": "dazu Knoblauchdip",
+    "labels": [
+      "Geflügel",
+      "Eiweiß",
+      "Airfryer",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/chicken-bites-mit-suszkartoffel-bohnen-salat-944b57b5.jpg",
+    "duration": 40,
+    "ingredients": [
+      {
+        "name": "Süßkartoffel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Geriebener Hartkäse",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Panko-Mehl",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Bohnen",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Joghurt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Salatherz",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Senf",
+        "amount": 3,
+        "unit": "ml"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Süßkartoffel schälen, würfeln, ölen, würzen und in Zone 1 des Airfryers geben.",
+      "3 EL Mehl, Gewürze und 9 EL Wasser zu einem Teig verrühren.",
+      "Hähnchen in Streifen schneiden, im Teig wälzen und mit Panko-Mehl und geriebenen Hartkäse panieren.",
+      "Hähnchen in Zone 2 des Airfryers geben und auf 200°C für 15 Min. stellen.",
+      "Zone 1 auf 200°C für 20 Min. stellen, Sync-Funktion aktivieren und Airfryer starten.",
+      "2 EL Joghurt mit gehacktem Knoblauch in einer Schüssel mischen.",
+      "Restlichen Joghurt, 1,5 EL Senf, etwas Essig, 15g Olivenöl, Salz und Pfeffer in den Mixtopf geben.",
+      "Salatherzen zugeben und 5 Sek. Stufe 3,5 mithilfe des Spatels zerkleinern.",
+      "Bohnen kurz in der Pfanne anbraten und zusammen mit Süßkartoffel-Würfel unter den Salat in einer Schüssel heben.",
+      "Hähnchen darauf anrichten und mit Dip garnieren.",
+      "Airfryer reinigen und Küche aufräumen."
+    ]
+  },
+  {
+    "id": "67b503bb6d570e5e9ed45926",
+    "title": "Teriyaki-Hähnchen mit Kokosreis",
+    "subtitle": "Brokkoli, Karotte und Sesam",
+    "labels": [
+      "Geflügel",
+      "Eiweiß",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/601d488a5df88101fa189b37-e80b3067-c43a84ab.jpg",
+    "duration": 35,
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Jasminreis",
+        "amount": 225,
+        "unit": "g"
+      },
+      {
+        "name": "Brokkoli",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Karotte",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Frühlingszwiebel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Ingwer",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Limette",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Sesamsamen",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Kokosmilch",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "Sojasauce",
+        "amount": 37,
+        "unit": "ml"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 3,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Knoblauch und Ingwer im Mixtopf 3 Sek. Stufe 8 zerkleinern.",
+      "Sojasauce, 3 TL Honig und 75g Wasser zugeben, 10 Sek. Stufe 5 mischen und Teriyakisoße umfüllen.",
+      "Gemüse kleingeschnitten im Varomabehälter verteilen.",
+      "Hähnchenbrustfilet in Streifen auf den Einlegeboden verteilen.",
+      "Reis in den Gareinsatz geben, mit Wasser spülen und in den Mixtopf einsetzen.",
+      "1200g Wasser, 1,5 TL Salz und 5g Öl über den Reis geben, Gemüse und Fleisch einsetzen und 17 Min. Varoma Stufe 1 garen.",
+      "Sesamsamen kurz rösten.",
+      "Nach der Garzeit Reis umfüllen und mit warmer Kokosmilch und Salz begießen.",
+      "Frühlingszwiebel in etwas Öl anbraten, mit Teriyakisoße ablöschen und mit Gemüse und Fleisch vermengen.",
+      "Alles etwas köcheln lassen und mit Saft von Limettenspalten, Salz und Pfeffer abschmecken.",
+      "Reis mit Teriyaki-Hähnchen anrichten, mit Sesamsamen und Frühlingszwiebeln toppen und mit Limettenspalten genießen."
+    ]
+  },
+  {
+    "id": "67b644516d570e5e9ed45927",
+    "title": "Senfeier",
+    "subtitle": "mit Kartoffeln",
+    "labels": [
+      "Vegetarisch",
+      "Express",
+      "Eiweiß"
+    ],
+    "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/dj250q3n-3a6bc-658410-4a364-v5yxr4cn/e4c408ef-9cb7-4f0f-b055-9a27c2f5a788/main/eier-in-senfsosse-senfeier.jpg",
+    "duration": 25,
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebeln",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Eier",
+        "amount": 6,
+        "unit": "St"
+      },
+      {
+        "name": "Senf",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Essig",
+        "amount": 1,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Öl",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 1,
+        "unit": "Teelöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 17,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Kartoffeln schälen, kleinschneiden und in einem großen Topf in Salzwasser 25 Min. kochen.",
+      "In einem zweiten Topf Zwiebeln kleingeschnitten in Öl dünsten.",
+      "Mehlschwitze herstellen und mit Hühnerbrühe ablöschen.",
+      "Senf, Essig, Zucker, Salz und etwas Pfeffer zugeben, kurz aufkochen lassen und Soße warmhalten.",
+      "10 Min. vor Garende der Kartoffeln die Eier zu den Kartoffeln zugeben.",
+      "Eier abschrecken und Kartoffeln abgießen.",
+      "Eier pellen und zusammen mit Kartoffeln und Soße servieren (ggf. mit Petersilie garnieren).",
+      "Küche aufräumen."
+    ]
+  },
+  {
+    "id": "67bb8f896d570e5e9ed45928",
+    "title": "Zartes Lachsfilet mit grünem Spargel",
+    "subtitle": "in cremiger Zitronen-Soße",
+    "labels": [
+      "Fisch"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zartes-lachsfilet-mit-grunem-spargel-eb63f725.jpg",
+    "duration": 35,
+    "ingredients": [
+      {
+        "name": "Lachsfilet",
+        "amount": 450,
+        "unit": "g"
+      },
+      {
+        "name": "Grüner Spargel",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Fettuccine",
+        "amount": 360,
+        "unit": "g"
+      },
+      {
+        "name": "Kochsahne",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "St"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 8,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Fettuccine in reichlich Salzwasser 12 Min. bissfest kochen.",
+      "Lachsfilet waschen, etwas salzen, mit Zitronen-Saft beträufeln und 3 Min. je Seite in etwas Öl braten.",
+      "Lachsfilet aus der Pfanne nehmen, warmhalten und geschälten Spargel zusammen mit weißen Frühlingszwiebeln und Knoblauch hineingeben und 5 Min. braten.",
+      "Pfanneninhalt mit etwas Weißwein und 150 ml Gemüsebrühe ablöschen, Kochsahne, Zitronen-Saft, Salz und Pfeffer zugeben und 5 Min. köcheln lassen.",
+      "Lachsfilet vorsichtig zugeben und kurz erhitzen.",
+      "Fettuccine abgießen, zusammen mit Lachsfilet und Zitronen-Spargel-Soße anrichten und mit grünen Frühlingszwiebeln garnieren.",
+      "Küche aufräumen."
+    ]
+  }
+]
