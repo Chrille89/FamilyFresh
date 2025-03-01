@@ -737,5 +737,301 @@
       "Fettuccine abgießen, zusammen mit Lachsfilet und Zitronen-Spargel-Soße anrichten und mit grünen Frühlingszwiebeln garnieren.",
       "Küche aufräumen."
     ]
+  },
+  {
+    "id": "67be3b226d570e5e9ed45929",
+    "title": "Boulette mit Apfel-Speck-Soße",
+    "subtitle": "dazu cremiger Kartoffelstampf",
+    "labels": [
+      "Schwein",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/boulette-mit-apfel-speck-sosze-thermomix-0d28c8ae.jpg",
+    "duration": 40,
+    "ingredients": [
+      {
+        "name": "Gemischtes Hackfleisch",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Mehligkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Bacon",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Apfel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Muskatnuss",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "Kochsahne",
+        "amount": 225,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 3,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Etwas Petersilie im Mixtopf 3 Sek. Stufe 8 zerkleinern und nach unten schieben.",
+      "Hackfleisch zusammen mit 1 Ei, etwas Semmelbrösel, Senf, Salz und Pfeffer zugeben, 15 Sek. Stufe 5 mischen und daraus Bouletten formen.",
+      "Mixtopf spülen.",
+      "Rühraufsatz in den Mixtopf einsetzen, Kartoffeln schälen, in Scheiben schneiden und in den Mixtopf geben.",
+      "30g Sahne, 225g Wasser, 1 TL Salz und etwas Muskatnuss zugeben und 19 Min. 98°C Stufe 1 garen.",
+      "Bouletten 5 Min. je Seite in Öl anbraten und aus der Pfanne nehmen.",
+      "Zwiebeln, Bacon und Apfel in der Pfanne anbraten und mit restlicher Sahne und 100ml Wasser ablöschen.",
+      "Soße mit Salz, Pfeffer und Muskatnuss abschmecken und Bouletten darin erwärmen.",
+      "20g Butter zu den Kartoffeln geben und 20 Sek. Stufe 3 rühren.",
+      "Stampf und Bouletten auf Teller verteilen, mit Apfel-Speck-Soße anrichten und mit restlicher Petersilie bestreut genießen."
+    ]
+  },
+  {
+    "id": "67c0cc6c12451979946ee29a",
+    "title": "Fischfilet nach Art Bordelaise",
+    "subtitle": "mit Kartoffelstampf und Tomatensalat",
+    "labels": [
+      "Fisch",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/fischfilet-nach-art-bordelaise-259a600b.jpg",
+    "duration": 45,
+    "ingredients": [
+      {
+        "name": "Seehecht",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Semmelbrösel",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Dill/Petersilie",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Senf",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Butter",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Mehligkochende Kartoffeln",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 34,
+        "unit": "ml"
+      },
+      {
+        "name": "Joghurt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tomate",
+        "amount": 4,
+        "unit": "St"
+      },
+      {
+        "name": "Frühlingszwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Wasser",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 1,
+        "unit": "Teelöfel"
+      },
+      {
+        "name": "Milch",
+        "amount": 2,
+        "unit": "Esslöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "1 Zwiebel, Knoblauchzehe und Dill im Mixtopf 3 Sek. Stufe 8 zerkleinern und mit dem Spatel nach unten schieben.",
+      "Butter, Semmelbrösel und Senf zugeben, 5 Sek. Stufe 6 zerkleinern und umfüllen.",
+      "Für den Dip Petersilie und 1 Zwiebel im Mixtopf 5 Sek. Stufe 5 zerkleinern, mit Joghurt, Mayonnaise, Salz und Pfeffer mischen und umfüllen.",
+      "Rühraufsatz in den Mixtopf einsetzen, geschälte Kartoffeln in Scheiben hineingeben, 250g Wasser, 1 TL Salz und evtl. etwas Muskatnuss zugeben und 20 Min. 98 °C Stufe 1 garen.",
+      "Fisch waschen, salzen, evtl. halbieren, mit vorbereiteten Semmelbröseln toppen und ca. 12 Min. bei 200 °C im Airfryer backen.",
+      "Für den Salat Tomaten würfeln, mit Frühlingszwiebelringen vermengen und mit Salz und Pfeffer abschmecken.",
+      "Rühraufsatz aus dem Mixtopf entfernen, etwas Milch dazugeben und 20 Sek. Stufe 3 rühren.",
+      "Gebackenen Fisch evtl. mit Zitronen servieren, Kartoffelstampf, Tomatensalat und Dip dazureichen und genießen."
+    ]
+  },
+  {
+    "id": "67c3772512451979946ee29b",
+    "title": "BBQ Burritos mit Hackfleisch",
+    "subtitle": "schwarzen Bohnen, Salat und Knoblauchdressing",
+    "labels": [
+      "Express",
+      "Schwein",
+      "Eiweiß"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R04_W13_DE_L4529-1_Main_low-c9881c34.jpg",
+    "duration": 15,
+    "ingredients": [
+      {
+        "name": "Hackfleisch",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Weizentortillas",
+        "amount": 6,
+        "unit": "St"
+      },
+      {
+        "name": "Schwarze Bohnen",
+        "amount": 380,
+        "unit": "g"
+      },
+      {
+        "name": "Salatherz",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Joghurt",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 52,
+        "unit": "g"
+      },
+      {
+        "name": "BBQ-Soße",
+        "amount": 40,
+        "unit": "ml"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 3,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Hackfleisch und Zwiebel in Scheiben ohne Fettzugabe 4 Min. in einer Pfanne anbraten.",
+      "Aus Joghurt, Knoblauchzehen, Salz und Pfeffer ein Dressing herstellen und mit kleingeschnittenem Salatherz vermengen.",
+      "Tomatenmark, schwarzen Bohnen (gespült und abgetropft), BBQ-Soße, Paprikagewürz, Salz und Pfeffer in die Pfanne zugeben und 1 Min. mitbraten.",
+      "Weizentortillas kurz erwärmen, Hackfleischfüllung darauf verteilen und mit Salat toppen.",
+      "Seiten der Wraps links und rechts nach innen klappen, untere Seite nach oben über die Füllung klappen und fest aufrollen."
+    ]
   }
 ]
