@@ -1033,5 +1033,165 @@
       "Weizentortillas kurz erwärmen, Hackfleischfüllung darauf verteilen und mit Salat toppen.",
       "Seiten der Wraps links und rechts nach innen klappen, untere Seite nach oben über die Füllung klappen und fest aufrollen."
     ]
+  },
+  {
+    "id": "67c4bdaa12451979946ee29c",
+    "title": "Thüringer Rostbratwurst",
+    "subtitle": "mit Apfel-Sauerkraut und Kartoffel-Spinat-Stampf",
+    "labels": [
+      "Schwein",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/cipollata-bratwurstli-mit-feigen-senf-thermomix-5bee29e0-c277c195.jpg",
+    "duration": 45,
+    "ingredients": [
+      {
+        "name": "Thüringer Rostbratwurst",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Mildes Sauerkraut",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Senf",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Ofenkartoffel",
+        "amount": 5,
+        "unit": "St"
+      },
+      {
+        "name": "Apfel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Babyspinat",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 2,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Äpfel und Zwiebeln im Mixtopf 3 Sek. Stufe 5 zerkleinern, mit dem Spatel nach unten schieben und in etwas Öl 4 Min. 120 °C Stufe 1 dünsten.",
+      "Sauerkraut abgießen, in den Mixtopf zugeben, 5 Min. 100 °C Reverse Stufe 2 dünsten und in den Varomabehälter umfüllen.",
+      "Kartoffeln schälen, zerkleinern und in den Gareinsatz geben.",
+      "500 g Wasser in den Mixtopf geben, Gareinsatz und Varomabehälter aufsetzen und 27 Min. Varoma Stufe 1 garen.",
+      "5 Min. vor Ende der Garzeit Bratwürste braten.",
+      "Kartoffeln, 75 g Garflüssigkeit, 15 g Butter, Salz, Pfeffer und Muskatnuss in den Mixtopf geben und 10 Sek. Stufe 4 pürieren.",
+      "Spinat vorsichtig unterheben.",
+      "Bratwürste zusammen mit Kartoffel-Spinat-Stampf, Sauerkraut und etwas Senf anrichten und genießen."
+    ]
+  },
+  {
+    "id": "67ccb8eb12451979946ee29d",
+    "title": "Möhren-Kartoffel-Eintopf",
+    "subtitle": "",
+    "labels": [
+      "Schwein",
+      "Thermomix"
+    ],
+    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/FF2761A4-0A0C-47C2-A9C6-73BC93AC7FCE/Derivates/DF2DF905-1600-4CC9-89EA-61C592FD450E.jpg",
+    "duration": 40,
+    "ingredients": [
+      {
+        "name": "Zwiebel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Öl",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Speckwürfel",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Kartoffel",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Möhren",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Majoran",
+        "amount": 1,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Wasser",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 1,
+        "unit": "Teelöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kohlenhydrate",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 11,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebeln in den Mixtopf geben, 3 Sek./Stufe 5 zerkleinern und mit dem Spatel nach unten schieben.",
+      "Öl zugeben und 3 Min./120°C/Stufe 1 dünsten.",
+      "Speckwürfel, Kartoffeln, Möhren, Majoran, Zucker, Salz, Pfeffer, Wasser und Gewürzpaste zugeben und 25 Min./100°C/Stufe 1 garen, dann 4 Sek./Stufe 3 zerkleinern, in 4 Suppenteller geben und heiß servieren."
+    ]
   }
 ]
