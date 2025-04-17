@@ -1,114 +1,5 @@
 [
   {
-    "id": "67a69ad56d570e5e9ed45921",
-    "title": "Hähnchennfilets in Kräuterpanade",
-    "subtitle": "mit Fettuccine und selbstgemachten Pesto",
-    "labels": [
-      "Geflügel",
-      "Eiweiß",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Hähnchenbrustfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Fettuccine",
-        "amount": 360,
-        "unit": "g"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Basilikum",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Oregano",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Basilikumpaste",
-        "amount": 39,
-        "unit": "ml"
-      },
-      {
-        "name": "Sonnenblumenkerne",
-        "amount": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Geriebenen Hartkäse",
-        "amount": 60,
-        "unit": "g"
-      },
-      {
-        "name": "Mayonnaise",
-        "amount": 25,
-        "unit": "g"
-      },
-      {
-        "name": "Semmelbrösel",
-        "amount": 37,
-        "unit": "g"
-      },
-      {
-        "name": "Senf",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 6,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 15,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 3,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Oregano und Semmelbrösel in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
-      "Hähnchen in Streifen schneiden und mit Senf, Mayonnaise,Salz und Pfeffer vermengen",
-      "Semmelbrösel dazugeben, mischen und Hähnchen in Zone 1 des Airfryers geben",
-      "Hähnchen etwas ölen und im Airfryer 10 min. bei 200 °C frittieren",
-      "Sonnenblumenkerne rösten",
-      "Fettuccine in Salzwasser garen",
-      "Basilikum, Basilikumpaste, Knoblauch, Sonnenblumenkerne, geriebenen Hartkäse und Hühnerbrühe in den Mixtopf geben und 5 sek. Stufe 8 zerkleinern",
-      "45 g Ölivenöl, 1,5 TL Weißweinessig, 70 g kaltes Wasser, Salz und Pfeffer zugeben und 10 sek. Stufe 6 zu einem Pesto verrühren",
-      "Fettucine abgießen und mit Hähnchen und Pesto servieren",
-      "Airfryer und Thermomix reinigen"
-    ]
-  },
-  {
     "id": "67a69d436d570e5e9ed45922",
     "title": "Schnitzel mit Ofenkartoffeln",
     "subtitle": "dazu Dill-Gurkensalat und Tomatenmayonaise",
@@ -1192,6 +1083,678 @@
       "Zwiebeln in den Mixtopf geben, 3 Sek./Stufe 5 zerkleinern und mit dem Spatel nach unten schieben.",
       "Öl zugeben und 3 Min./120°C/Stufe 1 dünsten.",
       "Speckwürfel, Kartoffeln, Möhren, Majoran, Zucker, Salz, Pfeffer, Wasser und Gewürzpaste zugeben und 25 Min./100°C/Stufe 1 garen, dann 4 Sek./Stufe 3 zerkleinern, in 4 Suppenteller geben und heiß servieren."
+    ]
+  },
+  {
+    "id": "67d5eea612451979946ee29e",
+    "title": "Nudel-Möhren-Auflauf",
+    "subtitle": "",
+    "labels": [
+      "Vegetarisch",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C117860C-26FE-4C7C-B192-73D376A2816A/Derivates/37cd967c-d910-4401-a4af-a8c8c3731dcb.jpg",
+    "duration": 60,
+    "ingredients": [
+      {
+        "name": "Reibekäse",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebeln",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Möhren",
+        "amount": 450,
+        "unit": "g"
+      },
+      {
+        "name": "Rapsöl",
+        "amount": 1,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 1,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Kochsahne",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Wasser",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Kurze Nudeln",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Röstzwiebeln",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kohlenhydrate",
+        "amount": 69,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 26,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 45,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebeln und Möhren in den Mixtopf geben, 5 Sek./Stufe 4.5 zerkleinern und mit dem Spatel nach unten schieben.",
+      "Öl zugeben und 5 Min./120°C//Stufe 1 dünsten.",
+      "Gewürzpaste, Sahne, Wasser, Nudeln, Salz und Pfeffer zugeben und 2 Min./100°C//Stufe 1 aufkochen.",
+      "Die Hälfte der Mischung in eine Auflaufform (ca. 25 x 35 cm) geben, mit der Hälfte des Käses bestreuen und restliche Mischung darauf geben.",
+      "Den restlichen Käse und Röstzwiebeln mischen und auf dem Auflauf verteilen.",
+      "Den Auflauf 17 Minuten bei 180°C im Airfryer backen."
+    ]
+  },
+  {
+    "id": "67d9f77012451979946ee29f",
+    "title": "Klassische Pasta Bolognese mit Rinderhack",
+    "subtitle": "Karotte und geriebenem Hartkäse",
+    "labels": [
+      "Rind",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/klassische-pasta-bolognese-mit-rinderhack-bbacf739.jpg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Rinderhackfleisch",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Spaghetti oder Fettuccine",
+        "amount": 360,
+        "unit": "g"
+      },
+      {
+        "name": "Gehackte Tomaten",
+        "amount": 585,
+        "unit": "g"
+      },
+      {
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 105,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Geriebenen Hartkäse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Rinderbrühe",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Lorbeerblatt",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Italienische Kräuter",
+        "amount": 1,
+        "unit": "Teelöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "Ges. Fettsäuren",
+        "amount": 2,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebel und Knoblauchzehe im Thermomix 5 Sek. Stufe 5 zerkleinern und in etwas Öl 3 Min. 120°C Stufe 1 dünsten.",
+      "Geschälte Karotte in Stücken zugeben und 5 Sek. Stufe 5 zerkleinern.",
+      "Rinderhackfleisch zugeben und 8 Min. 100°C Reverse Stufe 1 dünsten.",
+      "Gehackte Tomaten, Rinderbrühe, Tomatenmark, etwas Rotwein, Lorbeerblatt, italienische Kräuter, 1 TL Zucker, Salz und Pfeffer in den Mixtopf zugeben, einmal umrühren und 11 Min. 100°C Reverse Stufe 1 kochen.",
+      "Pasta bissfest in Salzwasser garen.",
+      "Pasta mit Bolognesesoße und Hartkäse genießen."
+    ]
+  },
+  {
+    "id": "67db326312451979946ee2a0",
+    "title": "Klassisches Rindergulasch",
+    "subtitle": "mit Kartoffeln",
+    "labels": [
+      "Rind",
+      "Eiweiß",
+      "Thermomix"
+    ],
+    "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
+    "duration": 120,
+    "ingredients": [
+      {
+        "name": "Kartoffeln",
+        "amount": 700,
+        "unit": "g"
+      },
+      {
+        "name": "Rindergulasch",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Rinderfond",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Schalotten",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Trockener Rotwein",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Butterschmalz",
+        "amount": 3,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Paprikapulver, edelsüß",
+        "amount": 2,
+        "unit": "Teelöfel"
+      },
+      {
+        "name": "Majoran, getrocknet",
+        "amount": 1,
+        "unit": "Teelöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 19,
+        "unit": "g"
+      },
+      {
+        "name": "Ges. Fettsäuren",
+        "amount": 2,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Schalotten schälen, vierteln und in Butterschmalz im Schmortopf anbraten.",
+      "Schalotten beiseitestellen und Rindergulasch gewürfelt in Butterschmalz im Schmortopf portionsweise scharf anbraten, etwas salzen.",
+      "Schalotten und 40g Tomatenmark dazugeben und kurz anrösten.",
+      "Mit 200 ml trockenem Rotwein ablöschen und den Rotwein zu 2/3 verkochen lassen, sprich auf ungefähr 1/3 reduzieren.",
+      "1 Knoblauchzehe schälen und in feine Würfel schneiden.",
+      "Wenn der Rotwein reduziert ist, den Knoblauch, 2 TL Paprikapulver, 1/2 TL Majoran und 1 Messerspitze Cayennepfeffer hinzufügen und kurz unterrühren.",
+      "Das Fleisch und die Schalotten nun mit 400 ml Rinderfond ablöschen und mit Deckel für ca. 1,5 Stunden bei geringer Hitze auf der Herdplatte garen.",
+      "Kartoffeln schälen, kleinschneiden, in den Gareinsatz geben, etwas salzen und 25 Min. Varoma Stufe 1 dampfgaren.",
+      "Gulasch am Ende der Garzeit nach Belieben abschmecken und gegebenenfalls eindicken.",
+      "Gulasch mit Kartoffeln und eventuell Apfelrotkohl servieren."
+    ]
+  },
+  {
+    "id": "67e5cd0b12451979946ee2a1",
+    "title": "Hähnchenkeule mit Knollenselleriestampf",
+    "subtitle": "bunten Ofenkartoffeln und Balsamicosoße",
+    "labels": [
+      "Geflügel",
+      "Eiweiß",
+      "Thermomix"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchenkeule-mit-knollenselleriestampf-d25a9324.jpg",
+    "duration": 45,
+    "ingredients": [
+      {
+        "name": "Hähnchenkeule in Kräutermarinade",
+        "amount": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Balsamicocreme",
+        "amount": 24,
+        "unit": "g"
+      },
+      {
+        "name": "Mehligk. Kartoffeln",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Karotten",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Petersilie/Thymian",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Knollensellerie",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Milch",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Honig",
+        "amount": 12,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Ges. Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Petersilie im Mixtopf 3 Sek. Stufe 8 zerkleinern und umfüllen.",
+      "Zwiebeln und Knoblauchzehe im Mixtopf 5 Sek. Stufe 5 zerkleinern und in eine große Pfanne umfüllen.",
+      "Kartoffeln schälen, kleinschneiden und in den Gareinsatz geben.",
+      "Knollensellerie schälen, in Würfel schneiden und in den V-Behälter geben.",
+      "500g Wasser in den Mixtopf geben, Gareinsatz einsetzen, Varoma aufsetzen und 25 Min. Varoma Stufe 1 garen.",
+      "Hähnchenkeulen 25 Min. bei 200°C im Airfryer backen.",
+      "Karotten schälen, in Stifte schneiden, in eine Schüssel geben, mit gehackten Thymian, 1 EL Öl, Salz und Pfeffer vermengen und 17 Min. bei 180°C ebenfalls im Airfryer backen.",
+      "Zwiebel-Knoblauch-Mix in der Pfanne in Öl anbraten, mit 100 ml Garflüssigkeit ablöschen und Hühnerbrühe, Honig, Balsamicocreme, Salz und Pfeffer dazugeben.",
+      "Aus Kartoffeln, Knollensellerie, Milch, Salz und Pfeffer 5 Sek. Stufe 5 einen Stampf zubereiten.",
+      "Hähnchenkeulen zusammen mit Karotten servieren, Knollenselleriestampf und Balsamicosoße dazureichen und ggf. mit zerkleinerter Petersilie toppen."
+    ]
+  },
+  {
+    "id": "67e5cd6b12451979946ee2a2",
+    "title": "Hähnchenfilets in Kräuterpanade",
+    "subtitle": "mit Fettuccine und selbstgemachten Pesto",
+    "labels": [
+      "Geflügel",
+      "Eiweiß",
+      "Thermomix",
+      "Airfryer"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Fettuccine",
+        "amount": 360,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Basilikum",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Oregano",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Basilikumpaste",
+        "amount": 39,
+        "unit": "ml"
+      },
+      {
+        "name": "Sonnenblumenkerne",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Geriebenen Hartkäse",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Mayonnaise",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Semmelbrösel",
+        "amount": 37,
+        "unit": "g"
+      },
+      {
+        "name": "Senf",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 6,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 3,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Oregano und Semmelbrösel in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
+      "Hähnchen in Streifen schneiden und mit Senf, Mayonnaise,Salz und Pfeffer vermengen",
+      "Semmelbrösel dazugeben, mischen und Hähnchen in Zone 1 des Airfryers geben",
+      "Hähnchen etwas ölen und im Airfryer 10 min. bei 200 °C frittieren",
+      "Sonnenblumenkerne rösten",
+      "Fettuccine in Salzwasser garen",
+      "Basilikum, Basilikumpaste, Knoblauch, Sonnenblumenkerne, geriebenen Hartkäse und Hühnerbrühe in den Mixtopf geben und 5 sek. Stufe 8 zerkleinern",
+      "45 g Ölivenöl, 1,5 TL Weißweinessig, 70 g kaltes Wasser, Salz und Pfeffer zugeben und 10 sek. Stufe 6 zu einem Pesto verrühren",
+      "Fettucine abgießen und mit Hähnchen und Pesto servieren",
+      "Airfryer und Thermomix reinigen"
+    ]
+  },
+  {
+    "id": "67f588bf12451979946ee2a3",
+    "title": "Lachsfilet in Teriyakisoße",
+    "subtitle": "mit Sesamspinat und Avocado",
+    "labels": [
+      "Fisch",
+      "Express"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/lachsfilet-in-teriyakisosze-6ab6b850.jpg",
+    "duration": 15,
+    "ingredients": [
+      {
+        "name": "Lachsfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Frühlingszwiebel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Teriyakisoße",
+        "amount": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Basmatireis",
+        "amount": 225,
+        "unit": "g"
+      },
+      {
+        "name": "Limette",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Babyspinat",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Sesam",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "St"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Reis ca. 10 Min. kochen",
+      "In einer Pfanne Sesam und weiße Frühlingszwiebelringe in Öl 2 Min. anbraten",
+      "Spinat nach und nach dazugeben und mit Salz und Pfeffer würzen",
+      "Spinat aus der Pfanne nehmen und Lachsfilet auf jeder Seite ca. 3 Min. goldbraun braten (evtl. Öl nachfüllen)",
+      "Teriyakisoße, 100 ml Wasser, Saft von 2 Limettenspalten hinzufügen und alles ca. 2 Min. einköcheln lassen",
+      "Lachsfilet zusammen mit Sesamspinat servieren und Reis, Avocado und Frühlingszwiebelringe dazureichen"
+    ]
+  },
+  {
+    "id": "68015da812451979946ee2a4",
+    "title": "Saftiges Hähnchen-Paprika-Gulasch",
+    "subtitle": "dazu Konfetti-Mais-Reis und Joghurt",
+    "labels": [
+      "Express"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R35_W43_DE_R4899-1_Main__10low-f6e744e8.jpg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Reis",
+        "amount": 225,
+        "unit": "g"
+      },
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Paprika",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Mais",
+        "amount": 340,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 2,
+        "unit": "St"
+      },
+      {
+        "name": "Schnittlauch",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Kräuterbutter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 52,
+        "unit": "g"
+      },
+      {
+        "name": "Naturjoghurt",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Gulaschgewürz",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 6,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Reis ca. 10 Min. kochen",
+      "In einer Pfanne Zwiebel, Paprika und Hähnchenbrustfilet (in Streifen) in Öl 5 Min. scharf anbraten",
+      "Tomatenmark oder Ketchup, Gulaschgewürz und Hühnerbrühe zugeben und 1 Min. anschwitzen",
+      "Pfanneninhalt mit 1,5 TL Balsamicoessig, evtl. etwas Rotwein und 150ml Wasser ablöschen, aufkochen lassen und mit Salz, Pfeffer und etwas Zucker abschmecken",
+      "Mais (abgetropft) und Kräuterbutter unter den Reis geben und mit Salz und Pfeffer würzen",
+      "Konfetti-Mais-Reis und Hähnchen-Paprika-Gulasch servieren und Joghurt mit Schnittlauch (in Ringen) dazureichen"
     ]
   }
 ]
