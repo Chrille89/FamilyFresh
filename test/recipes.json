@@ -1661,10 +1661,92 @@
     ]
   },
   {
-    "id": "68015da812451979946ee2a4",
+    "id": "680a9fb512451979946ee2a5",
+    "title": "Hähnchen Piccata! in Kapern-Zitronen-Soße",
+    "subtitle": "dazu Bohnen und Kartoffeln",
+    "labels": [
+      "Geflügel",
+      "Thermomix",
+      "Kalorienarm"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchen-piccata-in-kapern-zitronen-sosze-c4304738.jpg",
+    "duration": 20,
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Kartoffeln",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Buschbohnen",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Kapern",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 2,
+        "unit": "St"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Enden der Bohnen abschneiden, Bohnen halbieren und in den Varomabehälter geben",
+      "Knoblauchzehen 3 Sek. Stufe 8 zerkleinern und zu den Bohnen geben",
+      "Bohnen salzen und pfeffern und Varomabehälter verschließen",
+      "Kartoffeln schälen, kleinschneiden und in den Gareinsatz geben",
+      "500g Wasser in den Mixtopf geben und Bohnen und Kartoffeln 9 Min. Varoma Stufe 1 vorgaren",
+      "Einlegeboden mit Backpapier auslegen, Hähnchenbrustfilets darauf verteilen, salzen und pfeffern, Einlegeboden einsetzen und 16 Min. Varoma Stufe 1 weitergaren (evtl. Hähnchen für Röstaromen vorher kurz anbraten)",
+      "Mehlschwitze herstellen, mit Hühnerbrühe ablöschen, Kapern und Zitronenschale (evtl. auch etwas Saft) hinzugeben und mit Salz, Pfeffer und einer Prise Zucker abschmecken",
+      "Hähnchenbrustfilets mit restlicher Zitrone garnieren, Kartoffeln, Kapern-Zitronen-Soße und Bohnen dazureichen und genießen"
+    ]
+  },
+  {
+    "id": "680aa09012451979946ee2a6",
     "title": "Saftiges Hähnchen-Paprika-Gulasch",
     "subtitle": "dazu Konfetti-Mais-Reis und Joghurt",
     "labels": [
+      "Geflügel",
       "Express"
     ],
     "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R35_W43_DE_R4899-1_Main__10low-f6e744e8.jpg",
