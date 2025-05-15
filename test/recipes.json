@@ -1838,5 +1838,79 @@
       "Mais (abgetropft) und Kräuterbutter unter den Reis geben und mit Salz und Pfeffer würzen",
       "Konfetti-Mais-Reis und Hähnchen-Paprika-Gulasch servieren und Joghurt mit Schnittlauch (in Ringen) dazureichen"
     ]
+  },
+  {
+    "id": "68263d0a12451979946ee2a7",
+    "title": "Würzig gebratenes Schweinelachssteak",
+    "subtitle": "mit Schupfnudeln und Rahmporree",
+    "labels": [
+      "Express",
+      "Schwein",
+      "Thermomix",
+      "Eiweiß"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/wurzig-gebratenes-schweinelachssteak-b56b0e40.jpg",
+    "duration": 25,
+    "ingredients": [
+      {
+        "name": "Schweinelachssteak",
+        "amount": 375,
+        "unit": "g"
+      },
+      {
+        "name": "Paprikapulver",
+        "amount": 4,
+        "unit": "g"
+      },
+      {
+        "name": "Kochsahne",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Porree",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Hühnerbrühe",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Schupfnudeln",
+        "amount": 600,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 3,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 1,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Porree als Ringe 6 Min. 100°C Stufe 1 reverse in Öl dünsten",
+      "Schweinelachssteak waschen, würzen, in Öl in der Pfanne 3 Min. je Seite braten, aus der Pfanne nehmen und warmhalten",
+      "Kochsahne, Hühnerbrühe, 50g Wasser, Salz und Pfeffer in den Mixtopf zugeben und 8 Min. 98°C Stufe 1 reverse kochen",
+      "Schupfnudeln in Öl in der Pfanne 6-8 Min. knusprig anbraten",
+      "Schweinelachssteak mit Schupfnudeln und Rahmporree anrichten"
+    ]
   }
 ]
