@@ -1912,5 +1912,114 @@
       "Schupfnudeln in Öl in der Pfanne 6-8 Min. knusprig anbraten",
       "Schweinelachssteak mit Schupfnudeln und Rahmporree anrichten"
     ]
+  },
+  {
+    "id": "6830d22b12451979946ee2a9",
+    "title": "Spargelwok",
+    "subtitle": "mit Schweinefilet",
+    "labels": [
+      "Schwein",
+      "Thermomix",
+      "Eiweiß"
+    ],
+    "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/36FDBEEC-86C6-4F07-8091-2F61121A562D/Derivates/8335B6D5-4064-4B2D-80F2-70A9F8591B4E.jpg",
+    "duration": 75,
+    "ingredients": [
+      {
+        "name": "Koriander",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Sesam",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Sojasauce",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Sambal Oelek",
+        "amount": 1,
+        "unit": "Teelöfel"
+      },
+      {
+        "name": "Sesamöl, geröstet",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Schweinefilet",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Wasser",
+        "amount": 540,
+        "unit": "g"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 1,
+        "unit": "Teelöfel"
+      },
+      {
+        "name": "Rote Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Rote Paprika",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Spargel",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Zuckerschoten",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Speisestärke",
+        "amount": 25,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kohlenhydrate",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 43,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 29,
+        "unit": "g"
+      },
+      {
+        "name": "Ballaststoffe",
+        "amount": 7,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Koriander, Sesam, Sojasauce, Sambal Oelek und Sesamöl in den Mixtopf geben, 10 Sek./Stufe 6 vermischen und in eine große Schüssel umfüllen.",
+      "Schweinefilet in die Schüssel zu der Marinade geben und 30 Minuten marinieren.",
+      "500 g Wasser, Gewürzpaste und Marinade in den Mixtopf geben, Gareinsatz einhängen und Schweinefiletscheiben hineingeben.",
+      "Varoma-Behälter aufsetzen, Zwiebel, Paprika, Thai-Spargel und Zuckerschoten in den Varoma einwiegen, verschließen und 18 Min./Varoma/Stufe 1 garen.",
+      "Gegartes Gemüse und Fleisch in eine Schüssel umfüllen und warm stellen.",
+      "Speisestärke und 40 g Wasser glatt verrühren, in den Mixtopf zugeben, 2 Min./90°C/Stufe 2 garen, abschmecken, zu der Gemüse-Fleisch-Mischung geben, mit dem Spatel vermischen und z.B. mit Reis servieren."
+    ]
   }
 ]
