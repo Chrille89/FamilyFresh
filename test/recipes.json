@@ -2021,5 +2021,102 @@
       "Gegartes Gemüse und Fleisch in eine Schüssel umfüllen und warm stellen.",
       "Speisestärke und 40 g Wasser glatt verrühren, in den Mixtopf zugeben, 2 Min./90°C/Stufe 2 garen, abschmecken, zu der Gemüse-Fleisch-Mischung geben, mit dem Spatel vermischen und z.B. mit Reis servieren."
     ]
+  },
+  {
+    "id": "6859ae1f12451979946ee2aa",
+    "title": "Mezze Rinderhackpfanne auf Tomatenreis",
+    "subtitle": "dazu Hirtenkäse und Zaziki",
+    "labels": [
+      "Rind",
+      "Eiweiß",
+      "Thermomix",
+      "Express"
+    ],
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/64ccdd8f6c6eb9d59f0c70d7-d9ad5415-7d5c02ec.jpeg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Rinderhackfleisch",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Hirtenkäse",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Basmatireis",
+        "amount": 225,
+        "unit": "g"
+      },
+      {
+        "name": "Naturjoghurt",
+        "amount": 225,
+        "unit": "g"
+      },
+      {
+        "name": "Salatgurke",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Karotte",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 3,
+        "unit": "St"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 70,
+        "unit": "g"
+      },
+      {
+        "name": "Gewürzmischung Hackfleisch",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gewürzmischung Paprika",
+        "amount": 6,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Zucker",
+        "amount": 2,
+        "unit": "g"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 6,
+        "unit": "g"
+      },
+      {
+        "name": "Gesättigte Fettsäuren",
+        "amount": 2,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Knoblauch 3 Sek. Stufe 8 zerkleinern und die Hälfte umfüllen.",
+      "Gurke entkernen, in den Mixtopf zugeben und 5 Sek. Stufe 5 zerkleinern.",
+      "Gurke und Knoblauch umfüllen, gut abtropfen lassen, mit Joghurt mischen und mit Salz und Pfeffer würzen.",
+      "Karotte 5 Sek. Stufe 5 zerkleinern, zusammen mit Reis in den Gareinsatz geben und 18 Min. Varoma Stufe 1 dampfgaren (bei 1200g Wasser).",
+      "Rinderhackfleisch und Knoblauch in der Pfanne in Öl krümelig anbraten und mit Gewürzmischung Hackfleisch würzen.",
+      "Nach dem Dampfgaren den Reis abgedeckt ziehen lassen und Garflüssigkeit auffangen.",
+      "150g Garflüssigkeit, Tomatenmark und Gewürzmischung Paprika in den Mixtopf geben und 4 Min. 100°C Reverse Stufe 1 erwärmen.",
+      "Reis und Tomatensoße vermengen, abschmecken und zusammen mit Rinderhackfleisch, Zaziki und Hirtenkäse servieren."
+    ]
   }
 ]
