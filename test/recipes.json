@@ -2118,5 +2118,429 @@
       "150g Garflüssigkeit, Tomatenmark und Gewürzmischung Paprika in den Mixtopf geben und 4 Min. 100°C Reverse Stufe 1 erwärmen.",
       "Reis und Tomatensoße vermengen, abschmecken und zusammen mit Rinderhackfleisch, Zaziki und Hirtenkäse servieren."
     ]
+  },
+  {
+    "id": "6872eceda35af516b14756d7",
+    "title": "Grüner Power-Bowl mit Quinoa und Avocado",
+    "subtitle": "Cholesterinsenkende Superfoods aus dem Thermomix",
+    "labels": [
+      "Kalorienarm",
+      "Fettarm",
+      "Vegetarisch",
+      "Thermomix"
+    ],
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800",
+    "duration": 25,
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Brokkoli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Babyspinat",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Kichererbsen (gekocht)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Olivenöl, extra vergine",
+        "amount": 1,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Zitrone (Saft)",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Petersilie, frisch",
+        "amount": 10,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kalorien",
+        "amount": 450,
+        "unit": "kcal"
+      },
+      {
+        "name": "Fett",
+        "amount": 18,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "Ballaststoffe",
+        "amount": 12,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Quinoa 10 Sek. / Stufe 8 mahlen, dann mit 300 ml Wasser 15 Min. / 100 °C / Stufe 1 garen, in den Varoma geben und zur Seite stellen.",
+      "Brokkoli in Röschen teilen, in den Varoma legen.",
+      "500 ml Wasser in den Mixtopf geben, Varoma aufsetzen, 15 Min. / Varoma / Stufe 1 dampfgaren.",
+      "In der Zwischenzeit Avocado würfeln, Zitrone auspressen, Babyspinat waschen.",
+      "Knoblauch und Petersilie 5 Sek. / Stufe 7 hacken, dann mit Zitronensaft und Olivenöl 10 Sek. / Stufe 3 mischen.",
+      "Alle Zutaten in einer Bowl anrichten, Dressing darübergeben."
+    ]
+  },
+  {
+    "id": "6872ee81a35af516b14756d8",
+    "title": "Mediterraner Linsensalat",
+    "subtitle": "Mit Kichererbsen, Tomaten und Tahin-Dressing",
+    "labels": [
+      "Vegan",
+      "Fettarm",
+      "Kalorienarm",
+      "Thermomix"
+    ],
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "duration": 25,
+    "ingredients": [
+      {
+        "name": "grüne Linsen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Kichererbsen (gekocht)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Kirschtomaten",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Gurke",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Tahin",
+        "amount": 2,
+        "unit": "Esslöfel"
+      },
+      {
+        "name": "Zitrone",
+        "amount": 1,
+        "unit": "St"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kalorien",
+        "amount": 320,
+        "unit": "kcal"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 18,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 8,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Linsen im Thermomix 20 Min bei 100°C garen.",
+      "Gurke, Tomaten, Kichererbsen zerkleinern und mischen.",
+      "Tahin mit Zitronensaft und Wasser verrühren.",
+      "Alles vermengen und servieren."
+    ]
+  },
+  {
+    "id": "6872ee81a35af516b14756d9",
+    "title": "Grünes Gemüse-Curry",
+    "subtitle": "Mit Brokkoli, Spinat und Kokosmilch",
+    "labels": [
+      "Vegan",
+      "Fettarm",
+      "Kalorienarm",
+      "Thermomix"
+    ],
+    "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Brokkoli",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Spinat (frisch)",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Kokosmilch (light)",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauchzehe",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Currypaste (grün)",
+        "amount": 1,
+        "unit": "Esslöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kalorien",
+        "amount": 290,
+        "unit": "kcal"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 9,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebel und Knoblauch im Thermomix 5 Sek/Stufe 5 zerkleinern.",
+      "Currypaste und Gemüse zugeben, 5 Min/Varoma dünsten.",
+      "Mit Kokosmilch auffüllen, 15 Min bei 100°C garen.",
+      "Spinat einrühren und servieren."
+    ]
+  },
+  {
+    "id": "6872ee81a35af516b14756da",
+    "title": "Cholesterin-Porridge",
+    "subtitle": "Mit Haferflocken, Chia und Beeren",
+    "labels": [
+      "Vegan",
+      "Kalorienarm",
+      "Fettarm",
+      "Thermomix"
+    ],
+    "image": "https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg",
+    "duration": 10,
+    "ingredients": [
+      {
+        "name": "Haferflocken",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Chiasamen",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Pflanzenmilch",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Beerenmix",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Zimt",
+        "amount": 0,
+        "unit": "Teelöfel"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kalorien",
+        "amount": 270,
+        "unit": "kcal"
+      },
+      {
+        "name": "Ballaststoffe",
+        "amount": 8,
+        "unit": "g"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 9,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Alle Zutaten außer Beeren im Thermomix 5 Min/90°C/Stufe 2 kochen.",
+      "Beeren zugeben und 1 Min/Stufe 1 unterrühren.",
+      "In Schüssel geben, mit Zimt bestreuen."
+    ]
+  },
+  {
+    "id": "6872ee81a35af516b14756db",
+    "title": "Kichererbsen-Falafel",
+    "subtitle": "Mit Kräutern und fettarmem Joghurtdip",
+    "labels": [
+      "Vegetarisch",
+      "Eiweiß",
+      "Fettarm",
+      "Thermomix"
+    ],
+    "image": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+    "duration": 35,
+    "ingredients": [
+      {
+        "name": "Kichererbsen (gekocht)",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Petersilie",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Haferflocken",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Naturjoghurt (0,1%)",
+        "amount": 100,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kalorien",
+        "amount": 340,
+        "unit": "kcal"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 16,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 7,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Zwiebel, Knoblauch, Petersilie im Thermomix zerkleinern.",
+      "Kichererbsen und Haferflocken zugeben und mixen.",
+      "Bällchen formen, im Ofen 20 Min backen.",
+      "Mit Joghurtdip servieren."
+    ]
+  },
+  {
+    "id": "6872ee81a35af516b14756dc",
+    "title": "Avocado-Bohnen-Bowl",
+    "subtitle": "Mit Quinoa und Limetten-Vinaigrette",
+    "labels": [
+      "Vegan",
+      "Kalorienarm",
+      "Fettarm",
+      "Thermomix"
+    ],
+    "image": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
+    "duration": 30,
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Avocado",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Schwarze Bohnen",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Mais",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Limette",
+        "amount": 1,
+        "unit": "St"
+      },
+      {
+        "name": "Rucola",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "nutrients": [
+      {
+        "name": "Kalorien",
+        "amount": 380,
+        "unit": "kcal"
+      },
+      {
+        "name": "Eiweiß",
+        "amount": 14,
+        "unit": "g"
+      },
+      {
+        "name": "Fett",
+        "amount": 11,
+        "unit": "g"
+      }
+    ],
+    "preparation": [
+      "Quinoa im Thermomix 20 Min/100°C garen.",
+      "Bohnen, Mais, Rucola und Avocado schneiden.",
+      "Vinaigrette aus Limettensaft und Gewürzen mixen.",
+      "Alles in einer Bowl anrichten."
+    ]
   }
 ]

@@ -44,17 +44,17 @@ open class DefaultApi : ApiClient {
     ): super(baseUrl = baseUrl, httpClient = httpClient)
 
     /**
-     * Create a recipe.
-     * Create a recipe.
-     * @param recipeWriteDto Recipe in JSON format.
-     * @return RecipeReadDto
+     * Create recipes.
+     * Create recipes.
+     * @param recipeWriteDto Recipes in JSON array format.
+     * @return kotlin.collections.List<RecipeReadDto>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun createRecipe(recipeWriteDto: RecipeWriteDto): HttpResponse<RecipeReadDto> {
+    open suspend fun createRecipes(recipeWriteDto: kotlin.collections.List<RecipeWriteDto>): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
         val localVariableAuthNames = listOf<String>()
 
-        val localVariableBody = recipeWriteDto
+        val localVariableBody = CreateRecipesRequest(recipeWriteDto)
 
         val localVariableQuery = mutableMapOf<String, List<String>>()
         val localVariableHeaders = mutableMapOf<String, String>()
@@ -71,10 +71,27 @@ open class DefaultApi : ApiClient {
             localVariableConfig,
             localVariableBody,
             localVariableAuthNames
-        ).wrap()
+        ).wrap<CreateRecipesResponse>().map { value }
     }
 
-
+    @Serializable(CreateRecipesRequest.Companion::class)
+    private class CreateRecipesRequest(val value: List<RecipeWriteDto>) {
+        companion object : KSerializer<CreateRecipesRequest> {
+            private val serializer: KSerializer<List<RecipeWriteDto>> = serializer<List<RecipeWriteDto>>()
+            override val descriptor = serializer.descriptor
+            override fun serialize(encoder: Encoder, value: CreateRecipesRequest) = serializer.serialize(encoder, value.value)
+            override fun deserialize(decoder: Decoder) = CreateRecipesRequest(serializer.deserialize(decoder))
+        }
+    }
+    @Serializable(CreateRecipesResponse.Companion::class)
+    private class CreateRecipesResponse(val value: List<RecipeReadDto>) {
+        companion object : KSerializer<CreateRecipesResponse> {
+            private val serializer: KSerializer<List<RecipeReadDto>> = serializer<List<RecipeReadDto>>()
+            override val descriptor = serializer.descriptor
+            override fun serialize(encoder: Encoder, value: CreateRecipesResponse) = serializer.serialize(encoder, value.value)
+            override fun deserialize(decoder: Decoder) = CreateRecipesResponse(serializer.deserialize(decoder))
+        }
+    }
 
     /**
      * Delete a specific recipe by id.
