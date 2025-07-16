@@ -1,2546 +1,2703 @@
 [
-  {
-    "id": "67a69d436d570e5e9ed45922",
-    "title": "Schnitzel mit Ofenkartoffeln",
-    "subtitle": "dazu Dill-Gurkensalat und Tomatenmayonaise",
-    "labels": [
-      "Schwein",
-      "Eiweiß",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF210824_R05_W42_DE_FAM1800-18_KB_Main_low-a115d22f.jpg",
-    "duration": 40,
-    "ingredients": [
-      {
-        "name": "Schweineschnitzel",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Kartoffeln",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Tomate",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Gurke",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Dill",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Saure Sahne",
-        "amount": 75,
-        "unit": "g"
-      },
-      {
-        "name": "Mayonnaise",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Weizenmehl",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Panko-Mehl",
-        "amount": 50,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 7,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Kartoffeln in Spalten schneiden, etwas ölen, würzen und in Zone 1 des Airfryers geben",
-      "Schnitzel plätten, würzen, zuerst in Mehl, dann in 2 verquirlten Eiern wälzen und anschließend mit Panko-Mehl panieren",
-      "Schnitzel in Zone 2 des Airfryers geben, etwas mit Öl bestreichen",
-      "Zone 1 auf 'Airfry' stellen und 20 min. wählen",
-      "Zone 2 auf 'Airfry' stellen und 12 min. wählen",
-      "Sync-Funktion aktivieren und Airfryer starten",
-      "Dill in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
-      "Gurke in Stücken, 1,5 EL Essig, 15 g Öl, Salz, Prise Zucker und Pfeffer dazugeben",
-      "Gurke 3 sek. Stufe 4,5 zerkleinern und umfüllen",
-      "Tomatenviertel, Mayonnaise, etwas saure Sahne, Salz und Pfeffer in den Mixtopf geben ud 5 sek. Stufe 7 zu einem Dip verrühren",
-      "Airfryer und Thermomix reinigen"
-    ]
-  },
-  {
-    "id": "67ae69026d570e5e9ed45923",
-    "title": "Frische Eierspätzle mit Bacon",
-    "subtitle": "in cremiger Tomaten-Porree-Soße",
-    "labels": [
-      "Schwein",
-      "Express",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/frische-eierspatzle-mit-bacon-1d3a5465-09d8d5d1.jpg",
-    "duration": 25,
-    "ingredients": [
-      {
-        "name": "Frische Eierspätzle",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Bacon",
-        "amount": 125,
-        "unit": "g"
-      },
-      {
-        "name": "Porree",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Zwiebeln",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Creme Fraiche",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Tomatenpesto",
-        "amount": 25,
-        "unit": "g"
-      },
-      {
-        "name": "Hartkäse",
-        "amount": 60,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 4,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebeln und Knoblauchzehe 5 Sek. Stufe 5 zerkleinern und nach unten schieben.",
-      "Bacon in Streifen und 15g Öl dazugeben und 5 Min. 120°C Reverse Stufe 1 dünsten.",
-      "Porree in kleinen Scheiben zugeben und weitere 10 Min. 100°C Reverse Stufe 1 dünsten.",
-      "Creme Fraiche, 0,75 TL Hühnerbrühe, Tomatenpesto oder etwas Ketchup, 30g Wasser, Salz und Pfeffer zugeben und 5 Min. 95°C Reverse Stufe 1 garen.",
-      "Spätzle in etwas Öl in der Pfanne goldbraun anbraten, mit Soße ablöschen, abschmecken, mit Hartkäse garnieren und dann servieren."
-    ]
-  },
-  {
-    "id": "67b2521d6d570e5e9ed45924",
-    "title": "Feines gebratenes Lachsfilet auf Porreegemüse",
-    "subtitle": "mit käsigen Kartoffeln und Schnittlauch-Senf-Dip",
-    "labels": [
-      "Fisch",
-      "Airfryer"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R20_W30_DE_VP4558-1_Main_low-c7a5f54d.jpg",
-    "duration": 35,
-    "ingredients": [
-      {
-        "name": "Lachsfilet",
-        "amount": 450,
-        "unit": "g"
-      },
-      {
-        "name": "Kartoffeln",
-        "amount": 1000,
-        "unit": "g"
-      },
-      {
-        "name": "Porree",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Petersilie/Schnittlauch",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Saure Sahne",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Süßer Senf",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "Hartkäse",
-        "amount": 40,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Kartoffeln und Zwiebeln schälen, in Scheiben schneiden, würzen und in Zone 1 des Airfryers geben.",
-      "Porree waschen, in Scheiben schneiden, etwas würzen und ölen und in Zone 2 des Airfryers geben.",
-      "Fisch waschen, würzen, in der Pfanne kurz anbraten und auf den Porree geben.",
-      "Zone 1 auf 200°C und 20 Minuten, Zone 2 auf 200°C und 10 Minuten stellen, Sync-Funktion aktivieren und Airfryer starten",
-      "Schnittlauch in Röllchen schneiden und mit saurer Sahne, süßen Senf, Salz und Pfeffer vermengen und als Dip servieren.",
-      "Kartoffeln mit Zwiebeln und Porree mit Fisch servieren und alles mit Petersilie bestreuen.",
-      "Airfryer reinigen und Küche aufräumen."
-    ]
-  },
-  {
-    "id": "67b3b82e6d570e5e9ed45925",
-    "title": "Chicken Bites mit Süßkartoffel-Bohnen-Salat",
-    "subtitle": "dazu Knoblauchdip",
-    "labels": [
-      "Geflügel",
-      "Eiweiß",
-      "Airfryer",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/chicken-bites-mit-suszkartoffel-bohnen-salat-944b57b5.jpg",
-    "duration": 40,
-    "ingredients": [
-      {
-        "name": "Süßkartoffel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Hähnchenbrustfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Geriebener Hartkäse",
-        "amount": 40,
-        "unit": "g"
-      },
-      {
-        "name": "Panko-Mehl",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Bohnen",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Joghurt",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Salatherz",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Senf",
-        "amount": 3,
-        "unit": "ml"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 8,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Süßkartoffel schälen, würfeln, ölen, würzen und in Zone 1 des Airfryers geben.",
-      "3 EL Mehl, Gewürze und 9 EL Wasser zu einem Teig verrühren.",
-      "Hähnchen in Streifen schneiden, im Teig wälzen und mit Panko-Mehl und geriebenen Hartkäse panieren.",
-      "Hähnchen in Zone 2 des Airfryers geben und auf 200°C für 15 Min. stellen.",
-      "Zone 1 auf 200°C für 20 Min. stellen, Sync-Funktion aktivieren und Airfryer starten.",
-      "2 EL Joghurt mit gehacktem Knoblauch in einer Schüssel mischen.",
-      "Restlichen Joghurt, 1,5 EL Senf, etwas Essig, 15g Olivenöl, Salz und Pfeffer in den Mixtopf geben.",
-      "Salatherzen zugeben und 5 Sek. Stufe 3,5 mithilfe des Spatels zerkleinern.",
-      "Bohnen kurz in der Pfanne anbraten und zusammen mit Süßkartoffel-Würfel unter den Salat in einer Schüssel heben.",
-      "Hähnchen darauf anrichten und mit Dip garnieren.",
-      "Airfryer reinigen und Küche aufräumen."
-    ]
-  },
-  {
-    "id": "67b503bb6d570e5e9ed45926",
-    "title": "Teriyaki-Hähnchen mit Kokosreis",
-    "subtitle": "Brokkoli, Karotte und Sesam",
-    "labels": [
-      "Geflügel",
-      "Eiweiß",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/601d488a5df88101fa189b37-e80b3067-c43a84ab.jpg",
-    "duration": 35,
-    "ingredients": [
-      {
-        "name": "Hähnchenbrustfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Jasminreis",
-        "amount": 225,
-        "unit": "g"
-      },
-      {
-        "name": "Brokkoli",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Karotte",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Frühlingszwiebel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Ingwer",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Limette",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Sesamsamen",
-        "amount": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Kokosmilch",
-        "amount": 250,
-        "unit": "ml"
-      },
-      {
-        "name": "Sojasauce",
-        "amount": 37,
-        "unit": "ml"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 8,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 8,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 3,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Knoblauch und Ingwer im Mixtopf 3 Sek. Stufe 8 zerkleinern.",
-      "Sojasauce, 3 TL Honig und 75g Wasser zugeben, 10 Sek. Stufe 5 mischen und Teriyakisoße umfüllen.",
-      "Gemüse kleingeschnitten im Varomabehälter verteilen.",
-      "Hähnchenbrustfilet in Streifen auf den Einlegeboden verteilen.",
-      "Reis in den Gareinsatz geben, mit Wasser spülen und in den Mixtopf einsetzen.",
-      "1200g Wasser, 1,5 TL Salz und 5g Öl über den Reis geben, Gemüse und Fleisch einsetzen und 17 Min. Varoma Stufe 1 garen.",
-      "Sesamsamen kurz rösten.",
-      "Nach der Garzeit Reis umfüllen und mit warmer Kokosmilch und Salz begießen.",
-      "Frühlingszwiebel in etwas Öl anbraten, mit Teriyakisoße ablöschen und mit Gemüse und Fleisch vermengen.",
-      "Alles etwas köcheln lassen und mit Saft von Limettenspalten, Salz und Pfeffer abschmecken.",
-      "Reis mit Teriyaki-Hähnchen anrichten, mit Sesamsamen und Frühlingszwiebeln toppen und mit Limettenspalten genießen."
-    ]
-  },
-  {
-    "id": "67b644516d570e5e9ed45927",
-    "title": "Senfeier",
-    "subtitle": "mit Kartoffeln",
-    "labels": [
-      "Vegetarisch",
-      "Express",
-      "Eiweiß"
-    ],
-    "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/dj250q3n-3a6bc-658410-4a364-v5yxr4cn/e4c408ef-9cb7-4f0f-b055-9a27c2f5a788/main/eier-in-senfsosse-senfeier.jpg",
-    "duration": 25,
-    "ingredients": [
-      {
-        "name": "Kartoffeln",
-        "amount": 700,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebeln",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Eier",
-        "amount": 6,
-        "unit": "St"
-      },
-      {
-        "name": "Senf",
-        "amount": 100,
-        "unit": "ml"
-      },
-      {
-        "name": "Essig",
-        "amount": 1,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Öl",
-        "amount": 50,
-        "unit": "ml"
-      },
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 1,
-        "unit": "Teelöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 12,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 17,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 10,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Kartoffeln schälen, kleinschneiden und in einem großen Topf in Salzwasser 25 Min. kochen.",
-      "In einem zweiten Topf Zwiebeln kleingeschnitten in Öl dünsten.",
-      "Mehlschwitze herstellen und mit Hühnerbrühe ablöschen.",
-      "Senf, Essig, Zucker, Salz und etwas Pfeffer zugeben, kurz aufkochen lassen und Soße warmhalten.",
-      "10 Min. vor Garende der Kartoffeln die Eier zu den Kartoffeln zugeben.",
-      "Eier abschrecken und Kartoffeln abgießen.",
-      "Eier pellen und zusammen mit Kartoffeln und Soße servieren (ggf. mit Petersilie garnieren).",
-      "Küche aufräumen."
-    ]
-  },
-  {
-    "id": "67bb8f896d570e5e9ed45928",
-    "title": "Zartes Lachsfilet mit grünem Spargel",
-    "subtitle": "in cremiger Zitronen-Soße",
-    "labels": [
-      "Fisch"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zartes-lachsfilet-mit-grunem-spargel-eb63f725.jpg",
-    "duration": 35,
-    "ingredients": [
-      {
-        "name": "Lachsfilet",
-        "amount": 450,
-        "unit": "g"
-      },
-      {
-        "name": "Grüner Spargel",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Fettuccine",
-        "amount": 360,
-        "unit": "g"
-      },
-      {
-        "name": "Kochsahne",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Gemüsebrühe",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Frühlingszwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Zitrone",
-        "amount": 1,
-        "unit": "St"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 8,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 8,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Fettuccine in reichlich Salzwasser 12 Min. bissfest kochen.",
-      "Lachsfilet waschen, etwas salzen, mit Zitronen-Saft beträufeln und 3 Min. je Seite in etwas Öl braten.",
-      "Lachsfilet aus der Pfanne nehmen, warmhalten und geschälten Spargel zusammen mit weißen Frühlingszwiebeln und Knoblauch hineingeben und 5 Min. braten.",
-      "Pfanneninhalt mit etwas Weißwein und 150 ml Gemüsebrühe ablöschen, Kochsahne, Zitronen-Saft, Salz und Pfeffer zugeben und 5 Min. köcheln lassen.",
-      "Lachsfilet vorsichtig zugeben und kurz erhitzen.",
-      "Fettuccine abgießen, zusammen mit Lachsfilet und Zitronen-Spargel-Soße anrichten und mit grünen Frühlingszwiebeln garnieren.",
-      "Küche aufräumen."
-    ]
-  },
-  {
-    "id": "67be3b226d570e5e9ed45929",
-    "title": "Boulette mit Apfel-Speck-Soße",
-    "subtitle": "dazu cremiger Kartoffelstampf",
-    "labels": [
-      "Schwein",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/boulette-mit-apfel-speck-sosze-thermomix-0d28c8ae.jpg",
-    "duration": 40,
-    "ingredients": [
-      {
-        "name": "Gemischtes Hackfleisch",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Mehligkochende Kartoffeln",
-        "amount": 800,
-        "unit": "g"
-      },
-      {
-        "name": "Bacon",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Apfel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Petersilie",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Muskatnuss",
-        "amount": 7,
-        "unit": "g"
-      },
-      {
-        "name": "Kochsahne",
-        "amount": 225,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 3,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Etwas Petersilie im Mixtopf 3 Sek. Stufe 8 zerkleinern und nach unten schieben.",
-      "Hackfleisch zusammen mit 1 Ei, etwas Semmelbrösel, Senf, Salz und Pfeffer zugeben, 15 Sek. Stufe 5 mischen und daraus Bouletten formen.",
-      "Mixtopf spülen.",
-      "Rühraufsatz in den Mixtopf einsetzen, Kartoffeln schälen, in Scheiben schneiden und in den Mixtopf geben.",
-      "30g Sahne, 225g Wasser, 1 TL Salz und etwas Muskatnuss zugeben und 19 Min. 98°C Stufe 1 garen.",
-      "Bouletten 5 Min. je Seite in Öl anbraten und aus der Pfanne nehmen.",
-      "Zwiebeln, Bacon und Apfel in der Pfanne anbraten und mit restlicher Sahne und 100ml Wasser ablöschen.",
-      "Soße mit Salz, Pfeffer und Muskatnuss abschmecken und Bouletten darin erwärmen.",
-      "20g Butter zu den Kartoffeln geben und 20 Sek. Stufe 3 rühren.",
-      "Stampf und Bouletten auf Teller verteilen, mit Apfel-Speck-Soße anrichten und mit restlicher Petersilie bestreut genießen."
-    ]
-  },
-  {
-    "id": "67c0cc6c12451979946ee29a",
-    "title": "Fischfilet nach Art Bordelaise",
-    "subtitle": "mit Kartoffelstampf und Tomatensalat",
-    "labels": [
-      "Fisch",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/fischfilet-nach-art-bordelaise-259a600b.jpg",
-    "duration": 45,
-    "ingredients": [
-      {
-        "name": "Seehecht",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Semmelbrösel",
-        "amount": 75,
-        "unit": "g"
-      },
-      {
-        "name": "Dill/Petersilie",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Senf",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Butter",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Mehligkochende Kartoffeln",
-        "amount": 800,
-        "unit": "g"
-      },
-      {
-        "name": "Mayonnaise",
-        "amount": 34,
-        "unit": "ml"
-      },
-      {
-        "name": "Joghurt",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Tomate",
-        "amount": 4,
-        "unit": "St"
-      },
-      {
-        "name": "Frühlingszwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Wasser",
-        "amount": 250,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 1,
-        "unit": "Teelöfel"
-      },
-      {
-        "name": "Milch",
-        "amount": 2,
-        "unit": "Esslöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "1 Zwiebel, Knoblauchzehe und Dill im Mixtopf 3 Sek. Stufe 8 zerkleinern und mit dem Spatel nach unten schieben.",
-      "Butter, Semmelbrösel und Senf zugeben, 5 Sek. Stufe 6 zerkleinern und umfüllen.",
-      "Für den Dip Petersilie und 1 Zwiebel im Mixtopf 5 Sek. Stufe 5 zerkleinern, mit Joghurt, Mayonnaise, Salz und Pfeffer mischen und umfüllen.",
-      "Rühraufsatz in den Mixtopf einsetzen, geschälte Kartoffeln in Scheiben hineingeben, 250g Wasser, 1 TL Salz und evtl. etwas Muskatnuss zugeben und 20 Min. 98 °C Stufe 1 garen.",
-      "Fisch waschen, salzen, evtl. halbieren, mit vorbereiteten Semmelbröseln toppen und ca. 12 Min. bei 200 °C im Airfryer backen.",
-      "Für den Salat Tomaten würfeln, mit Frühlingszwiebelringen vermengen und mit Salz und Pfeffer abschmecken.",
-      "Rühraufsatz aus dem Mixtopf entfernen, etwas Milch dazugeben und 20 Sek. Stufe 3 rühren.",
-      "Gebackenen Fisch evtl. mit Zitronen servieren, Kartoffelstampf, Tomatensalat und Dip dazureichen und genießen."
-    ]
-  },
-  {
-    "id": "67c3772512451979946ee29b",
-    "title": "BBQ Burritos mit Hackfleisch",
-    "subtitle": "schwarzen Bohnen, Salat und Knoblauchdressing",
-    "labels": [
-      "Express",
-      "Schwein",
-      "Eiweiß"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R04_W13_DE_L4529-1_Main_low-c9881c34.jpg",
-    "duration": 15,
-    "ingredients": [
-      {
-        "name": "Hackfleisch",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Weizentortillas",
-        "amount": 6,
-        "unit": "St"
-      },
-      {
-        "name": "Schwarze Bohnen",
-        "amount": 380,
-        "unit": "g"
-      },
-      {
-        "name": "Salatherz",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Joghurt",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Tomatenmark",
-        "amount": 52,
-        "unit": "g"
-      },
-      {
-        "name": "BBQ-Soße",
-        "amount": 40,
-        "unit": "ml"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 8,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 3,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Hackfleisch und Zwiebel in Scheiben ohne Fettzugabe 4 Min. in einer Pfanne anbraten.",
-      "Aus Joghurt, Knoblauchzehen, Salz und Pfeffer ein Dressing herstellen und mit kleingeschnittenem Salatherz vermengen.",
-      "Tomatenmark, schwarzen Bohnen (gespült und abgetropft), BBQ-Soße, Paprikagewürz, Salz und Pfeffer in die Pfanne zugeben und 1 Min. mitbraten.",
-      "Weizentortillas kurz erwärmen, Hackfleischfüllung darauf verteilen und mit Salat toppen.",
-      "Seiten der Wraps links und rechts nach innen klappen, untere Seite nach oben über die Füllung klappen und fest aufrollen."
-    ]
-  },
-  {
-    "id": "67c4bdaa12451979946ee29c",
-    "title": "Thüringer Rostbratwurst",
-    "subtitle": "mit Apfel-Sauerkraut und Kartoffel-Spinat-Stampf",
-    "labels": [
-      "Schwein",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/cipollata-bratwurstli-mit-feigen-senf-thermomix-5bee29e0-c277c195.jpg",
-    "duration": 45,
-    "ingredients": [
-      {
-        "name": "Thüringer Rostbratwurst",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Mildes Sauerkraut",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Senf",
-        "amount": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Ofenkartoffel",
-        "amount": 5,
-        "unit": "St"
-      },
-      {
-        "name": "Apfel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Babyspinat",
-        "amount": 75,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 2,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 4,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 3,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Äpfel und Zwiebeln im Mixtopf 3 Sek. Stufe 5 zerkleinern, mit dem Spatel nach unten schieben und in etwas Öl 4 Min. 120 °C Stufe 1 dünsten.",
-      "Sauerkraut abgießen, in den Mixtopf zugeben, 5 Min. 100 °C Reverse Stufe 2 dünsten und in den Varomabehälter umfüllen.",
-      "Kartoffeln schälen, zerkleinern und in den Gareinsatz geben.",
-      "500 g Wasser in den Mixtopf geben, Gareinsatz und Varomabehälter aufsetzen und 27 Min. Varoma Stufe 1 garen.",
-      "5 Min. vor Ende der Garzeit Bratwürste braten.",
-      "Kartoffeln, 75 g Garflüssigkeit, 15 g Butter, Salz, Pfeffer und Muskatnuss in den Mixtopf geben und 10 Sek. Stufe 4 pürieren.",
-      "Spinat vorsichtig unterheben.",
-      "Bratwürste zusammen mit Kartoffel-Spinat-Stampf, Sauerkraut und etwas Senf anrichten und genießen."
-    ]
-  },
-  {
-    "id": "67ccb8eb12451979946ee29d",
-    "title": "Möhren-Kartoffel-Eintopf",
-    "subtitle": "",
-    "labels": [
-      "Schwein",
-      "Thermomix"
-    ],
-    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/FF2761A4-0A0C-47C2-A9C6-73BC93AC7FCE/Derivates/DF2DF905-1600-4CC9-89EA-61C592FD450E.jpg",
-    "duration": 40,
-    "ingredients": [
-      {
-        "name": "Zwiebel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Öl",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "Speckwürfel",
-        "amount": 120,
-        "unit": "g"
-      },
-      {
-        "name": "Kartoffel",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Möhren",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Majoran",
-        "amount": 1,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Wasser",
-        "amount": 350,
-        "unit": "g"
-      },
-      {
-        "name": "Gemüsebrühe",
-        "amount": 1,
-        "unit": "Teelöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kohlenhydrate",
-        "amount": 35,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 11,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 10,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebeln in den Mixtopf geben, 3 Sek./Stufe 5 zerkleinern und mit dem Spatel nach unten schieben.",
-      "Öl zugeben und 3 Min./120°C/Stufe 1 dünsten.",
-      "Speckwürfel, Kartoffeln, Möhren, Majoran, Zucker, Salz, Pfeffer, Wasser und Gewürzpaste zugeben und 25 Min./100°C/Stufe 1 garen, dann 4 Sek./Stufe 3 zerkleinern, in 4 Suppenteller geben und heiß servieren."
-    ]
-  },
-  {
-    "id": "67d5eea612451979946ee29e",
-    "title": "Nudel-Möhren-Auflauf",
-    "subtitle": "",
-    "labels": [
-      "Vegetarisch",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C117860C-26FE-4C7C-B192-73D376A2816A/Derivates/37cd967c-d910-4401-a4af-a8c8c3731dcb.jpg",
-    "duration": 60,
-    "ingredients": [
-      {
-        "name": "Reibekäse",
-        "amount": 180,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebeln",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Möhren",
-        "amount": 450,
-        "unit": "g"
-      },
-      {
-        "name": "Rapsöl",
-        "amount": 1,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Gemüsebrühe",
-        "amount": 1,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Kochsahne",
-        "amount": 250,
-        "unit": "g"
-      },
-      {
-        "name": "Wasser",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Kurze Nudeln",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Röstzwiebeln",
-        "amount": 50,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kohlenhydrate",
-        "amount": 69,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 26,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 45,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebeln und Möhren in den Mixtopf geben, 5 Sek./Stufe 4.5 zerkleinern und mit dem Spatel nach unten schieben.",
-      "Öl zugeben und 5 Min./120°C//Stufe 1 dünsten.",
-      "Gewürzpaste, Sahne, Wasser, Nudeln, Salz und Pfeffer zugeben und 2 Min./100°C//Stufe 1 aufkochen.",
-      "Die Hälfte der Mischung in eine Auflaufform (ca. 25 x 35 cm) geben, mit der Hälfte des Käses bestreuen und restliche Mischung darauf geben.",
-      "Den restlichen Käse und Röstzwiebeln mischen und auf dem Auflauf verteilen.",
-      "Den Auflauf 17 Minuten bei 180°C im Airfryer backen."
-    ]
-  },
-  {
-    "id": "67d9f77012451979946ee29f",
-    "title": "Klassische Pasta Bolognese mit Rinderhack",
-    "subtitle": "Karotte und geriebenem Hartkäse",
-    "labels": [
-      "Rind",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/klassische-pasta-bolognese-mit-rinderhack-bbacf739.jpg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Rinderhackfleisch",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Spaghetti oder Fettuccine",
-        "amount": 360,
-        "unit": "g"
-      },
-      {
-        "name": "Gehackte Tomaten",
-        "amount": 585,
-        "unit": "g"
-      },
-      {
-        "name": "Karotte",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Tomatenmark",
-        "amount": 105,
-        "unit": "g"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Geriebenen Hartkäse",
-        "amount": 60,
-        "unit": "g"
-      },
-      {
-        "name": "Rinderbrühe",
-        "amount": 4,
-        "unit": "g"
-      },
-      {
-        "name": "Lorbeerblatt",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Italienische Kräuter",
-        "amount": 1,
-        "unit": "Teelöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 4,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 7,
-        "unit": "g"
-      },
-      {
-        "name": "Ges. Fettsäuren",
-        "amount": 2,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebel und Knoblauchzehe im Thermomix 5 Sek. Stufe 5 zerkleinern und in etwas Öl 3 Min. 120°C Stufe 1 dünsten.",
-      "Geschälte Karotte in Stücken zugeben und 5 Sek. Stufe 5 zerkleinern.",
-      "Rinderhackfleisch zugeben und 8 Min. 100°C Reverse Stufe 1 dünsten.",
-      "Gehackte Tomaten, Rinderbrühe, Tomatenmark, etwas Rotwein, Lorbeerblatt, italienische Kräuter, 1 TL Zucker, Salz und Pfeffer in den Mixtopf zugeben, einmal umrühren und 11 Min. 100°C Reverse Stufe 1 kochen.",
-      "Pasta bissfest in Salzwasser garen.",
-      "Pasta mit Bolognesesoße und Hartkäse genießen."
-    ]
-  },
-  {
-    "id": "67db326312451979946ee2a0",
-    "title": "Klassisches Rindergulasch",
-    "subtitle": "mit Kartoffeln",
-    "labels": [
-      "Rind",
-      "Eiweiß",
-      "Thermomix"
-    ],
-    "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
-    "duration": 120,
-    "ingredients": [
-      {
-        "name": "Kartoffeln",
-        "amount": 700,
-        "unit": "g"
-      },
-      {
-        "name": "Rindergulasch",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Rinderfond",
-        "amount": 400,
-        "unit": "ml"
-      },
-      {
-        "name": "Schalotten",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Trockener Rotwein",
-        "amount": 200,
-        "unit": "ml"
-      },
-      {
-        "name": "Tomatenmark",
-        "amount": 40,
-        "unit": "g"
-      },
-      {
-        "name": "Butterschmalz",
-        "amount": 3,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Paprikapulver, edelsüß",
-        "amount": 2,
-        "unit": "Teelöfel"
-      },
-      {
-        "name": "Majoran, getrocknet",
-        "amount": 1,
-        "unit": "Teelöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 19,
-        "unit": "g"
-      },
-      {
-        "name": "Ges. Fettsäuren",
-        "amount": 2,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Schalotten schälen, vierteln und in Butterschmalz im Schmortopf anbraten.",
-      "Schalotten beiseitestellen und Rindergulasch gewürfelt in Butterschmalz im Schmortopf portionsweise scharf anbraten, etwas salzen.",
-      "Schalotten und 40g Tomatenmark dazugeben und kurz anrösten.",
-      "Mit 200 ml trockenem Rotwein ablöschen und den Rotwein zu 2/3 verkochen lassen, sprich auf ungefähr 1/3 reduzieren.",
-      "1 Knoblauchzehe schälen und in feine Würfel schneiden.",
-      "Wenn der Rotwein reduziert ist, den Knoblauch, 2 TL Paprikapulver, 1/2 TL Majoran und 1 Messerspitze Cayennepfeffer hinzufügen und kurz unterrühren.",
-      "Das Fleisch und die Schalotten nun mit 400 ml Rinderfond ablöschen und mit Deckel für ca. 1,5 Stunden bei geringer Hitze auf der Herdplatte garen.",
-      "Kartoffeln schälen, kleinschneiden, in den Gareinsatz geben, etwas salzen und 25 Min. Varoma Stufe 1 dampfgaren.",
-      "Gulasch am Ende der Garzeit nach Belieben abschmecken und gegebenenfalls eindicken.",
-      "Gulasch mit Kartoffeln und eventuell Apfelrotkohl servieren."
-    ]
-  },
-  {
-    "id": "67e5cd0b12451979946ee2a1",
-    "title": "Hähnchenkeule mit Knollenselleriestampf",
-    "subtitle": "bunten Ofenkartoffeln und Balsamicosoße",
-    "labels": [
-      "Geflügel",
-      "Eiweiß",
-      "Thermomix"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchenkeule-mit-knollenselleriestampf-d25a9324.jpg",
-    "duration": 45,
-    "ingredients": [
-      {
-        "name": "Hähnchenkeule in Kräutermarinade",
-        "amount": 750,
-        "unit": "g"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Balsamicocreme",
-        "amount": 24,
-        "unit": "g"
-      },
-      {
-        "name": "Mehligk. Kartoffeln",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Karotten",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "Petersilie/Thymian",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Knollensellerie",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Milch",
-        "amount": 150,
-        "unit": "ml"
-      },
-      {
-        "name": "Honig",
-        "amount": 12,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Ges. Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Petersilie im Mixtopf 3 Sek. Stufe 8 zerkleinern und umfüllen.",
-      "Zwiebeln und Knoblauchzehe im Mixtopf 5 Sek. Stufe 5 zerkleinern und in eine große Pfanne umfüllen.",
-      "Kartoffeln schälen, kleinschneiden und in den Gareinsatz geben.",
-      "Knollensellerie schälen, in Würfel schneiden und in den V-Behälter geben.",
-      "500g Wasser in den Mixtopf geben, Gareinsatz einsetzen, Varoma aufsetzen und 25 Min. Varoma Stufe 1 garen.",
-      "Hähnchenkeulen 25 Min. bei 200°C im Airfryer backen.",
-      "Karotten schälen, in Stifte schneiden, in eine Schüssel geben, mit gehackten Thymian, 1 EL Öl, Salz und Pfeffer vermengen und 17 Min. bei 180°C ebenfalls im Airfryer backen.",
-      "Zwiebel-Knoblauch-Mix in der Pfanne in Öl anbraten, mit 100 ml Garflüssigkeit ablöschen und Hühnerbrühe, Honig, Balsamicocreme, Salz und Pfeffer dazugeben.",
-      "Aus Kartoffeln, Knollensellerie, Milch, Salz und Pfeffer 5 Sek. Stufe 5 einen Stampf zubereiten.",
-      "Hähnchenkeulen zusammen mit Karotten servieren, Knollenselleriestampf und Balsamicosoße dazureichen und ggf. mit zerkleinerter Petersilie toppen."
-    ]
-  },
-  {
-    "id": "67e5cd6b12451979946ee2a2",
-    "title": "Hähnchenfilets in Kräuterpanade",
-    "subtitle": "mit Fettuccine und selbstgemachten Pesto",
-    "labels": [
-      "Geflügel",
-      "Eiweiß",
-      "Thermomix",
-      "Airfryer"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Hähnchenbrustfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Fettuccine",
-        "amount": 360,
-        "unit": "g"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Basilikum",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Oregano",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Basilikumpaste",
-        "amount": 39,
-        "unit": "ml"
-      },
-      {
-        "name": "Sonnenblumenkerne",
-        "amount": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Geriebenen Hartkäse",
-        "amount": 60,
-        "unit": "g"
-      },
-      {
-        "name": "Mayonnaise",
-        "amount": 25,
-        "unit": "g"
-      },
-      {
-        "name": "Semmelbrösel",
-        "amount": 37,
-        "unit": "g"
-      },
-      {
-        "name": "Senf",
-        "amount": 15,
-        "unit": "ml"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 6,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 15,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 3,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Oregano und Semmelbrösel in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
-      "Hähnchen in Streifen schneiden und mit Senf, Mayonnaise,Salz und Pfeffer vermengen",
-      "Semmelbrösel dazugeben, mischen und Hähnchen in Zone 1 des Airfryers geben",
-      "Hähnchen etwas ölen und im Airfryer 10 min. bei 200 °C frittieren",
-      "Sonnenblumenkerne rösten",
-      "Fettuccine in Salzwasser garen",
-      "Basilikum, Basilikumpaste, Knoblauch, Sonnenblumenkerne, geriebenen Hartkäse und Hühnerbrühe in den Mixtopf geben und 5 sek. Stufe 8 zerkleinern",
-      "45 g Ölivenöl, 1,5 TL Weißweinessig, 70 g kaltes Wasser, Salz und Pfeffer zugeben und 10 sek. Stufe 6 zu einem Pesto verrühren",
-      "Fettucine abgießen und mit Hähnchen und Pesto servieren",
-      "Airfryer und Thermomix reinigen"
-    ]
-  },
-  {
-    "id": "67f588bf12451979946ee2a3",
-    "title": "Lachsfilet in Teriyakisoße",
-    "subtitle": "mit Sesamspinat und Avocado",
-    "labels": [
-      "Fisch",
-      "Express"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/lachsfilet-in-teriyakisosze-6ab6b850.jpg",
-    "duration": 15,
-    "ingredients": [
-      {
-        "name": "Lachsfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Frühlingszwiebel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Teriyakisoße",
-        "amount": 300,
-        "unit": "ml"
-      },
-      {
-        "name": "Basmatireis",
-        "amount": 225,
-        "unit": "g"
-      },
-      {
-        "name": "Limette",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Babyspinat",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Sesam",
-        "amount": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Avocado",
-        "amount": 1,
-        "unit": "St"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 7,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Reis ca. 10 Min. kochen",
-      "In einer Pfanne Sesam und weiße Frühlingszwiebelringe in Öl 2 Min. anbraten",
-      "Spinat nach und nach dazugeben und mit Salz und Pfeffer würzen",
-      "Spinat aus der Pfanne nehmen und Lachsfilet auf jeder Seite ca. 3 Min. goldbraun braten (evtl. Öl nachfüllen)",
-      "Teriyakisoße, 100 ml Wasser, Saft von 2 Limettenspalten hinzufügen und alles ca. 2 Min. einköcheln lassen",
-      "Lachsfilet zusammen mit Sesamspinat servieren und Reis, Avocado und Frühlingszwiebelringe dazureichen"
-    ]
-  },
-  {
-    "id": "680a9fb512451979946ee2a5",
-    "title": "Hähnchen Piccata! in Kapern-Zitronen-Soße",
-    "subtitle": "dazu Bohnen und Kartoffeln",
-    "labels": [
-      "Geflügel",
-      "Thermomix",
-      "Kalorienarm"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchen-piccata-in-kapern-zitronen-sosze-c4304738.jpg",
-    "duration": 20,
-    "ingredients": [
-      {
-        "name": "Hähnchenbrustfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Kartoffeln",
-        "amount": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Buschbohnen",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Kapern",
-        "amount": 35,
-        "unit": "g"
-      },
-      {
-        "name": "Zitrone",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 2,
-        "unit": "St"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 1,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Enden der Bohnen abschneiden, Bohnen halbieren und in den Varomabehälter geben",
-      "Knoblauchzehen 3 Sek. Stufe 8 zerkleinern und zu den Bohnen geben",
-      "Bohnen salzen und pfeffern und Varomabehälter verschließen",
-      "Kartoffeln schälen, kleinschneiden und in den Gareinsatz geben",
-      "500g Wasser in den Mixtopf geben und Bohnen und Kartoffeln 9 Min. Varoma Stufe 1 vorgaren",
-      "Einlegeboden mit Backpapier auslegen, Hähnchenbrustfilets darauf verteilen, salzen und pfeffern, Einlegeboden einsetzen und 16 Min. Varoma Stufe 1 weitergaren (evtl. Hähnchen für Röstaromen vorher kurz anbraten)",
-      "Mehlschwitze herstellen, mit Hühnerbrühe ablöschen, Kapern und Zitronenschale (evtl. auch etwas Saft) hinzugeben und mit Salz, Pfeffer und einer Prise Zucker abschmecken",
-      "Hähnchenbrustfilets mit restlicher Zitrone garnieren, Kartoffeln, Kapern-Zitronen-Soße und Bohnen dazureichen und genießen"
-    ]
-  },
-  {
-    "id": "680aa09012451979946ee2a6",
-    "title": "Saftiges Hähnchen-Paprika-Gulasch",
-    "subtitle": "dazu Konfetti-Mais-Reis und Joghurt",
-    "labels": [
-      "Geflügel",
-      "Express"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R35_W43_DE_R4899-1_Main__10low-f6e744e8.jpg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Reis",
-        "amount": 225,
-        "unit": "g"
-      },
-      {
-        "name": "Hähnchenbrustfilet",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Paprika",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Mais",
-        "amount": 340,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 2,
-        "unit": "St"
-      },
-      {
-        "name": "Schnittlauch",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Kräuterbutter",
-        "amount": 40,
-        "unit": "g"
-      },
-      {
-        "name": "Tomatenmark",
-        "amount": 52,
-        "unit": "g"
-      },
-      {
-        "name": "Naturjoghurt",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Gulaschgewürz",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 6,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 5,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Reis ca. 10 Min. kochen",
-      "In einer Pfanne Zwiebel, Paprika und Hähnchenbrustfilet (in Streifen) in Öl 5 Min. scharf anbraten",
-      "Tomatenmark oder Ketchup, Gulaschgewürz und Hühnerbrühe zugeben und 1 Min. anschwitzen",
-      "Pfanneninhalt mit 1,5 TL Balsamicoessig, evtl. etwas Rotwein und 150ml Wasser ablöschen, aufkochen lassen und mit Salz, Pfeffer und etwas Zucker abschmecken",
-      "Mais (abgetropft) und Kräuterbutter unter den Reis geben und mit Salz und Pfeffer würzen",
-      "Konfetti-Mais-Reis und Hähnchen-Paprika-Gulasch servieren und Joghurt mit Schnittlauch (in Ringen) dazureichen"
-    ]
-  },
-  {
-    "id": "68263d0a12451979946ee2a7",
-    "title": "Würzig gebratenes Schweinelachssteak",
-    "subtitle": "mit Schupfnudeln und Rahmporree",
-    "labels": [
-      "Express",
-      "Schwein",
-      "Thermomix",
-      "Eiweiß"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/wurzig-gebratenes-schweinelachssteak-b56b0e40.jpg",
-    "duration": 25,
-    "ingredients": [
-      {
-        "name": "Schweinelachssteak",
-        "amount": 375,
-        "unit": "g"
-      },
-      {
-        "name": "Paprikapulver",
-        "amount": 4,
-        "unit": "g"
-      },
-      {
-        "name": "Kochsahne",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Porree",
-        "amount": 3,
-        "unit": "g"
-      },
-      {
-        "name": "Hühnerbrühe",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Schupfnudeln",
-        "amount": 600,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 3,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 1,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Porree als Ringe 6 Min. 100°C Stufe 1 reverse in Öl dünsten",
-      "Schweinelachssteak waschen, würzen, in Öl in der Pfanne 3 Min. je Seite braten, aus der Pfanne nehmen und warmhalten",
-      "Kochsahne, Hühnerbrühe, 50g Wasser, Salz und Pfeffer in den Mixtopf zugeben und 8 Min. 98°C Stufe 1 reverse kochen",
-      "Schupfnudeln in Öl in der Pfanne 6-8 Min. knusprig anbraten",
-      "Schweinelachssteak mit Schupfnudeln und Rahmporree anrichten"
-    ]
-  },
-  {
-    "id": "6830d22b12451979946ee2a9",
-    "title": "Spargelwok",
-    "subtitle": "mit Schweinefilet",
-    "labels": [
-      "Schwein",
-      "Thermomix",
-      "Eiweiß"
-    ],
-    "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/36FDBEEC-86C6-4F07-8091-2F61121A562D/Derivates/8335B6D5-4064-4B2D-80F2-70A9F8591B4E.jpg",
-    "duration": 75,
-    "ingredients": [
-      {
-        "name": "Koriander",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Sesam",
-        "amount": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Sojasauce",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Sambal Oelek",
-        "amount": 1,
-        "unit": "Teelöfel"
-      },
-      {
-        "name": "Sesamöl, geröstet",
-        "amount": 40,
-        "unit": "g"
-      },
-      {
-        "name": "Schweinefilet",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Wasser",
-        "amount": 540,
-        "unit": "g"
-      },
-      {
-        "name": "Gemüsebrühe",
-        "amount": 1,
-        "unit": "Teelöfel"
-      },
-      {
-        "name": "Rote Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Rote Paprika",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Spargel",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Zuckerschoten",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Speisestärke",
-        "amount": 25,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kohlenhydrate",
-        "amount": 25,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 43,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 29,
-        "unit": "g"
-      },
-      {
-        "name": "Ballaststoffe",
-        "amount": 7,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Koriander, Sesam, Sojasauce, Sambal Oelek und Sesamöl in den Mixtopf geben, 10 Sek./Stufe 6 vermischen und in eine große Schüssel umfüllen.",
-      "Schweinefilet in die Schüssel zu der Marinade geben und 30 Minuten marinieren.",
-      "500 g Wasser, Gewürzpaste und Marinade in den Mixtopf geben, Gareinsatz einhängen und Schweinefiletscheiben hineingeben.",
-      "Varoma-Behälter aufsetzen, Zwiebel, Paprika, Thai-Spargel und Zuckerschoten in den Varoma einwiegen, verschließen und 18 Min./Varoma/Stufe 1 garen.",
-      "Gegartes Gemüse und Fleisch in eine Schüssel umfüllen und warm stellen.",
-      "Speisestärke und 40 g Wasser glatt verrühren, in den Mixtopf zugeben, 2 Min./90°C/Stufe 2 garen, abschmecken, zu der Gemüse-Fleisch-Mischung geben, mit dem Spatel vermischen und z.B. mit Reis servieren."
-    ]
-  },
-  {
-    "id": "6859ae1f12451979946ee2aa",
-    "title": "Mezze Rinderhackpfanne auf Tomatenreis",
-    "subtitle": "dazu Hirtenkäse und Zaziki",
-    "labels": [
-      "Rind",
-      "Eiweiß",
-      "Thermomix",
-      "Express"
-    ],
-    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/64ccdd8f6c6eb9d59f0c70d7-d9ad5415-7d5c02ec.jpeg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Rinderhackfleisch",
-        "amount": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Hirtenkäse",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Basmatireis",
-        "amount": 225,
-        "unit": "g"
-      },
-      {
-        "name": "Naturjoghurt",
-        "amount": 225,
-        "unit": "g"
-      },
-      {
-        "name": "Salatgurke",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Karotte",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 3,
-        "unit": "St"
-      },
-      {
-        "name": "Tomatenmark",
-        "amount": 70,
-        "unit": "g"
-      },
-      {
-        "name": "Gewürzmischung Hackfleisch",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gewürzmischung Paprika",
-        "amount": 6,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Zucker",
-        "amount": 2,
-        "unit": "g"
-      },
-      {
-        "name": "Salz",
-        "amount": 0,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 6,
-        "unit": "g"
-      },
-      {
-        "name": "Gesättigte Fettsäuren",
-        "amount": 2,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Knoblauch 3 Sek. Stufe 8 zerkleinern und die Hälfte umfüllen.",
-      "Gurke entkernen, in den Mixtopf zugeben und 5 Sek. Stufe 5 zerkleinern.",
-      "Gurke und Knoblauch umfüllen, gut abtropfen lassen, mit Joghurt mischen und mit Salz und Pfeffer würzen.",
-      "Karotte 5 Sek. Stufe 5 zerkleinern, zusammen mit Reis in den Gareinsatz geben und 18 Min. Varoma Stufe 1 dampfgaren (bei 1200g Wasser).",
-      "Rinderhackfleisch und Knoblauch in der Pfanne in Öl krümelig anbraten und mit Gewürzmischung Hackfleisch würzen.",
-      "Nach dem Dampfgaren den Reis abgedeckt ziehen lassen und Garflüssigkeit auffangen.",
-      "150g Garflüssigkeit, Tomatenmark und Gewürzmischung Paprika in den Mixtopf geben und 4 Min. 100°C Reverse Stufe 1 erwärmen.",
-      "Reis und Tomatensoße vermengen, abschmecken und zusammen mit Rinderhackfleisch, Zaziki und Hirtenkäse servieren."
-    ]
-  },
-  {
-    "id": "6872eceda35af516b14756d7",
-    "title": "Grüner Power-Bowl mit Quinoa und Avocado",
-    "subtitle": "Cholesterinsenkende Superfoods aus dem Thermomix",
-    "labels": [
-      "Kalorienarm",
-      "Fettarm",
-      "Vegetarisch",
-      "Thermomix"
-    ],
-    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800",
-    "duration": 25,
-    "ingredients": [
-      {
-        "name": "Quinoa",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Brokkoli",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Avocado",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Babyspinat",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Kichererbsen (gekocht)",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Olivenöl, extra vergine",
-        "amount": 1,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Zitrone (Saft)",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Petersilie, frisch",
-        "amount": 10,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kalorien",
-        "amount": 450,
-        "unit": "kcal"
-      },
-      {
-        "name": "Fett",
-        "amount": 18,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 15,
-        "unit": "g"
-      },
-      {
-        "name": "Ballaststoffe",
-        "amount": 12,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Quinoa 10 Sek. / Stufe 8 mahlen, dann mit 300 ml Wasser 15 Min. / 100 °C / Stufe 1 garen, in den Varoma geben und zur Seite stellen.",
-      "Brokkoli in Röschen teilen, in den Varoma legen.",
-      "500 ml Wasser in den Mixtopf geben, Varoma aufsetzen, 15 Min. / Varoma / Stufe 1 dampfgaren.",
-      "In der Zwischenzeit Avocado würfeln, Zitrone auspressen, Babyspinat waschen.",
-      "Knoblauch und Petersilie 5 Sek. / Stufe 7 hacken, dann mit Zitronensaft und Olivenöl 10 Sek. / Stufe 3 mischen.",
-      "Alle Zutaten in einer Bowl anrichten, Dressing darübergeben."
-    ]
-  },
-  {
-    "id": "6872ee81a35af516b14756d8",
-    "title": "Mediterraner Linsensalat",
-    "subtitle": "Mit Kichererbsen, Tomaten und Tahin-Dressing",
-    "labels": [
-      "Vegan",
-      "Fettarm",
-      "Kalorienarm",
-      "Thermomix"
-    ],
-    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
-    "duration": 25,
-    "ingredients": [
-      {
-        "name": "grüne Linsen",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Kichererbsen (gekocht)",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Kirschtomaten",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Gurke",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Tahin",
-        "amount": 2,
-        "unit": "Esslöfel"
-      },
-      {
-        "name": "Zitrone",
-        "amount": 1,
-        "unit": "St"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kalorien",
-        "amount": 320,
-        "unit": "kcal"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 18,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 8,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Linsen im Thermomix 20 Min bei 100°C garen.",
-      "Gurke, Tomaten, Kichererbsen zerkleinern und mischen.",
-      "Tahin mit Zitronensaft und Wasser verrühren.",
-      "Alles vermengen und servieren."
-    ]
-  },
-  {
-    "id": "6872ee81a35af516b14756d9",
-    "title": "Grünes Gemüse-Curry",
-    "subtitle": "Mit Brokkoli, Spinat und Kokosmilch",
-    "labels": [
-      "Vegan",
-      "Fettarm",
-      "Kalorienarm",
-      "Thermomix"
-    ],
-    "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Brokkoli",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Spinat (frisch)",
-        "amount": 150,
-        "unit": "g"
-      },
-      {
-        "name": "Kokosmilch (light)",
-        "amount": 200,
-        "unit": "ml"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauchzehe",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Currypaste (grün)",
-        "amount": 1,
-        "unit": "Esslöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kalorien",
-        "amount": 290,
-        "unit": "kcal"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 12,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 9,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebel und Knoblauch im Thermomix 5 Sek/Stufe 5 zerkleinern.",
-      "Currypaste und Gemüse zugeben, 5 Min/Varoma dünsten.",
-      "Mit Kokosmilch auffüllen, 15 Min bei 100°C garen.",
-      "Spinat einrühren und servieren."
-    ]
-  },
-  {
-    "id": "6872ee81a35af516b14756da",
-    "title": "Cholesterin-Porridge",
-    "subtitle": "Mit Haferflocken, Chia und Beeren",
-    "labels": [
-      "Vegan",
-      "Kalorienarm",
-      "Fettarm",
-      "Thermomix"
-    ],
-    "image": "https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg",
-    "duration": 10,
-    "ingredients": [
-      {
-        "name": "Haferflocken",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Chiasamen",
-        "amount": 10,
-        "unit": "g"
-      },
-      {
-        "name": "Pflanzenmilch",
-        "amount": 200,
-        "unit": "ml"
-      },
-      {
-        "name": "Beerenmix",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Zimt",
-        "amount": 0,
-        "unit": "Teelöfel"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kalorien",
-        "amount": 270,
-        "unit": "kcal"
-      },
-      {
-        "name": "Ballaststoffe",
-        "amount": 8,
-        "unit": "g"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 9,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Alle Zutaten außer Beeren im Thermomix 5 Min/90°C/Stufe 2 kochen.",
-      "Beeren zugeben und 1 Min/Stufe 1 unterrühren.",
-      "In Schüssel geben, mit Zimt bestreuen."
-    ]
-  },
-  {
-    "id": "6872ee81a35af516b14756db",
-    "title": "Kichererbsen-Falafel",
-    "subtitle": "Mit Kräutern und fettarmem Joghurtdip",
-    "labels": [
-      "Vegetarisch",
-      "Eiweiß",
-      "Fettarm",
-      "Thermomix"
-    ],
-    "image": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
-    "duration": 35,
-    "ingredients": [
-      {
-        "name": "Kichererbsen (gekocht)",
-        "amount": 250,
-        "unit": "g"
-      },
-      {
-        "name": "Zwiebel",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Knoblauch",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Petersilie",
-        "amount": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Haferflocken",
-        "amount": 30,
-        "unit": "g"
-      },
-      {
-        "name": "Naturjoghurt (0,1%)",
-        "amount": 100,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kalorien",
-        "amount": 340,
-        "unit": "kcal"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 16,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 7,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Zwiebel, Knoblauch, Petersilie im Thermomix zerkleinern.",
-      "Kichererbsen und Haferflocken zugeben und mixen.",
-      "Bällchen formen, im Ofen 20 Min backen.",
-      "Mit Joghurtdip servieren."
-    ]
-  },
-  {
-    "id": "6872ee81a35af516b14756dc",
-    "title": "Avocado-Bohnen-Bowl",
-    "subtitle": "Mit Quinoa und Limetten-Vinaigrette",
-    "labels": [
-      "Vegan",
-      "Kalorienarm",
-      "Fettarm",
-      "Thermomix"
-    ],
-    "image": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
-    "duration": 30,
-    "ingredients": [
-      {
-        "name": "Quinoa",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Avocado",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Schwarze Bohnen",
-        "amount": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Mais",
-        "amount": 50,
-        "unit": "g"
-      },
-      {
-        "name": "Limette",
-        "amount": 1,
-        "unit": "St"
-      },
-      {
-        "name": "Rucola",
-        "amount": 50,
-        "unit": "g"
-      }
-    ],
-    "nutrients": [
-      {
-        "name": "Kalorien",
-        "amount": 380,
-        "unit": "kcal"
-      },
-      {
-        "name": "Eiweiß",
-        "amount": 14,
-        "unit": "g"
-      },
-      {
-        "name": "Fett",
-        "amount": 11,
-        "unit": "g"
-      }
-    ],
-    "preparation": [
-      "Quinoa im Thermomix 20 Min/100°C garen.",
-      "Bohnen, Mais, Rucola und Avocado schneiden.",
-      "Vinaigrette aus Limettensaft und Gewürzen mixen.",
-      "Alles in einer Bowl anrichten."
-    ]
-  }
+    {
+        "id": "67a69d436d570e5e9ed45922",
+        "title": "Schnitzel mit Ofenkartoffeln",
+        "subtitle": "dazu Dill-Gurkensalat und Tomatenmayonaise",
+        "labels": [
+            "Schwein",
+            "Eiweiß",
+            "Thermomix",
+            "Airfryer"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF210824_R05_W42_DE_FAM1800-18_KB_Main_low-a115d22f.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Schweineschnitzel",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Tomate",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Gurke",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Dill",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Saure Sahne",
+                "amount": 75,
+                "unit": "g"
+            },
+            {
+                "name": "Mayonnaise",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Weizenmehl",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Panko-Mehl",
+                "amount": 50,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 7,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln in Spalten schneiden, etwas ölen, würzen und in Zone 1 des Airfryers geben",
+            "Schnitzel plätten, würzen, zuerst in Mehl, dann in 2 verquirlten Eiern wälzen und anschließend mit Panko-Mehl panieren",
+            "Schnitzel in Zone 2 des Airfryers geben, etwas mit Öl bestreichen",
+            "Zone 1 auf 'Airfry' stellen und 20 min. wählen",
+            "Zone 2 auf 'Airfry' stellen und 12 min. wählen",
+            "Sync-Funktion aktivieren und Airfryer starten",
+            "Dill in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
+            "Gurke in Stücken, 1,5 EL Essig, 15 g Öl, Salz, Prise Zucker und Pfeffer dazugeben",
+            "Gurke 3 sek. Stufe 4,5 zerkleinern und umfüllen",
+            "Tomatenviertel, Mayonnaise, etwas saure Sahne, Salz und Pfeffer in den Mixtopf geben ud 5 sek. Stufe 7 zu einem Dip verrühren",
+            "Airfryer und Thermomix reinigen"
+        ]
+    },
+    {
+        "id": "67ae69026d570e5e9ed45923",
+        "title": "Frische Eierspätzle mit Bacon",
+        "subtitle": "in cremiger Tomaten-Porree-Soße",
+        "labels": [
+            "Schwein",
+            "Express",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/frische-eierspatzle-mit-bacon-1d3a5465-09d8d5d1.jpg",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Frische Eierspätzle",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Bacon",
+                "amount": 125,
+                "unit": "g"
+            },
+            {
+                "name": "Porree",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Creme Fraiche",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Tomatenpesto",
+                "amount": 25,
+                "unit": "g"
+            },
+            {
+                "name": "Hartkäse",
+                "amount": 60,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 4,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebeln und Knoblauchzehe 5 Sek. Stufe 5 zerkleinern und nach unten schieben.",
+            "Bacon in Streifen und 15g Öl dazugeben und 5 Min. 120°C Reverse Stufe 1 dünsten.",
+            "Porree in kleinen Scheiben zugeben und weitere 10 Min. 100°C Reverse Stufe 1 dünsten.",
+            "Creme Fraiche, 0,75 TL Hühnerbrühe, Tomatenpesto oder etwas Ketchup, 30g Wasser, Salz und Pfeffer zugeben und 5 Min. 95°C Reverse Stufe 1 garen.",
+            "Spätzle in etwas Öl in der Pfanne goldbraun anbraten, mit Soße ablöschen, abschmecken, mit Hartkäse garnieren und dann servieren."
+        ]
+    },
+    {
+        "id": "67b2521d6d570e5e9ed45924",
+        "title": "Feines gebratenes Lachsfilet auf Porreegemüse",
+        "subtitle": "mit käsigen Kartoffeln und Schnittlauch-Senf-Dip",
+        "labels": [
+            "Fisch",
+            "Airfryer"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R20_W30_DE_VP4558-1_Main_low-c7a5f54d.jpg",
+        "duration": 35,
+        "ingredients": [
+            {
+                "name": "Lachsfilet",
+                "amount": 450,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "amount": 1000,
+                "unit": "g"
+            },
+            {
+                "name": "Porree",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Petersilie/Schnittlauch",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Saure Sahne",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Süßer Senf",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Hartkäse",
+                "amount": 40,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln und Zwiebeln schälen, in Scheiben schneiden, würzen und in Zone 1 des Airfryers geben.",
+            "Porree waschen, in Scheiben schneiden, etwas würzen und ölen und in Zone 2 des Airfryers geben.",
+            "Fisch waschen, würzen, in der Pfanne kurz anbraten und auf den Porree geben.",
+            "Zone 1 auf 200°C und 20 Minuten, Zone 2 auf 200°C und 10 Minuten stellen, Sync-Funktion aktivieren und Airfryer starten",
+            "Schnittlauch in Röllchen schneiden und mit saurer Sahne, süßen Senf, Salz und Pfeffer vermengen und als Dip servieren.",
+            "Kartoffeln mit Zwiebeln und Porree mit Fisch servieren und alles mit Petersilie bestreuen.",
+            "Airfryer reinigen und Küche aufräumen."
+        ]
+    },
+    {
+        "id": "67b3b82e6d570e5e9ed45925",
+        "title": "Chicken Bites mit Süßkartoffel-Bohnen-Salat",
+        "subtitle": "dazu Knoblauchdip",
+        "labels": [
+            "Geflügel",
+            "Eiweiß",
+            "Airfryer",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/chicken-bites-mit-suszkartoffel-bohnen-salat-944b57b5.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Süßkartoffel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Geriebener Hartkäse",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Panko-Mehl",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Bohnen",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Joghurt",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Salatherz",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Senf",
+                "amount": 3,
+                "unit": "ml"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Süßkartoffel schälen, würfeln, ölen, würzen und in Zone 1 des Airfryers geben.",
+            "3 EL Mehl, Gewürze und 9 EL Wasser zu einem Teig verrühren.",
+            "Hähnchen in Streifen schneiden, im Teig wälzen und mit Panko-Mehl und geriebenen Hartkäse panieren.",
+            "Hähnchen in Zone 2 des Airfryers geben und auf 200°C für 15 Min. stellen.",
+            "Zone 1 auf 200°C für 20 Min. stellen, Sync-Funktion aktivieren und Airfryer starten.",
+            "2 EL Joghurt mit gehacktem Knoblauch in einer Schüssel mischen.",
+            "Restlichen Joghurt, 1,5 EL Senf, etwas Essig, 15g Olivenöl, Salz und Pfeffer in den Mixtopf geben.",
+            "Salatherzen zugeben und 5 Sek. Stufe 3,5 mithilfe des Spatels zerkleinern.",
+            "Bohnen kurz in der Pfanne anbraten und zusammen mit Süßkartoffel-Würfel unter den Salat in einer Schüssel heben.",
+            "Hähnchen darauf anrichten und mit Dip garnieren.",
+            "Airfryer reinigen und Küche aufräumen."
+        ]
+    },
+    {
+        "id": "67b503bb6d570e5e9ed45926",
+        "title": "Teriyaki-Hähnchen mit Kokosreis",
+        "subtitle": "Brokkoli, Karotte und Sesam",
+        "labels": [
+            "Geflügel",
+            "Eiweiß",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/601d488a5df88101fa189b37-e80b3067-c43a84ab.jpg",
+        "duration": 35,
+        "ingredients": [
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Jasminreis",
+                "amount": 225,
+                "unit": "g"
+            },
+            {
+                "name": "Brokkoli",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Karotte",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Frühlingszwiebel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Ingwer",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Limette",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Sesamsamen",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Kokosmilch",
+                "amount": 250,
+                "unit": "ml"
+            },
+            {
+                "name": "Sojasauce",
+                "amount": 37,
+                "unit": "ml"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 3,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Knoblauch und Ingwer im Mixtopf 3 Sek. Stufe 8 zerkleinern.",
+            "Sojasauce, 3 TL Honig und 75g Wasser zugeben, 10 Sek. Stufe 5 mischen und Teriyakisoße umfüllen.",
+            "Gemüse kleingeschnitten im Varomabehälter verteilen.",
+            "Hähnchenbrustfilet in Streifen auf den Einlegeboden verteilen.",
+            "Reis in den Gareinsatz geben, mit Wasser spülen und in den Mixtopf einsetzen.",
+            "1200g Wasser, 1,5 TL Salz und 5g Öl über den Reis geben, Gemüse und Fleisch einsetzen und 17 Min. Varoma Stufe 1 garen.",
+            "Sesamsamen kurz rösten.",
+            "Nach der Garzeit Reis umfüllen und mit warmer Kokosmilch und Salz begießen.",
+            "Frühlingszwiebel in etwas Öl anbraten, mit Teriyakisoße ablöschen und mit Gemüse und Fleisch vermengen.",
+            "Alles etwas köcheln lassen und mit Saft von Limettenspalten, Salz und Pfeffer abschmecken.",
+            "Reis mit Teriyaki-Hähnchen anrichten, mit Sesamsamen und Frühlingszwiebeln toppen und mit Limettenspalten genießen."
+        ]
+    },
+    {
+        "id": "67b644516d570e5e9ed45927",
+        "title": "Senfeier",
+        "subtitle": "mit Kartoffeln",
+        "labels": [
+            "Vegetarisch",
+            "Express",
+            "Eiweiß"
+        ],
+        "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/dj250q3n-3a6bc-658410-4a364-v5yxr4cn/e4c408ef-9cb7-4f0f-b055-9a27c2f5a788/main/eier-in-senfsosse-senfeier.jpg",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Kartoffeln",
+                "amount": 700,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Eier",
+                "amount": 6,
+                "unit": "St"
+            },
+            {
+                "name": "Senf",
+                "amount": 100,
+                "unit": "ml"
+            },
+            {
+                "name": "Essig",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Öl",
+                "amount": 50,
+                "unit": "ml"
+            },
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 12,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 17,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 10,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln schälen, kleinschneiden und in einem großen Topf in Salzwasser 25 Min. kochen.",
+            "In einem zweiten Topf Zwiebeln kleingeschnitten in Öl dünsten.",
+            "Mehlschwitze herstellen und mit Hühnerbrühe ablöschen.",
+            "Senf, Essig, Zucker, Salz und etwas Pfeffer zugeben, kurz aufkochen lassen und Soße warmhalten.",
+            "10 Min. vor Garende der Kartoffeln die Eier zu den Kartoffeln zugeben.",
+            "Eier abschrecken und Kartoffeln abgießen.",
+            "Eier pellen und zusammen mit Kartoffeln und Soße servieren (ggf. mit Petersilie garnieren).",
+            "Küche aufräumen."
+        ]
+    },
+    {
+        "id": "67bb8f896d570e5e9ed45928",
+        "title": "Zartes Lachsfilet mit grünem Spargel",
+        "subtitle": "in cremiger Zitronen-Soße",
+        "labels": [
+            "Fisch"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zartes-lachsfilet-mit-grunem-spargel-eb63f725.jpg",
+        "duration": 35,
+        "ingredients": [
+            {
+                "name": "Lachsfilet",
+                "amount": 450,
+                "unit": "g"
+            },
+            {
+                "name": "Grüner Spargel",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Fettuccine",
+                "amount": 360,
+                "unit": "g"
+            },
+            {
+                "name": "Kochsahne",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Frühlingszwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Zitrone",
+                "amount": 1,
+                "unit": "St"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 8,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Fettuccine in reichlich Salzwasser 12 Min. bissfest kochen.",
+            "Lachsfilet waschen, etwas salzen, mit Zitronen-Saft beträufeln und 3 Min. je Seite in etwas Öl braten.",
+            "Lachsfilet aus der Pfanne nehmen, warmhalten und geschälten Spargel zusammen mit weißen Frühlingszwiebeln und Knoblauch hineingeben und 5 Min. braten.",
+            "Pfanneninhalt mit etwas Weißwein und 150 ml Gemüsebrühe ablöschen, Kochsahne, Zitronen-Saft, Salz und Pfeffer zugeben und 5 Min. köcheln lassen.",
+            "Lachsfilet vorsichtig zugeben und kurz erhitzen.",
+            "Fettuccine abgießen, zusammen mit Lachsfilet und Zitronen-Spargel-Soße anrichten und mit grünen Frühlingszwiebeln garnieren.",
+            "Küche aufräumen."
+        ]
+    },
+    {
+        "id": "67be3b226d570e5e9ed45929",
+        "title": "Boulette mit Apfel-Speck-Soße",
+        "subtitle": "dazu cremiger Kartoffelstampf",
+        "labels": [
+            "Schwein",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/boulette-mit-apfel-speck-sosze-thermomix-0d28c8ae.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Gemischtes Hackfleisch",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Mehligkochende Kartoffeln",
+                "amount": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Bacon",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Apfel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Petersilie",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Muskatnuss",
+                "amount": 7,
+                "unit": "g"
+            },
+            {
+                "name": "Kochsahne",
+                "amount": 225,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 3,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Etwas Petersilie im Mixtopf 3 Sek. Stufe 8 zerkleinern und nach unten schieben.",
+            "Hackfleisch zusammen mit 1 Ei, etwas Semmelbrösel, Senf, Salz und Pfeffer zugeben, 15 Sek. Stufe 5 mischen und daraus Bouletten formen.",
+            "Mixtopf spülen.",
+            "Rühraufsatz in den Mixtopf einsetzen, Kartoffeln schälen, in Scheiben schneiden und in den Mixtopf geben.",
+            "30g Sahne, 225g Wasser, 1 TL Salz und etwas Muskatnuss zugeben und 19 Min. 98°C Stufe 1 garen.",
+            "Bouletten 5 Min. je Seite in Öl anbraten und aus der Pfanne nehmen.",
+            "Zwiebeln, Bacon und Apfel in der Pfanne anbraten und mit restlicher Sahne und 100ml Wasser ablöschen.",
+            "Soße mit Salz, Pfeffer und Muskatnuss abschmecken und Bouletten darin erwärmen.",
+            "20g Butter zu den Kartoffeln geben und 20 Sek. Stufe 3 rühren.",
+            "Stampf und Bouletten auf Teller verteilen, mit Apfel-Speck-Soße anrichten und mit restlicher Petersilie bestreut genießen."
+        ]
+    },
+    {
+        "id": "67c0cc6c12451979946ee29a",
+        "title": "Fischfilet nach Art Bordelaise",
+        "subtitle": "mit Kartoffelstampf und Tomatensalat",
+        "labels": [
+            "Fisch",
+            "Thermomix",
+            "Airfryer"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/fischfilet-nach-art-bordelaise-259a600b.jpg",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Seehecht",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Semmelbrösel",
+                "amount": 75,
+                "unit": "g"
+            },
+            {
+                "name": "Dill/Petersilie",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Senf",
+                "amount": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Butter",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Mehligkochende Kartoffeln",
+                "amount": 800,
+                "unit": "g"
+            },
+            {
+                "name": "Mayonnaise",
+                "amount": 34,
+                "unit": "ml"
+            },
+            {
+                "name": "Joghurt",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Tomate",
+                "amount": 4,
+                "unit": "St"
+            },
+            {
+                "name": "Frühlingszwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Wasser",
+                "amount": 250,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Milch",
+                "amount": 2,
+                "unit": "Esslöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 5,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "1 Zwiebel, Knoblauchzehe und Dill im Mixtopf 3 Sek. Stufe 8 zerkleinern und mit dem Spatel nach unten schieben.",
+            "Butter, Semmelbrösel und Senf zugeben, 5 Sek. Stufe 6 zerkleinern und umfüllen.",
+            "Für den Dip Petersilie und 1 Zwiebel im Mixtopf 5 Sek. Stufe 5 zerkleinern, mit Joghurt, Mayonnaise, Salz und Pfeffer mischen und umfüllen.",
+            "Rühraufsatz in den Mixtopf einsetzen, geschälte Kartoffeln in Scheiben hineingeben, 250g Wasser, 1 TL Salz und evtl. etwas Muskatnuss zugeben und 20 Min. 98 °C Stufe 1 garen.",
+            "Fisch waschen, salzen, evtl. halbieren, mit vorbereiteten Semmelbröseln toppen und ca. 12 Min. bei 200 °C im Airfryer backen.",
+            "Für den Salat Tomaten würfeln, mit Frühlingszwiebelringen vermengen und mit Salz und Pfeffer abschmecken.",
+            "Rühraufsatz aus dem Mixtopf entfernen, etwas Milch dazugeben und 20 Sek. Stufe 3 rühren.",
+            "Gebackenen Fisch evtl. mit Zitronen servieren, Kartoffelstampf, Tomatensalat und Dip dazureichen und genießen."
+        ]
+    },
+    {
+        "id": "67c3772512451979946ee29b",
+        "title": "BBQ Burritos mit Hackfleisch",
+        "subtitle": "schwarzen Bohnen, Salat und Knoblauchdressing",
+        "labels": [
+            "Express",
+            "Schwein",
+            "Eiweiß"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R04_W13_DE_L4529-1_Main_low-c9881c34.jpg",
+        "duration": 15,
+        "ingredients": [
+            {
+                "name": "Hackfleisch",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Weizentortillas",
+                "amount": 6,
+                "unit": "St"
+            },
+            {
+                "name": "Schwarze Bohnen",
+                "amount": 380,
+                "unit": "g"
+            },
+            {
+                "name": "Salatherz",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Joghurt",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 52,
+                "unit": "g"
+            },
+            {
+                "name": "BBQ-Soße",
+                "amount": 40,
+                "unit": "ml"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 3,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Hackfleisch und Zwiebel in Scheiben ohne Fettzugabe 4 Min. in einer Pfanne anbraten.",
+            "Aus Joghurt, Knoblauchzehen, Salz und Pfeffer ein Dressing herstellen und mit kleingeschnittenem Salatherz vermengen.",
+            "Tomatenmark, schwarzen Bohnen (gespült und abgetropft), BBQ-Soße, Paprikagewürz, Salz und Pfeffer in die Pfanne zugeben und 1 Min. mitbraten.",
+            "Weizentortillas kurz erwärmen, Hackfleischfüllung darauf verteilen und mit Salat toppen.",
+            "Seiten der Wraps links und rechts nach innen klappen, untere Seite nach oben über die Füllung klappen und fest aufrollen."
+        ]
+    },
+    {
+        "id": "67c4bdaa12451979946ee29c",
+        "title": "Thüringer Rostbratwurst",
+        "subtitle": "mit Apfel-Sauerkraut und Kartoffel-Spinat-Stampf",
+        "labels": [
+            "Schwein",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/cipollata-bratwurstli-mit-feigen-senf-thermomix-5bee29e0-c277c195.jpg",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Thüringer Rostbratwurst",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Mildes Sauerkraut",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Senf",
+                "amount": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Ofenkartoffel",
+                "amount": 5,
+                "unit": "St"
+            },
+            {
+                "name": "Apfel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Babyspinat",
+                "amount": 75,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 2,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 4,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 3,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Äpfel und Zwiebeln im Mixtopf 3 Sek. Stufe 5 zerkleinern, mit dem Spatel nach unten schieben und in etwas Öl 4 Min. 120 °C Stufe 1 dünsten.",
+            "Sauerkraut abgießen, in den Mixtopf zugeben, 5 Min. 100 °C Reverse Stufe 2 dünsten und in den Varomabehälter umfüllen.",
+            "Kartoffeln schälen, zerkleinern und in den Gareinsatz geben.",
+            "500 g Wasser in den Mixtopf geben, Gareinsatz und Varomabehälter aufsetzen und 27 Min. Varoma Stufe 1 garen.",
+            "5 Min. vor Ende der Garzeit Bratwürste braten.",
+            "Kartoffeln, 75 g Garflüssigkeit, 15 g Butter, Salz, Pfeffer und Muskatnuss in den Mixtopf geben und 10 Sek. Stufe 4 pürieren.",
+            "Spinat vorsichtig unterheben.",
+            "Bratwürste zusammen mit Kartoffel-Spinat-Stampf, Sauerkraut und etwas Senf anrichten und genießen."
+        ]
+    },
+    {
+        "id": "67ccb8eb12451979946ee29d",
+        "title": "Möhren-Kartoffel-Eintopf",
+        "subtitle": "",
+        "labels": [
+            "Schwein",
+            "Thermomix"
+        ],
+        "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/FF2761A4-0A0C-47C2-A9C6-73BC93AC7FCE/Derivates/DF2DF905-1600-4CC9-89EA-61C592FD450E.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Zwiebel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Öl",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Speckwürfel",
+                "amount": 120,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffel",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Möhren",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Majoran",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Wasser",
+                "amount": 350,
+                "unit": "g"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kohlenhydrate",
+                "amount": 35,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 11,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 10,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebeln in den Mixtopf geben, 3 Sek./Stufe 5 zerkleinern und mit dem Spatel nach unten schieben.",
+            "Öl zugeben und 3 Min./120°C/Stufe 1 dünsten.",
+            "Speckwürfel, Kartoffeln, Möhren, Majoran, Zucker, Salz, Pfeffer, Wasser und Gewürzpaste zugeben und 25 Min./100°C/Stufe 1 garen, dann 4 Sek./Stufe 3 zerkleinern, in 4 Suppenteller geben und heiß servieren."
+        ]
+    },
+    {
+        "id": "67d5eea612451979946ee29e",
+        "title": "Nudel-Möhren-Auflauf",
+        "subtitle": "",
+        "labels": [
+            "Vegetarisch",
+            "Thermomix",
+            "Airfryer"
+        ],
+        "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C117860C-26FE-4C7C-B192-73D376A2816A/Derivates/37cd967c-d910-4401-a4af-a8c8c3731dcb.jpg",
+        "duration": 60,
+        "ingredients": [
+            {
+                "name": "Reibekäse",
+                "amount": 180,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Möhren",
+                "amount": 450,
+                "unit": "g"
+            },
+            {
+                "name": "Rapsöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Kochsahne",
+                "amount": 250,
+                "unit": "g"
+            },
+            {
+                "name": "Wasser",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Kurze Nudeln",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Röstzwiebeln",
+                "amount": 50,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kohlenhydrate",
+                "amount": 69,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 26,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 45,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebeln und Möhren in den Mixtopf geben, 5 Sek./Stufe 4.5 zerkleinern und mit dem Spatel nach unten schieben.",
+            "Öl zugeben und 5 Min./120°C//Stufe 1 dünsten.",
+            "Gewürzpaste, Sahne, Wasser, Nudeln, Salz und Pfeffer zugeben und 2 Min./100°C//Stufe 1 aufkochen.",
+            "Die Hälfte der Mischung in eine Auflaufform (ca. 25 x 35 cm) geben, mit der Hälfte des Käses bestreuen und restliche Mischung darauf geben.",
+            "Den restlichen Käse und Röstzwiebeln mischen und auf dem Auflauf verteilen.",
+            "Den Auflauf 17 Minuten bei 180°C im Airfryer backen."
+        ]
+    },
+    {
+        "id": "67d9f77012451979946ee29f",
+        "title": "Klassische Pasta Bolognese mit Rinderhack",
+        "subtitle": "Karotte und geriebenem Hartkäse",
+        "labels": [
+            "Rind",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/klassische-pasta-bolognese-mit-rinderhack-bbacf739.jpg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Rinderhackfleisch",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Spaghetti oder Fettuccine",
+                "amount": 360,
+                "unit": "g"
+            },
+            {
+                "name": "Gehackte Tomaten",
+                "amount": 585,
+                "unit": "g"
+            },
+            {
+                "name": "Karotte",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 105,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Geriebenen Hartkäse",
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Rinderbrühe",
+                "amount": 4,
+                "unit": "g"
+            },
+            {
+                "name": "Lorbeerblatt",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Italienische Kräuter",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 4,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 7,
+                "unit": "g"
+            },
+            {
+                "name": "Ges. Fettsäuren",
+                "amount": 2,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebel und Knoblauchzehe im Thermomix 5 Sek. Stufe 5 zerkleinern und in etwas Öl 3 Min. 120°C Stufe 1 dünsten.",
+            "Geschälte Karotte in Stücken zugeben und 5 Sek. Stufe 5 zerkleinern.",
+            "Rinderhackfleisch zugeben und 8 Min. 100°C Reverse Stufe 1 dünsten.",
+            "Gehackte Tomaten, Rinderbrühe, Tomatenmark, etwas Rotwein, Lorbeerblatt, italienische Kräuter, 1 TL Zucker, Salz und Pfeffer in den Mixtopf zugeben, einmal umrühren und 11 Min. 100°C Reverse Stufe 1 kochen.",
+            "Pasta bissfest in Salzwasser garen.",
+            "Pasta mit Bolognesesoße und Hartkäse genießen."
+        ]
+    },
+    {
+        "id": "67db326312451979946ee2a0",
+        "title": "Klassisches Rindergulasch",
+        "subtitle": "mit Kartoffeln",
+        "labels": [
+            "Rind",
+            "Eiweiß",
+            "Thermomix"
+        ],
+        "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
+        "duration": 120,
+        "ingredients": [
+            {
+                "name": "Kartoffeln",
+                "amount": 700,
+                "unit": "g"
+            },
+            {
+                "name": "Rindergulasch",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Rinderfond",
+                "amount": 400,
+                "unit": "ml"
+            },
+            {
+                "name": "Schalotten",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Trockener Rotwein",
+                "amount": 200,
+                "unit": "ml"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Butterschmalz",
+                "amount": 3,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Paprikapulver, edelsüß",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Majoran, getrocknet",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 19,
+                "unit": "g"
+            },
+            {
+                "name": "Ges. Fettsäuren",
+                "amount": 2,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Schalotten schälen, vierteln und in Butterschmalz im Schmortopf anbraten.",
+            "Schalotten beiseitestellen und Rindergulasch gewürfelt in Butterschmalz im Schmortopf portionsweise scharf anbraten, etwas salzen.",
+            "Schalotten und 40g Tomatenmark dazugeben und kurz anrösten.",
+            "Mit 200 ml trockenem Rotwein ablöschen und den Rotwein zu 2/3 verkochen lassen, sprich auf ungefähr 1/3 reduzieren.",
+            "1 Knoblauchzehe schälen und in feine Würfel schneiden.",
+            "Wenn der Rotwein reduziert ist, den Knoblauch, 2 TL Paprikapulver, 1/2 TL Majoran und 1 Messerspitze Cayennepfeffer hinzufügen und kurz unterrühren.",
+            "Das Fleisch und die Schalotten nun mit 400 ml Rinderfond ablöschen und mit Deckel für ca. 1,5 Stunden bei geringer Hitze auf der Herdplatte garen.",
+            "Kartoffeln schälen, kleinschneiden, in den Gareinsatz geben, etwas salzen und 25 Min. Varoma Stufe 1 dampfgaren.",
+            "Gulasch am Ende der Garzeit nach Belieben abschmecken und gegebenenfalls eindicken.",
+            "Gulasch mit Kartoffeln und eventuell Apfelrotkohl servieren."
+        ]
+    },
+    {
+        "id": "67e5cd0b12451979946ee2a1",
+        "title": "Hähnchenkeule mit Knollenselleriestampf",
+        "subtitle": "bunten Ofenkartoffeln und Balsamicosoße",
+        "labels": [
+            "Geflügel",
+            "Eiweiß",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchenkeule-mit-knollenselleriestampf-d25a9324.jpg",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Hähnchenkeule in Kräutermarinade",
+                "amount": 750,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Balsamicocreme",
+                "amount": 24,
+                "unit": "g"
+            },
+            {
+                "name": "Mehligk. Kartoffeln",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Karotten",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Petersilie/Thymian",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Knollensellerie",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Milch",
+                "amount": 150,
+                "unit": "ml"
+            },
+            {
+                "name": "Honig",
+                "amount": 12,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 5,
+                "unit": "g"
+            },
+            {
+                "name": "Ges. Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Petersilie im Mixtopf 3 Sek. Stufe 8 zerkleinern und umfüllen.",
+            "Zwiebeln und Knoblauchzehe im Mixtopf 5 Sek. Stufe 5 zerkleinern und in eine große Pfanne umfüllen.",
+            "Kartoffeln schälen, kleinschneiden und in den Gareinsatz geben.",
+            "Knollensellerie schälen, in Würfel schneiden und in den V-Behälter geben.",
+            "500g Wasser in den Mixtopf geben, Gareinsatz einsetzen, Varoma aufsetzen und 25 Min. Varoma Stufe 1 garen.",
+            "Hähnchenkeulen 25 Min. bei 200°C im Airfryer backen.",
+            "Karotten schälen, in Stifte schneiden, in eine Schüssel geben, mit gehackten Thymian, 1 EL Öl, Salz und Pfeffer vermengen und 17 Min. bei 180°C ebenfalls im Airfryer backen.",
+            "Zwiebel-Knoblauch-Mix in der Pfanne in Öl anbraten, mit 100 ml Garflüssigkeit ablöschen und Hühnerbrühe, Honig, Balsamicocreme, Salz und Pfeffer dazugeben.",
+            "Aus Kartoffeln, Knollensellerie, Milch, Salz und Pfeffer 5 Sek. Stufe 5 einen Stampf zubereiten.",
+            "Hähnchenkeulen zusammen mit Karotten servieren, Knollenselleriestampf und Balsamicosoße dazureichen und ggf. mit zerkleinerter Petersilie toppen."
+        ]
+    },
+    {
+        "id": "67e5cd6b12451979946ee2a2",
+        "title": "Hähnchenfilets in Kräuterpanade",
+        "subtitle": "mit Fettuccine und selbstgemachten Pesto",
+        "labels": [
+            "Geflügel",
+            "Eiweiß",
+            "Thermomix",
+            "Airfryer"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R34_W42_DE_R1133-23_Main_low-ddaaad01.jpg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Fettuccine",
+                "amount": 360,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Basilikum",
+                "amount": 5,
+                "unit": "g"
+            },
+            {
+                "name": "Oregano",
+                "amount": 5,
+                "unit": "g"
+            },
+            {
+                "name": "Basilikumpaste",
+                "amount": 39,
+                "unit": "ml"
+            },
+            {
+                "name": "Sonnenblumenkerne",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Geriebenen Hartkäse",
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Mayonnaise",
+                "amount": 25,
+                "unit": "g"
+            },
+            {
+                "name": "Semmelbrösel",
+                "amount": 37,
+                "unit": "g"
+            },
+            {
+                "name": "Senf",
+                "amount": 15,
+                "unit": "ml"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 6,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 3,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Oregano und Semmelbrösel in den Mixtopf geben und 3 sek. Stufe 8 zerkleinern",
+            "Hähnchen in Streifen schneiden und mit Senf, Mayonnaise,Salz und Pfeffer vermengen",
+            "Semmelbrösel dazugeben, mischen und Hähnchen in Zone 1 des Airfryers geben",
+            "Hähnchen etwas ölen und im Airfryer 10 min. bei 200 °C frittieren",
+            "Sonnenblumenkerne rösten",
+            "Fettuccine in Salzwasser garen",
+            "Basilikum, Basilikumpaste, Knoblauch, Sonnenblumenkerne, geriebenen Hartkäse und Hühnerbrühe in den Mixtopf geben und 5 sek. Stufe 8 zerkleinern",
+            "45 g Ölivenöl, 1,5 TL Weißweinessig, 70 g kaltes Wasser, Salz und Pfeffer zugeben und 10 sek. Stufe 6 zu einem Pesto verrühren",
+            "Fettucine abgießen und mit Hähnchen und Pesto servieren",
+            "Airfryer und Thermomix reinigen"
+        ]
+    },
+    {
+        "id": "67f588bf12451979946ee2a3",
+        "title": "Lachsfilet in Teriyakisoße",
+        "subtitle": "mit Sesamspinat und Avocado",
+        "labels": [
+            "Fisch",
+            "Express"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/lachsfilet-in-teriyakisosze-6ab6b850.jpg",
+        "duration": 15,
+        "ingredients": [
+            {
+                "name": "Lachsfilet",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Frühlingszwiebel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Teriyakisoße",
+                "amount": 300,
+                "unit": "ml"
+            },
+            {
+                "name": "Basmatireis",
+                "amount": 225,
+                "unit": "g"
+            },
+            {
+                "name": "Limette",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Babyspinat",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Sesam",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Avocado",
+                "amount": 1,
+                "unit": "St"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 7,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Reis ca. 10 Min. kochen",
+            "In einer Pfanne Sesam und weiße Frühlingszwiebelringe in Öl 2 Min. anbraten",
+            "Spinat nach und nach dazugeben und mit Salz und Pfeffer würzen",
+            "Spinat aus der Pfanne nehmen und Lachsfilet auf jeder Seite ca. 3 Min. goldbraun braten (evtl. Öl nachfüllen)",
+            "Teriyakisoße, 100 ml Wasser, Saft von 2 Limettenspalten hinzufügen und alles ca. 2 Min. einköcheln lassen",
+            "Lachsfilet zusammen mit Sesamspinat servieren und Reis, Avocado und Frühlingszwiebelringe dazureichen"
+        ]
+    },
+    {
+        "id": "680a9fb512451979946ee2a5",
+        "title": "Hähnchen Piccata! in Kapern-Zitronen-Soße",
+        "subtitle": "dazu Bohnen und Kartoffeln",
+        "labels": [
+            "Geflügel",
+            "Thermomix",
+            "Kalorienarm"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/hahnchen-piccata-in-kapern-zitronen-sosze-c4304738.jpg",
+        "duration": 20,
+        "ingredients": [
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Buschbohnen",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Kapern",
+                "amount": 35,
+                "unit": "g"
+            },
+            {
+                "name": "Zitrone",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 2,
+                "unit": "St"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Enden der Bohnen abschneiden, Bohnen halbieren und in den Varomabehälter geben",
+            "Knoblauchzehen 3 Sek. Stufe 8 zerkleinern und zu den Bohnen geben",
+            "Bohnen salzen und pfeffern und Varomabehälter verschließen",
+            "Kartoffeln schälen, kleinschneiden und in den Gareinsatz geben",
+            "500g Wasser in den Mixtopf geben und Bohnen und Kartoffeln 9 Min. Varoma Stufe 1 vorgaren",
+            "Einlegeboden mit Backpapier auslegen, Hähnchenbrustfilets darauf verteilen, salzen und pfeffern, Einlegeboden einsetzen und 16 Min. Varoma Stufe 1 weitergaren (evtl. Hähnchen für Röstaromen vorher kurz anbraten)",
+            "Mehlschwitze herstellen, mit Hühnerbrühe ablöschen, Kapern und Zitronenschale (evtl. auch etwas Saft) hinzugeben und mit Salz, Pfeffer und einer Prise Zucker abschmecken",
+            "Hähnchenbrustfilets mit restlicher Zitrone garnieren, Kartoffeln, Kapern-Zitronen-Soße und Bohnen dazureichen und genießen"
+        ]
+    },
+    {
+        "id": "680aa09012451979946ee2a6",
+        "title": "Saftiges Hähnchen-Paprika-Gulasch",
+        "subtitle": "dazu Konfetti-Mais-Reis und Joghurt",
+        "labels": [
+            "Geflügel",
+            "Express"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R35_W43_DE_R4899-1_Main__10low-f6e744e8.jpg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Reis",
+                "amount": 225,
+                "unit": "g"
+            },
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Paprika",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Mais",
+                "amount": 340,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Schnittlauch",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Kräuterbutter",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 52,
+                "unit": "g"
+            },
+            {
+                "name": "Naturjoghurt",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Gulaschgewürz",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 6,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 5,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Reis ca. 10 Min. kochen",
+            "In einer Pfanne Zwiebel, Paprika und Hähnchenbrustfilet (in Streifen) in Öl 5 Min. scharf anbraten",
+            "Tomatenmark oder Ketchup, Gulaschgewürz und Hühnerbrühe zugeben und 1 Min. anschwitzen",
+            "Pfanneninhalt mit 1,5 TL Balsamicoessig, evtl. etwas Rotwein und 150ml Wasser ablöschen, aufkochen lassen und mit Salz, Pfeffer und etwas Zucker abschmecken",
+            "Mais (abgetropft) und Kräuterbutter unter den Reis geben und mit Salz und Pfeffer würzen",
+            "Konfetti-Mais-Reis und Hähnchen-Paprika-Gulasch servieren und Joghurt mit Schnittlauch (in Ringen) dazureichen"
+        ]
+    },
+    {
+        "id": "68263d0a12451979946ee2a7",
+        "title": "Würzig gebratenes Schweinelachssteak",
+        "subtitle": "mit Schupfnudeln und Rahmporree",
+        "labels": [
+            "Express",
+            "Schwein",
+            "Thermomix",
+            "Eiweiß"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/wurzig-gebratenes-schweinelachssteak-b56b0e40.jpg",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Schweinelachssteak",
+                "amount": 375,
+                "unit": "g"
+            },
+            {
+                "name": "Paprikapulver",
+                "amount": 4,
+                "unit": "g"
+            },
+            {
+                "name": "Kochsahne",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Porree",
+                "amount": 3,
+                "unit": "g"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Schupfnudeln",
+                "amount": 600,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 3,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 1,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Porree als Ringe 6 Min. 100°C Stufe 1 reverse in Öl dünsten",
+            "Schweinelachssteak waschen, würzen, in Öl in der Pfanne 3 Min. je Seite braten, aus der Pfanne nehmen und warmhalten",
+            "Kochsahne, Hühnerbrühe, 50g Wasser, Salz und Pfeffer in den Mixtopf zugeben und 8 Min. 98°C Stufe 1 reverse kochen",
+            "Schupfnudeln in Öl in der Pfanne 6-8 Min. knusprig anbraten",
+            "Schweinelachssteak mit Schupfnudeln und Rahmporree anrichten"
+        ]
+    },
+    {
+        "id": "6830d22b12451979946ee2a9",
+        "title": "Spargelwok",
+        "subtitle": "mit Schweinefilet",
+        "labels": [
+            "Schwein",
+            "Thermomix",
+            "Eiweiß"
+        ],
+        "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/36FDBEEC-86C6-4F07-8091-2F61121A562D/Derivates/8335B6D5-4064-4B2D-80F2-70A9F8591B4E.jpg",
+        "duration": 75,
+        "ingredients": [
+            {
+                "name": "Koriander",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Sesam",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Sojasauce",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Sambal Oelek",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Sesamöl, geröstet",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Schweinefilet",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Wasser",
+                "amount": 540,
+                "unit": "g"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Rote Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Rote Paprika",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Spargel",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Zuckerschoten",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Speisestärke",
+                "amount": 25,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kohlenhydrate",
+                "amount": 25,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 43,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 29,
+                "unit": "g"
+            },
+            {
+                "name": "Ballaststoffe",
+                "amount": 7,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Koriander, Sesam, Sojasauce, Sambal Oelek und Sesamöl in den Mixtopf geben, 10 Sek./Stufe 6 vermischen und in eine große Schüssel umfüllen.",
+            "Schweinefilet in die Schüssel zu der Marinade geben und 30 Minuten marinieren.",
+            "500 g Wasser, Gewürzpaste und Marinade in den Mixtopf geben, Gareinsatz einhängen und Schweinefiletscheiben hineingeben.",
+            "Varoma-Behälter aufsetzen, Zwiebel, Paprika, Thai-Spargel und Zuckerschoten in den Varoma einwiegen, verschließen und 18 Min./Varoma/Stufe 1 garen.",
+            "Gegartes Gemüse und Fleisch in eine Schüssel umfüllen und warm stellen.",
+            "Speisestärke und 40 g Wasser glatt verrühren, in den Mixtopf zugeben, 2 Min./90°C/Stufe 2 garen, abschmecken, zu der Gemüse-Fleisch-Mischung geben, mit dem Spatel vermischen und z.B. mit Reis servieren."
+        ]
+    },
+    {
+        "id": "6859ae1f12451979946ee2aa",
+        "title": "Mezze Rinderhackpfanne auf Tomatenreis",
+        "subtitle": "dazu Hirtenkäse und Zaziki",
+        "labels": [
+            "Rind",
+            "Eiweiß",
+            "Thermomix",
+            "Express"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/64ccdd8f6c6eb9d59f0c70d7-d9ad5415-7d5c02ec.jpeg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Rinderhackfleisch",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Hirtenkäse",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Basmatireis",
+                "amount": 225,
+                "unit": "g"
+            },
+            {
+                "name": "Naturjoghurt",
+                "amount": 225,
+                "unit": "g"
+            },
+            {
+                "name": "Salatgurke",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Karotte",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 3,
+                "unit": "St"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 70,
+                "unit": "g"
+            },
+            {
+                "name": "Gewürzmischung Hackfleisch",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gewürzmischung Paprika",
+                "amount": 6,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 0,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 6,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 2,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Knoblauch 3 Sek. Stufe 8 zerkleinern und die Hälfte umfüllen.",
+            "Gurke entkernen, in den Mixtopf zugeben und 5 Sek. Stufe 5 zerkleinern.",
+            "Gurke und Knoblauch umfüllen, gut abtropfen lassen, mit Joghurt mischen und mit Salz und Pfeffer würzen.",
+            "Karotte 5 Sek. Stufe 5 zerkleinern, zusammen mit Reis in den Gareinsatz geben und 18 Min. Varoma Stufe 1 dampfgaren (bei 1200g Wasser).",
+            "Rinderhackfleisch und Knoblauch in der Pfanne in Öl krümelig anbraten und mit Gewürzmischung Hackfleisch würzen.",
+            "Nach dem Dampfgaren den Reis abgedeckt ziehen lassen und Garflüssigkeit auffangen.",
+            "150g Garflüssigkeit, Tomatenmark und Gewürzmischung Paprika in den Mixtopf geben und 4 Min. 100°C Reverse Stufe 1 erwärmen.",
+            "Reis und Tomatensoße vermengen, abschmecken und zusammen mit Rinderhackfleisch, Zaziki und Hirtenkäse servieren."
+        ]
+    },
+    {
+        "id": "6872eceda35af516b14756d7",
+        "title": "Grüner Power-Bowl mit Quinoa und Avocado",
+        "subtitle": "Cholesterinsenkende Superfoods aus dem Thermomix",
+        "labels": [
+            "Kalorienarm",
+            "Fettarm",
+            "Vegetarisch",
+            "Thermomix"
+        ],
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Quinoa",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Brokkoli",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Avocado",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Babyspinat",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Kichererbsen (gekocht)",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Olivenöl, extra vergine",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Zitrone (Saft)",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Petersilie, frisch",
+                "amount": 10,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 450,
+                "unit": "kcal"
+            },
+            {
+                "name": "Fett",
+                "amount": 18,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Ballaststoffe",
+                "amount": 12,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Quinoa 10 Sek. / Stufe 8 mahlen, dann mit 300 ml Wasser 15 Min. / 100 °C / Stufe 1 garen, in den Varoma geben und zur Seite stellen.",
+            "Brokkoli in Röschen teilen, in den Varoma legen.",
+            "500 ml Wasser in den Mixtopf geben, Varoma aufsetzen, 15 Min. / Varoma / Stufe 1 dampfgaren.",
+            "In der Zwischenzeit Avocado würfeln, Zitrone auspressen, Babyspinat waschen.",
+            "Knoblauch und Petersilie 5 Sek. / Stufe 7 hacken, dann mit Zitronensaft und Olivenöl 10 Sek. / Stufe 3 mischen.",
+            "Alle Zutaten in einer Bowl anrichten, Dressing darübergeben."
+        ]
+    },
+    {
+        "id": "6872ee81a35af516b14756d8",
+        "title": "Mediterraner Linsensalat",
+        "subtitle": "Mit Kichererbsen, Tomaten und Tahin-Dressing",
+        "labels": [
+            "Vegan",
+            "Fettarm",
+            "Kalorienarm",
+            "Thermomix"
+        ],
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "grüne Linsen",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Kichererbsen (gekocht)",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Kirschtomaten",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Gurke",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Tahin",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Zitrone",
+                "amount": 1,
+                "unit": "St"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 320,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 18,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 8,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Linsen im Thermomix 20 Min bei 100°C garen.",
+            "Gurke, Tomaten, Kichererbsen zerkleinern und mischen.",
+            "Tahin mit Zitronensaft und Wasser verrühren.",
+            "Alles vermengen und servieren."
+        ]
+    },
+    {
+        "id": "6872ee81a35af516b14756d9",
+        "title": "Grünes Gemüse-Curry",
+        "subtitle": "Mit Brokkoli, Spinat und Kokosmilch",
+        "labels": [
+            "Vegan",
+            "Fettarm",
+            "Kalorienarm",
+            "Thermomix"
+        ],
+        "image": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Brokkoli",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Spinat (frisch)",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Kokosmilch (light)",
+                "amount": 200,
+                "unit": "ml"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Currypaste (grün)",
+                "amount": 1,
+                "unit": "Esslöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 290,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 12,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 9,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebel und Knoblauch im Thermomix 5 Sek/Stufe 5 zerkleinern.",
+            "Currypaste und Gemüse zugeben, 5 Min/Varoma dünsten.",
+            "Mit Kokosmilch auffüllen, 15 Min bei 100°C garen.",
+            "Spinat einrühren und servieren."
+        ]
+    },
+    {
+        "id": "6872ee81a35af516b14756da",
+        "title": "Cholesterin-Porridge",
+        "subtitle": "Mit Haferflocken, Chia und Beeren",
+        "labels": [
+            "Vegan",
+            "Kalorienarm",
+            "Fettarm",
+            "Thermomix"
+        ],
+        "image": "https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg",
+        "duration": 10,
+        "ingredients": [
+            {
+                "name": "Haferflocken",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Chiasamen",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Pflanzenmilch",
+                "amount": 200,
+                "unit": "ml"
+            },
+            {
+                "name": "Beerenmix",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Zimt",
+                "amount": 0,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 270,
+                "unit": "kcal"
+            },
+            {
+                "name": "Ballaststoffe",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 9,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Alle Zutaten außer Beeren im Thermomix 5 Min/90°C/Stufe 2 kochen.",
+            "Beeren zugeben und 1 Min/Stufe 1 unterrühren.",
+            "In Schüssel geben, mit Zimt bestreuen."
+        ]
+    },
+    {
+        "id": "6872ee81a35af516b14756db",
+        "title": "Kichererbsen-Falafel",
+        "subtitle": "Mit Kräutern und fettarmem Joghurtdip",
+        "labels": [
+            "Vegetarisch",
+            "Eiweiß",
+            "Fettarm",
+            "Thermomix"
+        ],
+        "image": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+        "duration": 35,
+        "ingredients": [
+            {
+                "name": "Kichererbsen (gekocht)",
+                "amount": 250,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Petersilie",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Haferflocken",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Naturjoghurt (0,1%)",
+                "amount": 100,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 340,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 16,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 7,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebel, Knoblauch, Petersilie im Thermomix zerkleinern.",
+            "Kichererbsen und Haferflocken zugeben und mixen.",
+            "Bällchen formen, im Ofen 20 Min backen.",
+            "Mit Joghurtdip servieren."
+        ]
+    },
+    {
+        "id": "6872ee81a35af516b14756dc",
+        "title": "Avocado-Bohnen-Bowl",
+        "subtitle": "Mit Quinoa und Limetten-Vinaigrette",
+        "labels": [
+            "Vegan",
+            "Kalorienarm",
+            "Fettarm",
+            "Thermomix"
+        ],
+        "image": "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Quinoa",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Avocado",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Schwarze Bohnen",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Mais",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Limette",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Rucola",
+                "amount": 50,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 380,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 14,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 11,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Quinoa im Thermomix 20 Min/100°C garen.",
+            "Bohnen, Mais, Rucola und Avocado schneiden.",
+            "Vinaigrette aus Limettensaft und Gewürzen mixen.",
+            "Alles in einer Bowl anrichten."
+        ]
+    },
+    {
+        "id": "68740f54a35af516b14756e2",
+        "title": "Zucchini-Hackfleisch-Pfanne mit Tomaten und Feta",
+        "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern",
+        "labels": [
+            "Eiweiß",
+            "Fettarm",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zucchini-hackfleisch-pfanne-12736879.jpg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Zucchini",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Hackfleisch (gemischt oder Rind)",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Kirschtomaten",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Feta",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Italienische Kräuter (getrocknet)",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 460,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 32,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 24,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebel und Knoblauch im Thermomix 5 Sek./Stufe 5 zerkleinern.",
+            "1 EL Olivenöl zugeben und 3 Min./120°C/Stufe 1 andünsten.",
+            "Hackfleisch zugeben und 7 Min./Varoma/Stufe 1 braten, mit Spatel zerkleinern.",
+            "Zucchini in kleine Würfel schneiden und zugeben, 5 Min./100°C/Stufe 1 garen.",
+            "Kirschtomaten halbieren und zusammen mit Kräutern unterheben.",
+            "Mit Salz & Pfeffer abschmecken, in Schüsseln füllen und mit Feta bestreuen."
+        ]
+    },
+    {
+        "id": "687800bba35af516b14756e4",
+        "title": "Zucchini-Nudelpfanne mit Ricotta und frischen Kräutern",
+        "subtitle": "Leichtes Low-Carb-Gericht mit Zoodles, Ricotta und Zitrone",
+        "labels": [
+            "Vegetarisch",
+            "Kalorienarm",
+            "Thermomix"
+        ],
+        "image": "https://www.foodwithlove.de/wp-content/uploads/2021/10/Zoodles1-1024x683-1.jpg",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Zucchini",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Ricotta",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Zitrone",
+                "amount": 0,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Basilikum (frisch)",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 320,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 14,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 24,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zucchini mit einem Spiralschneider zu Zoodles verarbeiten.",
+            "Knoblauch fein hacken, in Olivenöl anbraten.",
+            "Zoodles in die Pfanne geben, 3–4 Minuten anbraten.",
+            "Ricotta, Zitronensaft, Salz und Pfeffer unterheben.",
+            "Zum Schluss mit frischem Basilikum garnieren und servieren."
+        ]
+    }
 ]
