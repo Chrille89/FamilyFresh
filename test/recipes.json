@@ -2544,85 +2544,6 @@
         ]
     },
     {
-        "id": "68740f54a35af516b14756e2",
-        "title": "Zucchini-Hackfleisch-Pfanne mit Tomaten und Feta",
-        "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern",
-        "labels": [
-            "Eiweiß",
-            "Fettarm",
-            "Thermomix"
-        ],
-        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zucchini-hackfleisch-pfanne-12736879.jpg",
-        "duration": 30,
-        "ingredients": [
-            {
-                "name": "Zucchini",
-                "amount": 300,
-                "unit": "g"
-            },
-            {
-                "name": "Hackfleisch (gemischt oder Rind)",
-                "amount": 300,
-                "unit": "g"
-            },
-            {
-                "name": "Kirschtomaten",
-                "amount": 150,
-                "unit": "g"
-            },
-            {
-                "name": "Zwiebel",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Knoblauch",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Feta",
-                "amount": 100,
-                "unit": "g"
-            },
-            {
-                "name": "Olivenöl",
-                "amount": 1,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Italienische Kräuter (getrocknet)",
-                "amount": 1,
-                "unit": "Teelöfel"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Kalorien",
-                "amount": 460,
-                "unit": "kcal"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 32,
-                "unit": "g"
-            },
-            {
-                "name": "Fett",
-                "amount": 24,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Zwiebel und Knoblauch im Thermomix 5 Sek./Stufe 5 zerkleinern.",
-            "1 EL Olivenöl zugeben und 3 Min./120°C/Stufe 1 andünsten.",
-            "Hackfleisch zugeben und 7 Min./Varoma/Stufe 1 braten, mit Spatel zerkleinern.",
-            "Zucchini in kleine Würfel schneiden und zugeben, 5 Min./100°C/Stufe 1 garen.",
-            "Kirschtomaten halbieren und zusammen mit Kräutern unterheben.",
-            "Mit Salz & Pfeffer abschmecken, in Schüsseln füllen und mit Feta bestreuen."
-        ]
-    },
-    {
         "id": "687800bba35af516b14756e4",
         "title": "Zucchini-Nudelpfanne mit Ricotta und frischen Kräutern",
         "subtitle": "Leichtes Low-Carb-Gericht mit Zoodles, Ricotta und Zitrone",
@@ -2698,6 +2619,559 @@
             "Zoodles in die Pfanne geben, 3–4 Minuten anbraten.",
             "Ricotta, Zitronensaft, Salz und Pfeffer unterheben.",
             "Zum Schluss mit frischem Basilikum garnieren und servieren."
+        ]
+    },
+    {
+        "id": "688292f0a35af516b14756e7",
+        "title": "Express-Pasta mit Rucola und Tomaten",
+        "subtitle": "Schnelles 15-Minuten-Gericht mit frischen Zutaten",
+        "labels": [
+            "Vegetarisch",
+            "Express",
+            "Thermomix"
+        ],
+        "image": "https://www.deinetraumkueche.de/media/image/b6/6c/73/Rucola_600x600.png",
+        "duration": 15,
+        "ingredients": [
+            {
+                "name": "Pasta (z. B. Spaghetti)",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Rucola",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Kirschtomaten",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Parmesan",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 420,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 13,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 17,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 52,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Pasta in kochendem Salzwasser nach Packungsanweisung garen.",
+            "Knoblauch fein hacken, Kirschtomaten halbieren.",
+            "Knoblauch in Olivenöl kurz anbraten, dann Tomaten hinzufügen.",
+            "Abgetropfte Pasta mit der Soße und Rucola vermengen.",
+            "Mit Parmesan, Salz und Pfeffer bestreuen und servieren."
+        ]
+    },
+    {
+        "id": "688292f0a35af516b14756e8",
+        "title": "Express-Mangoldpfanne mit Bergkäse und Kartoffeln",
+        "subtitle": "Herzhaftes Pfannengericht mit kräftigem Käse und frischem Mangold",
+        "labels": [
+            "Vegetarisch",
+            "Express",
+            "Thermomix"
+        ],
+        "image": "https://www.bildderfrau.de/BDF/121614/image-thumb__121614__gallery-horizontal/kartoffel-mangold-pfanne.jpg",
+        "duration": 20,
+        "ingredients": [
+            {
+                "name": "Mangold",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln (vorwiegend festkochend)",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Bergkäse (gerieben)",
+                "amount": 80,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 510,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 17,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 23,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 50,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln schälen, würfeln und 10 Minuten in Salzwasser kochen.",
+            "Zwiebel und Knoblauch fein schneiden, Mangold grob hacken.",
+            "Zwiebel und Knoblauch in Olivenöl anbraten.",
+            "Kartoffeln und Mangold dazugeben, weitere 5 Minuten anbraten.",
+            "Bergkäse über das Gemüse streuen, schmelzen lassen und servieren."
+        ]
+    },
+    {
+        "id": "6883ded0a35af516b14756e9",
+        "title": "Zucchini-Hackfleisch-Pfanne mit Tomaten und Feta",
+        "subtitle": "Mediterraner Genuss mit Feta und frischen Kräutern",
+        "labels": [
+            "Schwein",
+            "Rind",
+            "Eiweiß",
+            "Fettarm",
+            "Thermomix"
+        ],
+        "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/zucchini-hackfleisch-pfanne-12736879.jpg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Zucchini",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Hackfleisch (gemischt oder Rind)",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Kirschtomaten",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Feta",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Italienische Kräuter (getrocknet)",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 460,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 32,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 24,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebel und Knoblauch im Thermomix 5 Sek./Stufe 5 zerkleinern.",
+            "1 EL Olivenöl zugeben und 3 Min./120°C/Stufe 1 andünsten.",
+            "Hackfleisch zugeben und 7 Min./Varoma/Stufe 1 braten, mit Spatel zerkleinern.",
+            "Zucchini in kleine Würfel schneiden und zugeben, 5 Min./100°C/Stufe 1 garen.",
+            "Kirschtomaten halbieren und zusammen mit Kräutern unterheben.",
+            "Mit Salz & Pfeffer abschmecken, in Schüsseln füllen und mit Feta bestreuen."
+        ]
+    },
+    {
+        "id": "68bebb76cf027a44542366eb",
+        "title": "Kohlrouladen klassisch gefüllt",
+        "subtitle": "Mit Hackfleisch‑Reis‑Füllung und würziger Tomatensauce",
+        "labels": [
+            "Eiweiß",
+            "Thermomix",
+            "Rind",
+            "Schwein"
+        ],
+        "image": "https://eat.de/wp-content/uploads/2022/09/kohlrouladen-backofen-9873.jpg",
+        "duration": 90,
+        "ingredients": [
+            {
+                "name": "Weißkohl",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Hackfleisch (gemischt)",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Reis (roh)",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Brötchen (altbacken)",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Ei",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Brühe",
+                "amount": 300,
+                "unit": "ml"
+            },
+            {
+                "name": "Sahne",
+                "amount": 100,
+                "unit": "ml"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 680,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 36,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 35,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 45,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kohlblätter blanchieren, Strunk entfernen.",
+            "Brötchen einweichen und auspressen.",
+            "Zwiebel & Knoblauch fein hacken, mit Hackfleisch, Reis, Ei und Tomatenmark vermengen.",
+            "Füllung in Kohlblätter einrollen, Rouladen verschließen.",
+            "Rouladen in Olivenöl rundum anbraten.",
+            "Mit Brühe ablöschen, zugedeckt 30 Min. schmoren lassen.",
+            "Sahne einrühren und weitere 10 Min. garen.",
+            "Servieren, Sauce ggf. nach Belieben binden."
+        ]
+    },
+    {
+        "id": "68bebc2dcf027a44542366ec",
+        "title": "Gefüllte Zucchini mit Hackfleisch",
+        "subtitle": "Überbackene Zucchinihälften mit würziger Hackfleischfüllung",
+        "labels": [
+            "Rind",
+            "Schwein",
+            "Thermomix"
+        ],
+        "image": "https://www.laux-deli.de/media/10/80/b7/1656938441/161474-gefuellte-zucchini-hackfleisch-r.jpeg?ts=1745570792",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Zucchini",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Hackfleisch (gemischt)",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Tomaten (gehackt)",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Reis (gekocht)",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Geriebener Käse",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Paprikapulver",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 520,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 36,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 28,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 24,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zucchini längs halbieren und aushöhlen, Fruchtfleisch aufbewahren.",
+            "Zwiebel, Knoblauch und Zucchinifleisch hacken und in Olivenöl andünsten.",
+            "Hackfleisch zugeben und krümelig braten, mit Salz, Pfeffer und Paprikapulver würzen.",
+            "Gehackte Tomaten und Reis untermischen, 5 Min. köcheln lassen.",
+            "Zucchinihälften mit der Masse füllen, in eine Auflaufform setzen.",
+            "Mit Käse bestreuen und bei 200 °C ca. 20 Min. backen.",
+            "Heiß servieren."
+        ]
+    },
+    {
+        "id": "68bebee0cf027a44542366ed",
+        "title": "Blue Cheese Burger",
+        "subtitle": "Mit Blauschimmelkäse, Rucola & Kartoffelwedges",
+        "labels": [
+            "Schwein",
+            "Rind",
+            "Airfryer"
+        ],
+        "image": "https://www.diekuechebrennt.de/wp-content/uploads/2018/03/schweine-blauschimmelkaese-burger-mit-rucola-grillen.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Rinderhackfleisch",
+                "amount": 240,
+                "unit": "g"
+            },
+            {
+                "name": "Brioche Buns",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Blauschimmelkäse (z. B. Roquefort)",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Rucola",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Baby-Kartoffeln",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Mayo",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 876,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 42,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 38,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 94,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln vierteln, mit Öl, Salz, Pfeffer vermengen und 25 Min. bei 200°C im Airfryer backen.",
+            "Knoblauch fein reiben. Hackfleisch mit Knoblauch, Salz und Pfeffer würzen und zu Patties formen.",
+            "Patties in Pfanne braten, dann Blauschimmelkäse darauf geben, abdecken und schmelzen lassen.",
+            "Buns kurz im Airfryer erwärmen.",
+            "Unterseite der Bun mit Mayo bestreichen, Patties mit Blauschimmelkäse und Rucola darauf platzieren. Deckel aufsetzen.",
+            "Mit den Kartoffelwedges servieren."
         ]
     }
 ]
