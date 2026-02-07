@@ -461,92 +461,6 @@
         ]
     },
     {
-        "id": "67b644516d570e5e9ed45927",
-        "title": "Senfeier",
-        "subtitle": "mit Kartoffeln",
-        "labels": [
-            "Vegetarisch",
-            "Express",
-            "Eiweiß"
-        ],
-        "image": "https://de.rc-cdn.community.thermomix.com/recipeimage/dj250q3n-3a6bc-658410-4a364-v5yxr4cn/e4c408ef-9cb7-4f0f-b055-9a27c2f5a788/main/eier-in-senfsosse-senfeier.jpg",
-        "duration": 25,
-        "ingredients": [
-            {
-                "name": "Kartoffeln",
-                "amount": 700,
-                "unit": "g"
-            },
-            {
-                "name": "Zwiebeln",
-                "amount": 50,
-                "unit": "g"
-            },
-            {
-                "name": "Eier",
-                "amount": 6,
-                "unit": "St"
-            },
-            {
-                "name": "Senf",
-                "amount": 100,
-                "unit": "ml"
-            },
-            {
-                "name": "Essig",
-                "amount": 1,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Öl",
-                "amount": 50,
-                "unit": "ml"
-            },
-            {
-                "name": "Zucker",
-                "amount": 2,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Hühnerbrühe",
-                "amount": 1,
-                "unit": "Teelöfel"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Zucker",
-                "amount": 12,
-                "unit": "g"
-            },
-            {
-                "name": "Salz",
-                "amount": 2,
-                "unit": "g"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 17,
-                "unit": "g"
-            },
-            {
-                "name": "Gesättigte Fettsäuren",
-                "amount": 10,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Kartoffeln schälen, kleinschneiden und in einem großen Topf in Salzwasser 25 Min. kochen.",
-            "In einem zweiten Topf Zwiebeln kleingeschnitten in Öl dünsten.",
-            "Mehlschwitze herstellen und mit Hühnerbrühe ablöschen.",
-            "Senf, Essig, Zucker, Salz und etwas Pfeffer zugeben, kurz aufkochen lassen und Soße warmhalten.",
-            "10 Min. vor Garende der Kartoffeln die Eier zu den Kartoffeln zugeben.",
-            "Eier abschrecken und Kartoffeln abgießen.",
-            "Eier pellen und zusammen mit Kartoffeln und Soße servieren (ggf. mit Petersilie garnieren).",
-            "Küche aufräumen."
-        ]
-    },
-    {
         "id": "67bb8f896d570e5e9ed45928",
         "title": "Zartes Lachsfilet mit grünem Spargel",
         "subtitle": "in cremiger Zitronen-Soße",
@@ -1265,104 +1179,6 @@
             "Gehackte Tomaten, Rinderbrühe, Tomatenmark, etwas Rotwein, Lorbeerblatt, italienische Kräuter, 1 TL Zucker, Salz und Pfeffer in den Mixtopf zugeben, einmal umrühren und 11 Min. 100°C Reverse Stufe 1 kochen.",
             "Pasta bissfest in Salzwasser garen.",
             "Pasta mit Bolognesesoße und Hartkäse genießen."
-        ]
-    },
-    {
-        "id": "67db326312451979946ee2a0",
-        "title": "Klassisches Rindergulasch",
-        "subtitle": "mit Kartoffeln",
-        "labels": [
-            "Rind",
-            "Eiweiß",
-            "Thermomix"
-        ],
-        "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
-        "duration": 120,
-        "ingredients": [
-            {
-                "name": "Kartoffeln",
-                "amount": 700,
-                "unit": "g"
-            },
-            {
-                "name": "Rindergulasch",
-                "amount": 600,
-                "unit": "g"
-            },
-            {
-                "name": "Rinderfond",
-                "amount": 400,
-                "unit": "ml"
-            },
-            {
-                "name": "Schalotten",
-                "amount": 300,
-                "unit": "g"
-            },
-            {
-                "name": "Trockener Rotwein",
-                "amount": 200,
-                "unit": "ml"
-            },
-            {
-                "name": "Tomatenmark",
-                "amount": 40,
-                "unit": "g"
-            },
-            {
-                "name": "Butterschmalz",
-                "amount": 3,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Knoblauchzehe",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Paprikapulver, edelsüß",
-                "amount": 2,
-                "unit": "Teelöfel"
-            },
-            {
-                "name": "Majoran, getrocknet",
-                "amount": 1,
-                "unit": "Teelöfel"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Zucker",
-                "amount": 2,
-                "unit": "g"
-            },
-            {
-                "name": "Salz",
-                "amount": 1,
-                "unit": "g"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 19,
-                "unit": "g"
-            },
-            {
-                "name": "Ges. Fettsäuren",
-                "amount": 2,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Schalotten schälen, vierteln und in Butterschmalz im Schmortopf anbraten.",
-            "Schalotten beiseitestellen und Rindergulasch gewürfelt in Butterschmalz im Schmortopf portionsweise scharf anbraten, etwas salzen.",
-            "Schalotten und 40g Tomatenmark dazugeben und kurz anrösten.",
-            "Mit 200 ml trockenem Rotwein ablöschen und den Rotwein zu 2/3 verkochen lassen, sprich auf ungefähr 1/3 reduzieren.",
-            "1 Knoblauchzehe schälen und in feine Würfel schneiden.",
-            "Wenn der Rotwein reduziert ist, den Knoblauch, 2 TL Paprikapulver, 1/2 TL Majoran und 1 Messerspitze Cayennepfeffer hinzufügen und kurz unterrühren.",
-            "Das Fleisch und die Schalotten nun mit 400 ml Rinderfond ablöschen und mit Deckel für ca. 1,5 Stunden bei geringer Hitze auf der Herdplatte garen.",
-            "Kartoffeln schälen, kleinschneiden, in den Gareinsatz geben, etwas salzen und 25 Min. Varoma Stufe 1 dampfgaren.",
-            "Gulasch am Ende der Garzeit nach Belieben abschmecken und gegebenenfalls eindicken.",
-            "Gulasch mit Kartoffeln und eventuell Apfelrotkohl servieren."
         ]
     },
     {
@@ -2210,74 +2026,6 @@
         ]
     },
     {
-        "id": "6872ee81a35af516b14756d8",
-        "title": "Mediterraner Linsensalat",
-        "subtitle": "Mit Kichererbsen, Tomaten und Tahin-Dressing",
-        "labels": [
-            "Vegan",
-            "Fettarm",
-            "Kalorienarm",
-            "Thermomix"
-        ],
-        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
-        "duration": 25,
-        "ingredients": [
-            {
-                "name": "grüne Linsen",
-                "amount": 100,
-                "unit": "g"
-            },
-            {
-                "name": "Kichererbsen (gekocht)",
-                "amount": 100,
-                "unit": "g"
-            },
-            {
-                "name": "Kirschtomaten",
-                "amount": 150,
-                "unit": "g"
-            },
-            {
-                "name": "Gurke",
-                "amount": 100,
-                "unit": "g"
-            },
-            {
-                "name": "Tahin",
-                "amount": 2,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Zitrone",
-                "amount": 1,
-                "unit": "St"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Kalorien",
-                "amount": 320,
-                "unit": "kcal"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 18,
-                "unit": "g"
-            },
-            {
-                "name": "Fett",
-                "amount": 8,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Linsen im Thermomix 20 Min bei 100°C garen.",
-            "Gurke, Tomaten, Kichererbsen zerkleinern und mischen.",
-            "Tahin mit Zitronensaft und Wasser verrühren.",
-            "Alles vermengen und servieren."
-        ]
-    },
-    {
         "id": "6872ee81a35af516b14756d9",
         "title": "Grünes Gemüse-Curry",
         "subtitle": "Mit Brokkoli, Spinat und Kokosmilch",
@@ -2346,136 +2094,6 @@
         ]
     },
     {
-        "id": "6872ee81a35af516b14756da",
-        "title": "Cholesterin-Porridge",
-        "subtitle": "Mit Haferflocken, Chia und Beeren",
-        "labels": [
-            "Vegan",
-            "Kalorienarm",
-            "Fettarm",
-            "Thermomix"
-        ],
-        "image": "https://images.pexels.com/photos/1640775/pexels-photo-1640775.jpeg",
-        "duration": 10,
-        "ingredients": [
-            {
-                "name": "Haferflocken",
-                "amount": 50,
-                "unit": "g"
-            },
-            {
-                "name": "Chiasamen",
-                "amount": 10,
-                "unit": "g"
-            },
-            {
-                "name": "Pflanzenmilch",
-                "amount": 200,
-                "unit": "ml"
-            },
-            {
-                "name": "Beerenmix",
-                "amount": 100,
-                "unit": "g"
-            },
-            {
-                "name": "Zimt",
-                "amount": 0,
-                "unit": "Teelöfel"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Kalorien",
-                "amount": 270,
-                "unit": "kcal"
-            },
-            {
-                "name": "Ballaststoffe",
-                "amount": 8,
-                "unit": "g"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 9,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Alle Zutaten außer Beeren im Thermomix 5 Min/90°C/Stufe 2 kochen.",
-            "Beeren zugeben und 1 Min/Stufe 1 unterrühren.",
-            "In Schüssel geben, mit Zimt bestreuen."
-        ]
-    },
-    {
-        "id": "6872ee81a35af516b14756db",
-        "title": "Kichererbsen-Falafel",
-        "subtitle": "Mit Kräutern und fettarmem Joghurtdip",
-        "labels": [
-            "Vegetarisch",
-            "Eiweiß",
-            "Fettarm",
-            "Thermomix"
-        ],
-        "image": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
-        "duration": 35,
-        "ingredients": [
-            {
-                "name": "Kichererbsen (gekocht)",
-                "amount": 250,
-                "unit": "g"
-            },
-            {
-                "name": "Zwiebel",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Knoblauch",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Petersilie",
-                "amount": 20,
-                "unit": "g"
-            },
-            {
-                "name": "Haferflocken",
-                "amount": 30,
-                "unit": "g"
-            },
-            {
-                "name": "Naturjoghurt (0,1%)",
-                "amount": 100,
-                "unit": "g"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Kalorien",
-                "amount": 340,
-                "unit": "kcal"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 16,
-                "unit": "g"
-            },
-            {
-                "name": "Fett",
-                "amount": 7,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Zwiebel, Knoblauch, Petersilie im Thermomix zerkleinern.",
-            "Kichererbsen und Haferflocken zugeben und mixen.",
-            "Bällchen formen, im Ofen 20 Min backen.",
-            "Mit Joghurtdip servieren."
-        ]
-    },
-    {
         "id": "6872ee81a35af516b14756dc",
         "title": "Avocado-Bohnen-Bowl",
         "subtitle": "Mit Quinoa und Limetten-Vinaigrette",
@@ -2541,84 +2159,6 @@
             "Bohnen, Mais, Rucola und Avocado schneiden.",
             "Vinaigrette aus Limettensaft und Gewürzen mixen.",
             "Alles in einer Bowl anrichten."
-        ]
-    },
-    {
-        "id": "687800bba35af516b14756e4",
-        "title": "Zucchini-Nudelpfanne mit Ricotta und frischen Kräutern",
-        "subtitle": "Leichtes Low-Carb-Gericht mit Zoodles, Ricotta und Zitrone",
-        "labels": [
-            "Vegetarisch",
-            "Kalorienarm",
-            "Thermomix"
-        ],
-        "image": "https://www.foodwithlove.de/wp-content/uploads/2021/10/Zoodles1-1024x683-1.jpg",
-        "duration": 25,
-        "ingredients": [
-            {
-                "name": "Zucchini",
-                "amount": 400,
-                "unit": "g"
-            },
-            {
-                "name": "Ricotta",
-                "amount": 150,
-                "unit": "g"
-            },
-            {
-                "name": "Zitrone",
-                "amount": 0,
-                "unit": "St"
-            },
-            {
-                "name": "Knoblauch",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Olivenöl",
-                "amount": 1,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Basilikum (frisch)",
-                "amount": 10,
-                "unit": "g"
-            },
-            {
-                "name": "Salz",
-                "amount": 1,
-                "unit": "Teelöfel"
-            },
-            {
-                "name": "Pfeffer",
-                "amount": 1,
-                "unit": "Teelöfel"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Kalorien",
-                "amount": 320,
-                "unit": "kcal"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 14,
-                "unit": "g"
-            },
-            {
-                "name": "Fett",
-                "amount": 24,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Zucchini mit einem Spiralschneider zu Zoodles verarbeiten.",
-            "Knoblauch fein hacken, in Olivenöl anbraten.",
-            "Zoodles in die Pfanne geben, 3–4 Minuten anbraten.",
-            "Ricotta, Zitronensaft, Salz und Pfeffer unterheben.",
-            "Zum Schluss mit frischem Basilikum garnieren und servieren."
         ]
     },
     {
@@ -2702,89 +2242,6 @@
             "Knoblauch in Olivenöl kurz anbraten, dann Tomaten hinzufügen.",
             "Abgetropfte Pasta mit der Soße und Rucola vermengen.",
             "Mit Parmesan, Salz und Pfeffer bestreuen und servieren."
-        ]
-    },
-    {
-        "id": "688292f0a35af516b14756e8",
-        "title": "Express-Mangoldpfanne mit Bergkäse und Kartoffeln",
-        "subtitle": "Herzhaftes Pfannengericht mit kräftigem Käse und frischem Mangold",
-        "labels": [
-            "Vegetarisch",
-            "Express",
-            "Thermomix"
-        ],
-        "image": "https://www.bildderfrau.de/BDF/121614/image-thumb__121614__gallery-horizontal/kartoffel-mangold-pfanne.jpg",
-        "duration": 20,
-        "ingredients": [
-            {
-                "name": "Mangold",
-                "amount": 300,
-                "unit": "g"
-            },
-            {
-                "name": "Kartoffeln (vorwiegend festkochend)",
-                "amount": 400,
-                "unit": "g"
-            },
-            {
-                "name": "Bergkäse (gerieben)",
-                "amount": 80,
-                "unit": "g"
-            },
-            {
-                "name": "Zwiebel",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Knoblauch",
-                "amount": 1,
-                "unit": "St"
-            },
-            {
-                "name": "Olivenöl",
-                "amount": 2,
-                "unit": "Esslöfel"
-            },
-            {
-                "name": "Salz",
-                "amount": 1,
-                "unit": "Teelöfel"
-            },
-            {
-                "name": "Pfeffer",
-                "amount": 1,
-                "unit": "Teelöfel"
-            }
-        ],
-        "nutrients": [
-            {
-                "name": "Kalorien",
-                "amount": 510,
-                "unit": "kcal"
-            },
-            {
-                "name": "Eiweiß",
-                "amount": 17,
-                "unit": "g"
-            },
-            {
-                "name": "Fett",
-                "amount": 23,
-                "unit": "g"
-            },
-            {
-                "name": "Kohlenhydrate",
-                "amount": 50,
-                "unit": "g"
-            }
-        ],
-        "preparation": [
-            "Kartoffeln schälen, würfeln und 10 Minuten in Salzwasser kochen.",
-            "Zwiebel und Knoblauch fein schneiden, Mangold grob hacken.",
-            "Zwiebel und Knoblauch in Olivenöl anbraten.",
-            "Kartoffeln und Mangold dazugeben, weitere 5 Minuten anbraten.",
-            "Bergkäse über das Gemüse streuen, schmelzen lassen und servieren."
         ]
     },
     {
@@ -3172,6 +2629,1432 @@
             "Buns kurz im Airfryer erwärmen.",
             "Unterseite der Bun mit Mayo bestreichen, Patties mit Blauschimmelkäse und Rucola darauf platzieren. Deckel aufsetzen.",
             "Mit den Kartoffelwedges servieren."
+        ]
+    },
+    {
+        "id": "68c52a204aa16552ab435697",
+        "title": "Gnocchi mit Roter Bete und Bacon",
+        "subtitle": "Cremige Pfanne mit Bacon, frischer Roter Bete und Gnocchi",
+        "labels": [
+            "Rind",
+            "Express"
+        ],
+        "image": "https://media.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/gnocchi-mit-roter-bete-und-bacon-thermomix-9ae5eff9.jpg",
+        "duration": 30,
+        "ingredients": [
+            {
+                "name": "Gnocchi",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Rote Bete",
+                "amount": 250,
+                "unit": "g"
+            },
+            {
+                "name": "Bacon",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Crème fraîche",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Petersilie (frisch)",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 640,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 21,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 28,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 70,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebel und Knoblauch schälen und fein hacken.",
+            "Rote Bete würfeln und beiseite stellen.",
+            "In einer großen Pfanne Bacon knusprig anbraten, herausnehmen.",
+            "Im Baconfett Zwiebel und Knoblauch glasig dünsten.",
+            "Gnocchi hinzufügen und 5 Minuten goldbraun anbraten.",
+            "Rote Bete und Crème fraîche einrühren, 5 Minuten köcheln lassen.",
+            "Bacon zurück in die Pfanne geben, mit Salz und Pfeffer abschmecken.",
+            "Mit frischer Petersilie garnieren und servieren."
+        ]
+    },
+    {
+        "id": "69179f6799ccae056320c817",
+        "title": "Schweinenacken mit Zwiebel-Senf-Soße aus dem Ninja Airfryer",
+        "subtitle": "Zartes Schweinefleisch mit würziger Soße – im Airfryer besonders saftig",
+        "labels": [
+            "Schwein",
+            "Airfryer"
+        ],
+        "image": "https://images.lecker.de/schweinenacken-mit-estragon-senf-haube/1x1,id=a62ac5d3,b=lecker,w=1600,h=,ca=0,1.78,100,98.22,rm=sk.jpeg",
+        "duration": 60,
+        "ingredients": [
+            {
+                "name": "Schweinenacken",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Senf, mittelscharf",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Rinderbrühe",
+                "amount": 250,
+                "unit": "ml"
+            },
+            {
+                "name": "Pflanzenöl",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Paprikapulver, edelsüß",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 0,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Speisestärke",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Wasser zum Anrühren",
+                "amount": 50,
+                "unit": "ml"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 510,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 32,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 10,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "1️⃣ Schweinenacken in Scheiben schneiden und mit Salz, Pfeffer und Paprikapulver würzen.",
+            "2️⃣ Airfryer auf 200 °C vorheizen, Fleisch mit etwas Öl einreiben und 10 Minuten von jeder Seite goldbraun anbraten (Airfry-Funktion).",
+            "3️⃣ Zwiebeln in Ringe und Knoblauch fein hacken, kurz in einer Pfanne mit 1 Esslöffel Öl glasig anbraten.",
+            "4️⃣ Senf und Tomatenmark zugeben, mit Rinderbrühe ablöschen und 5 Minuten einkochen lassen.",
+            "5️⃣ Sauce über das Fleisch geben und im Airfryer-Backeinsatz bei 160 °C weitere 25 Minuten garen (Roast-Funktion).",
+            "6️⃣ Fleisch herausnehmen, Sauce mit Speisestärke in Wasser gebunden kurz aufkochen und abschmecken.",
+            "7️⃣ Fleisch mit der Soße servieren – passt ideal zu Kartoffelgratin oder Gemüsechips."
+        ]
+    },
+    {
+        "id": "6930bda845aeda72897d2c64",
+        "title": "Klassisches Rindergulasch im Römertopf",
+        "subtitle": "mit Kartoffeln",
+        "labels": [
+            "Rind",
+            "Eiweiß"
+        ],
+        "image": "https://emmikochteinfach.de/wp-content/uploads/2022/02/seo_Gulasch-Nah-200.jpg",
+        "duration": 180,
+        "ingredients": [
+            {
+                "name": "Kartoffeln",
+                "amount": 700,
+                "unit": "g"
+            },
+            {
+                "name": "Rindergulasch",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Rinderbrühe",
+                "amount": 400,
+                "unit": "ml"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Paprika",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Trockener Rotwein",
+                "amount": 200,
+                "unit": "ml"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehe",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Paprikapulver, edelsüß",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Gulaschgewürz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Kümmel",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Lorbeerblatt",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 19,
+                "unit": "g"
+            },
+            {
+                "name": "Ges. Fettsäuren",
+                "amount": 2,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Römertopf und Deckel 10–15 Minuten wässern und abtropfen lassen.",
+            "In einer sehr heißen Pfanne Gulasch portionsweise anbraten und in den Römertopf geben.",
+            "Zwiebeln und Knoblauchzehe in derselben Pfanne anbraten.",
+            "Tomatenmark 1-2 Minuten mitrösten.",
+            "1 EL Mehl kurz mit anschwitzen.",
+            "Paprikapulver kurz mit einrühren.",
+            "Mit Wein und Rinderbrühe ablöschen, Bratensatz lösen und alles in den Römertopf gießen.",
+            "Paprika (grob geschnitten), Lorbeerblatt und Gewürze (ohne Salz und Pfeffer) in den Römertopf geben und umrühren.",
+            "Römertopf in den kalten Ofen stellen und Gulasch mit Deckel bei 160 °C Ober-/Unterhitze 2,5 Stunden schmoren.",
+            "Nach der Hälfte der Zeit einmal kurz umrühren.",
+            "Kartoffeln kochen.",
+            "Nach der Garzeit Salz, Pfeffer und ggf. etwas Sahne hinzufügen.",
+            "Gulasch ggf. andicken.",
+            "Gulsch mit Kartoffeln servieren.",
+            "Römertopf reinigen."
+        ]
+    },
+    {
+        "id": "69518f5eb87b802ce3ab0661",
+        "title": "Bifteki mit pikantem Tomatendip und knusprigen Knoblauch-Kartoffeln",
+        "subtitle": "Saftige Hackfleisch-Frikadellen mit würzigem Dip und frittierten Kartoffeln aus dem Airfryer",
+        "labels": [
+            "Rind",
+            "Schwein",
+            "Thermomix",
+            "Airfryer"
+        ],
+        "image": "https://img.chefkoch-cdn.de/rezepte/1219651227438701/bilder/136093/crop-640x360/bifteki.jpg",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Hackfleisch (gemischt)",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 3,
+                "unit": "St"
+            },
+            {
+                "name": "Knoblauchzehen",
+                "amount": 4,
+                "unit": "St"
+            },
+            {
+                "name": "Ei",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Paniermehl",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 0,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Paprikapulver, edelsüß",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Feta in Streifen",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Rote Paprika",
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Rote Chilischote",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Cherry-Tomaten",
+                "amount": 250,
+                "unit": "g"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Zucker",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Schwarze Senfkörner",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Speisestärke",
+                "amount": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Weißweinessig",
+                "amount": 35,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Olivenöl",
+                "amount": 2,
+                "unit": "Esslöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 750,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 42,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 45,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 42,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln schälen, in Würfel oder Stifte schneiden, mit 1–2 fein gehackten Knoblauchzehen, Salz, Pfeffer und 1 Esslöffel Olivenöl vermengen.",
+            "Kartoffeln im Ninja Airfryer bei 200 °C 15–20 Minuten knusprig backen, zwischendurch einmal wenden.",
+            "Zwiebeln und 1 Knoblauchzehe im TM5 5 Sek./Stufe 5 zerkleinern, 1 Esslöffel Öl zugeben, 3 Min./120 °C/Stufe 1 dünsten.",
+            "Cherry-Tomaten, Paprika, Chili, Tomatenmark, Zucker, Weißweinessig, Speisestärke und Senfkörner in den Mixtopf geben, 8 Min./98 °C/Stufe 2 kochen.",
+            "Bifteki: Hackfleisch, Ei, Paniermehl, Salz, Pfeffer, Paprikapulver und 1 Knoblauchzehe in einer Schüssel vermengen.",
+            "Frikadellen formen mit Feta in der Mitte.",
+            "Bifteki im Airfryer oder in der Pfanne 10–12 Min. braten, bis sie leicht gebräunt und durchgegart sind.",
+            "Bifteki zusammen mit den knusprigen Knoblauch-Kartoffeln anrichten, Sauce darüber geben und servieren."
+        ]
+    },
+    {
+        "id": "695cd75eb87b802ce3ab0662",
+        "title": "Königsberger Klopse nach DDR-Art mit Buttermilchsauce",
+        "subtitle": "Klassische Hackfleischklopse in milder Buttermilch-Königsberger Sauce mit Kapern",
+        "labels": [
+            "Schwein",
+            "Rind"
+        ],
+        "image": "https://eat.de/wp-content/uploads/2021/10/koenigsberger-klopse-ddr-2976-2.jpg",
+        "duration": 60,
+        "ingredients": [
+            {
+                "name": "Gemischtes Hackfleisch (Schwein und Rind)",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Paniermehl",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Ei",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Buttermilch",
+                "amount": 750,
+                "unit": "ml"
+            },
+            {
+                "name": "Lorbeerblatt",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Kapern",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Zucker",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Zitronensaft",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Speisestärke",
+                "amount": 1,
+                "unit": "Esslöfel"
+            }
+        ],
+        "nutrients": [],
+        "preparation": [
+            "Zwiebel sehr fein würfeln.",
+            "Hackfleisch, Paniermehl, Zwiebel, Ei, Salz und Pfeffer zu einer glatten Masse verkneten.",
+            "Aus der Masse gleichmäßige Klopse formen.",
+            "Buttermilch mit Lorbeerblatt in einem großen Topf auf 70–75 °C erhitzen, nicht kochen.",
+            "Klopse in die Buttermilch legen und bei 70–75 °C etwa 15 Minuten ziehen lassen.",
+            "Darauf achten, dass die Temperatur 80 °C nicht überschreitet, damit die Buttermilch nicht gerinnt.",
+            "Klopse vorsichtig herausnehmen und warm stellen.",
+            "Speisestärke mit kalter Flüssigkeit glatt rühren.",
+            "Sauce auf ca. 80–85 °C erhitzen, Stärke einrühren und unter ständigem Rühren binden.",
+            "Sauce nicht über 90 °C erhitzen.",
+            "Zucker, Zitronensaft und Kapern unterrühren und abschmecken.",
+            "Klopse wieder in die Sauce geben und bei ca. 70 °C 5 Minuten ziehen lassen."
+        ]
+    },
+    {
+        "id": "6966cb1be0e5be16dbed6dcb",
+        "title": "Hühnerfrikassee mit Champignons, Spargel und Kapern",
+        "subtitle": "Klassisches Frikassee mit besonders saftiger Hähnchenbrust",
+        "labels": [
+            "Geflügel"
+        ],
+        "image": "https://shop.drk-hochtaunus.de/media/8e/7c/0e/1598254396/13797-00.jpg",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Champignons",
+                "amount": 250,
+                "unit": "g"
+            },
+            {
+                "name": "Spargel weiß oder grün",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Kapern",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Butter",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Weizenmehl",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 600,
+                "unit": "ml"
+            },
+            {
+                "name": "Sahne",
+                "amount": 150,
+                "unit": "ml"
+            },
+            {
+                "name": "Zitronensaft",
+                "amount": 20,
+                "unit": "ml"
+            },
+            {
+                "name": "Salz",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Weißer Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Muskat",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 420,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 38,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 24,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 10,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Hähnchenbrust in mundgerechte Stücke schneiden.",
+            "Hühnerbrühe in einem Topf auf 80 °C erhitzen, sie darf nicht kochen.",
+            "Hähnchenbruststücke in die heiße Brühe geben und 12 Minuten sanft gar ziehen lassen.",
+            "Fleisch aus der Brühe nehmen und abgedeckt warmhalten.",
+            "Spargel in Stücke schneiden und 8 Minuten in der Brühe garen, anschließend herausnehmen.",
+            "Champignons in Scheiben schneiden.",
+            "Butter in einem zweiten Topf bei mittlerer Hitze schmelzen.",
+            "Mehl einrühren und unter Rühren 2 Minuten anschwitzen, ohne Bräune.",
+            "Nach und nach 500 ml der heißen Hühnerbrühe einrühren, bis eine glatte Sauce entsteht.",
+            "Sahne einrühren und Sauce 5 Minuten sanft köcheln lassen.",
+            "Mit Salz, Pfeffer, Muskat und Zitronensaft abschmecken.",
+            "Hähnchenbrust, Spargel, Champignons und Kapern in die Sauce geben.",
+            "Alles bei niedriger Hitze 5 Minuten ziehen lassen, nicht kochen.",
+            "Sofort servieren, z. B. mit Reis."
+        ]
+    },
+    {
+        "id": "6966cb1be0e5be16dbed6dcc",
+        "title": "Kaisergemüse-Auflauf",
+        "subtitle": "mit Kartoffeln",
+        "labels": [
+            "Vegetarisch",
+            "Thermomix"
+        ],
+        "image": "https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/5021b723-cf2f-49c7-a808-3fe015f29fd4/Derivates/c1965bdf-f444-4536-83d6-981eb95424f0.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Petersilie",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Kartoffeln",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Milch",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Sahne",
+                "amount": 200,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Muskat",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Paprika Edelsüß",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "gemischtes Gemüse, TK",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "geriebener Käse",
+                "amount": 150,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 443,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 18,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 28,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 27,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Backofen auf 200°C vorheizen.",
+            "Petersilie, Kartoffeln, Milch, Sahne, Salz, Muskat, Pfeffer und Paprika in den Mixtopf geben.",
+            "4 Sek. Stufe 4,5 grob zerkleinern.",
+            "7 Min. 100°C Reverse Stufe 1 aufkochen.",
+            "Kaisergemüse in eine Auflauf-Form verteilen.",
+            "Kartoffel-Mischung in die Auflauf-Form zugeben, vermischen und mit Käse bestreuen.",
+            "Alles ca. 30 Min. bei 200°C backen.",
+            "Auflauf kurz abkühlen lassen und servieren"
+        ]
+    },
+    {
+        "id": "696fda8ab2f0110bd76c53ff",
+        "title": "Chicken Tikka Masala",
+        "subtitle": "Saftige Hähnchenbrust in würziger Tomaten-Currysauce",
+        "labels": [
+            "Geflügel",
+            "Thermomix"
+        ],
+        "image": "https://www.gaumenfreundin.de/wp-content/uploads/2025/01/Chicken-Tikka-Masala-einfaches-Rezept-680x453.jpg",
+        "duration": 45,
+        "ingredients": [
+            {
+                "name": "Ingwer",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauchzehen",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Butter",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebel",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Kurkuma",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Kreuzkümmel",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Koriander",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Garam Masala",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Paprika Edelsüß",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Stückige Tomaten",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Erbsen",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Wasser",
+                "amount": 125,
+                "unit": "g"
+            },
+            {
+                "name": "Gewürzpaste für Hühnerbrühe",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Sahne",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Mandeln, gemahlen",
+                "amount": 25,
+                "unit": "g"
+            },
+            {
+                "name": "Hähnchenbrust in Stücken",
+                "amount": 500,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 530,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 30,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 22,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Hähnchenbrust in grobe Stücke schneiden.",
+            "Marinade zubereiten: Naturjoghurt, 1 Teelöfel Garam Masala, 1 Teelöfel Paprikapulver, Salz, Pfeffer mischen.",
+            "Hähnchenstücke mit der Marinade vermengen und mindestens 2 Stunden im Kühlschrank ziehen lassen (besser über Nacht).",
+            "Ingwer, Knoblauch und Salz in den Mixtopf geben, 5 Sek./Stufe 5 zerkleinern.",
+            "Butter und Zwiebel in den Mixtopf geben, 5 Sek./Stufe 5 zerkleinern, dann 5 Min./120°C/Stufe  dünsten.",
+            "Kurkuma, Kreuzkümmel, Koriander, Garam Masala, Paprika, Zucker und Tomatenmark zugeben und 2 Min./100°C/Stufe  kochen",
+            "Tomaten, Wasser und Gewürzpaste zugeben und 15 Min./100°C/Stufe 1 kochen.",
+            "Sahne und Mandeln zugeben und 30 Sek./Stufe 9 pürieren.",
+            "Hähnchenstücke ca 30 sek. sehr heiß in Öl anbraten und in den Mixtopf geben.",
+            "Hähnchenstücke im Mixtopf 5 Min./90°C/Stufe 1 garziehen lassen.",
+            "Chicken Tikka Masala mit Reis und optional mit Erbsen servieren."
+        ]
+    },
+    {
+        "id": "697288abb2f0110bd76c5400",
+        "title": "Fish and Chips",
+        "subtitle": "Pommes mit Backfisch nach englischer Art",
+        "labels": [
+            "Fisch",
+            "Airfryer"
+        ],
+        "image": "https://www.eatclub.de/wp-content/uploads/2021/08/fish-and-chips-e1629461849951.jpg",
+        "duration": 60,
+        "ingredients": [
+            {
+                "name": "Kartoffeln",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Alaska Seelachsfilet paniert, TK",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Erbsen (Dose)",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Speisestärke",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Zitrone",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Remoulade",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Ketchup",
+                "amount": 4,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Paprika Edelsüß",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 1000,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 90,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln schälen, waschen und in dünne Streifen schneiden.",
+            "Pommes ca. 30 Minuten wässern.",
+            "Wasser abgießen und Pommes gut abtrocknen.",
+            "Pommes in eine trockene Schüssel geben und mit 1 TL Speisestärke gut vermischen.",
+            "Pommes in Zone 1 des Airfryers geben und mit Öl besprühen.",
+            "Alaska Seelachsfilet in Zone 2 des Airfryers geben.",
+            "Zone 1 auf 160°C und 12 Minuten einstellen.",
+            "Zone 2 auf 180°C und 7 Minuten einstellen.",
+            "Sync-Funktion aktivieren und Airfryer starten.",
+            "Erbsen in einen Topf geben und im eigenen Wasser ca. 5 Minuten köcheln lassen.",
+            "Wenn Pommes fertig sind, Zone 1 einmal schütteln.",
+            "Zone 1 auf 200°C und 5 Minuten einstellen und Airfryer nochmals starten.",
+            "Pommes in eine Schüssel geben, nochmals kurz mit Öl besprühen, salzen und mit Paprika Edelsüß würzen.",
+            "Wasser der Erbsen abgießen.",
+            "Fish and Chips zusammen mit Erbsen, Remoulade und ggf. Ketchup servieren."
+        ]
+    },
+    {
+        "id": "69752accb2f0110bd76c5401",
+        "title": "Schnitzel Jäger-Art",
+        "subtitle": "Schweineschnitzel mit Champignonsauce und Kroketten",
+        "labels": [
+            "Schwein",
+            "Airfryer",
+            "Express"
+        ],
+        "image": "https://storefront-prod.de.picnicinternational.com/static/images/recipes/65927a7586d5cfb7240fdc712056d0f42a5d877340ca9f40538e38f0a4b2279e/filled-2000x2000.webp",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Schweineschnitzel",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Kroketten, TK",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Champignons (Dose)",
+                "amount": 400,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Kochsahne",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Gemüsebrühe",
+                "amount": 150,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 900,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 18,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 70,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Zwiebeln kleinschneiden und in Butter oder Öl kurz andünsten.",
+            "Mehlschwitze durchführen und mit Gemüsebrühe (ggf. aus Champignon-Wasser) vorsichtig ablöschen (Vorsichtig: Wird schnell zu dünn).",
+            "Champignons und Kochsahne zugeben und ca. 3 Minuten kochen.",
+            "Mit Salz, Pfeffer und Zucker abschmecken.",
+            "Kroketten in den Airfryer geben und bei 200°C ca. 10 Minuten heißluftfrittieren.",
+            "Schweineschnitzel plätten, salzen und pfeffern und in etwas Öl von beiden Seiten ca 1 Minute scharf anbraten.",
+            "Schweineschnitzel zusammen mit Champignonsauce und Kroketten servieren."
+        ]
+    },
+    {
+        "id": "69879a51b2f0110bd76c5402",
+        "title": "Gefüllte Paprikaschoten aus dem Römertopf",
+        "subtitle": "Langsam geschmort für maximalen Geschmack und besonders saftige Füllung",
+        "labels": [
+            "Schwein",
+            "Rind"
+        ],
+        "image": "https://images.eatsmarter.de/sites/default/files/styles/1600x1200/public/mit-hackfleisch-gefuellte-paprikaschoten-438166.jpg",
+        "duration": 120,
+        "ingredients": [
+            {
+                "name": "Paprikaschoten",
+                "amount": 4,
+                "unit": "St"
+            },
+            {
+                "name": "Hackfleisch gemischt",
+                "amount": 600,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Reis (roh)",
+                "amount": 80,
+                "unit": "g"
+            },
+            {
+                "name": "Ei",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Senf",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Paprikapulver edelsüß",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Paprikapulver rosenscharf",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Majoran",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 2,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Passierte Tomaten",
+                "amount": 500,
+                "unit": "g"
+            },
+            {
+                "name": "Rinderbrühe",
+                "amount": 250,
+                "unit": "ml"
+            },
+            {
+                "name": "Tomatenmark",
+                "amount": 40,
+                "unit": "g"
+            },
+            {
+                "name": "Lorbeerblatt",
+                "amount": 1,
+                "unit": "St"
+            },
+            {
+                "name": "Butter",
+                "amount": 20,
+                "unit": "g"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 620,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 38,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 42,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 22,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Römertopf und Deckel mindestens 15 Minuten vollständig wässern.",
+            "Paprikaschoten oben aufschneiden, entkernen und beiseitestellen.",
+            "Zwiebeln fein würfeln, Knoblauch fein hacken.",
+            "Hackfleisch, Zwiebeln, Knoblauch, Reis, Ei, Senf, Salz, Pfeffer, Paprikapulver und Majoran gründlich vermengen.",
+            "Paprikaschoten locker mit der Hackmasse füllen.",
+            "Passierte Tomaten, Brühe, Tomatenmark und Lorbeerblatt verrühren.",
+            "Die Sauce in den Römertopf gießen, Paprikaschoten hineinsetzen.",
+            "Butter in kleinen Flöckchen auf die Paprikaschoten geben.",
+            "Römertopf schließen und in den kalten Backofen stellen.",
+            "120 Minuten bei 180 °C Ober-/Unterhitze garen.",
+            "Deckel in den letzten 15 Minuten abnehmen für intensiveres Röstaroma.",
+            "Vor dem Servieren kurz ruhen lassen und mit Sauce übergießen."
+        ]
+    },
+    {
+        "id": "69879de3b2f0110bd76c5404",
+        "title": "Chinesische Süß-Sauer-Scharf-Suppe (TM5)",
+        "subtitle": "Klassische chinesische Suppe mit saftigem Hähnchen, Pilzen und feiner Schärfe – perfekt im Thermomix",
+        "labels": [
+            "Geflügel",
+            "Thermomix"
+        ],
+        "image": "https://img.chefkoch-cdn.de/rezepte/751411177758711/bilder/1580678/crop-958x539/sauer-scharf-suppe.jpg",
+        "duration": 40,
+        "ingredients": [
+            {
+                "name": "Hähnchenbrustfilet",
+                "amount": 300,
+                "unit": "g"
+            },
+            {
+                "name": "Champignons",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Bambussprossen",
+                "amount": 150,
+                "unit": "g"
+            },
+            {
+                "name": "Karotten",
+                "amount": 100,
+                "unit": "g"
+            },
+            {
+                "name": "Frühlingszwiebeln",
+                "amount": 60,
+                "unit": "g"
+            },
+            {
+                "name": "Knoblauch",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Ingwer",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 1000,
+                "unit": "ml"
+            },
+            {
+                "name": "Sojasauce",
+                "amount": 30,
+                "unit": "ml"
+            },
+            {
+                "name": "Reisessig",
+                "amount": 40,
+                "unit": "ml"
+            },
+            {
+                "name": "Chilipaste",
+                "amount": 15,
+                "unit": "g"
+            },
+            {
+                "name": "Speisestärke",
+                "amount": 20,
+                "unit": "g"
+            },
+            {
+                "name": "Sesamöl",
+                "amount": 10,
+                "unit": "ml"
+            },
+            {
+                "name": "Ei",
+                "amount": 2,
+                "unit": "St"
+            },
+            {
+                "name": "Zucker",
+                "amount": 10,
+                "unit": "g"
+            },
+            {
+                "name": "Ketchup",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Salz",
+                "amount": 1,
+                "unit": "Teelöfel"
+            },
+            {
+                "name": "Weißer Pfeffer",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Kalorien",
+                "amount": 280,
+                "unit": "kcal"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 28,
+                "unit": "g"
+            },
+            {
+                "name": "Fett",
+                "amount": 8,
+                "unit": "g"
+            },
+            {
+                "name": "Kohlenhydrate",
+                "amount": 18,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Knoblauch und Ingwer in den Mixtopf geben und 5 Sek. | Stufe 5 zerkleinern.",
+            "Karotten in Stücken zugeben und 4 Sek. | Stufe 4 zerkleinern.",
+            "Champignons in Scheiben und Bambussprossen zugeben.",
+            "Hühnerbrühe, Sojasauce, Reisessig, Zucker, Ketchup und Chilipaste einfüllen.",
+            "10 Min. | 100 °C | Linkslauf | Stufe 1 kochen.",
+            "Hähnchenbrust in feine Streifen schneiden, in den Mixtopf geben.",
+            "5 Min. | 90 °C | Linkslauf | Stufe 1 gar ziehen lassen.",
+            "Speisestärke mit 50 ml kaltem Wasser verrühren und in den Mixtopf geben.",
+            "2 Min. | 95 °C | Linkslauf | Stufe 1 binden.",
+            "Eier verquirlen und bei laufendem Thermomix langsam durch die Deckelöffnung einlaufen lassen.",
+            "1 Min. | 90 °C | Linkslauf | Stufe 1 stocken lassen.",
+            "Sesamöl, Salz und weißen Pfeffer zugeben.",
+            "Frühlingszwiebeln unterheben und Suppe sofort servieren."
+        ]
+    },
+    {
+        "id": "69879e9eb2f0110bd76c5405",
+        "title": "Senfeier",
+        "subtitle": "mit Kartoffeln",
+        "labels": [
+            "Vegetarisch",
+            "Express",
+            "Eiweiß"
+        ],
+        "image": "https://www.jackymalina.com/wp-content/uploads/2023/04/EAC68572-FD5F-45A3-81E4-A163F34D6CE5-500x500.jpeg",
+        "duration": 25,
+        "ingredients": [
+            {
+                "name": "Kartoffeln",
+                "amount": 700,
+                "unit": "g"
+            },
+            {
+                "name": "Zwiebeln",
+                "amount": 50,
+                "unit": "g"
+            },
+            {
+                "name": "Eier",
+                "amount": 6,
+                "unit": "St"
+            },
+            {
+                "name": "Senf",
+                "amount": 100,
+                "unit": "ml"
+            },
+            {
+                "name": "Essig",
+                "amount": 1,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Öl",
+                "amount": 50,
+                "unit": "ml"
+            },
+            {
+                "name": "Zucker",
+                "amount": 2,
+                "unit": "Esslöfel"
+            },
+            {
+                "name": "Hühnerbrühe",
+                "amount": 1,
+                "unit": "Teelöfel"
+            }
+        ],
+        "nutrients": [
+            {
+                "name": "Zucker",
+                "amount": 12,
+                "unit": "g"
+            },
+            {
+                "name": "Salz",
+                "amount": 2,
+                "unit": "g"
+            },
+            {
+                "name": "Eiweiß",
+                "amount": 17,
+                "unit": "g"
+            },
+            {
+                "name": "Gesättigte Fettsäuren",
+                "amount": 10,
+                "unit": "g"
+            }
+        ],
+        "preparation": [
+            "Kartoffeln schälen, kleinschneiden und in einem großen Topf in Salzwasser 25 Min. kochen.",
+            "In einem zweiten Topf Zwiebeln kleingeschnitten in Öl dünsten.",
+            "Mehlschwitze herstellen und mit Hühnerbrühe ablöschen.",
+            "Senf, Essig, Zucker, Salz und etwas Pfeffer zugeben, kurz aufkochen lassen und Soße warmhalten.",
+            "10 Min. vor Garende der Kartoffeln die Eier zu den Kartoffeln zugeben.",
+            "Eier abschrecken und Kartoffeln abgießen.",
+            "Eier pellen und zusammen mit Kartoffeln und Soße servieren (ggf. mit Petersilie garnieren).",
+            "Küche aufräumen."
         ]
     }
 ]
