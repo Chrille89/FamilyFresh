@@ -33,7 +33,7 @@ data class AmountDto (
 
     @SerialName(value = "name") val name: kotlin.String? = null,
 
-    @SerialName(value = "amount") val amount: kotlin.Int? = null,
+    @SerialName(value = "amount") val amount: kotlin.Double? = null,
 
     @SerialName(value = "unit") val unit: AmountDto.Unit? = null
 
@@ -42,7 +42,7 @@ data class AmountDto (
     /**
      * 
      *
-     * Values: g,kg,St,ml,l,Esslöfel,Teelöfel,kcal
+     * Values: g,kg,St,ml,l,EL,TL,Prise,kcal
      */
     @Serializable
     enum class Unit(val value: kotlin.String) {
@@ -51,8 +51,9 @@ data class AmountDto (
         @SerialName(value = "St") St("St"),
         @SerialName(value = "ml") ml("ml"),
         @SerialName(value = "l") l("l"),
-        @SerialName(value = "Esslöfel") Esslöfel("Esslöfel"),
-        @SerialName(value = "Teelöfel") Teelöfel("Teelöfel"),
+        @SerialName(value = "EL") EL("EL"),
+        @SerialName(value = "TL") TL("TL"),
+        @SerialName(value = "Prise") Prise("Prise"),
         @SerialName(value = "kcal") kcal("kcal");
     }
 

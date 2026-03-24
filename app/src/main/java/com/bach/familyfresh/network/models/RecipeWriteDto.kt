@@ -27,7 +27,8 @@ import kotlinx.serialization.encoding.*
  * @param title 
  * @param subtitle 
  * @param labels 
- * @param image 
+ * @param image image as URL
+ * @param imageBase64 Base64 encoded image data (optional, can be used instead of image URL)
  * @param duration Duration in minutes
  * @param ingredients 
  * @param nutrients 
@@ -43,7 +44,11 @@ data class RecipeWriteDto (
 
     @SerialName(value = "labels") val labels: kotlin.collections.List<RecipeWriteDto.Labels>? = null,
 
+    /* image as URL */
     @SerialName(value = "image") val image: kotlin.String? = null,
+
+    /* Base64 encoded image data (optional, can be used instead of image URL) */
+    @SerialName(value = "imageBase64") val imageBase64: kotlin.String? = null,
 
     /* Duration in minutes */
     @SerialName(value = "duration") val duration: kotlin.Int? = null,
@@ -59,7 +64,7 @@ data class RecipeWriteDto (
     /**
      * 
      *
-     * Values: Kalorienarm,Fettarm,Eiweiß,Vegetarisch,Vegan,Schwein,Rind,Geflügel,Fisch,Thermomix,Airfryer,Express
+     * Values: Kalorienarm,Fettarm,Eiweiß,Vegetarisch,Vegan,Schwein,Rind,Geflügel,Fisch,Thermomix,Airfryer,Express,Ofen,Römertopf
      */
     @Serializable
     enum class Labels(val value: kotlin.String) {
@@ -74,7 +79,9 @@ data class RecipeWriteDto (
         @SerialName(value = "Fisch") Fisch("Fisch"),
         @SerialName(value = "Thermomix") Thermomix("Thermomix"),
         @SerialName(value = "Airfryer") Airfryer("Airfryer"),
-        @SerialName(value = "Express") Express("Express");
+        @SerialName(value = "Express") Express("Express"),
+        @SerialName(value = "Ofen") Ofen("Ofen"),
+        @SerialName(value = "Römertopf") Römertopf("Römertopf");
     }
 
 }

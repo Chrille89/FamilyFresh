@@ -94,6 +94,37 @@ open class DefaultApi : ApiClient {
     }
 
     /**
+     * Delete all recipes.
+     * Delete all recipes.
+     * @return void
+     */
+    open suspend fun deleteAllRecipes(): HttpResponse<Unit> {
+
+        val localVariableAuthNames = listOf<String>()
+
+        val localVariableBody = 
+            io.ktor.client.utils.EmptyContent
+
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
+
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
+            RequestMethod.DELETE,
+            "/recipes",
+            query = localVariableQuery,
+            headers = localVariableHeaders,
+            requiresAuthentication = false,
+        )
+
+        return request(
+            localVariableConfig,
+            localVariableBody,
+            localVariableAuthNames
+        ).wrap()
+    }
+
+
+    /**
      * Delete a specific recipe by id.
      * Delete a specific recipe by id.
      * @param id The Id of the recipe

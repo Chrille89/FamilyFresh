@@ -8,7 +8,8 @@
 | **title** | **kotlin.String** |  |  |
 | **subtitle** | **kotlin.String** |  |  [optional] |
 | **labels** | [**inline**](#kotlin.collections.List&lt;Labels&gt;) |  |  [optional] |
-| **image** | **kotlin.String** |  |  [optional] |
+| **image** | **kotlin.String** | image as URL |  [optional] |
+| **imageBase64** | **kotlin.String** | Base64 encoded image data (optional, can be used instead of image URL) |  [optional] |
 | **duration** | **kotlin.Int** | Duration in minutes |  [optional] |
 | **ingredients** | [**kotlin.collections.List&lt;AmountDto&gt;**](AmountDto.md) |  |  [optional] |
 | **nutrients** | [**kotlin.collections.List&lt;AmountDto&gt;**](AmountDto.md) |  |  [optional] |
@@ -19,7 +20,7 @@
 ## Enum: labels
 | Name | Value |
 | ---- | ----- |
-| labels | Kalorienarm, Fettarm, Eiweiß, Vegetarisch, Vegan, Schwein, Rind, Geflügel, Fisch, Thermomix, Airfryer, Express |
+| labels | Kalorienarm, Fettarm, Eiweiß, Vegetarisch, Vegan, Schwein, Rind, Geflügel, Fisch, Thermomix, Airfryer, Express, Ofen, Römertopf |
 
 
 

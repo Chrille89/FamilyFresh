@@ -5,6 +5,7 @@ All URIs are relative to *http://localhost:8080*
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
 | [**createRecipes**](DefaultApi.md#createRecipes) | **POST** /recipes | Create recipes. |
+| [**deleteAllRecipes**](DefaultApi.md#deleteAllRecipes) | **DELETE** /recipes | Delete all recipes. |
 | [**deleteRecipeById**](DefaultApi.md#deleteRecipeById) | **DELETE** /recipes/{id} | Delete a specific recipe by id. |
 | [**getActualMenu**](DefaultApi.md#getActualMenu) | **GET** /recipes/menu | Return the actual menu |
 | [**getAllRecipes**](DefaultApi.md#getAllRecipes) | **GET** /recipes | Return all recipes. |
@@ -57,6 +58,48 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
+
+<a id="deleteAllRecipes"></a>
+# **deleteAllRecipes**
+> deleteAllRecipes()
+
+Delete all recipes.
+
+Delete all recipes.
+
+### Example
+```kotlin
+// Import classes:
+//import org.openapitools.client.infrastructure.*
+//import org.openapitools.client.models.*
+
+val apiInstance = DefaultApi()
+try {
+    apiInstance.deleteAllRecipes()
+} catch (e: ClientException) {
+    println("4xx response calling DefaultApi#deleteAllRecipes")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling DefaultApi#deleteAllRecipes")
+    e.printStackTrace()
+}
+```
+
+### Parameters
+This endpoint does not need any parameter.
+
+### Return type
+
+null (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 <a id="deleteRecipeById"></a>
 # **deleteRecipeById**
