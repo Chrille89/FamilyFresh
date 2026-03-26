@@ -15,6 +15,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -32,7 +33,9 @@ import com.bach.familyfresh.R
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.recipelist.viewmodel.RecipeListScreenViewModel
 import com.bach.familyfresh.features.recipelist.viewmodel.RecipeUpdateStatus
+import com.bach.familyfresh.features.recipelist.views.DropDownLabelFilter
 import com.bach.familyfresh.ui.dialogs.InfoDialog
+import org.openapitools.client.models.RecipeReadDto
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -62,7 +65,7 @@ fun RecipeListScreen(
         if (recipesListScreenViewModel.menuUpdatesState.value is RecipeUpdateStatus.success) {
             InfoDialog { onClickBack() }
         }
-        when (val recipes = recipesListScreenViewModel.recipes.value) {
+        when (val recipes = recipesListScreenViewModel.actualVisibleRecipes.value) {
             is ActualMenuScreenStatus.loading ->
                 Column(
                     modifier.fillMaxSize(),
@@ -74,63 +77,69 @@ fun RecipeListScreen(
 
             is ActualMenuScreenStatus.error -> Text("Error")
             is ActualMenuScreenStatus.success -> {
-
-                LazyColumn(modifier.padding(innerPadding)) {
-                    items(recipes.menus) { recipe ->
-                        Card(modifier
-                            .height(120.dp)
-                            .padding(horizontal = 10.dp, vertical = 5.dp)) {
-                            Column {
-                                Row(
-                                    modifier.fillMaxWidth(),
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
-                                    var checked = recipesListScreenViewModel.menuUpdates.value.contains(recipe)
-                                    Checkbox(
-                                        checked = checked,
-                                        onCheckedChange = { newChecked ->
-                                            checked = !checked
-                                            if (newChecked) {
-                                                recipesListScreenViewModel.setNewRecipeForMenu(recipe)
-                                            } else {
-                                                recipesListScreenViewModel.menuUpdates.value.remove(recipe)
+                Column(modifier.fillMaxSize().padding(innerPadding)) {
+                    DropDownLabelFilter(
+                        Modifier.padding(10.dp,5.dp),
+                        labels = RecipeReadDto.Labels.values().map { it.value },
+                        { label -> recipesListScreenViewModel.filterRecipesByLabel(label) 
+                        })
+                    LazyColumn {
+                        items(recipes.menus) { recipe ->
+                            Card(Modifier
+                                .height(120.dp)
+                                .padding(horizontal = 10.dp, vertical = 5.dp)) {
+                                Column {
+                                    Row(
+                                        Modifier.fillMaxWidth(),
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        var checked = recipesListScreenViewModel.menuUpdates.value.contains(recipe)
+                                        Checkbox(
+                                            checked = checked,
+                                            onCheckedChange = { newChecked ->
+                                                checked = !checked
+                                                if (newChecked) {
+                                                    recipesListScreenViewModel.setNewRecipeForMenu(recipe)
+                                                } else {
+                                                    recipesListScreenViewModel.menuUpdates.value.remove(recipe)
+                                                }
                                             }
-                                        }
-                                    )
+                                        )
 
-                                    Column {
-                                        Row {
-                                            recipe.labels?.forEach {
-                                                Card(
-                                                    modifier.padding(5.dp),
-                                                    border = BorderStroke(
-                                                        1.dp,
-                                                        MaterialTheme.colorScheme.surface
-                                                    )
-                                                ) {
+                                        Column {
+                                            Row {
+                                                recipe.labels?.forEach {
+                                                    Card(
+                                                        Modifier.padding(5.dp),
+                                                        border = BorderStroke(
+                                                            1.dp,
+                                                            MaterialTheme.colorScheme.surface
+                                                        )
+                                                    ) {
+                                                        Text(
+                                                            it.value,
+                                                            Modifier.padding(5.dp),
+                                                            style = MaterialTheme.typography.bodySmall
+                                                        )
+                                                    }
+                                                }
+                                            }
+                                            Row {
+                                                AsyncImage(
+                                                    modifier = Modifier.padding(5.dp,5.dp),
+                                                    model = recipe.image,
+                                                    contentDescription = null
+                                                )
+                                                Column(Modifier.padding(horizontal = 5.dp)) {
                                                     Text(
-                                                        it.value,
-                                                        modifier.padding(5.dp),
+                                                        recipe.title,
+                                                        style = MaterialTheme.typography.bodyMedium
+                                                    )
+                                                    Text(
+                                                        recipe.subtitle ?: "",
                                                         style = MaterialTheme.typography.bodySmall
                                                     )
                                                 }
-                                            }
-                                        }
-                                        Row {
-                                            AsyncImage(
-                                                modifier = Modifier.padding(5.dp,5.dp),
-                                                model = recipe.image,
-                                                contentDescription = null
-                                            )
-                                            Column(modifier.padding(horizontal = 5.dp)) {
-                                                Text(
-                                                    recipe.title,
-                                                    style = MaterialTheme.typography.bodyMedium
-                                                )
-                                                Text(
-                                                    recipe.subtitle ?: "",
-                                                    style = MaterialTheme.typography.bodySmall
-                                                )
                                             }
                                         }
                                     }

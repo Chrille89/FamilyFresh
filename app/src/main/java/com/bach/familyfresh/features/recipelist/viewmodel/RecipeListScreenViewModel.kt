@@ -23,6 +23,9 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
     val recipes: MutableState<ActualMenuScreenStatus> =
         mutableStateOf(ActualMenuScreenStatus.loading)
 
+    val actualVisibleRecipes: MutableState<ActualMenuScreenStatus> =
+        mutableStateOf(ActualMenuScreenStatus.loading)
+
     var menuUpdatesState: MutableState<RecipeUpdateStatus> =
         mutableStateOf(RecipeUpdateStatus.loading)
 
@@ -39,11 +42,22 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
                 if (response.success) {
                     val responseData = response.body();
                     recipes.value = ActualMenuScreenStatus.success(responseData)
+                    actualVisibleRecipes.value =  ActualMenuScreenStatus.success(responseData)
                 }
             } catch (error: Throwable) {
                 ActualMenuScreenStatus.error(error, "Error fetching data");
             }
         }
+    }
+
+    fun filterRecipesByLabel(label: String) {
+        actualVisibleRecipes.value = ActualMenuScreenStatus.success((recipes.value as ActualMenuScreenStatus.success).menus)
+        if(label == "All") return
+        val currentRecipes = (actualVisibleRecipes.value as? ActualMenuScreenStatus.success)?.menus ?: return
+        val filteredRecipes = currentRecipes.filter { it ->
+            it.labels?.map { label -> label.value }?.contains(label) ?: false;
+        }
+        actualVisibleRecipes.value = ActualMenuScreenStatus.success(filteredRecipes)
     }
 
     fun setNewRecipeForMenu(recipe: RecipeReadDto) {
