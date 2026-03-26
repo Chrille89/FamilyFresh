@@ -56,7 +56,8 @@ fun ActualMenuScreen(
     selectedTabIndex: Int,
     modifier: Modifier = Modifier
 ) {
-    val mMediaPlayer = MediaPlayer.create(LocalContext.current, R.raw.dice_sound);
+    val horizontalPadding = 10.dp;
+    val verticalPadding = 10.dp;
     Scaffold(
         modifier = modifier,
         topBar = {
@@ -66,17 +67,8 @@ fun ActualMenuScreen(
                     modifier = modifier.fillMaxWidth()
                 ) {
                     Text(stringResource(R.string.title_actual_menu), style = MaterialTheme.typography.titleLarge)
-                    Text(stringResource(R.string.description_actual_menu), style = MaterialTheme.typography.titleSmall)
                 }
-            }, navigationIcon =  { IconButton(onClick = {
-                mMediaPlayer.start()
-                actualMenuScreenViewModel.getActualMenu(true)
-            }) {
-                Icon(
-                    painter = painterResource(R.drawable.casino_24px),
-                    contentDescription = null
-                )
-            } })
+            })
         },
         bottomBar = {
             val menuTab = TabBarItem(
@@ -89,28 +81,11 @@ fun ActualMenuScreen(
                 selectedIcon = ImageVector.vectorResource(R.drawable.change_circle_24px),
                 unselectedIcon = ImageVector.vectorResource(R.drawable.change_circle_24px)
             )
-            /*
-            val shoppingListTab = TabBarItem(
-                title = stringResource(R.string.tab_shopping_list),
-                selectedIcon = Icons.Filled.Notifications,
-                unselectedIcon = Icons.Outlined.Notifications,
-                badgeAmount = 7
-            )*/
             TabView(listOf(menuTab, changeMenuTab),selectedTabIndex) { tabTitle ->
                 onClickTab(tabTitle,(actualMenuScreenViewModel.menus.value as ActualMenuScreenStatus.success).menus)
             }
         }
     ) { innerPadding ->
-        // Remember accelerometer sensor value as State that updates as SensorEvents arrive
-        val sensorValue by rememberAccelerometerSensorValueAsState()
-        // Accelerometer sensor values. Also available: sensorValue.timestamp, sensorValue.accuracy
-        val (x,y,z) = sensorValue.value
-
-        if(x > 20 || y > 20 || z > 20) {
-            mMediaPlayer.start()
-            actualMenuScreenViewModel.getActualMenu(true)
-        };
-
         when (val uiState = actualMenuScreenViewModel.menus.value) {
             is ActualMenuScreenStatus.loading ->
                 Column(
@@ -132,7 +107,7 @@ fun ActualMenuScreen(
                     items(uiState.menus) { recipe ->
                         Card(
                             modifier = Modifier
-                                .padding(horizontal = 10.dp, vertical = 10.dp),
+                                .padding(horizontalPadding, verticalPadding),
                             onClick = { onRecipeClick(recipe) }
                         ) {
                             MenuView(
@@ -142,7 +117,7 @@ fun ActualMenuScreen(
                                 recipe.duration.toString()
                             )
                             AsyncImage(
-                                modifier = Modifier.fillMaxSize(),
+                                modifier = Modifier.fillMaxSize().padding(horizontalPadding, verticalPadding),
                                 model = recipe.image,
                                 contentScale = ContentScale.FillBounds,
                                 contentDescription = null,
