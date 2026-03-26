@@ -22,11 +22,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -79,7 +74,6 @@ fun RecipeListScreen(
 
             is ActualMenuScreenStatus.error -> Text("Error")
             is ActualMenuScreenStatus.success -> {
-                var checkedItem by remember { mutableIntStateOf(0) }
 
                 LazyColumn(modifier.padding(innerPadding)) {
                     items(recipes.menus) { recipe ->
@@ -91,12 +85,16 @@ fun RecipeListScreen(
                                     modifier.fillMaxWidth(),
                                     verticalAlignment = Alignment.CenterVertically
                                 ) {
-                                    var checked by remember { mutableStateOf(false) }
+                                    var checked = recipesListScreenViewModel.menuUpdates.value.contains(recipe)
                                     Checkbox(
                                         checked = checked,
-                                        onCheckedChange = {
+                                        onCheckedChange = { newChecked ->
                                             checked = !checked
-                                            recipesListScreenViewModel.setNewRecipeForMenu(recipe)
+                                            if (newChecked) {
+                                                recipesListScreenViewModel.setNewRecipeForMenu(recipe)
+                                            } else {
+                                                recipesListScreenViewModel.menuUpdates.value.remove(recipe)
+                                            }
                                         }
                                     )
 

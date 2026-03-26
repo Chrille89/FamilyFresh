@@ -26,7 +26,7 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
     var menuUpdatesState: MutableState<RecipeUpdateStatus> =
         mutableStateOf(RecipeUpdateStatus.loading)
 
-    val menuUpdates: ArrayList<RecipeReadDto> = ArrayList()
+    val menuUpdates: MutableState<MutableList<RecipeReadDto>> = mutableStateOf(mutableListOf())
 
     init {
         getAllRecipes()
@@ -47,15 +47,18 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
     }
 
     fun setNewRecipeForMenu(recipe: RecipeReadDto) {
-        menuUpdates.add(recipe);
-        if (menuUpdates.size == 2) {
+        val newList = menuUpdates.value.toMutableList().apply { add(recipe) }
+        menuUpdates.value = newList
+        if (menuUpdates.value.size == 2) {
             // PUT call
             viewModelScope.launch {
                 try {
-                    val response = menuRepository.updateMenu(menuUpdates)
+                    val response = menuRepository.updateMenu(menuUpdates.value)
                     if (response.success) {
                         menuUpdatesState.value = RecipeUpdateStatus.success(response.body())
-                        menuUpdates.clear();
+                        menuUpdates.value = mutableListOf()
+                    } else {
+                        // Handle error, maybe revert or something
                     }
                 } catch (error: Throwable) {
                     menuUpdatesState.value = RecipeUpdateStatus.error(error, "Error fetching data");
