@@ -52,7 +52,7 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
 
     fun filterRecipesByLabel(label: String) {
         actualVisibleRecipes.value = ActualMenuScreenStatus.success((recipes.value as ActualMenuScreenStatus.success).menus)
-        if(label == "All") return
+        if(label == "Alle") return
         val currentRecipes = (actualVisibleRecipes.value as? ActualMenuScreenStatus.success)?.menus ?: return
         val filteredRecipes = currentRecipes.filter { it ->
             it.labels?.map { label -> label.value }?.contains(label) ?: false;

@@ -4,6 +4,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -15,7 +16,6 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -44,6 +44,8 @@ fun RecipeListScreen(
     recipesListScreenViewModel: RecipeListScreenViewModel = viewModel(),
     onClickBack: () -> Unit
 ) {
+    val horizontalPadding = 5.dp;
+    val verticalPadding = 5.dp;
     Scaffold(
         topBar = {
             androidx.compose.material3.TopAppBar(
@@ -77,17 +79,29 @@ fun RecipeListScreen(
 
             is ActualMenuScreenStatus.error -> Text("Error")
             is ActualMenuScreenStatus.success -> {
-                Column(modifier.fillMaxSize().padding(innerPadding)) {
-                    DropDownLabelFilter(
-                        Modifier.padding(10.dp,5.dp),
-                        labels = RecipeReadDto.Labels.values().map { it.value },
-                        { label -> recipesListScreenViewModel.filterRecipesByLabel(label) 
-                        })
+                Column(modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        DropDownLabelFilter(
+                            Modifier.padding(horizontalPadding,verticalPadding),
+                            labels = RecipeReadDto.Labels.values().map { it.value }.toMutableList(),
+                            { label -> recipesListScreenViewModel.filterRecipesByLabel(label)
+                            })
+                        Text(
+                            text = "${recipes.menus.size} ${stringResource(R.string.meals)}",
+                            Modifier.padding(horizontalPadding,verticalPadding),
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                    }
+
                     LazyColumn {
                         items(recipes.menus) { recipe ->
                             Card(Modifier
                                 .height(120.dp)
-                                .padding(horizontal = 10.dp, vertical = 5.dp)) {
+                                .padding(horizontalPadding,verticalPadding)) {
                                 Column {
                                     Row(
                                         Modifier.fillMaxWidth(),
@@ -126,7 +140,7 @@ fun RecipeListScreen(
                                             }
                                             Row {
                                                 AsyncImage(
-                                                    modifier = Modifier.padding(5.dp,5.dp),
+                                                    modifier = Modifier.padding(horizontalPadding,verticalPadding),
                                                     model = recipe.image,
                                                     contentDescription = null
                                                 )

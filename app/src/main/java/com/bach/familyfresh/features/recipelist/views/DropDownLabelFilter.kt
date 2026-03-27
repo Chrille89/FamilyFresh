@@ -19,11 +19,11 @@ import org.openapitools.client.models.RecipeReadDto
 @Composable
 fun DropDownLabelFilter(
     modifier: Modifier = Modifier,
-    labels : List<String>,
+    labels : MutableList<String>,
     onSelectedLabel: (String) -> Unit
     ) {
     var expanded by remember { mutableStateOf(false) }
-    var selectedText by remember { mutableStateOf(labels[0]) }
+    var selectedText by remember { mutableStateOf("Alle") }
 
     LaunchedEffect(Unit) {
         onSelectedLabel(selectedText)
@@ -53,7 +53,7 @@ fun DropDownLabelFilter(
             DropdownMenuItem(
                 text = { Text("Alle") },
                 onClick = {
-                    onSelectedLabel("All")
+                    onSelectedLabel("Alle")
                     selectedText = "Alle"
                     expanded = false
                 }
