@@ -39,7 +39,7 @@ fun DropDownLabelFilter(
             value = selectedText,
             onValueChange = {},
             readOnly = true,
-            label = { Text("Label auswählen") },
+            label = { Text("Kategorie auswählen") },
             trailingIcon = {
                 ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded)
             },
