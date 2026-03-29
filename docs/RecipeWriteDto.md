@@ -19,7 +19,7 @@
 ## Enum: labels
 | Name | Value |
 | ---- | ----- |
-| labels | Kalorienarm, Fettarm, Eiweiß, Vegetarisch, Vegan, Schwein, Rind, Geflügel, Fisch, Thermomix, Airfryer, Express, Ofen, Römertopf |
+| labels | Kalorienarm, Fettarm, Eiweiß, Vegetarisch, Vegan, Schwein, Rind, Geflügel, Fisch, Thermomix, Airfryer, Express, Ofen, Römertopf, Kids |
 
 
 
