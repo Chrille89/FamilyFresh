@@ -1,6 +1,7 @@
 package com.bach.familyfresh.features.recipelist.screen
 
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,6 +13,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.outlined.Delete
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
@@ -137,7 +139,7 @@ fun RecipeListScreen(
                                                     }
                                                 }
                                             }
-                                            Row {
+                                            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                                                 AsyncImage(
                                                     modifier = Modifier.padding(horizontalPadding,verticalPadding),
                                                     model = recipe.image,
@@ -151,6 +153,17 @@ fun RecipeListScreen(
                                                     Text(
                                                         recipe.subtitle ?: "",
                                                         style = MaterialTheme.typography.bodySmall
+                                                    )
+                                                }
+                                                Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.End) {
+                                                    Icon(
+                                                        imageVector = Icons.Outlined.Delete,
+                                                        contentDescription = null,
+                                                        modifier = Modifier
+                                                            .padding(horizontalPadding,verticalPadding).clickable() {
+                                                                recipesListScreenViewModel.deleteRecipeById(recipe.id)
+                                                            },
+                                                        tint = MaterialTheme.colorScheme.primary
                                                     )
                                                 }
                                             }

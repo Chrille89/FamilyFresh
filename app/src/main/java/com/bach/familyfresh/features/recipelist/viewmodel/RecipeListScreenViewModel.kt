@@ -80,4 +80,20 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
             }
         }
     }
+
+    fun deleteRecipeById(id: String) {
+        viewModelScope.launch {
+            try {
+                val response = menuRepository.deleteRecipeById(id)
+                if (response.success) {
+                    val responseData = response.body();
+                    val updatedRecipes = (recipes.value as ActualMenuScreenStatus.success).menus.filter { it.id != responseData.id }
+                    recipes.value = ActualMenuScreenStatus.success(updatedRecipes)
+                    actualVisibleRecipes.value =  ActualMenuScreenStatus.success(updatedRecipes)
+                }
+            } catch (error: Throwable) {
+                ActualMenuScreenStatus.error(error, "Error delete recipe with id $id");
+            }
+        }
+    }
 }

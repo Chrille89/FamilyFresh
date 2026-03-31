@@ -22,5 +22,10 @@ class MenuRepository(private val client : DefaultApi = DefaultApi()) {
         return resp
     }
 
+    suspend fun deleteRecipeById(id: String) : HttpResponse<RecipeReadDto> {
+        val resp : HttpResponse<RecipeReadDto> = client.deleteRecipeById(id)
+        return resp
+    }
+
 
 }
