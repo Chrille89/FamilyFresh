@@ -3,6 +3,7 @@ package com.bach.familyfresh.features.recipelist.screen
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.aspectRatio
@@ -15,6 +16,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.outlined.AccessTime
 import androidx.compose.material.icons.outlined.Delete
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
@@ -28,6 +30,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -90,7 +93,7 @@ fun RecipeListScreen(
                     ) {
                         DropDownLabelFilter(
                             Modifier.padding(horizontalPadding,verticalPadding),
-                            labels = RecipeReadDto.Labels.values().map { it.value }.toMutableList(),
+                            labels = RecipeReadDto.Labels.entries.map { it.value }.toMutableList(),
                             { label -> recipesListScreenViewModel.filterRecipesByLabel(label)
                             })
                         Text(
@@ -105,16 +108,33 @@ fun RecipeListScreen(
                             Card(Modifier
                                 .height(120.dp)
                                 .padding(horizontalPadding,verticalPadding)) {
-                                Column {
+                                Box(modifier = Modifier.fillMaxSize()) {
+                                    // AccessTime-Icon oben rechts mit Text
                                     Row(
-                                        Modifier.fillMaxWidth(),
+                                        modifier = Modifier
+                                            .padding(horizontal = horizontalPadding)
+                                            .align(Alignment.BottomEnd),
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
-                                        var checked = recipesListScreenViewModel.menuUpdates.value.contains(recipe)
+                                        Icon(
+                                            imageVector = Icons.Outlined.AccessTime,
+                                            contentDescription = null,
+                                            modifier = Modifier.scale(0.5f),
+                                            tint = MaterialTheme.colorScheme.primary
+                                        )
+                                        Text(
+                                            text = "${recipe.duration} ${stringResource(R.string.minutes)}",
+                                            style = MaterialTheme.typography.bodySmall
+                                        )
+                                    }
+                                    // Hauptinhalt
+                                    Row(
+                                        modifier = Modifier.fillMaxSize(),
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
                                         Checkbox(
-                                            checked = checked,
+                                            checked = recipesListScreenViewModel.menuUpdates.value.contains(recipe),
                                             onCheckedChange = { newChecked ->
-                                                checked = !checked
                                                 if (newChecked) {
                                                     recipesListScreenViewModel.setNewRecipeForMenu(recipe)
                                                 } else {
@@ -128,6 +148,7 @@ fun RecipeListScreen(
                                                 .weight(1f)
                                                 .fillMaxHeight()
                                         ) {
+                                            // Labels
                                             Row {
                                                 recipe.labels?.forEach {
                                                     Card(
@@ -145,6 +166,7 @@ fun RecipeListScreen(
                                                     }
                                                 }
                                             }
+                                            // Bild und Text
                                             Row(
                                                 modifier = Modifier
                                                     .fillMaxWidth()
@@ -175,17 +197,19 @@ fun RecipeListScreen(
                                             }
                                         }
 
-                                        Icon(
-                                            imageVector = Icons.Outlined.Delete,
-                                            contentDescription = null,
-                                            modifier = Modifier
-                                                .fillMaxHeight()
-                                                .aspectRatio(0.25f)
-                                                .clickable {
-                                                    recipesListScreenViewModel.deleteRecipeById(recipe.id)
-                                                },
-                                            tint = MaterialTheme.colorScheme.primary
-                                        )
+                                        // Delete-Icon vertikal zentriert
+                                        IconButton(
+                                            onClick = {
+                                                recipesListScreenViewModel.deleteRecipeById(recipe.id)
+                                            },
+                                            modifier = Modifier.align(Alignment.CenterVertically)
+                                        ) {
+                                            Icon(
+                                                imageVector = Icons.Outlined.Delete,
+                                                contentDescription = null,
+                                                tint = MaterialTheme.colorScheme.primary
+                                            )
+                                        }
                                     }
                                 }
                             }
