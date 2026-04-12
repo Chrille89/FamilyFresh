@@ -40,6 +40,7 @@ import com.bach.familyfresh.features.recipelist.viewmodel.RecipeListScreenViewMo
 import com.bach.familyfresh.features.recipelist.viewmodel.RecipeUpdateStatus
 import com.bach.familyfresh.features.recipelist.views.DropDownLabelFilter
 import com.bach.familyfresh.ui.dialogs.InfoDialog
+import com.bach.familyfresh.ui.views.DurationView
 import org.openapitools.client.models.RecipeReadDto
 import com.bach.familyfresh.ui.views.ImageView
 
@@ -116,16 +117,7 @@ fun RecipeListScreen(
                                             .align(Alignment.BottomEnd),
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
-                                        Icon(
-                                            imageVector = Icons.Outlined.AccessTime,
-                                            contentDescription = null,
-                                            modifier = Modifier.scale(0.5f),
-                                            tint = MaterialTheme.colorScheme.primary
-                                        )
-                                        Text(
-                                            text = "${recipe.duration} ${stringResource(R.string.minutes)}",
-                                            style = MaterialTheme.typography.bodySmall
-                                        )
+                                        DurationView(duration = recipe.duration.toString())
                                     }
                                     // Hauptinhalt
                                     Row(
