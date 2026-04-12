@@ -124,7 +124,11 @@ fun RecipeListScreen(
                                             }
                                         )
 
-                                        Column {
+                                        Column(
+                                            modifier = Modifier
+                                                .weight(1f)
+                                                .fillMaxHeight()
+                                        ) {
                                             Row {
                                                 recipe.labels?.forEach {
                                                     Card(
@@ -173,19 +177,20 @@ fun RecipeListScreen(
                                                         style = MaterialTheme.typography.bodySmall
                                                     )
                                                 }
-                                                Icon(
-                                                    imageVector = Icons.Outlined.Delete,
-                                                    contentDescription = null,
-                                                    modifier = Modifier
-                                                        .fillMaxHeight()
-                                                        .aspectRatio(0.5f)
-                                                        .clickable {
-                                                            recipesListScreenViewModel.deleteRecipeById(recipe.id)
-                                                        },
-                                                    tint = MaterialTheme.colorScheme.primary
-                                                )
                                             }
                                         }
+
+                                        Icon(
+                                            imageVector = Icons.Outlined.Delete,
+                                            contentDescription = null,
+                                            modifier = Modifier
+                                                .fillMaxHeight()
+                                                .aspectRatio(0.25f)
+                                                .clickable {
+                                                    recipesListScreenViewModel.deleteRecipeById(recipe.id)
+                                                },
+                                            tint = MaterialTheme.colorScheme.primary
+                                        )
                                     }
                                 }
                             }
