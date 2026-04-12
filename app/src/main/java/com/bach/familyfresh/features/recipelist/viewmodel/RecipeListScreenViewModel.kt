@@ -99,11 +99,4 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
             }
         }
     }
-
-    fun decodeBase64ToBitmap(base64String: String) = try {
-        val decodedBytes = Base64.decode(base64String, Base64.DEFAULT)
-        BitmapFactory.decodeByteArray(decodedBytes, 0, decodedBytes.size)?.asImageBitmap()
-    } catch (e: Exception) {
-        throw e
-    }
 }

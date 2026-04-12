@@ -8,9 +8,6 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.ShoppingCart
-import androidx.compose.material.icons.outlined.ShoppingCart
-import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -32,12 +29,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import coil3.compose.AsyncImage
 import com.bach.familyfresh.R
 import com.bach.familyfresh.features.actualmenu.views.MenuView
-import com.bach.familyfresh.features.actualmenu.views.TabBarItem
-import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.features.shoppinglist.viewmodel.ShoppingListScreenViewModel
+import com.bach.familyfresh.ui.views.ImageView
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -76,10 +71,7 @@ fun ShoppingListScreen(
                         labels = recipe.labels?.map { label -> label.value } ?: emptyList(),
                         recipe.duration.toString() + " min"
                     )
-                    AsyncImage(
-                        model = recipe.image,
-                        contentDescription = null,
-                    )
+                    ImageView(recipe = recipe)
                 }
             }
 

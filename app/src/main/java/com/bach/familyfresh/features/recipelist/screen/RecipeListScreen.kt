@@ -28,14 +28,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import android.graphics.BitmapFactory
-import android.util.Base64
-import coil3.compose.AsyncImage
 import com.bach.familyfresh.R
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.recipelist.viewmodel.RecipeListScreenViewModel
@@ -43,7 +38,7 @@ import com.bach.familyfresh.features.recipelist.viewmodel.RecipeUpdateStatus
 import com.bach.familyfresh.features.recipelist.views.DropDownLabelFilter
 import com.bach.familyfresh.ui.dialogs.InfoDialog
 import org.openapitools.client.models.RecipeReadDto
-import androidx.compose.foundation.Image
+import com.bach.familyfresh.ui.views.ImageView
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -157,30 +152,10 @@ fun RecipeListScreen(
                                                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                                                 verticalAlignment = Alignment.CenterVertically
                                             ) {
-                                                if (!recipe.imageBase64.isNullOrEmpty()) {
-                                                    val bitmap = recipesListScreenViewModel.decodeBase64ToBitmap(
-                                                        recipe.imageBase64
-                                                    )
-                                                    if (bitmap != null) {
-                                                        Image(
-                                                            bitmap = bitmap,
-                                                            contentDescription = null,
-                                                            modifier = Modifier
-                                                                .fillMaxHeight()
-                                                                .aspectRatio(1f),
-                                                            contentScale = ContentScale.Crop
-                                                        )
-                                                    }
-                                                } else {
-                                                    AsyncImage(
-                                                        modifier = Modifier
-                                                            .fillMaxHeight()
-                                                            .aspectRatio(1f),
-                                                        model = recipe.image,
-                                                        contentDescription = null,
-                                                        contentScale = ContentScale.Crop
-                                                    )
-                                                }
+                                                ImageView(
+                                                    modifier = Modifier.padding(horizontalPadding, verticalPadding),
+                                                    recipe
+                                                )
                                                 Column(
                                                     modifier = Modifier
                                                         .weight(1f)

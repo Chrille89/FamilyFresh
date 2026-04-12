@@ -26,18 +26,18 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.input.pointer.motionEventSpy
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import coil3.compose.AsyncImage
 import com.bach.familyfresh.R
-import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.features.actualmenu.views.TabBarItem
 import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.features.recipedetails.viewmodel.RecipeDetailsScreenViewModel
+import com.bach.familyfresh.ui.views.ImageView
 import org.openapitools.client.models.RecipeReadDto
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -101,12 +101,7 @@ fun RecipeDetailsScreen(
                         labels = recipe.labels?.map { recipe -> recipe.value } ?: emptyList(),
                         recipe.duration.toString()
                     )
-                    AsyncImage(
-                        model = recipe.image,
-                        contentDescription = null,
-                        Modifier.fillMaxWidth()
-                    )
-
+                    ImageView(recipe = recipe)
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
