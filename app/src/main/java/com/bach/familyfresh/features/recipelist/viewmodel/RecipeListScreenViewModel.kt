@@ -1,8 +1,11 @@
 package com.bach.familyfresh.features.recipelist.viewmodel
 
+import android.graphics.BitmapFactory
+import android.util.Base64
 import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bach.familyfresh.data.MenuRepository
@@ -95,5 +98,12 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
                 ActualMenuScreenStatus.error(error, "Error delete recipe with id $id");
             }
         }
+    }
+
+    fun decodeBase64ToBitmap(base64String: String) = try {
+        val decodedBytes = Base64.decode(base64String, Base64.DEFAULT)
+        BitmapFactory.decodeByteArray(decodedBytes, 0, decodedBytes.size)?.asImageBitmap()
+    } catch (e: Exception) {
+        throw e
     }
 }
