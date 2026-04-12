@@ -25,13 +25,13 @@ fun ImageView(
             contentScale = ContentScale.Crop
         )
     } else if (!recipe.imageBase64.isNullOrEmpty()) {
-            Image(
-                bitmap = decodeBase64ToBitmap(recipe.imageBase64),
-                contentDescription = null,
-                modifier = modifier
-                    .fillMaxHeight()
-                    .aspectRatio(1f),
-                contentScale = ContentScale.Crop
-            )
-        }
+        Image(
+            bitmap = decodeBase64ToBitmap(recipe.imageBase64),
+            contentDescription = null,
+            modifier = modifier
+                .fillMaxHeight()
+                .aspectRatio(1f),
+            contentScale = ContentScale.Crop
+        )
+    }
 }
