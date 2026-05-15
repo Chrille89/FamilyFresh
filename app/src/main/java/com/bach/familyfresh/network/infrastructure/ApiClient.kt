@@ -3,6 +3,7 @@ package org.openapitools.client.infrastructure
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine
+import io.ktor.client.plugins.HttpTimeout
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.request.*
 import io.ktor.client.request.forms.FormDataContent
@@ -35,6 +36,11 @@ open class ApiClient(
         val clientConfig: (HttpClientConfig<*>) -> Unit by lazy {
             {
                 it.install(ContentNegotiation) { json(jsonBlock) }
+                it.install(HttpTimeout) {
+                    requestTimeoutMillis = 60000  // 60 Sekunden
+                    connectTimeoutMillis = 10000  // 10 Sekunden
+                    socketTimeoutMillis = 60000   // 60 Sekunden
+                }
                 httpClientConfig?.invoke(it)
             }
         }
