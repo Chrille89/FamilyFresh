@@ -1,11 +1,7 @@
 package com.bach.familyfresh.features.recipelist.viewmodel
 
-import android.graphics.BitmapFactory
-import android.util.Base64
-import android.util.Log
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bach.familyfresh.data.MenuRepository
@@ -34,6 +30,10 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
 
     val menuUpdates: MutableState<MutableList<RecipeReadDto>> = mutableStateOf(mutableListOf())
 
+    val ingredientSearchQuery: MutableState<String> = mutableStateOf("")
+
+    val selectedLabel: MutableState<String> = mutableStateOf("Alle")
+
     init {
         getAllRecipes()
     }
@@ -54,11 +54,38 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
     }
 
     fun filterRecipesByLabel(label: String) {
-        actualVisibleRecipes.value = ActualMenuScreenStatus.success((recipes.value as ActualMenuScreenStatus.success).menus)
-        if(label == "Alle") return
-        val currentRecipes = (actualVisibleRecipes.value as? ActualMenuScreenStatus.success)?.menus ?: return
-        val filteredRecipes = currentRecipes.filter { it ->
-            it.labels?.map { label -> label.value }?.contains(label) ?: false;
+        selectedLabel.value = label
+        applyFilters()
+    }
+
+    fun filterRecipesByIngredient(query: String) {
+        ingredientSearchQuery.value = query
+        applyFilters()
+    }
+
+    private fun applyFilters() {
+        val allRecipes = (recipes.value as? ActualMenuScreenStatus.success)?.menus ?: return
+        
+        // Label-Filter anwenden
+        var filteredRecipes = allRecipes
+        if (selectedLabel.value != "Alle") {
+            filteredRecipes = filteredRecipes.filter { recipe ->
+                recipe.labels?.map { it.value }?.contains(selectedLabel.value) ?: false
+            }
+        }
+
+        // Zutaten-Filter anwenden
+        if (ingredientSearchQuery.value.isNotEmpty()) {
+            val searchIngredients = ingredientSearchQuery.value.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+
+            filteredRecipes = filteredRecipes.filter { recipe ->
+                // Prüfe, dass das Rezept ALLE gesuchten Zutaten enthält
+                searchIngredients.all { searchTerm ->
+                    recipe.ingredients?.any { ingredient ->
+                        ingredient.name?.contains(searchTerm, ignoreCase = true) ?: false
+                    } ?: false
+                }
+            }
         }
         actualVisibleRecipes.value = ActualMenuScreenStatus.success(filteredRecipes)
     }

@@ -10,4 +10,6 @@
     <string name="title_preparation">Zubereitung</string>
     <string name="title_ingredients">Zutaten</string>
     <string name="minutes">min.</string>
+    <string name="search_ingredients">Zutaten durchsuchen</string>
+    <string name="kategorie_ausw_hlen">Kategorie auswählen</string>
 </resources>

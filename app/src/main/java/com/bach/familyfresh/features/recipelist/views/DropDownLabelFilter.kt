@@ -13,6 +13,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import com.bach.familyfresh.R
 import org.openapitools.client.models.RecipeReadDto
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -39,7 +41,7 @@ fun DropDownLabelFilter(
             value = selectedText,
             onValueChange = {},
             readOnly = true,
-            label = { Text("Kategorie auswählen") },
+            label = { Text(stringResource(R.string.kategorie_ausw_hlen)) },
             trailingIcon = {
                 ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded)
             },
