@@ -46,4 +46,7 @@ class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = Men
         }
     }
 
+    fun generateRecipeByAi(prompt : String) {
+        Log.d("ActualMenuScreenViewModel","Generating recipe with prompt: "+prompt);
+    }
 }

@@ -2,11 +2,13 @@ package com.bach.familyfresh.features.actualmenu.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.CircularProgressIndicator
@@ -14,7 +16,10 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
@@ -36,21 +41,22 @@ import org.openapitools.client.models.RecipeReadDto
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ActualMenuScreen(
+    modifier: Modifier = Modifier,
     actualMenuScreenViewModel: ActualMenuScreenViewModel = viewModel(),
     onRecipeClick: (recipe: RecipeReadDto) -> Unit,
     onClickTab: (title: String, menu: List<RecipeReadDto>) -> Unit,
     selectedTabIndex: Int,
-    modifier: Modifier = Modifier
 ) {
     val horizontalPadding = 10.dp;
     val verticalPadding = 10.dp;
+    val aiRecipeInput = remember { mutableStateOf("") }
     Scaffold(
         modifier = modifier,
         topBar = {
             CenterAlignedTopAppBar(title =
             {
                 Column(
-                    modifier = modifier.fillMaxWidth()
+                    modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(stringResource(R.string.title_actual_menu), style = MaterialTheme.typography.titleLarge)
                 }
@@ -90,6 +96,28 @@ fun ActualMenuScreen(
                         .padding(innerPadding),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
+                    item {
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontalPadding, verticalPadding),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            TextField(
+                                value = aiRecipeInput.value,
+                                onValueChange = { aiRecipeInput.value = it },
+                                label = { Text(stringResource(R.string.new_recipe_ai)) },
+                                modifier = Modifier.weight(2f)
+                            )
+                            Button(
+                                modifier = Modifier.weight(1f),
+                                onClick = { actualMenuScreenViewModel.generateRecipeByAi("") }
+                            ) {
+                                Text(stringResource(R.string.button_add))
+                            }
+                        }
+
+                    }
                     items(uiState.menus) { recipe ->
                         Card(
                             modifier = Modifier

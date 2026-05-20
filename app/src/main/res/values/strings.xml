@@ -12,4 +12,6 @@
     <string name="minutes">min.</string>
     <string name="search_ingredients">Zutaten durchsuchen</string>
     <string name="kategorie_ausw_hlen">Kategorie auswählen</string>
+    <string name="new_recipe_ai">Neues Gericht per KI</string>
+    <string name="button_add">Generieren</string>
 </resources>
