@@ -1,4 +1,4 @@
-package org.openapitools.client.infrastructure
+package com.bach.familyfresh.network.infrastructure
 
 typealias MultiValueMap = MutableMap<String,List<String>>
 

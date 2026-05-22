@@ -38,8 +38,9 @@ import com.bach.familyfresh.features.recipelist.viewmodel.RecipeUpdateStatus
 import com.bach.familyfresh.features.recipelist.views.DropDownLabelFilter
 import com.bach.familyfresh.ui.dialogs.InfoDialog
 import com.bach.familyfresh.ui.views.DurationView
-import org.openapitools.client.models.RecipeReadDto
 import com.bach.familyfresh.ui.views.ImageView
+import com.bach.familyfresh.network.models.RecipeReadDto
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

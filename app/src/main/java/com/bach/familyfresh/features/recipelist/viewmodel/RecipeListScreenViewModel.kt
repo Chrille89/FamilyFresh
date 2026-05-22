@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.bach.familyfresh.data.MenuRepository
 import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenStatus
 import kotlinx.coroutines.launch
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 sealed interface RecipeUpdateStatus {
     data object loading : RecipeUpdateStatus

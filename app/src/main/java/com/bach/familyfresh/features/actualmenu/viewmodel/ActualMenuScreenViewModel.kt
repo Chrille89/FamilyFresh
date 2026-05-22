@@ -13,8 +13,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bach.familyfresh.data.MenuRepository
 import kotlinx.coroutines.launch
-import org.openapitools.client.infrastructure.HttpResponse
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 sealed interface ActualMenuScreenStatus {
     data object loading: ActualMenuScreenStatus
@@ -25,7 +24,7 @@ sealed interface ActualMenuScreenStatus {
 
 class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = MenuRepository()) : ViewModel() {
 
-    val menus : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
+    var menus : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
 
     init {
         getActualMenu(false)
@@ -48,5 +47,23 @@ class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = Men
 
     fun generateRecipeByAi(prompt : String) {
         Log.d("ActualMenuScreenViewModel","Generating recipe with prompt: "+prompt);
+        viewModelScope.launch {
+            try {
+                val current = menus.value as? ActualMenuScreenStatus.success
+                if(current == null) {
+                    Log.i("ActualMenuScreenViewModel","Current menu is not in success state, cannot generate recipe");
+                    return@launch
+                }
+                menus.value = ActualMenuScreenStatus.loading
+                val response = menuRepository.getRecipeByAi(prompt);
+                if(response.success) {
+                    val responseData = response.body();
+                    menus.value = ActualMenuScreenStatus.success(listOf( responseData,current.menus[1]))
+                    Log.d("ActualMenuScreenViewModel","Recipe: "+responseData);
+                }
+            } catch(error: Throwable) {
+                ActualMenuScreenStatus.error(error,"Error fetching data");
+            }
+        }
     }
 }

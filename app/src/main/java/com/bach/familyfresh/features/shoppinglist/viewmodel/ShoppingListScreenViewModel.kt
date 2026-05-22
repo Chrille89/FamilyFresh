@@ -2,7 +2,7 @@ package com.bach.familyfresh.features.shoppinglist.viewmodel
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 class ShoppingListScreenViewModel(private var recipe: RecipeReadDto) : ViewModel() {
 

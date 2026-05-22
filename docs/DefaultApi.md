@@ -5,6 +5,7 @@ All URIs are relative to *http://localhost:8080*
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
 | [**createRecipes**](DefaultApi.md#createRecipes) | **POST** /recipes | Create recipes. |
+| [**createRecipesWithAI**](DefaultApi.md#createRecipesWithAI) | **POST** /recipes/ai | Create recipes with AI. |
 | [**deleteAllRecipes**](DefaultApi.md#deleteAllRecipes) | **DELETE** /recipes | Delete all recipes. |
 | [**deleteRecipeById**](DefaultApi.md#deleteRecipeById) | **DELETE** /recipes/{id} | Delete a specific recipe by id. |
 | [**getActualMenu**](DefaultApi.md#getActualMenu) | **GET** /recipes/menu | Return the actual menu |
@@ -49,6 +50,52 @@ try {
 ### Return type
 
 [**kotlin.collections.List&lt;RecipeReadDto&gt;**](RecipeReadDto.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+<a id="createRecipesWithAI"></a>
+# **createRecipesWithAI**
+> RecipeReadDto createRecipesWithAI(recipePromptDto)
+
+Create recipes with AI.
+
+Create recipes with AI.
+
+### Example
+```kotlin
+// Import classes:
+//import org.openapitools.client.infrastructure.*
+//import org.openapitools.client.models.*
+
+val apiInstance = DefaultApi()
+val recipePromptDto : RecipePromptDto =  // RecipePromptDto | Recipe prompts in JSON array format.
+try {
+    val result : RecipeReadDto = apiInstance.createRecipesWithAI(recipePromptDto)
+    println(result)
+} catch (e: ClientException) {
+    println("4xx response calling DefaultApi#createRecipesWithAI")
+    e.printStackTrace()
+} catch (e: ServerException) {
+    println("5xx response calling DefaultApi#createRecipesWithAI")
+    e.printStackTrace()
+}
+```
+
+### Parameters
+| Name | Type | Description  | Notes |
+| ------------- | ------------- | ------------- | ------------- |
+| **recipePromptDto** | [**RecipePromptDto**](RecipePromptDto.md)| Recipe prompts in JSON array format. | |
+
+### Return type
+
+[**RecipeReadDto**](RecipeReadDto.md)
 
 ### Authorization
 

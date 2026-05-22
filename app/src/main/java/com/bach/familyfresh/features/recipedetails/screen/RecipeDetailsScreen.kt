@@ -38,7 +38,7 @@ import com.bach.familyfresh.features.actualmenu.views.TabBarItem
 import com.bach.familyfresh.features.actualmenu.views.TabView
 import com.bach.familyfresh.features.recipedetails.viewmodel.RecipeDetailsScreenViewModel
 import com.bach.familyfresh.ui.views.ImageView
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

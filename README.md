@@ -37,6 +37,7 @@ All URIs are relative to *http://localhost:8080*
 | Class | Method | HTTP request | Description |
 | ------------ | ------------- | ------------- | ------------- |
 | *DefaultApi* | [**createRecipes**](docs/DefaultApi.md#createrecipes) | **POST** /recipes | Create recipes. |
+| *DefaultApi* | [**createRecipesWithAI**](docs/DefaultApi.md#createrecipeswithai) | **POST** /recipes/ai | Create recipes with AI. |
 | *DefaultApi* | [**deleteAllRecipes**](docs/DefaultApi.md#deleteallrecipes) | **DELETE** /recipes | Delete all recipes. |
 | *DefaultApi* | [**deleteRecipeById**](docs/DefaultApi.md#deleterecipebyid) | **DELETE** /recipes/{id} | Delete a specific recipe by id. |
 | *DefaultApi* | [**getActualMenu**](docs/DefaultApi.md#getactualmenu) | **GET** /recipes/menu | Return the actual menu |
@@ -49,6 +50,7 @@ All URIs are relative to *http://localhost:8080*
 ## Documentation for Models
 
  - [org.openapitools.client.models.AmountDto](docs/AmountDto.md)
+ - [org.openapitools.client.models.RecipePromptDto](docs/RecipePromptDto.md)
  - [org.openapitools.client.models.RecipeReadDto](docs/RecipeReadDto.md)
  - [org.openapitools.client.models.RecipeWriteDto](docs/RecipeWriteDto.md)
 

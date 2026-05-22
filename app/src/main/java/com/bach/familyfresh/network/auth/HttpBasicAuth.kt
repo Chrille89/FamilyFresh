@@ -1,4 +1,4 @@
-package org.openapitools.client.auth
+package com.bach.familyfresh.network.auth
 
 import io.ktor.util.encodeBase64
 

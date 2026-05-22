@@ -25,9 +25,9 @@ import com.bach.familyfresh.features.shoppinglist.screen.ShoppingListScreen
 import com.bach.familyfresh.features.shoppinglist.viewmodel.ShoppingListScreenViewModel
 import com.bach.familyfresh.navigation.CustomNavType
 import com.bach.familyfresh.navigation.Routes
+import com.bach.familyfresh.network.models.RecipeReadDto
 import com.bach.familyfresh.ui.theme.FamilyFreshTheme
 import kotlinx.serialization.Serializable
-import org.openapitools.client.models.RecipeReadDto
 import kotlin.reflect.typeOf
 
 class MainActivity : ComponentActivity() {

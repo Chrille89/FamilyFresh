@@ -1,4 +1,4 @@
-package org.openapitools.client.infrastructure
+package com.bach.familyfresh.network.infrastructure
 
 import io.ktor.http.Headers
 import io.ktor.http.isSuccess

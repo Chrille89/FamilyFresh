@@ -1,4 +1,4 @@
-package org.openapitools.client.auth
+package com.bach.familyfresh.network.auth
 
 class HttpBearerAuth(private val scheme: String?) : Authentication {
     var bearerToken: String? = null

@@ -1,4 +1,4 @@
-package org.openapitools.client.infrastructure
+package com.bach.familyfresh.network.infrastructure
 
 /**
  * Defines a config object for a given part of a multi-part request.

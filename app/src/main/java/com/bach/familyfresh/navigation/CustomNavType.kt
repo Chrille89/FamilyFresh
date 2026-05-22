@@ -6,7 +6,7 @@ import androidx.navigation.NavType
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 object CustomNavType {
 

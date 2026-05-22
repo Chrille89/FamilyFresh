@@ -13,7 +13,7 @@
     "UnusedImport"
 )
 
-package org.openapitools.client.models
+package com.bach.familyfresh.network.models
 
 
 import kotlinx.serialization.*

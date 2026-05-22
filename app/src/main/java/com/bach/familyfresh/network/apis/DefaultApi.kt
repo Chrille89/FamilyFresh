@@ -13,11 +13,18 @@
     "UnusedImport"
 )
 
-package org.openapitools.client.apis
+package com.bach.familyfresh.network.apis
 
-import org.openapitools.client.models.RecipeReadDto
-import org.openapitools.client.models.RecipeWriteDto
-
+import android.R.attr.value
+import com.bach.familyfresh.network.infrastructure.ApiClient
+import com.bach.familyfresh.network.infrastructure.HttpResponse
+import com.bach.familyfresh.network.infrastructure.RequestConfig
+import com.bach.familyfresh.network.infrastructure.RequestMethod
+import com.bach.familyfresh.network.infrastructure.map
+import com.bach.familyfresh.network.infrastructure.wrap
+import com.bach.familyfresh.network.models.RecipePromptDto
+import com.bach.familyfresh.network.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeWriteDto
 import org.openapitools.client.infrastructure.*
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
@@ -59,7 +66,7 @@ open class DefaultApi : ApiClient {
         val localVariableQuery = mutableMapOf<String, List<String>>()
         val localVariableHeaders = mutableMapOf<String, String>()
 
-        val localVariableConfig = RequestConfig<kotlin.Any?>(
+        val localVariableConfig = RequestConfig<Any?>(
             RequestMethod.POST,
             "/recipes",
             query = localVariableQuery,
@@ -92,6 +99,39 @@ open class DefaultApi : ApiClient {
             override fun deserialize(decoder: Decoder) = CreateRecipesResponse(serializer.deserialize(decoder))
         }
     }
+
+    /**
+     * Create recipes with AI.
+     * Create recipes with AI.
+     * @param recipePromptDto Recipe prompts in JSON array format.
+     * @return RecipeReadDto
+     */
+    @Suppress("UNCHECKED_CAST")
+    open suspend fun createRecipesWithAI(recipePromptDto: RecipePromptDto): HttpResponse<RecipeReadDto> {
+
+        val localVariableAuthNames = listOf<String>()
+
+        val localVariableBody = recipePromptDto
+
+        val localVariableQuery = mutableMapOf<String, List<String>>()
+        val localVariableHeaders = mutableMapOf<String, String>()
+
+        val localVariableConfig = RequestConfig<kotlin.Any?>(
+            RequestMethod.POST,
+            "/recipes/ai",
+            query = localVariableQuery,
+            headers = localVariableHeaders,
+            requiresAuthentication = false,
+        )
+
+        return jsonRequest(
+            localVariableConfig,
+            localVariableBody,
+            localVariableAuthNames
+        ).wrap()
+    }
+
+
 
     /**
      * Delete all recipes.

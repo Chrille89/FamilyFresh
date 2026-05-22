@@ -1,4 +1,4 @@
-package org.openapitools.client.auth
+package com.bach.familyfresh.network.auth
 
 interface Authentication {
 

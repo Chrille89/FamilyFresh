@@ -1,4 +1,4 @@
-package org.openapitools.client.auth
+package com.bach.familyfresh.network.auth
 
 class ApiKeyAuth(private val location: String, val paramName: String) : Authentication {
     var apiKey: String? = null

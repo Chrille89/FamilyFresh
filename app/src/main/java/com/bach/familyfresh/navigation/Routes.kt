@@ -1,7 +1,7 @@
 package com.bach.familyfresh.navigation
 
 import kotlinx.serialization.Serializable
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 class Routes {
 

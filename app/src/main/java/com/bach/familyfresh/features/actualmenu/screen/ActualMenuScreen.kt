@@ -35,8 +35,8 @@ import com.bach.familyfresh.features.actualmenu.viewmodel.ActualMenuScreenViewMo
 import com.bach.familyfresh.features.actualmenu.views.MenuView
 import com.bach.familyfresh.features.actualmenu.views.TabBarItem
 import com.bach.familyfresh.features.actualmenu.views.TabView
+import com.bach.familyfresh.network.models.RecipeReadDto
 import com.bach.familyfresh.ui.views.ImageView
-import org.openapitools.client.models.RecipeReadDto
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -101,7 +101,8 @@ fun ActualMenuScreen(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(horizontalPadding, verticalPadding),
-                            verticalAlignment = Alignment.CenterVertically
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(10.dp)
                         ) {
                             TextField(
                                 value = aiRecipeInput.value,
@@ -111,7 +112,7 @@ fun ActualMenuScreen(
                             )
                             Button(
                                 modifier = Modifier.weight(1f),
-                                onClick = { actualMenuScreenViewModel.generateRecipeByAi("") }
+                                onClick = { actualMenuScreenViewModel.generateRecipeByAi(aiRecipeInput.value) }
                             ) {
                                 Text(stringResource(R.string.button_add))
                             }

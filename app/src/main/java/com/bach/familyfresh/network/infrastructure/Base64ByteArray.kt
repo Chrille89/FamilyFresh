@@ -1,4 +1,4 @@
-package org.openapitools.client.infrastructure
+package com.bach.familyfresh.network.infrastructure
 
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*

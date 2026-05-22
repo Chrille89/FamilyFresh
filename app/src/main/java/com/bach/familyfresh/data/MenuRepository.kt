@@ -1,9 +1,9 @@
 package com.bach.familyfresh.data
 
-import org.openapitools.client.apis.DefaultApi
-import org.openapitools.client.infrastructure.ApiClient
-import org.openapitools.client.infrastructure.HttpResponse
-import org.openapitools.client.models.RecipeReadDto
+import com.bach.familyfresh.network.apis.DefaultApi
+import com.bach.familyfresh.network.infrastructure.HttpResponse
+import com.bach.familyfresh.network.models.RecipePromptDto
+import com.bach.familyfresh.network.models.RecipeReadDto
 
 class MenuRepository(private val client : DefaultApi = DefaultApi()) {
 
@@ -26,6 +26,13 @@ class MenuRepository(private val client : DefaultApi = DefaultApi()) {
         val resp : HttpResponse<RecipeReadDto> = client.deleteRecipeById(id)
         return resp
     }
+
+    suspend fun getRecipeByAi(prompt: String) : HttpResponse<RecipeReadDto> {
+        val resp : HttpResponse<RecipeReadDto> = client.createRecipesWithAI(RecipePromptDto(prompt))
+        return resp
+    }
+
+
 
 
 }

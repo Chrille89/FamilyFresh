@@ -1,9 +1,8 @@
-package org.openapitools.client.infrastructure
+package com.bach.familyfresh.network.infrastructure
 
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine
-import io.ktor.client.plugins.HttpTimeout
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.request.*
 import io.ktor.client.request.forms.FormDataContent
@@ -19,7 +18,7 @@ import io.ktor.http.contentType
 import kotlin.Unit
 import kotlinx.serialization.json.Json
 
-import org.openapitools.client.auth.*
+import com.bach.familyfresh.network.auth.*
 
 open class ApiClient(
         private val baseUrl: String
@@ -36,11 +35,6 @@ open class ApiClient(
         val clientConfig: (HttpClientConfig<*>) -> Unit by lazy {
             {
                 it.install(ContentNegotiation) { json(jsonBlock) }
-                it.install(HttpTimeout) {
-                    requestTimeoutMillis = 60000  // 60 Sekunden
-                    connectTimeoutMillis = 10000  // 10 Sekunden
-                    socketTimeoutMillis = 60000   // 60 Sekunden
-                }
                 httpClientConfig?.invoke(it)
             }
         }

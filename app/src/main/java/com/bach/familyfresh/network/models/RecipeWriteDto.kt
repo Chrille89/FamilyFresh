@@ -13,9 +13,9 @@
     "UnusedImport"
 )
 
-package org.openapitools.client.models
+package com.bach.familyfresh.network.models
 
-import org.openapitools.client.models.AmountDto
+import com.bach.familyfresh.network.models.AmountDto
 
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
