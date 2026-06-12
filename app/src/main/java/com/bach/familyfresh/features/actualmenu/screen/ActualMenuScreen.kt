@@ -20,6 +20,7 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
@@ -120,20 +121,35 @@ fun ActualMenuScreen(
 
                     }
                     items(uiState.menus) { recipe ->
+                        // Local state for this item: prefer cached full recipe if available
+                        val cached = actualMenuScreenViewModel.getCachedRecipeWithImage(recipe.id)
+                        val displayRecipeState = remember(recipe.id) { mutableStateOf(cached ?: recipe) }
+
+                        // Wenn noch kein Bild vorhanden, lazy nachladen
+                        LaunchedEffect(displayRecipeState.value.id) {
+                            val dr = displayRecipeState.value
+                            val hasImage = !dr.imageBase64.isNullOrEmpty() || !dr.image.isNullOrEmpty()
+                            if (!hasImage) {
+                                actualMenuScreenViewModel.loadRecipeImageById(recipe.id) { fullRecipe ->
+                                    displayRecipeState.value = fullRecipe
+                                }
+                            }
+                        }
                         Card(
                             modifier = Modifier
                                 .padding(horizontalPadding, verticalPadding),
                             onClick = { onRecipeClick(recipe) }
                         ) {
+                            val displayRecipe = displayRecipeState.value
                             MenuView(
-                                recipe.title,
-                                subTitle = recipe.subtitle ?: "",
-                                labels = recipe.labels?.map { label -> label.name } ?: emptyList(),
-                                recipe.duration.toString()
+                                displayRecipe.title,
+                                subTitle = displayRecipe.subtitle ?: "",
+                                labels = displayRecipe.labels?.map { label -> label.name } ?: emptyList(),
+                                displayRecipe.duration.toString()
                             )
                             ImageView(
                                 modifier = Modifier.padding(horizontalPadding, verticalPadding),
-                                recipe
+                                displayRecipe
                             )
                         }
                     }

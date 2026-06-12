@@ -26,6 +26,9 @@ class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = Men
 
     var menus : MutableState<ActualMenuScreenStatus> =  mutableStateOf(ActualMenuScreenStatus.loading)
 
+    // Cache für geladene Images (RecipeId -> RecipeReadDto mit vollständigen Daten)
+    private val imageCache = mutableMapOf<String, RecipeReadDto>()
+
     init {
         getActualMenu(false)
     }
@@ -43,6 +46,44 @@ class ActualMenuScreenViewModel(private val menuRepository: MenuRepository = Men
                 ActualMenuScreenStatus.error(error,"Error fetching data");
             }
         }
+    }
+
+    /**
+     * Lazy Loading: Lädt ein Rezept mit vollständigen Daten (inklusive Image)
+     * Wird nur aufgerufen, wenn der User das Image braucht
+     */
+    fun loadRecipeImageById(recipeId: String, onImageLoaded: (RecipeReadDto) -> Unit) {
+        // Prüfe Cache zuerst
+        imageCache[recipeId]?.let {
+            onImageLoaded(it)
+            return
+        }
+
+        viewModelScope.launch {
+            try {
+                val response = menuRepository.getRecipeImageById(recipeId)
+                if (response.success) {
+                    val fullRecipe = response.body()
+                    imageCache[recipeId] = fullRecipe
+                    // Aktualisiere die aktuelle Menü-State, falls das Rezept dort enthalten ist
+                    val current = menus.value as? ActualMenuScreenStatus.success
+                    if (current != null) {
+                        val updated = current.menus.map { if (it.id == fullRecipe.id) fullRecipe else it }
+                        menus.value = ActualMenuScreenStatus.success(updated)
+                    }
+                    onImageLoaded(fullRecipe)
+                }
+            } catch (error: Throwable) {
+                println("Error loading image for recipe $recipeId: ${error.message}")
+            }
+        }
+    }
+
+    /**
+     * Gibt das gecachte Rezept mit Image zurück, falls vorhanden
+     */
+    fun getCachedRecipeWithImage(recipeId: String): RecipeReadDto? {
+        return imageCache[recipeId]
     }
 
     fun generateRecipeByAi(prompt : String) {
