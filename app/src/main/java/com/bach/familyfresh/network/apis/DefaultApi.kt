@@ -243,10 +243,11 @@ open class DefaultApi : ApiClient {
     /**
      * Return all recipes.
      * Return all recipes.
+     * @param includeImages Include full image data (optional, default to false for better performance)
      * @return kotlin.collections.List<RecipeReadDto>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun getAllRecipes(): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
+    open suspend fun getAllRecipes(includeImages: kotlin.Boolean? = false): HttpResponse<kotlin.collections.List<RecipeReadDto>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -254,6 +255,7 @@ open class DefaultApi : ApiClient {
             io.ktor.client.utils.EmptyContent
 
         val localVariableQuery = mutableMapOf<String, List<String>>()
+        includeImages?.apply { localVariableQuery["includeImages"] = listOf("$includeImages") }
         val localVariableHeaders = mutableMapOf<String, String>()
 
         val localVariableConfig = RequestConfig<kotlin.Any?>(

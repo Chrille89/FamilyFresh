@@ -12,8 +12,8 @@ class MenuRepository(private val client : DefaultApi = DefaultApi()) {
         return resp
     }
 
-    suspend fun getAllRecipes() : HttpResponse<List<RecipeReadDto>> {
-        val resp : HttpResponse<List<RecipeReadDto>> = client.getAllRecipes()
+    suspend fun getAllRecipes(includeImages: Boolean = false) : HttpResponse<List<RecipeReadDto>> {
+        val resp : HttpResponse<List<RecipeReadDto>> = client.getAllRecipes(includeImages)
         return resp
     }
 
@@ -32,7 +32,8 @@ class MenuRepository(private val client : DefaultApi = DefaultApi()) {
         return resp
     }
 
-
-
-
+    suspend fun getRecipeImageById(id: String) : HttpResponse<RecipeReadDto> {
+        val resp : HttpResponse<RecipeReadDto> = client.getRecipeById(id)
+        return resp
+    }
 }

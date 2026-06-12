@@ -26,6 +26,11 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -114,6 +119,22 @@ fun RecipeListScreen(
 
                     LazyColumn {
                         items(recipes.menus) { recipe ->
+                            // Lazy Loading: Lade Image nur wenn Card sichtbar wird
+                            var loadedRecipe by remember { mutableStateOf(recipe) }
+
+                            LaunchedEffect(recipe.id) {
+                                // Prüfe zuerst Cache
+                                val cachedRecipe = recipesListScreenViewModel.getCachedRecipeWithImage(recipe.id)
+                                if (cachedRecipe != null) {
+                                    loadedRecipe = cachedRecipe
+                                } else {
+                                    // Lade Image asynchron
+                                    recipesListScreenViewModel.loadRecipeImageById(recipe.id) { fullRecipe ->
+                                        loadedRecipe = fullRecipe
+                                    }
+                                }
+                            }
+
                             Card(Modifier
                                 .height(120.dp)
                                 .padding(horizontalPadding,verticalPadding)) {
@@ -166,7 +187,7 @@ fun RecipeListScreen(
                                                     }
                                                 }
                                             }
-                                            // Bild und Text
+                                            // Bild und Text (mit lazy-geladenem Image)
                                             Row(
                                                 modifier = Modifier
                                                     .fillMaxWidth()
@@ -176,7 +197,7 @@ fun RecipeListScreen(
                                             ) {
                                                 ImageView(
                                                     modifier = Modifier.padding(horizontalPadding, verticalPadding),
-                                                    recipe
+                                                    loadedRecipe
                                                 )
                                                 Column(
                                                     modifier = Modifier

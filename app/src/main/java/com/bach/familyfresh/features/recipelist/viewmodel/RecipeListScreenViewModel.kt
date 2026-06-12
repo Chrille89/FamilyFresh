@@ -34,6 +34,9 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
 
     val selectedLabel: MutableState<String> = mutableStateOf("Alle")
 
+    // Cache für geladene Images (RecipeId -> RecipeReadDto mit vollständigen Daten)
+    private val imageCache = mutableMapOf<String, RecipeReadDto>()
+
     init {
         getAllRecipes()
     }
@@ -41,14 +44,15 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
     private fun getAllRecipes() {
         viewModelScope.launch {
             try {
-                val response = menuRepository.getAllRecipes();
+                // Lade Rezepte OHNE Images initial (kleinen Payload)
+                val response = menuRepository.getAllRecipes(includeImages = false)
                 if (response.success) {
-                    val responseData = response.body();
+                    val responseData = response.body()
                     recipes.value = ActualMenuScreenStatus.success(responseData)
                     actualVisibleRecipes.value =  ActualMenuScreenStatus.success(responseData)
                 }
             } catch (error: Throwable) {
-                ActualMenuScreenStatus.error(error, "Error fetching data");
+                ActualMenuScreenStatus.error(error, "Error fetching data")
             }
         }
     }
@@ -125,5 +129,37 @@ class RecipeListScreenViewModel(private val menuRepository: MenuRepository = Men
                 ActualMenuScreenStatus.error(error, "Error delete recipe with id $id");
             }
         }
+    }
+
+    /**
+     * Lazy Loading: Lädt ein Rezept mit vollständigen Daten (inklusive Image)
+     * Wird nur aufgerufen, wenn der User das Image braucht
+     */
+    fun loadRecipeImageById(recipeId: String, onImageLoaded: (RecipeReadDto) -> Unit) {
+        // Prüfe Cache zuerst
+        imageCache[recipeId]?.let {
+            onImageLoaded(it)
+            return
+        }
+
+        viewModelScope.launch {
+            try {
+                val response = menuRepository.getRecipeImageById(recipeId)
+                if (response.success) {
+                    val fullRecipe = response.body()
+                    imageCache[recipeId] = fullRecipe
+                    onImageLoaded(fullRecipe)
+                }
+            } catch (error: Throwable) {
+                println("Error loading image for recipe $recipeId: ${error.message}")
+            }
+        }
+    }
+
+    /**
+     * Gibt das gecachte Rezept mit Image zurück, falls vorhanden
+     */
+    fun getCachedRecipeWithImage(recipeId: String): RecipeReadDto? {
+        return imageCache[recipeId]
     }
 }
