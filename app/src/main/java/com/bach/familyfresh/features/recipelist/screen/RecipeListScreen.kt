@@ -20,6 +20,8 @@ import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -74,6 +76,8 @@ fun RecipeListScreen(
         },
 
         ) { innerPadding ->
+        // State for delete confirmation dialog
+        var recipeToDelete by remember { mutableStateOf<RecipeReadDto?>(null) }
         if (recipesListScreenViewModel.menuUpdatesState.value is RecipeUpdateStatus.success) {
             InfoDialog { onClickBack() }
         }
@@ -221,7 +225,8 @@ fun RecipeListScreen(
                                         // Delete-Icon vertikal zentriert
                                         IconButton(
                                             onClick = {
-                                                recipesListScreenViewModel.deleteRecipeById(recipe.id)
+                                                // show confirmation dialog
+                                                recipeToDelete = recipe
                                             },
                                             modifier = Modifier.align(Alignment.CenterVertically)
                                         ) {
@@ -235,6 +240,27 @@ fun RecipeListScreen(
                                 }
                             }
                         }
+                    }
+                    // Confirmation Dialog
+                    if (recipeToDelete != null) {
+                        AlertDialog(
+                            onDismissRequest = { recipeToDelete = null },
+                            title = { Text("Rezept löschen: \"${recipeToDelete?.title ?: ""}\"") },
+                            text = { Text("Möchtest du dieses Rezept wirklich löschen?") },
+                            confirmButton = {
+                                TextButton(onClick = {
+                                    recipeToDelete?.let { recipesListScreenViewModel.deleteRecipeById(it.id) }
+                                    recipeToDelete = null
+                                }) {
+                                    Text(stringResource(android.R.string.ok))
+                                }
+                            },
+                            dismissButton = {
+                                TextButton(onClick = { recipeToDelete = null }) {
+                                    Text(stringResource(android.R.string.cancel))
+                                }
+                            }
+                        )
                     }
                 }
             }
